@@ -1,0 +1,14 @@
+aggressive
+angry
+annoyed
+cranky
+disappointed
+disgust
+envy
+furious
+grumpy
+outraged
+scared
+serious
+threatening
+wince

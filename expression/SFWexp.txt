@@ -1,0 +1,4 @@
+__Anger__
+__Happiness__
+__Sadness__
+__Surprise__

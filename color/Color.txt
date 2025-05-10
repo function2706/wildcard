@@ -1,0 +1,7 @@
+__Achromatic__
+__Blue__
+__Green__
+__Orange__
+__Purple__
+__Red__
+__Yellow__

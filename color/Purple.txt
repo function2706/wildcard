@@ -1,0 +1,5 @@
+amethyst
+lilac
+magenta
+purple
+violet

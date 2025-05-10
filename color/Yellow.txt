@@ -1,0 +1,6 @@
+canary
+flaxen
+gold
+goldenrod
+sunglow
+yellow

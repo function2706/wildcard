@@ -23,7 +23,6 @@ kahili,pokemon
 karen,pokemon
 katy,pokemon
 kris,pokemon
-lenora,pokemon
 lillie,pokemon
 lorelei,pokemon
 lyra,pokemon

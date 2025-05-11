@@ -1,0 +1,54 @@
+acerola,pokemon
+anabel,pokemon
+bianca,pokemon
+bonnie,pokemon
+caitlin,pokemon
+candice,pokemon
+cynthia,pokemon
+dawn,pokemon
+diantha,pokemon
+elesa,pokemon
+erika,pokemon
+flannery,pokemon
+gardenia,pokemon
+glacia,pokemon
+gloria,pokemon
+hilda,pokemon
+iris \(pokemon\),pokemon
+janine,pokemon
+jasmine,pokemon
+jessie,pokemon
+juliana,pokemon
+kahili,pokemon
+karen,pokemon
+katy,pokemon
+kris,pokemon
+lenora,pokemon
+lillie,pokemon
+lorelei,pokemon
+lyra,pokemon
+marnie,pokemon
+mars,pokemon
+may,pokemon
+melony,pokemon
+mina \(pokemon\),pokemon
+miriam,pokemon
+misty,pokemon
+nurse joy,pokemon
+phoebe,pokemon
+professor sada,pokemon
+rosa,pokemon
+roxanne,pokemon
+roxie,pokemon
+sabrina,pokemon
+selene,pokemon
+serena,pokemon
+shauna,pokemon
+shauntal,pokemon
+skyla,pokemon
+sonia,pokemon
+valerie,pokemon
+viola \(pokemon\),pokemon
+whitney,pokemon
+winona,pokemon
+zinnia,pokemon

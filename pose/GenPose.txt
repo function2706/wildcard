@@ -1,0 +1,8 @@
+__Action__
+__Head__
+__Arm__
+__Head__,__Arm__
+__Leg__
+__Head__,__Leg__
+__Arm__,__Leg__
+__Head__,__Arm__,__Leg__

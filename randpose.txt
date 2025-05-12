@@ -1,0 +1,8 @@
+__pose/action__
+__pose/head__
+__pose/upper__
+__pose/head__,__pose/upper__
+__pose/lower__
+__pose/head__,__pose/lower__
+__pose/upper__,__pose/lower__
+__pose/head__,__pose/upper__,__pose/lower__

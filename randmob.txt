@@ -1,1 +1,1 @@
-__subject/body/hairstyle__,__randcolor__ hair,__subject/body/eyestyle__,__randcolor__ eye
+__subject/body/hairstyle__,__randcolor__ hair,__subject/body/eyestyle__,__randcolor__ eye,__age__

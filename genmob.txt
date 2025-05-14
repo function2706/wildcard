@@ -1,1 +1,2 @@
-__subject/body/hairstyle__,__randcolor__ hair,__subject/body/eyestyle__,__randcolor__ eye,__age__
+__subject/body/hairstyle__,__gencolor__ hair,__subject/body/eyestyle__,__gencolor__ eye,__subject/body/earstyle__,__subject/body/age__,__subject/body/skinstyle__
+${species=!__subject/body/species__} ${color=!__gencolor__} ${species} girl,furry,__subject/body/hairstyle__,${color} hair,__subject/body/eyestyle__,__gencolor__ eye,${species} ears,${color} fur,__subject/body/age__

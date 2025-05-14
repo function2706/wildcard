@@ -1,5 +1,4 @@
- 
-{5::animal ears|5::}
-{5::floppy ears|5::}
-long pointy ears
-pointy ears
+{1::animal ears|9::}
+{1::floppy ears|9::}
+{2::long pointy ears|8::}
+{2::pointy ears|8::}

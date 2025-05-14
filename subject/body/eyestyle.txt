@@ -1,15 +1,16 @@
+ 
+{3::bright pupils|7::}
+{3::cross-shaped pupils|7::}
+{3::diamond-shaped pupils|7::}
+{3::flower-shaped pupils|7::}
+{3::glowing eyes|7::}
+{3::horizontal pupils|7::}
+{3::symbol-shaped pupils|7::}
+{3::x-shaped pupils|7::}
 blank eyes
-bright pupils
-cross-shaped pupils
-diamond-shaped pupils
-flower-shaped pupils
-glowing eyes
 heterochromia
-horizontal pupils
 sanpaku
 slit pupils
 solid eyes
-symbol-shaped pupils
 tareme
 tsurime
-x-shaped pupils

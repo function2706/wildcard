@@ -1,0 +1,127 @@
+aardvark girl,aardvark ears
+alpaca girl,alpaca ears,horizontal pupils
+antelope girl,antelope ears,horn,horizontal pupils
+ape girl,ape ears
+armadillo girl,armadillo ears
+ass girl,ass ears
+baboon girl,baboon ears,whisker
+badger girl,badger ears,whisker
+bandicoot girl,bandicoot ears
+bat girl,wings,
+bear girl,bear ears,whisker
+beaver girl,beaver ears,whisker
+bison girl,bison ears,horn,(horizontal pupils:0.5)
+boar girl,boar ears
+bobcat girl,bobcat ears,slit pupils,whisker
+buffalo girl,buffalo ears,horn,horizontal pupils
+bull girl,bull ears,horn,horizontal pupils
+camel girl,camel ears
+capybara girl,capybara ears,whisker
+caribou girl,caribou ears,horn
+cat girl,cat ears,slit pupils,whisker
+cattle girl,cattle ears,horn,horizontal pupils
+cheetah girl,cheetah ears,whisker
+chimpanzee girl,chimpanzee ears
+chipmunk girl,chipmunk ears
+cougar girl,cougar ears,slit pupils,whisker
+cow girl,cow ears,horn,horizontal pupils
+coyote girl,coyote ears,whisker
+deer girl,deer ears,horn,horizontal pupils
+dingo girl,dingo ears
+dog girl,dog ears,whisker
+dolphin girl
+donkey girl,donkey ears,horizontal pupils
+dormouse girl,dormouse ears
+dugong girl,whisker
+dwarf hamster girl,dwarf hamster ears
+elephant girl,elephant ears
+elk girl,elk ears,horn,horizontal pupils
+ferret girl,ferret ears,slit pupils,whisker
+fox girl,fox ears,slit pupils,whisker
+gazelle girl,gazelle ears,horn,horizontal pupils
+gerbil girl,gerbil ears
+giraffe girl,giraffe ears,(horizontal pupils:0.5)
+gnu girl,gnu ears,horn,horizontal pupils
+goat girl,goat ears,horn,horizontal pupils
+gorilla girl,gorilla ears
+guinea pig girl,guinea pig ears
+hamster girl,hamster ears,whisker
+hare girl,hare ears
+hedgehog girl,hedgehog ears
+hippopotamus girl,hippopotamus ears
+horse girl,horse ears,horizontal pupils
+hyena girl,hyena ears,whisker
+ibex girl,ibex ears,horn
+impala girl,impala ears,horn
+jackal girl,jackal ears,(slit pupils:0.5),whisker
+jaguar girl,jaguar ears,whisker
+kangaroo girl,kangaroo ears,whisker
+koala girl,koala ears,whisker
+kudu girl,kudu ears,horn
+lemur girl,lemur ears,whisker
+leopard girl,leopard ears,slit pupils,whisker
+lion girl,lion ears,whisker
+llama girl,llama ears,horizontal pupils
+lynx girl,lynx ears,slit pupils,whisker
+manatee girl
+mandrill girl,mandrill ears
+marmoset girl,marmoset ears
+marmot girl,marmot ears,whisker
+meerkat girl,meerkat ears
+mink girl,mink ears,whisker
+mole girl,mole ears
+mongoose girl,mongoose ears,{1::slit pupils|1::},whisker
+monkey girl,monkey ears
+moose girl,moose ears,horn,horizontal pupils
+mouse girl,mouse ears,whisker
+mule girl,mule ears,horizontal pupils
+narwhal girl,horn,whisker
+numbat girl,numbat ears
+nutria girl,nutria ears
+ocelot girl,ocelot ears,slit pupils
+okapi girl,okapi ears,(horizontal pupils:0.5)
+opossum girl,opossum ears,{1::slit pupils|1::},whisker
+orangutan girl,orangutan ears
+orca girl
+otter girl,otter ears,whisker
+ox girl,ox ears,horn
+panda girl,panda ears
+panther girl,panther ears,(slit pupils:0.5)
+pig girl,pig ears
+platypus girl,platypus ears
+polar bear girl,polar bear ears
+pony girl,pony ears
+porcupine girl,porcupine ears
+porpoise girl
+possum girl,possum ears
+puma girl,puma ears
+quokka girl,quokka ears,whisker
+quoll girl,quoll ears,slit pupils,whisker
+rabbit girl,rabbit ears,whisker
+raccoon girl,raccoon ears,whisker
+rat girl,rat ears,whisker
+reindeer girl,reindeer ears,horn,horizontal pupils
+rhinoceros girl,rhinoceros ears,horn
+sea lion girl,whisker
+seal girl,whisker
+sheep girl,sheep ears,horn,horizontal pupils
+skunk girl,skunk ears,whisker
+sloth girl,sloth ears
+squirrel girl,squirrel ears,whisker
+swine girl,swine ears
+tamarin girl,tamarin ears
+tapir girl,tapir ears
+tiger girl,tiger ears,whisker
+uakari girl,uakari ears
+vicuna girl,vicuna ears
+wallaby girl,wallaby ears,whisker,
+walrus girl,whisker
+weasel girl,weasel ears,whisker
+whale girl
+wildcat girl,wildcat ears,slit pupils,whisker
+wolf girl,wolf ears,whisker
+wombat girl,wombat ears,whisker
+yak girl,yak ears,horn,horizontal pupils
+zebra girl,zebra ears,horizontal pupils
+zebu girl,zebu ears,horn
+zorilla girl,zorilla ears

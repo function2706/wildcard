@@ -1,1 +1,1 @@
-__subject/body/hairstyle__,__gencolor__ hair,__subject/body/eyestyle__,__gencolor__ eye,__subject/body/earstyle__,__subject/body/age__,__subject/body/skinstyle__
+__subject/mankind/hairstyle__,__gencolor__ hair,__subject/mankind/eyestyle__,__gencolor__ eye,__subject/mankind/earstyle__,__subject/mankind/age__,__subject/mankind/skinstyle__

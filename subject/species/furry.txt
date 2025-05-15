@@ -1,0 +1,75 @@
+aardvark girl,aardvark ears,furry,furry female
+alpaca girl,alpaca ears,eyelashes,furry,furry female
+antelope girl,antelope ears,horns,furry,furry female
+ape girl,ape ears,furry,furry female
+baboon girl,baboon ears,whiskers,furry,furry female
+badger girl,badger ears,whiskers,furry,furry female
+bear girl,bear ears,furry,furry female
+bison girl,bison ears,horns,furry,furry female
+bobcat girl,bobcat ears,slit pupils,whiskers,furry,furry female
+buffalo girl,buffalo ears,horns,furry,furry female
+bull girl,bull ears,horns,furry,furry female
+camel girl,camel ears,eyelashes,furry,furry female
+capybara girl,capybara ears,whiskers,furry,furry female
+cat girl,cat ears,slit pupils,whiskers,furry,furry female
+cattle girl,cattle ears,furry,furry female
+cheetah girl,cheetah ears,whiskers,furry,furry female
+cougar girl,cougar ears,slit pupils,whiskers,furry,furry female
+cow girl,cow ears,(horns:0.5),furry,furry female
+coyote girl,coyote ears,whiskers,furry,furry female
+deer girl,deer ears,horns,furry,furry female
+dingo girl,dingo ears,whiskers,furry,furry female
+dog girl,dog ears,whiskers,furry,furry female
+donkey girl,donkey ears,furry,furry female
+dormouse girl,dormouse ears,whiskers,furry,furry female
+elk girl,elk ears,horns,furry,furry female
+ferret girl,ferret ears,whiskers,furry,furry female
+fox girl,fox ears,slit pupils,whiskers,furry,furry female
+gazelle girl,gazelle ears,horns,furry,furry female
+giraffe girl,giraffe ears,horns,eyelashes,furry,furry female
+goat girl,goat ears,horns,horizontal pupils,furry,furry female
+gorilla girl,gorilla ears,furry,furry female
+hamster girl,hamster ears,whiskers,furry,furry female
+hare girl,rabbit ears,whiskers,furry,furry female
+horse girl,horse ears,furry,furry female
+hyena girl,hyena ears,furry,furry female
+impala girl,impala ears,horns,furry,furry female
+jackal girl,jackal ears,(slit pupils:0.5),whiskers,furry,furry female
+jaguar girl,jaguar ears,whiskers,furry,furry female
+kangaroo girl,kangaroo ears,furry,furry female
+kudu girl,kudu ears,horns,furry,furry female
+lemur girl,lemur ears,furry,furry female
+leopard girl,leopard ears,whiskers,furry,furry female
+lion girl,lion ears,whiskers,furry,furry female
+llama girl,llama ears,furry,furry female
+lynx girl,lynx ears,slit pupils,whiskers,furry,furry female
+meerkat girl,meerkat ears,whiskers,furry,furry female
+mongoose girl,mongoose ears,whiskers,furry,furry female
+monkey girl,monkey ears,furry,furry female
+moose girl,moose ears,horns,furry,furry female
+mouse girl,mouse ears,whiskers,furry,furry female
+mule girl,mule ears,furry,furry female
+ocelot girl,ocelot ears,slit pupils,whiskers,furry,furry female
+opossum girl,opossum ears,whiskers,furry,furry female
+otter girl,otter ears,whiskers,furry,furry female
+panda girl,panda ears,furry,furry female
+panther girl,panther ears,(slit pupils:0.5),whiskers,furry,furry female
+pig girl,pig ears,pig nose,furry,furry female
+polar bear girl,polar bear ears,furry,furry female
+possum girl,possum ears,whiskers,furry,furry female
+puma girl,puma ears,whiskers,furry,furry female
+quoll girl,quoll ears,whiskers,furry,furry female
+rabbit girl,rabbit ears,whiskers,furry,furry female
+raccoon girl,raccoon ears,whiskers,furry,furry female
+rat girl,rat ears,whiskers,furry,furry female
+reindeer girl,reindeer ears,horns,furry,furry female
+sheep girl,sheep ears,horns,furry,furry female
+skunk girl,skunk ears,whiskers,furry,furry female
+sloth girl,sloth ears,whiskers,furry,furry female
+squirrel girl,squirrel ears,whiskers,furry,furry female
+tiger girl,tiger ears,whiskers,furry,furry female
+weasel girl,weasel ears,whiskers,furry,furry female
+wildcat girl,cat ears,slit pupils,whiskers,furry,furry female
+wolf girl,wolf ears,whiskers,furry,furry female
+yak girl,yak ears,horns,furry,furry female
+zebra girl,zebra ears,furry,furry female

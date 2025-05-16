@@ -1,26 +1,19 @@
-ant
-bee
-beetle
-butterfly
-caterpillar
-cockroach
-cricket
-dragonfly
-earthworm
-firefly
-flea
-fly
-gnat
-grasshopper
-inchworm
-ladybug
-locust
-maggot
-mosquito
-moth
-scorpion
-silkworm
-spider
-termite
-wasp
-yellowjacket
+bee girl,antennae,insect eye,insect female,furry female
+beetle girl,antennae,insect eye,insect female,furry female
+butterfly girl,antennae,insect eye,insect female,furry female
+cockroach girl,antennae,insect eye,insect female,furry female
+cricket girl,antennae,insect eye,insect female,furry female
+dragonfly girl,antennae,insect eye,insect female,furry female
+firefly girl,antennae,insect eye,insect female,furry female
+fly girl,antennae,insect eye,insect female,furry female
+gnat girl,antennae,insect eye,insect female,furry female
+grasshopper girl,antennae,insect eye,insect female,furry female
+ladybug girl,antennae,insect eye,insect female,furry female
+locust girl,antennae,insect eye,insect female,furry female
+maggot girl,antennae,insect eye,insect female,furry female
+mosquito girl,antennae,insect eye,insect female,furry female
+moth girl,antennae,insect eye,insect female,furry female
+scorpion girl,antennae,insect eye,insect female,furry female
+spider girl,antennae,insect eye,insect female,furry female
+termite girl,antennae,insect eye,insect female,furry female
+wasp girl,antennae,insect eye,insect female,furry female

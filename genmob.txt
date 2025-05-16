@@ -1,1 +1,3 @@
 __subject/mankind/hairstyle__,__gencolor__ hair,__subject/mankind/eyestyle__,__gencolor__ eye,__subject/mankind/earstyle__,__subject/mankind/age__,__subject/mankind/skinstyle__
+__subject/mankind/hairstyle__,__gencolor__ hair,__gencolor__ eye,__subject/species/furry__,__subject/mankind/age__
+__subject/mankind/hairstyle__,__gencolor__ hair,__gencolor__ eye,__subject/species/miscfurry__,__subject/mankind/age__

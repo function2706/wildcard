@@ -1,7 +1,7 @@
-__achromatic__
-__blue__
-__green__
-__orange__
-__purple__
-__red__
-__yellow__
+__color/achromatic__
+__color/blue__
+__color/green__
+__color/orange__
+__color/purple__
+__color/red__
+__color/yellow__

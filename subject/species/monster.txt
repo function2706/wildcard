@@ -1,150 +1,51 @@
-aboleth
-alraune
-angel
-animated armor
-arakocra
-archdemon
-archfey
-arcanaloth
-banshee
-basilisk
-beholder
-blackguard
-boggart
-bogeyman
-brownie
-bulette
-centaur
-changeling
-chimera
-cockatrice
-couatl
-cyclops
-czarnohor
-daemon
-dark elf
-death knight
-demilich
-demon
-devil
-djinn
-dragon
-dryad
-dullahan
-dwarf
-efreet
-elemental
-elf
-ettin
-evil eye
-fairy
-faun
-fey
-fomorian
-frost giant
-fury
-gargoyle
-genie
-ghast
-ghost
-ghoul
-giant
-gibbering mouther
-githyanki
-githzerai
-gnoll
-gnome
-goblin
-golem
-gremlin
-griffin
-grue
-hag
-half-elf
-half-orc
-harpy
-hellhound
-hobgoblin
-homunculus
-hydra
-hypogriff
-imp
-incubus
-intellect devourer
-jack-o'-lantern
-jelly (ooze)
-jotun
-kelpie
-kobold
-kraken
-kumiho
-kitsune
-lamia
-lich
-lizardfolk
-loa
-lycanthrope
-manticore
-marid
-medusa
-merfolk
-minotaur
-mummy
-myconid
-naga
-necromancer
-night hag
-nightmare
-nymph
-ogre
-oni
-ooze
-orc
-owlbear
-pegasus
-phantasm
-phantom
-phoenix
-pixie
-planetar
-puppet
-quasit
-quell
-rakshasa
-revenant
-roc
-rusalka
-salamander
-satyr
-sea serpent
-shade
-shadow
-shambling mound
-siren
-skeleton
-slime
-sphinx
-sprite
-succubus
-tarrasque
-tentacle beast
-titan
-troll
-tulpa
-unicorn
-undead
-undine
-vampire
-valkyrie
-vrock
-wight
-will-o'-the-wisp
-witch
-wraith
-wyvern
-xorn
-yeti
-yokai
-yuan-ti
-zombie
-zuvembie
+angel girl
+anubis girl,anubis ears,furry,furry female
+archdemon girl,horns
+archfey girl,pointy ears
+cyclops girl,monoeye
+dark elf girl,pointy ears
+demon girl,slit pupils
+devil girl
+dire wolf girl,wolf ears,whiskers,furry,furry female
+dragon girl,dragon ears,horns,whiskers,furry,furry female
+dryad girl
+dwarf girl
+elf girl,pointy ears
+fairy girl
+gnome girl
+goblin girl
+griffin girl,body feathers,beak,furry,furry female
+harpy girl,body feathers
+hellhound girl,wolf ears,furry,furry female
+hobgoblin girl
+imp girl
+kitsune girl,fox ears
+lamia girl,slit pupils,reptile furry female
+lich girl
+lizardfolk girl,slit pupils,reptile furry female
+merfolk girl,anthro furry female
+mermaid girl
+minotaur girl,minotaur ears,horns,whiskers,furry,furry female
+mummy girl
+necromancer girl
+nekomata girl,cat ears,slit pupils,whiskers,furry,furry female
+nymph girl
+ogre girl,horns
+orc girl
+pegasus girl,furry,furry female
+phoenix girl,body feathers,beak,furry,furry female
+pixie girl
+quetzalcoatl girl,horns
+salamander girl,slit pupils,reptile furry female
+slime girl
+succubus girl,horns
+undine girl,anthro furry female
+unicorn girl,horns,furry,furry female
+vampire girl,slit pupils,pointy ears
+wendigo girl,horns,furry,furry female
+werebear girl,bear ears,furry,furry female
+werewolf girl,wolf ears,whiskers,furry,furry female
+witch girl
+wyvern girl,horns,whiskers,furry,furry female
+yeti girl,furry,furry female
+zombie girl

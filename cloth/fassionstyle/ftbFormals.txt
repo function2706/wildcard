@@ -1,0 +1,5 @@
+formal {black|white|deep_red|{scarlet|deep_blue|deep_purple|deep_orange|deep_green}} {hourglass|evening|cocktail} dress
+formal {halter neck|strapless|} {black|white|deep_red|{scarlet|deep_blue|deep_purple|deep_orange|deep_green}} {long|long|short|} {cocktail|evening|{hobble|taut|latex}} dress {off-shoulder|__sleeves__|} {backless|side slit|||||} {{elbow|} gloves|} {sun hat|||}
+formal {halter neck|strapless|} {black|white|deep_red|{scarlet|deep_blue|deep_purple|deep_orange|deep_green}} {long|long|short|} {funeral|trapeze|hourglass|princess|tube|empire} dress {off-shoulder|__sleeves__|} {backless|side slit|||||} {{elbow|} gloves|} {sun hat|||}
+formal {black|{white|deep_red|scarlet}} {waistcoat|suit jacket|pant suit|midriff jacket|tailored jacket|tailcoat|spencer jacket|mess jacket|peplum jacket|double-breasted jacket} {necktie|} {gloves|||} {slacks pants|short pencil skirt} {handgun holding handgun||||}
+bridal white wedding dress {halter neck|strapless|} {off-shoulder|sleeves|} {backless|||||} {{elbow|} gloves|} {bridal veil|} {holding_bouquet|} {lace_trimmed|} 

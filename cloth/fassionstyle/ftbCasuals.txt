@@ -1,0 +1,9 @@
+{white|{white|{white|black}}} t-shirt {__skirts__|__pants__} {__jackets__|{denim overalls|}||} {__hats__|{animal hat, __animals__ cap||}|||} {__bags__||} {headphones||||} 
+__jackets__ {__skirts__|__pants__} {__hats__{animal hat, __animals__ cap||}|||} {__bags__||} {headphones||||} 
+{{__jackets__ on|||} white sundress {straw hat|sun hat||}|tank top {__skirts__|__pants__} {__jackets__||}} {cap|{animal hat, __animals__ cap||}|||} {__bags__||}
+{{aran|fur|fur-trimmed|hooded|knit|turtleneck|v-neck|guernsey|cable knit|ribbed|turtle neck} sweater|{vest|hooded||} cardigan} {__skirts__|__pants__} {__hats__|{animal hat, __animals__ cap||}||} {scarf mittens||} {__bags__||}
+hoodie {up {__animals__ hood||||}|down||} {__skirts__|__pants__} {__hats__{animal hat, __animals__ cap||}|||} {__bags__||} {headphones||||} 
+collared dress {2$$bow|lace-trim|belt|shirt||}  {{sun hat|hat|actress hat}||} {__bags__||} {__patterns__|__patterns__|} {bow|blouse||} {__skirts__|__pants__} {__bags__||}
+{{__jackets__ on|||} {polo shirt|open collar shirt|high collar shirt|henley shirt} {__skirts__|__pants__} {shirt tucked in|||} {__bags__||} {__hats__{animal hat, __animals__ cap||}|||}|{__jackets__ on|||} {sweatshirts|tube top|jumper} {__skirts__|__pants__} {__hats__{animal hat, __animals__ cap||}|||} {__bags__||} {headphones||||} }
+{__print__ print|denim|||} apron on t-shirt {__skirts__|__pants__} {holding_tray {omurice|strawberry shortcake||}|mittens||||||}
+winter_coat winter_clothes {duffel|fur|fur-trimmed|long|over|pea|trench|winter} coat {1-3$$scarf|mittens|earmuffs} {__bags__||} {pantyhose||} 

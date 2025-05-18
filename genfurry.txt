@@ -1,0 +1,3 @@
+__subject/species/furry__
+__subject/species/miscfurry__
+__subject/species/monster__

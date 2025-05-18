@@ -1,0 +1,15 @@
+fantasy {{{white|gold|silver} sacred|black darkness}|||} {scale {breastplate|}|iron {breastplate|}|plated {breastplate|}|steel {breastplate|}|leather} {bikini|} armor {3$$gauntlets|faulds|pauldrons|capelet|||} {{high heel| } boots|} {2$$gorget|helmet|||}
+fantasy {{{white|gold|silver} sacred|black darkness}|||} {scale|iron|plated|steel|leather} full armor cuirass {3$$gauntlets|faulds|pauldrons|capelet|||} {{high heel| } boots|} {2$$gorget|helmet|||} {holding shield||}
+fantasy princess {frilled|lace trimmed|fur trimmed} {gown|dress} {{puffy|} long sleeves| {puffy|} short sleeves} {layered skirt|long skirt|short skirt|floating skirt} {tiara|crown} {elbow gloves|} {jewelry|cross||} {armored breastplate gauntlets faulds pauldrons|||||} 
+fantasy noble prince reverse trap ascot {white|wine red|deep green} jacket gloves slacks pants aiguillette epaulettes
+fantasy {magic holding wand|} {black|{red|purple|green}} {and gold||} {corset|cocktail|evening|{hobble|taut|latex|velvet|satin}} witch dress witch hat {off-shoulder|__sleeves__|} {{elbow|} gloves|} {{fishnet stockings|pantyhose|thigh-highs}|} boots {{choker necklace|pentagram charm|hoop earrings}|}
+fantasy {{holding_{bow_(weapon)|crossbow}|} quiver leather cuirass gloves {floating|} cloak hunter hat {tricorne|bicorne}
+fantasy wizard {holding magic book|holding magic wand} {hood up|} leather cuirass gloves {cloak|cape}
+fantasy traveling merchant huge backpack medieval brown {cloak|cape} {tricorne|bicorne}
+fantasy thief {black|brown} {0-2$$hood up|mask} leather utility belt gloves dagger {cloak|cape}
+fantasy elf pointy ears bare shoulders light green {off shoulder|cocktail|tight|} dress {{{elbow|} gloves}||} leaf print 
+fantasy fairy wings pointy ears bare shoulders {off shoulder|cocktail|tight|} mini dress floating
+fantasy monster girl {dragon wings horns tail|sheep horns|demon horns tail}
+fantasy devil king {black {crown|tiara}} {black|black and red|brack and purple} {{hourglass|evening|cocktail} dress|long layered frilled dress long sleeves} {{devil|oni|sheep|} horns} {fire magic|dark magic||}
+fantasy dancer {harem outfit|arabian clothes} {pelvic curtain||} {{1-4$${chain|flower|pearl|tooth|} necklace|{hoop|pearl|jewerly} earrings|amulet|{2$$choker|anklet|armlet|bracelet}|{nail polish}}}
+fantasy goddes greek white {and gold|} dress folds {2$$laurel wreath|halo|wings||}

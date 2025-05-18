@@ -1,0 +1,22 @@
+ankle boots
+biker boots
+braided boots
+combat boots
+cowboy boots
+desert boots
+hiking boots
+kneehigh boots{1::,stiletto heal|1::}
+long boots{1::,stiletto heal|1::}
+mid calf boots{1::,stiletto heal|1::}
+middle boots{1::,stiletto heal|1::}
+platform boots
+rain boots
+riding boots
+santa boots
+shearling boots
+short boots{1::,stiletto heal|1::}
+snow boots
+thighhigh boots{1::,stiletto heal|1::}
+wedge boots
+western boots
+winter boots

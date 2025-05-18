@@ -1,0 +1,15 @@
+baseball cap
+cabbie hat
+deerstalker
+boater hat
+bowler hat
+bucket hat
+cloche hat
+fedora
+flat cap
+sun hat
+beret
+beanie
+{peaked_cap|cowboy hat}
+garbo hat
+crew hat

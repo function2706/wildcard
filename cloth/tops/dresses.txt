@@ -17,7 +17,6 @@ japanese clothes
 jinbei
 jumper
 kimono
-kimono
 loungewear
 maxi dress
 micro bikini
@@ -40,10 +39,10 @@ sequined dress
 silk dress
 suit
 swimwear
+tabard
 tracksuit
 tuxedo
 v neck dress
 velvet dress
 wedding dress
 yukata
-tabard

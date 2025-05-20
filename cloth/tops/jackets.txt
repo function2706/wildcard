@@ -15,6 +15,7 @@ down jacket
 down vest
 fleece
 frock coat
+hanten
 haori
 happi
 hoodie

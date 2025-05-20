@@ -1,23 +1,14 @@
 aviator glasses
 browline glasses
-cat eye glasses
-clip-on glasses
-computer glasses
-eyeglasses
 glasses
 goggles
-horn-rimmed glasses
 monocle
-pince-nez
-reading glasses
 rimless glasses
 safety glasses
-screwless glasses
-semi-rimless glasses
 smart glasses
+spectacles
 sports glasses
 sunglasses
 tinted glasses
-transition lenses
+visor
 vr goggles
-wayfarer glasses

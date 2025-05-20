@@ -2,24 +2,23 @@ apron skirt
 ballet skirt
 beltskirt skirt
 bow skirt
-bubble skirt
+checked skirt
 denim skirt
 frilled skirt
 hakama
-high-low skirt
 high-waist skirt
 hoop skirt
 layered skirt
+leather skirt
 over skirt
 pencil skirt
 petticoat skirt
-pinafore skirt
 pleated skirt
 prairie skirt
+ruffled skirt
 school skirt
-side-tie skirt
-skater skirt
-slip skirt
-suspender skirt
+skort
 tennis skirt
+tiered skirt
+tight skirt
 wrap skirt

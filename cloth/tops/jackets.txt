@@ -1,44 +1,56 @@
 apron
-baseball jersey
-blazer
-blazer
+bell sleeve blouse
+blouse
 bomber jacket
-car coat
+cape
+capelet
 cardigan
+cashmere
+chiffon blouse
 chore jacket
 cropped jacket
+cropped knit
 denim jacket
 down jacket
+down vest
 fleece
 frock coat
 haori
 happi
-hooded jacket
 hoodie
-housecoat
+hoodie jacket
 jean jacket
-jinbei
-jumper
-kimono
 knit top
 leather jacket
 letterman jacket
-longline cardigan
+military jacket
 nightgown
+overcoat
+padded jacket
+parka
 pea coat
 poncho
+puffer jacket
 quilted jacket
-robe
+raincoat
 safari jacket
+shawl
+ski jacket
+smock blouse
 sport coat
 sports jersey
 sukajan
+sweater
 track jacket
+trench coat
+tunic blouse
+tunic sweater
+turtleneck
 tuxedo jacket
-utility jacket
-varsity jacket
+v-neck sweater
 vest
 waistcoat
 windbreaker
-yukata
-zip-up hoodie
+winter coat
+wool coat
+wrap blouse

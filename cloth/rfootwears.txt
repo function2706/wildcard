@@ -7,4 +7,4 @@ __gencolor__ __footwears/sandals__
 __gencolor__ __footwears/socks__
 __gencolor__ __footwears/socks__,__gencolor__ __footwears/heels__
 __gencolor__ __footwears/socks__,__gencolor__ __footwears/shoes__
-barefoot
+barefoot{1:,anklet|5:}

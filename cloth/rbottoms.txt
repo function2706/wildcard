@@ -1,2 +1,2 @@
-{1::short|1::long|1::short|1::mini|1::micro|3::} __bottoms/skirts__
-{1::short|1::long|1:} {1::cargo|1::jeans|1::denim|2::} __bottoms/pants__
+__gencolor__ {1::short|1::long|1::mini|1::micro|1::maxi|1::midi} __bottoms/skirts__
+__gencolor__ {1::short|1:} __bottoms/pants__

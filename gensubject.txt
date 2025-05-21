@@ -1,4 +1,0 @@
-__subject/digimon__
-__subject/nintendo__
-__subject/pokemon__
-__subject/touhou__

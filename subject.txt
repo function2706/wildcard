@@ -1,0 +1,3 @@
+__subject/character__
+__subject/furry__
+__subject/mob__

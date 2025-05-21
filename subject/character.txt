@@ -1,0 +1,4 @@
+__characters/digimon__
+__characters/nintendo__
+__characters/pokemon__
+__characters/touhou__

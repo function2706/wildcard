@@ -7,5 +7,5 @@ __color__ __footwears/sandals__
 __color__ __footwears/socks__
 __color__ __footwears/socks__,__color__ __footwears/heels__
 __color__ __footwears/socks__,__color__ __footwears/shoes__
-barefoot{1:,anklet|5:}
-barefoot{1:,anklet|5:},__color__ toenails
+barefoot{1::,anklet|5::}
+barefoot{1::,anklet|5::},__color__ toenails

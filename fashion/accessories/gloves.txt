@@ -12,6 +12,7 @@ evening gloves{1::,elbow gloves|1::}
 fingerless gloves
 gauntlets
 knit gloves{1::,elbow gloves|1::}
+latex gloves{1::,elbow gloves|1::}
 leather gloves{1::,elbow gloves|1::}
 mittens
 ring

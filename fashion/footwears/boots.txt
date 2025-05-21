@@ -6,6 +6,7 @@ cowboy boots
 desert boots
 hiking boots
 kneehigh boots{1::,stiletto heal|1::}
+latex boots{1::,stiletto heal|1::}
 long boots{1::,stiletto heal|1::}
 mid calf boots{1::,stiletto heal|1::}
 middle boots{1::,stiletto heal|1::}

@@ -1,0 +1,32 @@
+ 
+__accessories/accessories__
+__accessories/bags__
+__accessories/bags__,__accessories/accessories__
+__accessories/glasses__
+__accessories/glasses__,__accessories/accessories__
+__accessories/glasses__,__accessories/bags__
+__accessories/glasses__,__accessories/bags__,__accessories/accessories__
+__gencolor__ __accessories/gloves__
+__gencolor__ __accessories/gloves__,__accessories/accessories__
+__gencolor__ __accessories/gloves__,__accessories/bags__
+__gencolor__ __accessories/gloves__,__accessories/bags__,__accessories/accessories__
+__gencolor__ __accessories/gloves__,__accessories/glasses__
+__gencolor__ __accessories/gloves__,__accessories/glasses__,__accessories/accessories__
+__gencolor__ __accessories/gloves__,__accessories/glasses__,__accessories/bags__
+__gencolor__ __accessories/gloves__,__accessories/glasses__,__accessories/bags__,__accessories/accessories__
+__gencolor__ __accessories/hats__
+__gencolor__ __accessories/hats__,__accessories/accessories__
+__gencolor__ __accessories/hats__,__accessories/bags__
+__gencolor__ __accessories/hats__,__accessories/bags__,__accessories/accessories__
+__gencolor__ __accessories/hats__,__accessories/glasses__
+__gencolor__ __accessories/hats__,__accessories/glasses__,__accessories/accessories__
+__gencolor__ __accessories/hats__,__accessories/glasses__,__accessories/bags__
+__gencolor__ __accessories/hats__,__accessories/glasses__,__accessories/bags__,__accessories/accessories__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__,__accessories/accessories__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__,__accessories/bags__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__,__accessories/bags__,__accessories/accessories__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__,__accessories/glasses__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__,__accessories/glasses__,__accessories/accessories__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__,__accessories/glasses__,__accessories/bags__
+__gencolor__ __accessories/hats__,__gencolor__ __accessories/gloves__,__accessories/glasses__,__accessories/bags__,__accessories/accessories__

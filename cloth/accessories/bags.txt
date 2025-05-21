@@ -1,0 +1,9 @@
+bag
+clutch bag
+handbag
+pouch
+purse
+quiver
+shoulder bag
+tote bag
+waist pouch

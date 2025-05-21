@@ -1,48 +1,32 @@
+__color__ {maxi|mini|midi|micro} dress{,high heels|}
+__color__ {micro |}bikini
+__color__ ball gown{,elbow gloves|}
+__color__ casual dress{,{black |white |brown }pantyhose|}
+__color__ cocktail dress{,high heels|}{,elbow gloves|}
+__color__ high slit dress{,high heels|}{,elbow gloves|}
+__color__ party dress{,high heels|}
+__color__ prom dress{,elbow gloves|}
+__color__ raincoat{,rain boots|}
+__color__ robe
+__color__ sarong
+__color__ satin dress{,high heels|}{,elbow gloves|}
+__color__ sequined dress{,high heels|}{,elbow gloves|}
+__color__ swimwear
+__color__ tracksuit
+__color__ v neck dress
+__color__ velvet dress{,high heels|}{,elbow gloves|}
 academic gown
-ball gown
 bathrobe
-beachwear
-bikini
-casual dress
-cocktail dress
-coverall
 dungarees
-evening gown
-fit and flare dress
+evening gown{,high heels|}{,elbow gloves|}
 furisode
-hakama
-haute couture
-high slit dress
-japanese clothes
 jinbei
-jumper
 kimono
 loungewear
-maxi dress
-micro bikini
-mini dress
 nightwear
-office lady suits
-oneshoulder dress
 overalls
 pajamas
-party dress
-prom dress
-raincoat
-rap dress
-robe
-ruffle dress
-sari
-sarong
-satin dress
-sequined dress
-silk dress
-suit
-swimwear
 tabard
-tracksuit
 tuxedo
-v neck dress
-velvet dress
-wedding dress
+wedding dress{,elbow gloves|}
 yukata

@@ -1,11 +1,11 @@
-__gencolor__ __footwears/boots__
-__gencolor__ __footwears/pantyhoses__
-__gencolor__ __footwears/pantyhoses__,__gencolor__ __footwears/boots__
-__gencolor__ __footwears/pantyhoses__,__gencolor__ __footwears/heels__
-__gencolor__ __footwears/pantyhoses__,__gencolor__ __footwears/shoes__
-__gencolor__ __footwears/sandals__
-__gencolor__ __footwears/socks__
-__gencolor__ __footwears/socks__,__gencolor__ __footwears/heels__
-__gencolor__ __footwears/socks__,__gencolor__ __footwears/shoes__
+__color__ __footwears/boots__
+__color__ __footwears/pantyhoses__
+__color__ __footwears/pantyhoses__,__color__ __footwears/boots__
+__color__ __footwears/pantyhoses__,__color__ __footwears/heels__
+__color__ __footwears/pantyhoses__,__color__ __footwears/shoes__
+__color__ __footwears/sandals__
+__color__ __footwears/socks__
+__color__ __footwears/socks__,__color__ __footwears/heels__
+__color__ __footwears/socks__,__color__ __footwears/shoes__
 barefoot{1:,anklet|5:}
-barefoot{1:,anklet|5:},__gencolor__ toenails
+barefoot{1:,anklet|5:},__color__ toenails

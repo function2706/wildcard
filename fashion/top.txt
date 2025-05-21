@@ -1,6 +1,6 @@
-__gencolor__ __tops/bras__
-__gencolor__ __tops/jackets__
-__gencolor__ __tops/jackets__,
-__gencolor__ __tops/shirts__
-__gencolor__ __tops/shirts__,__gencolor__ __tops/jackets__
+__color__ __tops/bras__
+__color__ __tops/jackets__
+__color__ __tops/jackets__,
+__color__ __tops/shirts__
+__color__ __tops/shirts__,__color__ __tops/jackets__
 topless

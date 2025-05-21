@@ -1,1 +1,1 @@
-__mankind/hairstyle__,__gencolor__ hair,__mankind/eyestyle__,__gencolor__ eye,__mankind/earstyle__,__mankind/age__,__mankind/skinstyle__{1::,freckle|9::}
+__mankind/hairstyle__,__color__ hair,__mankind/eyestyle__,__color__ eye,__mankind/earstyle__,__mankind/age__,__mankind/skinstyle__{1::,freckle|9::}

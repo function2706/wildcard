@@ -1,6 +1,0 @@
-{white|black|{light|} {pink|red|scarlet|orange|yellow|green|blue|purple|violet}} {1-2$$lace|lace-trimmed|frilled|bow} bra panties navel {holding pillow {hug|}||||||||} 
-{white|black|{light|} {pink|red|scarlet|orange|yellow|green|blue|purple|violet}} {camisole|chemise} {0-2$$bow|lace|} panties {holding pillow {hug|}||||||||} 
-{white|black|{light|} {pink|red|scarlet|orange|yellow|green|blue|purple|violet}} {0-1$$lace|lace-trimmed|frilled|bow} {corset|bustier} {0-2$$bow|lace|} panties {thighhighs {legwear garter|garter belt|}|} {holding pillow {hug|}||||||||} 
-{white|black|{light|} {pink|red|scarlet|orange|yellow|green|blue|purple|violet}} {1-2$$lace|lace-trimmed|frilled|bow} {night gown|babydoll|negligee|teddy lingerie} {0-2$$bow|lace|} panties {thighhighs {legwear garter|garter belt|}|} {holding pillow {hug|}||||||||} 
-{white|{light|} {black|pink|red|scarlet|orange|yellow|green|blue|purple|violet}} {{horizontal-striped|vertical-striped|polka dot}|} pajamas {long pants|capri pants|{0-2$$bow|lace|} panties} {holding pillow {hug|}||||||||} 
-__animals__ {kigurumi|} pajamas hood up {holding pillow {hug|}||||||||} 

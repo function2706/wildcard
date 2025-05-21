@@ -4,6 +4,7 @@ handbag
 pouch
 purse
 quiver
+school bag
 shoulder bag
 tote bag
 waist pouch

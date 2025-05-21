@@ -1,6 +1,0 @@
-__ftbCasuals__
-__ftbFormals__
-__ftbSwimsuits__
-__ftbLingeries__
-__ftbUniforms__
-__ftbfantasies__

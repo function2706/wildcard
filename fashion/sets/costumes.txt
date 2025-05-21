@@ -1,42 +1,60 @@
+firefighter jacket
+{black|green|brown|camouflage|woodland} military uniform hat　{0-2$$camouflage aiguillette|epaulettes|ribbon bar}
+{brown|green} apron collared shirt paint on clothes paint splatter on face holding paintbrush {__skirts__|__pants__}
+{white|black|light pink|light yellow|light orange|light green|light blue|light purple|light magenta|red|blue|grenn} magical girl brooch wand choker {elbow|} gloves tighthighs {beret|hair ornament|hairpin}
+{white|light {pink|blue|green}} nurse cap {holding clipboard|holding syringe}
 airline pilot uniform
 astronaut suit
+band uniform marching band baton shako cap
 barista uniform
-business suit
+blazer jacket school uniform shirt {necktie|bowtie} {long|short} plated skirt {white {socks|thighhighs {skindentation|}}|} {a school bag|} 
 business attire
+business suit
 cheerleader
 chef uniform
+chef uniform hat
 cheongsam
 circus costumes
 construction worker outfit
+doctor labcoat stethoscope {holding clipboard|holding syringe}
 doctor uniform
+employee uniform convenience store shop {vertical-striped shirt|} long pants name tag
 fashion model outfit
 flight attendant
+formal black {female butler tailcoat white gloves |{waistcoat|suit jacket|pant suit} {gloves|}} {necktie|}  slacks pants {handgun holding handgun|holding sword|||}
 gothic lolita
-gym uniform, gym shirts, white t-shirts, buruma
-idol costume, idol uniform, on stage
+gym uniform,gym shirts,white t-shirts,buruma
+idol clothes {gloves|} {long|short} frilled skirt {{nectie|bowtie}||} {beret|hair ornament|hairpin} puffy short sleeves singing holding microphone
+idol costume,idol uniform
 kigurumi
 lab coat
+labcoat scientist chemistry {holding flask|holding beaker}
 leotard
 librarian outfit
-librarian outfit
 maid costume
-maid costume
+maid outfit apron headdress {elbow|} gloves frilled skirt puffy sleeves  {{holding broom|holding tray}|}
+miko red hakama japanese clothes {holding ofuda|holding broom}
 military uniform
 nun outfit
 nurse cosplay
-nurse cosplay, nurse outfit
+nurse cosplay,nurse outfit
 nurse uniform
-office lady, suit
+office lady,suit
 one-piece swimsuit
 paramedic uniform
 pizza delivery uniform
 police
 police uniform
-race queen, grid girl, skirt, sleeveless
+police uniform hat policewoman pencil skirt 
+race queen,grid girl,skirt,sleeveless
 sailor suit
 school uniform
-secretary, suits
+secretary,suits
+serafuku school uniform {long sleeves|} sailor collar neckerchief {long|short} plated skirt {white socks|} {a school bag|} {cardigan {sleeves past wrists|}|}
 shrine maiden outfit
+sport {baseball|basketball|american football|rugby|soccer|tennis|track|volleyball} uniform 
 stewardess uniform
+teacher white collared shirt glasses holding pointer pencil skirt brown pantyhose
 waitress
+waitress apron frilled skirt {{holding menu|holding tray}|}
 waitress uniform

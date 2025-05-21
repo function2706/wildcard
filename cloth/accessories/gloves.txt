@@ -1,15 +1,22 @@
 armlet
+armlet,__gencolor__ fingernails
+barehand
+barehand,__gencolor__ fingernails
 bracelet
-cleaning gloves
-cotton gloves
+bracelet,__gencolor__ fingernails
+cleaning gloves{1::,elbow gloves|1::}
+cotton gloves{1::,elbow gloves|1::}
 cufflinks
-evening gloves
+cufflinks,__gencolor__ fingernails
+evening gloves{1::,elbow gloves|1::}
 fingerless gloves
 gauntlets
-knit gloves
-leather gloves
+knit gloves{1::,elbow gloves|1::}
+leather gloves{1::,elbow gloves|1::}
 mittens
 ring
-rubber gloves
+ring,__gencolor__ fingernails
+rubber gloves{1::,elbow gloves|1::}
 wrist warmers
 wristband
+wristband,__gencolor__ fingernails

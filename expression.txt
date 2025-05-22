@@ -3,7 +3,7 @@ __expression/sfwexp__
 __expression/face/eye__
 __expression/face/eyebrow__
 __expression/face/eye__,__expression/face/eyebrow__
-__expression/face/mouth__,
+__expression/face/mouth__
 __expression/face/eye__,__expression/face/mouth__
 __expression/face/eyebrow__,__expression/face/mouth__
 __expression/face/eye__,__expression/face/eyebrow__,__expression/face/mouth__

@@ -1,17 +1,8 @@
-10yo
-15yo
-20yo
-30yo
-40yo
-blooming
+child
+infant
 college age
-forties woman
-girl
-high school student
-loli
-Middle school students
-teen
+forties
 tennager
-thirties woman
-woman
+thirties
 young girl
+{1::{5|6|7|8|9}|8::{1|2|3|4}{0|{1|2|3|4|5|6|7|8|9}}} years old

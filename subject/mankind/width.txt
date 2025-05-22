@@ -1,14 +1,9 @@
-{chubby|curvy|plump|voluptuous}
-bony{,ribs|}
+athletic{,abs|}
+curvy
 fit{1::,abs|2::}
-gaunt{,ribs|}
 medium{1::,abs|2::}
-scrawny{,ribs|}
-skinny{,ribs|}
+scrawny
+skinny
 slender{1::,ribs|2::}
 slim{1::,ribs|1::,abs|2::}
-underweight{,ribs|}
-athletic{,abs|}
 toned{,abs|}
-well-trained body{,abs|}
-strong{,abs|}

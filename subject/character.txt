@@ -8,6 +8,7 @@ __characters/chainsaw-man__
 __characters/code-geass__
 __characters/digimon__
 __characters/dragon-ball__
+__characters/dragon-quest__
 __characters/evangelion__
 __characters/fate__
 __characters/final-fantasy__

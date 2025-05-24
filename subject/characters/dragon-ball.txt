@@ -1,16 +1,16 @@
-android 17 \(dragon ball\)
-android 18 \(dragon ball\)
-android 21 \(dragon ball\)
-bulma \(dragon ball\)
-caulifla \(dragon ball\)
-cheelai \(dragon ball\)
+android 17
+android 18
+android 21
+bulma
+caulifla
+cheelai
 chi-chi \(dragon ball\)
-gine \(dragon ball\)
+gine
 kale \(dragon ball\)
 kefla \(dragon ball\)
 lunch \(dragon ball\)
 mai \(dragon ball\)
-majin android 21 \(dragon ball\)
+majin android 21
 marron \(dragon ball\)
 pan \(dragon ball\)
-videl \(dragon ball\)
+videl

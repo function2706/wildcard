@@ -1,13 +1,13 @@
 altera moontail \(final fantasy\)
-aranea highwind \(final fantasy\)
+aranea highwind
 astrologian \(final fantasy\)
 bahamut \(final fantasy\)
-elena \(ff7\) \(final fantasy\)
+elena \(ff7\)
 gunner \(final fantasy\)
-hilda ware \(final fantasy\)
-hydaelyn \(final fantasy\)
-iris amicitia \(final fantasy\)
-minfilia warde \(final fantasy\)
-tifa lockhart \(cowgirl\) \(final fantasy\)
-time mage \(final fantasy\)
-trance terra branford \(final fantasy\)
+hilda ware
+hydaelyn
+iris amicitia
+minfilia warde
+tifa lockhart \(cowgirl\)
+time mage
+trance terra branford

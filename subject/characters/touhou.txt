@@ -1,86 +1,86 @@
-aki minoriko \(touhou\)
-aki shizuha \(touhou\)
-alice margatroid \(touhou\)
-cirno \(touhou\)
-clownpiece \(touhou\)
+aki minoriko
+aki shizuha
+alice margatroid
+cirno
+clownpiece
 elis \(touhou\)
 ellen \(touhou\)
-flandre scarlet \(touhou\)
-fujiwara no mokou \(touhou\)
-hakurei reimu \(touhou\)
-hata kokoro \(touhou\)
-hecatia lapislazuli \(touhou\)
-hijiri byakuren \(touhou\)
-himekaidou hatate \(touhou\)
-hinanawi tenko \(touhou\)
-hinanawi tenshi \(touhou\)
-hong meiling \(touhou\)
-hoshiguma yuugi \(touhou\)
-houraisan kaguya \(touhou\)
-ibaraki kasen \(touhou\)
-ibuki suika \(touhou\)
-imaizumi kagerou \(touhou\)
-inubashiri momiji \(touhou\)
-izayoi sakuya \(touhou\)
-junko \(touhou\)
-kagiyama hina \(touhou\)
-kaku seiga \(touhou\)
-kamishirasawa keine \(touhou\)
-kana anaberal \(touhou\)
-kasodani kyouko \(touhou\)
-kawashiro nitori \(touhou\)
-kazami yuuka \(touhou\)
-kicchou yachie \(touhou\)
+flandre scarlet
+fujiwara no mokou
+hakurei reimu
+hata kokoro
+hecatia lapislazuli
+hijiri byakuren
+himekaidou hatate
+hinanawi tenko
+hinanawi tenshi
+hong meiling
+hoshiguma yuugi
+houraisan kaguya
+ibaraki kasen
+ibuki suika
+imaizumi kagerou
+inubashiri momiji
+izayoi sakuya
+junko
+kagiyama hina
+kaku seiga
+kamishirasawa keine
+kana anaberal
+kasodani kyouko
+kawashiro nitori
+kazami yuuka
+kicchou yachie
 kikuri \(touhou\)
-kirisame marisa \(touhou\)
-kishin sagume \(touhou\)
-kochiya sanae \(touhou\)
-komeiji koishi \(touhou\)
-komeiji satori \(touhou\)
-konpaku youmu \(touhou\)
+kirisame marisa
+kishin sagume
+kochiya sanae
+komeiji koishi
+komeiji satori
+konpaku youmu
 kotohime \(touhou\)
-kumoi ichirin \(touhou\)
-letty whiterock \(touhou\)
-lily white \(touhou\)
-luna child \(touhou\)
-maribel han \(touhou\)
-medicine melancholy \(touhou\)
+kumoi ichirin
+letty whiterock
+lily white
+luna child
+maribel han
+medicine melancholy
 mima \(touhou\)
-mononobe no futo \(touhou\)
-moriya suwako \(touhou\)
-murasa minamitsu \(touhou\)
-nazrin \(touhou\)
-niwatari kutaka \(touhou\)
-okazaki yumemi \(touhou\)
-onozuka komachi \(touhou\)
-patchouli knowledge \(touhou\)
-reisen udongein inaba \(touhou\)
-reiuji utsuho \(touhou\)
-remilia scarlet \(touhou\)
+mononobe no futo
+moriya suwako
+murasa minamitsu
+nazrin
+niwatari kutaka
+okazaki yumemi
+onozuka komachi
+patchouli knowledge
+reisen udongein inaba
+reiuji utsuho
+remilia scarlet
 rika \(touhou\)
 rumia \(touhou\)
-saigyouji yuyuko \(touhou\)
-sakata nemuno \(touhou\)
+saigyouji yuyuko
+sakata nemuno
 sariel \(touhou\)
-sekibanki \(touhou\)
-shameimaru aya \(touhou\)
-shiki eiki \(touhou\)
+sekibanki
+shameimaru aya
+shiki eiki
 shinki \(touhou\)
-soga no tojiko \(touhou\)
-star sapphire \(touhou\)
-sunny milk \(touhou\)
-teireida mai \(touhou\)
+soga no tojiko
+star sapphire
+sunny milk
+teireida mai
 tokiko \(touhou\)
-toramaru shou \(touhou\)
+toramaru shou
 toyohime \(touhou\)
-usami sumireko \(touhou\)
-wakasagihime \(touhou\)
-watatsuki no toyohime \(touhou\)
-watatsuki no yorihime \(touhou\)
-yagokoro eirin \(touhou\)
-yakumo ran \(touhou\)
-yakumo yukari \(touhou\)
-yasaka kanako \(touhou\)
+usami sumireko
+wakasagihime
+watatsuki no toyohime
+watatsuki no yorihime
+yagokoro eirin
+yakumo ran
+yakumo yukari
+yasaka kanako
 yayoi \(touhou\)
-yorigami jo'on \(touhou\)
-yorigami shion \(touhou\)
+yorigami jo'on
+yorigami shion

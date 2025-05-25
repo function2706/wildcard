@@ -1,0 +1,53 @@
+foot-fetish:
+  face:
+    random:
+      - __face/expression__,__state/random__
+    expression:
+        - annoyed,__state/eye__
+        - bored,__state/eye__
+        - disgusted,__state/eye__
+        - dominant expression,__state/eyebrow__,__state/eye__,__state/mouth__
+        - dominant expression,evil expression,__state/eyebrow__,__state/eye__,__state/mouth__
+        - embarrassed,__state/eye__
+        - evil expression,__state/eyebrow__,__state/eye__,__state/mouth__
+        - excited,__state/eyebrow__,__state/mouth__
+        - expressionless,__state/eye__
+        - frustrated,__state/eye__
+        - giggle,__state/eyebrow__,__state/eye__,__state/mouth__
+        - grin,__state/eyebrow__,__state/eye__,__state/mouth__
+        - in heat,__state/eyebrow__,__state/eye__,__state/mouth__
+        - naughty face,__state/eyebrow__,__state/eye__,__state/mouth__
+        - nervous
+        - scared
+        - seductive smile,__state/eyebrow__,__state/eye__,__state/mouth__
+        - skeptical,__state/eye__
+        - smile,__state/eyebrow__,__state/eye__,__state/mouth__
+        - smirk,__state/eyebrow__,__state/eye__,__state/mouth__
+        - smug,__state/eyebrow__,__state/eye__,__state/mouth__
+  state:
+    random:
+      - " "
+      - __state/blush__
+      - __state/sweat__
+      - __state/blush__,__state/sweat__
+    eyebrow:
+      - " "
+      - raised eyebrows
+      - v-shaped eyebrows
+    eye:
+      - " "
+      - half-closed eyes
+    mouth:
+      - " "
+      - fang out
+      - licking lips
+      - open mouth
+      - parted lips
+    blush:
+      - " "
+      - blush
+    sweat:
+      - " "
+      - "sweat"
+  a:
+    - ((barefoot)),(perfect feet:1.9),{|{spread toes}},((soles)),toes,

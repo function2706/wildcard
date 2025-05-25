@@ -3,5 +3,5 @@
 {ear blush|}
 {full-face blush|}
 {nervous sweating|}
-{nose-blush|}
+{nose blush|}
 {sweat|}

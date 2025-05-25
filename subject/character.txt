@@ -39,6 +39,7 @@ __characters/precure__
 __characters/princess-connect__
 __characters/puyopuyo__
 __characters/re-zero-kara-hajimeru-isekai-seikatsu__
+__characters/sailor-moon__
 __characters/shingeki-no-kyojin__
 __characters/spy-x-family__
 __characters/sword-art-online__

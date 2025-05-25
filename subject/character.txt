@@ -24,6 +24,7 @@ __characters/idolmaster__
 __characters/jujutsu-kaisen__
 __characters/k-on__
 __characters/kimetsu-no-yaiba__
+__characters/love-live__
 __characters/lycoris-recoil__
 __characters/mahou-shoujo-madoka-magica__
 __characters/mushoku-tensei__
@@ -40,5 +41,6 @@ __characters/re-zero-kara-hajimeru-isekai-seikatsu__
 __characters/shingeki-no-kyojin__
 __characters/spy-x-family__
 __characters/sword-art-online__
+__characters/to-love-ru__
 __characters/toaru-majutsu-no-index__
 __characters/touhou__

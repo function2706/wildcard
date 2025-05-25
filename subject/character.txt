@@ -35,6 +35,7 @@ __characters/one-punch-man__
 __characters/overlord__
 __characters/persona__
 __characters/pokemon__
+__characters/precure__
 __characters/princess-connect__
 __characters/puyopuyo__
 __characters/re-zero-kara-hajimeru-isekai-seikatsu__

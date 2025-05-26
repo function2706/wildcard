@@ -1,5 +1,0 @@
-__anger__
-__miscexp__
-__happiness__
-__sadness__
-__surprise__

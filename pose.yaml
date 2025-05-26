@@ -22,7 +22,6 @@ pose:
     - on back
     - on side
     - on stomach
-    - prostration
     - stylish pose
   head:
     - "{1::head tilt|9::}"
@@ -30,8 +29,6 @@ pose:
     - crossed legs
     - indian style
     - kneeling
-    - knees up
-    - pigeon toed
     - seiza
     - sitting
     - sitting astride

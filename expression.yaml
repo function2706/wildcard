@@ -83,14 +83,14 @@ expression:
       - __expression/face/eye__,__expression/face/mouth__
       - __expression/face/eyebrow/do__,__expression/face/mouth__
       - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/mouth__
-      - __expression/face/misc__
-      - __expression/face/eye__,__expression/face/misc__
-      - __expression/face/eyebrow/do__,__expression/face/misc__
-      - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/misc__
-      - __expression/face/mouth__,__expression/face/misc__
-      - __expression/face/eye__,__expression/face/mouth__,__expression/face/misc__
-      - __expression/face/eyebrow/do__,__expression/face/mouth__,__expression/face/misc__
-      - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/mouth__,__expression/face/misc__
+      - __expression/face/misc/do__
+      - __expression/face/eye__,__expression/face/misc/do__
+      - __expression/face/eyebrow/do__,__expression/face/misc/do__
+      - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/misc/do__
+      - __expression/face/mouth__,__expression/face/misc/do__
+      - __expression/face/eye__,__expression/face/mouth__,__expression/face/misc/do__
+      - __expression/face/eyebrow/do__,__expression/face/mouth__,__expression/face/misc/do__
+      - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/mouth__,__expression/face/misc/do__
     eye:
       - closed eyes
       - constricted pupils
@@ -119,10 +119,8 @@ expression:
         - troubled eyebrows
         - v-shaped eyebrows
     mouth:
-      - biting own lip
       - chestnut mouth
       - closed mouth
-      - diamond mouth
       - dot mouth
       - fang out
       - fangs out
@@ -131,7 +129,6 @@ expression:
       - parted lips
       - split mouth
       - tongue out
-      - wavy mouth
     misc:
       do:
         - __expression/face/misc/none__
@@ -139,7 +136,6 @@ expression:
       none:
         - " "
       done:
-        - bags under eyes
         - blush
         - ear blush
         - full-face blush

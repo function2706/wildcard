@@ -2,67 +2,40 @@ color:
   random:
     - " "
     - __color/achromatic__
-    - __color/blue__
-    - __color/green__
-    - __color/orange__
-    - __color/purple__
-    - __color/red__
-    - __color/yellow__
+    - __color/chromatic__
   achromatic:
     - black
-    - charcoal
     - gray
-    - silver
     - white
-  blue:
-    - azure
-    - blue
-    - cerulean
-    - cobalt blue
-    - indigo
-    - midnight blue
-    - navy blue
-    - prussian blue
-    - royal blue
-    - sapphire
-    - turquoise
-    - ultramarine
-  green:
-    - chartreuse
-    - emerald
-    - green
-    - jade
-    - olive
-    - pine
-    - teal
-    - viridian
-  orange:
+  chromatic:
     - amber
-    - brown
-    - orange
-    - tangerine
-  purple:
     - amethyst
-    - lilac
-    - magenta
-    - purple
-    - violet
-  red:
+    - aqua
+    - azure
     - beige
+    - blue
+    - brown
     - burgundy
     - crimson
-    - falu red
+    - emerald
+    - green
+    - indigo
+    - jade
+    - lilac
+    - magenta
     - maroon
+    - midnight blue
+    - navy blue
+    - olive
+    - orange
     - pink
+    - purple
     - red
     - ruby
-    - sangria
+    - sapphire
     - scarlet
+    - tangerine
+    - teal
     - vermillion
-  yellow:
-    - canary
-    - flaxen
-    - gold
-    - goldenrod
-    - sunglow
+    - violet
     - yellow

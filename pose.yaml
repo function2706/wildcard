@@ -1,0 +1,76 @@
+pose:
+  random:
+    - __pose/action__
+    - __pose/head__
+    - __pose/upper__
+    - __pose/head__,__pose/upper__
+    - __pose/lower__
+    - __pose/head__,__pose/lower__
+    - __pose/upper__,__pose/lower__
+    - __pose/head__,__pose/upper__,__pose/lower__
+  action:
+    - acrobatic pose
+    - all fours
+    - bowing
+    - bunny pose
+    - contrapposto
+    - crawling
+    - curtsey
+    - dynamic pose
+    - fetal position
+    - lying
+    - on back
+    - on side
+    - on stomach
+    - prostration
+    - stylish pose
+  head:
+    - "{1::head tilt|9::}"
+  lower:
+    - crossed legs
+    - indian style
+    - kneeling
+    - knees up
+    - pigeon toed
+    - seiza
+    - sitting
+    - sitting astride
+    - standing
+    - standing split
+    - wariza
+    - yokozuwari
+  upper:
+    - arm behind back
+    - arm behind head
+    - arm up
+    - arms raised in the air
+    - arms behind back
+    - arms behind head
+    - arms up
+    - breast hold
+    - claw pose
+    - clenched hands
+    - crossed arms
+    - double peace sign
+    - finger frame
+    - finger to mouth
+    - hand between legs
+    - hand on hip
+    - heart hands
+    - interlocked fingers
+    - open arms for viewer
+    - open stance
+    - outstretched arms
+    - palm-fist greeting
+    - paw pose
+    - peace sign
+    - pointing at self
+    - pointing at viewer
+    - pointing forward
+    - reaching
+    - salute
+    - thumbs down
+    - thumbs up
+    - v arms
+    - w arms
+    - waving at viewer

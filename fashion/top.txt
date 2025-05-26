@@ -1,6 +1,0 @@
-__color/random__ __tops/bras__
-__color/random__ __tops/jackets__
-__color/random__ __tops/jackets__
-__color/random__ __tops/shirts__
-__color/random__ __tops/shirts__,__color/random__ __tops/jackets__
-topless

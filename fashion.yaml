@@ -1,0 +1,17 @@
+fashion:
+  - __fashion/set__
+  - __fashion/accessories/random__
+  - __fashion/bottom/random__
+  - __fashion/bottom/random__,__fashion/accessories/random__
+  - __fashion/footwear__
+  - __fashion/footwear__,__fashion/accessories/random__
+  - __fashion/footwear__,__fashion/bottom/random__
+  - __fashion/footwear__,__fashion/bottom/random__,__fashion/accessories/random__
+  - __fashion/top/random__
+  - __fashion/top/random__,__fashion/accessories/random__
+  - __fashion/top/random__,__fashion/bottom/random__
+  - __fashion/top/random__,__fashion/bottom/random__,__fashion/accessories/random__
+  - __fashion/top/random__,__fashion/footwear__
+  - __fashion/top/random__,__fashion/footwear__,__fashion/accessories/random__
+  - __fashion/top/random__,__fashion/footwear__,__fashion/bottom/random__
+  - __fashion/top/random__,__fashion/footwear__,__fashion/bottom/random__,__fashion/accessories/random__

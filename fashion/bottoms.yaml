@@ -1,0 +1,119 @@
+bottoms:
+  random:
+    - __bottoms/panties/do__
+    - __bottoms/skirts/do__
+    - __bottoms/skirts/do__,__bottoms/panties/do__
+    - __bottoms/pants/do__
+    - bottomless
+  panties:
+    do:
+      - __color/random__ __bottoms/panties/type__
+    type:
+      - beach shorts
+      - bikini bottom
+      - bloomers
+      - boxers
+      - boyshorts
+      - g-string
+      - granny panties
+      - lace panties
+      - latex panties
+      - loincloth
+      - micro bikini
+      - panties
+      - seamless panties
+      - swim briefs
+      - thong
+      - underpants
+      - v-string
+  pants:
+    do:
+      - __color/random__ __bottoms/pants/length__ __bottoms/pants/type__
+    length:
+      - " "
+      - short
+      - long
+      - mini
+      - micro
+      - maxi
+      - midi
+    type:
+      - baggy pants
+      - bell-bottoms
+      - board shorts
+      - booty shorts
+      - buruma
+      - capri pants
+      - cargo pants
+      - chino pants
+      - corduroy shorts
+      - culottes
+      - cycling shorts
+      - denim pants
+      - denim shorts
+      - drawstring pants
+      - flared pants
+      - gaucho pants
+      - genie pants
+      - harem pants
+      - hot pants
+      - jeans
+      - jeggings
+      - jodhpurs
+      - joggers
+      - lace shorts
+      - leather shorts
+      - linen shorts
+      - palazzo pants
+      - relaxed pants
+      - ripped jeans
+      - running shorts
+      - sarong
+      - skinny jeans
+      - slacks
+      - sport shorts
+      - straight pants
+      - suede shorts
+      - sweatpants
+      - swim shorts
+      - track pants
+      - training pants
+      - trousers
+      - velvet shorts
+      - wool shorts
+  skirts:
+    do:
+      - __color/random__ __bottoms/skirts/length__ __bottoms/skirts/type__
+    length:
+      - " "
+      - short
+      - long
+      - mini
+      - micro
+      - maxi
+      - midi
+    type:
+      - apron skirt
+      - ballet skirt
+      - beltskirt skirt
+      - bow skirt
+      - checked skirt
+      - denim skirt
+      - frilled skirt
+      - hakama
+      - high-waist skirt
+      - hoop skirt
+      - layered skirt
+      - leather skirt
+      - over skirt
+      - pencil skirt
+      - petticoat skirt
+      - pleated skirt
+      - prairie skirt
+      - ruffled skirt
+      - school skirt
+      - skort
+      - tennis skirt
+      - tiered skirt
+      - tight skirt
+      - wrap skirt

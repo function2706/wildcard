@@ -1,0 +1,142 @@
+tops:
+  random:
+    - __tops/bras/do__
+    - __tops/jackets/do__
+    - __tops/jackets/do__,__tops/bras/do__
+    - __tops/shirts/do__
+    - __tops/shirts/do__,__tops/jackets/do__
+    - topless
+  bras:
+    do:
+      - __color/random__ __tops/bras/type__
+    type:
+      - adhesive bra
+      - balconette bra
+      - bandeau
+      - bra top
+      - bralette
+      - bullet bra
+      - cold shoulder top
+      - convertible bra
+      - corset top
+      - crop top
+      - cupless bra
+      - demi bra
+      - encapsulation bra
+      - front-closure bra
+      - full coverage bra
+      - halter bra
+      - latex bra
+      - longline bra
+      - low-back bra
+      - maternity bra
+      - minimizer bra
+      - nursing bra
+      - off-the-shoulder top
+      - padded bra
+      - plunge bra
+      - push-up bra
+      - racerback bra
+      - shelf bra
+      - side support bra
+      - sleeveless top
+      - soft cup bra
+      - sports bra
+      - strapless bra
+      - t-shirt bra
+      - tank top
+      - training bra
+      - tube top
+      - twist-front top
+      - underwire bra
+      - unlined bra
+      - wireless bra
+      - wrap top
+  jackets:
+    do:
+      - __color/random__ __tops/jackets/type__
+    type:
+      - apron
+      - bell sleeve blouse
+      - blouse
+      - bomber jacket
+      - cape
+      - capelet
+      - cardigan
+      - cashmere
+      - chiffon blouse
+      - chore jacket
+      - coverall
+      - cropped jacket
+      - cropped knit
+      - denim jacket
+      - down jacket
+      - down vest
+      - fleece
+      - frock coat
+      - hanten
+      - haori
+      - happi
+      - hoodie
+      - hoodie jacket
+      - jean jacket
+      - knit top
+      - leather jacket
+      - letterman jacket
+      - military jacket
+      - nightgown
+      - overcoat
+      - padded jacket
+      - parka
+      - pea coat
+      - poncho
+      - puffer jacket
+      - quilted jacket
+      - raincoat
+      - safari jacket
+      - shawl
+      - ski jacket
+      - smock blouse
+      - sport coat
+      - sports jersey
+      - sukajan
+      - sweater
+      - track jacket
+      - trench coat
+      - tunic blouse
+      - tunic sweater
+      - turtleneck
+      - tuxedo jacket
+      - v-neck sweater
+      - vest
+      - waistcoat
+      - windbreaker
+      - winter coat
+      - wool coat
+      - wrap blouse
+  shirts:
+    do:
+      - __color/random__ __tops/shirts/type__
+    type:
+      - babydoll
+      - blouse
+      - button-up shirt
+      - camisole
+      - collared shirt
+      - corset top
+      - crop top
+      - gilet
+      - halter top
+      - kurta
+      - long-sleeve shirt
+      - mesh top
+      - overshirt
+      - polo shirt
+      - pullover
+      - rash guard
+      - scoop neck top
+      - spaghetti strap top
+      - sweatshirt
+      - t-shirt
+      - tank top
+      - tunic

@@ -7,9 +7,8 @@ footwears:
     - __footwears/pantyhoses/do__,__footwears/shoes/do__
     - __footwears/sandals/do__
     - __footwears/socks/do__
-    - __footwears/socks/do__,__footwears/heels/do__
     - __footwears/socks/do__,__footwears/shoes/do__
-    - barefoot,__footwears/toenails__,__footwears/anklet__
+    - barefoot,__footwears/toenails/do__,__footwears/anklet__
   boots:
     do:
       - __color/random__ __footwears/boots/type__
@@ -58,16 +57,16 @@ footwears:
     type:
       - ankle strap sandals
       - ballet slippers
-      - flip-flops,__footwears/toenails__,__footwears/anklet__
+      - flip-flops,__footwears/toenails/do__,__footwears/anklet__
       - geta
       - gladiator sandals
-      - lace-up sandals,__footwears/toenails__,__footwears/anklet__
+      - lace-up sandals,__footwears/toenails/do__,__footwears/anklet__
       - mule sandals
-      - sandals,__footwears/toenails__,__footwears/anklet__
+      - sandals,__footwears/toenails/do__,__footwears/anklet__
       - slippers
-      - straw sandals,__footwears/toenails__,__footwears/anklet__
-      - thonged sandals,__footwears/toenails__,__footwears/anklet__
-      - toe-ring sandals,__footwears/toenails__,__footwears/anklet__
+      - straw sandals,__footwears/toenails/do__,__footwears/anklet__
+      - thonged sandals,__footwears/toenails/do__,__footwears/anklet__
+      - toe-ring sandals,__footwears/toenails/do__,__footwears/anklet__
       - wedge sandals
   shoes:
     do:
@@ -119,8 +118,19 @@ footwears:
       - stockings
       - thigh-high socks
   toenails:
-    - " "
-    - __color/random__ toenails
+    do:
+      - " "
+      - __footwears/toenails/color__ toenails
+    color:
+      - black
+      - blue
+      - green
+      - indigo
+      - orange
+      - pink
+      - purple
+      - red
+      - yellow
   anklet:
     - " "
     - __color/random__ anklet

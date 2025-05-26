@@ -156,7 +156,7 @@ accessories:
         - " "
         - __accessories/gloves/nail/color__ fingernails
       color:
-        - __color/random__
+        - black
         - blue
         - green
         - indigo

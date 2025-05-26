@@ -1,13 +1,14 @@
 color:
   random:
-    - " "
     - __color/achromatic__
     - __color/chromatic__
   achromatic:
+    - " "
     - black
     - gray
     - white
   chromatic:
+    - " "
     - amber
     - amethyst
     - aqua

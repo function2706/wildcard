@@ -2,12 +2,11 @@ bottoms:
   random:
     - __bottoms/panties/do__
     - __bottoms/skirts/do__
-    - __bottoms/skirts/do__,__bottoms/panties/do__
     - __bottoms/pants/do__
-    - bottomless
   panties:
     do:
       - __color/random__ __bottoms/panties/type__
+      - __bottoms/nude/do__
     type:
       - beach shorts
       - bikini bottom
@@ -28,15 +27,10 @@ bottoms:
       - v-string
   pants:
     do:
-      - __color/random__ __bottoms/pants/length__ __bottoms/pants/type__
+      - __color/random__ __bottoms/pants/type__
     length:
       - " "
       - short
-      - long
-      - mini
-      - micro
-      - maxi
-      - midi
     type:
       - baggy pants
       - bell-bottoms
@@ -66,7 +60,7 @@ bottoms:
       - linen shorts
       - palazzo pants
       - relaxed pants
-      - ripped jeans
+      - ripped shorts
       - running shorts
       - sarong
       - skinny jeans
@@ -76,6 +70,7 @@ bottoms:
       - suede shorts
       - sweatpants
       - swim shorts
+      - torn pants
       - track pants
       - training pants
       - trousers
@@ -84,6 +79,7 @@ bottoms:
   skirts:
     do:
       - __color/random__ __bottoms/skirts/length__ __bottoms/skirts/type__
+      - __color/random__ __bottoms/skirts/length__ __bottoms/skirts/type__,__bottoms/panties/do__
     length:
       - " "
       - short
@@ -117,3 +113,9 @@ bottoms:
       - tiered skirt
       - tight skirt
       - wrap skirt
+  nude:
+    do:
+      - no panties,pussy,__bottoms/nude/pubic__
+    pubic:
+      - " "
+      - pubic hair

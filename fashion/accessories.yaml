@@ -134,28 +134,37 @@ accessories:
       - witch hat
   gloves:
     do:
-      - __color/random__ __accessories/gloves/type__
-    type:
-      - armlet,__accessories/gloves/nail__
-      - barehand,__accessories/gloves/nail__
-      - bracelet,__accessories/gloves/nail__
-      - cleaning gloves,__accessories/gloves/elbow__
-      - cotton gloves,__accessories/gloves/elbow__
-      - cufflinks,__accessories/gloves/nail__
-      - evening gloves,__accessories/gloves/elbow__
-      - fingerless gloves,__accessories/gloves/nail__
-      - gauntlets
-      - knit gloves,__accessories/gloves/elbow__
-      - latex gloves,__accessories/gloves/elbow__
-      - leather gloves,__accessories/gloves/elbow__
-      - mittens
-      - ring,__accessories/gloves/nail__
-      - rubber gloves,__accessories/gloves/elbow__
-      - wrist warmers
-      - wristband,__accessories/gloves/nail__
+      - __accessories/gloves/nail/do__
+      - __color/random__ armlet,__accessories/gloves/nail/do__
+      - __color/random__ bracelet,__accessories/gloves/nail/do__
+      - __color/random__ cleaning gloves,__accessories/gloves/elbow__
+      - __color/random__ cotton gloves,__accessories/gloves/elbow__
+      - __color/random__ cufflinks,__accessories/gloves/nail/do__
+      - __color/random__ evening gloves,__accessories/gloves/elbow__
+      - __color/random__ fingerless gloves,__accessories/gloves/nail/do__
+      - __color/random__ gauntlets
+      - __color/random__ knit gloves,__accessories/gloves/elbow__
+      - __color/random__ latex gloves,__accessories/gloves/elbow__
+      - __color/random__ leather gloves,__accessories/gloves/elbow__
+      - __color/random__ mittens
+      - __color/random__ ring,__accessories/gloves/nail/do__
+      - __color/random__ rubber gloves,__accessories/gloves/elbow__
+      - __color/random__ wrist warmers
+      - __color/random__ wristband,__accessories/gloves/nail/do__
     nail:
-      - " "
-      - __color/random__ fingernails
+      do:
+        - " "
+        - __accessories/gloves/nail/color__ fingernails
+      color:
+        - __color/random__
+        - blue
+        - green
+        - indigo
+        - orange
+        - pink
+        - purple
+        - red
+        - yellow
     elbow:
       - " "
       - elbow gloves

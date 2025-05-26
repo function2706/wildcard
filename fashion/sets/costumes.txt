@@ -8,7 +8,7 @@ blazer jacket school uniform shirt {necktie|bowtie} {long|short} plated skirt {w
 business suit
 cheerleader
 chef uniform {hat|}
-__color__ cheongsam
+__color/random__ cheongsam
 circus costumes
 doctor labcoat stethoscope
 employee uniform convenience store shop {vertical-striped shirt|} long pants name tag

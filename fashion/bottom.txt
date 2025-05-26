@@ -1,5 +1,5 @@
-__color__ __bottoms/panties__
-__color__ {1::short|1::long|1::mini|1::micro|1::maxi|1::midi} __bottoms/skirts__
-__color__ {1::short|1::long|1::mini|1::micro|1::maxi|1::midi} __bottoms/skirts__,__color__ __bottoms/panties__
-__color__ {1::short|1::} __bottoms/pants__
+__color/random__ __bottoms/panties__
+__color/random__ {1::short|1::long|1::mini|1::micro|1::maxi|1::midi} __bottoms/skirts__
+__color/random__ {1::short|1::long|1::mini|1::micro|1::maxi|1::midi} __bottoms/skirts__,__color/random__ __bottoms/panties__
+__color/random__ {1::short|1::} __bottoms/pants__
 bottomless

@@ -1,8 +1,0 @@
- 
-__color/achromatic__
-__color/blue__
-__color/green__
-__color/orange__
-__color/purple__
-__color/red__
-__color/yellow__

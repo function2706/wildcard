@@ -1,13 +1,13 @@
 armlet
-armlet,__color__ fingernails
+armlet,__color/random__ fingernails
 barehand
-barehand,__color__ fingernails
+barehand,__color/random__ fingernails
 bracelet
-bracelet,__color__ fingernails
+bracelet,__color/random__ fingernails
 cleaning gloves{1::,elbow gloves|1::}
 cotton gloves{1::,elbow gloves|1::}
 cufflinks
-cufflinks,__color__ fingernails
+cufflinks,__color/random__ fingernails
 evening gloves{1::,elbow gloves|1::}
 fingerless gloves
 gauntlets
@@ -16,8 +16,8 @@ latex gloves{1::,elbow gloves|1::}
 leather gloves{1::,elbow gloves|1::}
 mittens
 ring
-ring,__color__ fingernails
+ring,__color/random__ fingernails
 rubber gloves{1::,elbow gloves|1::}
 wrist warmers
 wristband
-wristband,__color__ fingernails
+wristband,__color/random__ fingernails

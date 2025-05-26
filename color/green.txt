@@ -1,8 +1,0 @@
-chartreuse
-emerald
-green
-jade
-olive
-pine
-teal
-viridian

@@ -1,20 +1,20 @@
-__color__ {maxi|mini|midi|micro} dress{,high heels|}
-__color__ {micro |}bikini
-__color__ ball gown{,elbow gloves|}
-__color__ casual dress{,{black |white |brown }pantyhose|}
-__color__ cocktail dress{,high heels|}{,elbow gloves|}
-__color__ high slit dress{,high heels|}{,elbow gloves|}
-__color__ party dress{,high heels|}
-__color__ prom dress{,elbow gloves|}
-__color__ raincoat{,rain boots|}
-__color__ robe
-__color__ sarong
-__color__ satin dress{,high heels|}{,elbow gloves|}
-__color__ sequined dress{,high heels|}{,elbow gloves|}
-__color__ swimwear
-__color__ tracksuit
-__color__ v neck dress
-__color__ velvet dress{,high heels|}{,elbow gloves|}
+__color/random__ {maxi|mini|midi|micro} dress{,high heels|}
+__color/random__ {micro |}bikini
+__color/random__ ball gown{,elbow gloves|}
+__color/random__ casual dress{,{black |white |brown }pantyhose|}
+__color/random__ cocktail dress{,high heels|}{,elbow gloves|}
+__color/random__ high slit dress{,high heels|}{,elbow gloves|}
+__color/random__ party dress{,high heels|}
+__color/random__ prom dress{,elbow gloves|}
+__color/random__ raincoat{,rain boots|}
+__color/random__ robe
+__color/random__ sarong
+__color/random__ satin dress{,high heels|}{,elbow gloves|}
+__color/random__ sequined dress{,high heels|}{,elbow gloves|}
+__color/random__ swimwear
+__color/random__ tracksuit
+__color/random__ v neck dress
+__color/random__ velvet dress{,high heels|}{,elbow gloves|}
 academic gown
 bathrobe
 dungarees

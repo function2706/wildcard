@@ -1,5 +1,0 @@
-black
-charcoal
-gray
-silver
-white

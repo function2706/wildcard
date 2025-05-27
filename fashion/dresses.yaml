@@ -1,0 +1,99 @@
+dresses:
+  random:
+    - __color/random__ academic gown
+    - __color/random__ bathrobe
+    - __color/random__ cheongsam
+    - __color/random__ dungarees
+    - __color/random__ furisode
+    - __color/random__ jinbei
+    - __color/random__ kimono
+    - __color/random__ loungewear
+    - __color/random__ nightwear
+    - __color/random__ overalls
+    - __color/random__ pajamas
+    - __color/random__ robe
+    - __color/random__ sarong
+    - __color/random__ tabard
+    - __color/random__ tracksuit
+    - __color/random__ tuxedo
+    - __color/random__ v neck dress
+    - __color/random__ yukata
+    - __dresses/ball-gown__
+    - __dresses/bikini/do__
+    - __dresses/casual-dress__
+    - __dresses/cocktail-dress__
+    - __dresses/dress/do__
+    - __dresses/evening-gown__
+    - __dresses/high-slit-dress__
+    - __dresses/party-dress__
+    - __dresses/prom-dress__
+    - __dresses/raincoat__
+    - __dresses/satin-dress__
+    - __dresses/sequined-dress__
+    - __dresses/velvet-dress__
+    - __dresses/wedding-dress__
+  ball-gown:
+    - __color/random__ ball gown,__dresses/gloves__
+  bikini:
+    do:
+      - __color/random__ __dresses/bikini/size__ bikini,__dresses/footwears/flip-flops__
+    size:
+      - " "
+      - micro
+  casual-dress:
+    - __color/random__ casual dress,__dresses/footwears/pantyhoses/do__
+  cocktail-dress:
+    - __color/random__ cocktail dress,__dresses/gloves__
+  dress:
+    do:
+      - __color/random__ __dresses/dress/size__ dress,__dresses/footwears/heels__
+    size:
+      - maxi
+      - mini
+      - midi
+      - micro
+  evening-gown:
+    - __color/random__ evening gown,__dresses/footwears/heels__,__dresses/gloves__
+  high-slit-dress:
+    - __color/random__ high slit dress,__dresses/footwears/heels__,__dresses/gloves__
+  party-dress:
+    - __color/random__ party dress,__dresses/footwears/heels__
+  prom-dress:
+    - __color/random__ prom dress,__dresses/gloves__
+  raincoat:
+    - __color/random__ raincoat,__dresses/footwears/rainboots__
+  satin-dress:
+    - __color/random__ satin dress,__dresses/footwears/heels__,__dresses/gloves__
+  sequined-dress:
+    - __color/random__ sequined dress,__dresses/footwears/heels__,__dresses/gloves__
+  swimwear:
+    do:
+      - __color/random__ __dresses/swimwear/type__,__dresses/footwears/flip-flops__
+    type:
+      - one-piece swimsuit
+      - swimwear
+  velvet-dress:
+    - __color/random__ velvet dress,__dresses/footwears/heels__,__dresses/gloves__
+  wedding-dress:
+    - __color/random__ wedding dress,__dresses/gloves__
+  gloves:
+    - " "
+    - __color/random__ __accessories/gloves/elbow__
+  footwears:
+    heels:
+      - " "
+      - __color/random__ __footwears/heels/do__
+    rainboots:
+      - " "
+      - __color/random__ rain boots
+    flip-flops:
+      - " "
+      - __color/random__ flip-flops,__footwears/toenails/do__,__footwears/anklet__
+    pantyhoses:
+      do:
+        - " "
+        - __dresses/footwears/pantyhoses/color__ pantyhose
+      color:
+        - black
+        - brown
+        - white

@@ -1,2 +1,0 @@
-__fashion/sets/costumes__
-__fashion/sets/dresses__

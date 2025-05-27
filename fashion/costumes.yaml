@@ -1,0 +1,199 @@
+costumes:
+  random:
+    - airline pilot uniform
+    - barista uniform
+    - business suit
+    - cheerleader
+    - doctor,lab coat,stethoscope
+    - flight attendant
+    - gothic lolita
+    - lab coat
+    - leotard
+    - librarian outfit
+    - marching band uniform,shako cap
+    - miko,red hakama,japanese clothes
+    - nun outfit
+    - race queen,grid girl,skirt,sleeveless
+    - shrine maiden outfit
+    - stewardess uniform
+    - waitress apron frilled skirt
+    - __costumes/chef/do__
+    - __costumes/formal/do__
+    - __costumes/gym/do__
+    - __costumes/idol/do__
+    - __costumes/magical/do__
+    - __costumes/maid/do__
+    - __costumes/nurse/do__
+    - __costumes/military/do__
+    - __costumes/police/do__
+    - __costumes/school/do__
+    - __costumes/sports/do__
+    - __costumes/teacher/do__
+  chef:
+    do:
+      - chef uniform,__costumes/chef/accessories__
+    accessories:
+      - " "
+      - hat
+  formal:
+    do:
+      - formal black ,__costumes/formal/upper__,__costumes/formal/accessories__,slacks pants
+    upper:
+      - female butler tailcoat,__costumes/formal/gloves__
+      - waistcoat,__costumes/formal/gloves__
+      - suit jacket,__costumes/formal/gloves__
+      - pant suit,__costumes/formal/gloves__
+    gloves:
+      - " "
+      - white gloves
+    accessories:
+      - " "
+      - necktie
+  gym:
+    do:
+      - gym uniform,white t-shirts,__costumes/gym/bottoms__
+    bottoms:
+      - buruma
+      - shorts
+  idol:
+    do:
+      - idol clothes,puffy short sleeves,__costumes/idol/bottoms__,__costumes/idol/gloves__,__costumes/idol/accessories/do__
+    bottoms:
+      - long frilled skirt
+      - short frilled skirt
+    gloves:
+      - " "
+      - gloves
+    accessories:
+      do:
+        - __costumes/idol/accessories/hair__,__costumes/idol/accessories/ties__
+      hair:
+        - " "
+        - baret
+        - hair ornament
+        - hairpin
+      ties:
+        - " "
+        - bowtie
+        - necktie
+  magical:
+    do:
+      - __costumes/magical/color__ magical girl,brooch,wand,choker,__costumes/magical/gloves__,tighthighs,__costumes/magical/accessories__
+    color:
+      - white
+      - black
+      - light pink
+      - light yellow
+      - light orange
+      - light green
+      - light blue
+      - light purple
+      - light magenta
+      - red
+      - blue
+      - green
+    gloves:
+      - gloves
+      - elbow gloves
+    accessories:
+      - beret
+      - hair ornament
+      - hairpin
+  maid:
+    do:
+      - maid outfit,apron,headdress,__costumes/maid/gloves__,frilled skirt,puffy sleeves
+    gloves:
+      - " "
+      - gloves
+      - elbow gloves
+  military:
+    do:
+      - __costumes/military/pattern__ military uniform,hat,{0-2$$camouflage aiguillette|epaulettes|ribbon bar}
+    pattern:
+      - black
+      - green
+      - brown
+      - camouflage
+      - woodland
+  nurse:
+    do:
+      - __costumes/nurse/color__ nurse,nurse cap
+    color:
+      - white
+      - light pink
+      - light blue
+      - light green
+  police:
+    do:
+      - police uniform,__costumes/police/bottoms__,__costumes/police/accessories__
+    bottoms:
+      - pencil skirt
+      - pants
+    accessories:
+      - " "
+      - hat
+  school:
+    do:
+      - school uniform,__costumes/school/tops__,__costumes/school/bottoms__,__costumes/school/footwears/do__,__costumes/school/accessories/bags__
+    tops:
+      - shirt,__costumes/school/accessories/ties__
+      - blazer jacket,shirt,__costumes/school/accessories/ties__
+      - sailor collar,neckerchief,__costumes/school/length__ sleeves
+      - sailor collar,neckerchief,cardigan
+    bottoms:
+      - __costumes/school/length__ plated skirt
+    footwears:
+      do:
+        - __costumes/school/footwears/socks/do__,__costumes/school/footwears/shoes__
+      socks:
+        do: __costumes/school/footwears/color__ __costumes/school/footwears/type__
+        type:
+          - ankle socks
+          - knee-high socks,__costumes/school/footwears/socks/option__
+          - over-kneehighs,__costumes/school/footwears/socks/option__
+          - pantyhose
+          - socks
+          - thigh-high socks,__costumes/school/footwears/socks/option__
+        color:
+          - black
+          - brown
+          - white
+        option:
+          - " "
+          - skindentation
+      shoes:
+        - loafers
+        - mary janes
+        - sneakers
+    accessories:
+      bags:
+        - " "
+        - backpack
+        - school bag
+      ties:
+        - bowtie
+        - necktie
+    length:
+      - long
+      - short
+  sports:
+    do:
+      - __costumes/sports/type__ uniform
+    type:
+      - baseball
+      - basketball
+      - american football
+      - rugby
+      - soccer
+      - tennis
+      - track
+      - volleyball
+  teacher:
+    do:
+      - teacher,white collared shirt,__costumes/teacher/accessories__,pencil skirt,__costumes/teacher/color__ pantyhose
+    accessories:
+      - " "
+      - glasses
+    color:
+      - brown
+      - black

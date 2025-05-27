@@ -1,5 +1,6 @@
 fashion:
-  - __fashion/set__
+  - __fashion/costumes/random__
+  - __fashion/dresses/random__
   - __fashion/accessories/random__
   - __fashion/bottom/random__
   - __fashion/bottom/random__,__fashion/accessories/random__

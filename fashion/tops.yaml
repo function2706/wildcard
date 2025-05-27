@@ -1,15 +1,15 @@
 tops:
   random:
-    - __tops/bras/do__
-    - __tops/jackets/do__
-    - __tops/jackets/do__,__tops/bras/do__
-    - __tops/jackets/do__,__tops/nude__
-    - __tops/jackets/do__,__tops/shirts/do__
-    - __tops/shirts/do__
+    - __fashion/tops/bras/do__
+    - __fashion/tops/jackets/do__
+    - __fashion/tops/jackets/do__,__fashion/tops/bras/do__
+    - __fashion/tops/jackets/do__,__fashion/tops/nude__
+    - __fashion/tops/jackets/do__,__fashion/tops/shirts/do__
+    - __fashion/tops/shirts/do__
     - topless
   bras:
     do:
-      - __color/random__ __tops/bras/type__
+      - __color/random__ __fashion/tops/bras/type__
     type:
       - adhesive bra
       - balconette bra
@@ -55,7 +55,7 @@ tops:
       - wrap top
   jackets:
     do:
-      - __color/random__ __tops/jackets/type__
+      - __color/random__ __fashion/tops/jackets/type__
     type:
       - apron
       - bell sleeve blouse
@@ -117,7 +117,7 @@ tops:
       - wrap blouse
   shirts:
     do:
-      - __color/random__ __tops/shirts/type__,__tops/nude__
+      - __color/random__ __fashion/tops/shirts/type__,__fashion/tops/nude__
     type:
       - babydoll
       - blouse

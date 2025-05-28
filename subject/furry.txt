@@ -1,3 +1,0 @@
-__species/furry__
-__species/miscfurry__
-__species/monster__

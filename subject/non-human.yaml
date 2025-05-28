@@ -1,8 +1,8 @@
 non-human:
   random:
     - __subject/non-human/furry/do__
-    - __species/non-human/anthro__
-    - __species/non-human/monster/do__
+    - __subject/non-human/anthro__
+    - __subject/non-human/monster/do__
   furry:
     do:
       - __subject/non-human/furry/species__,furry,furry female
@@ -168,7 +168,6 @@ non-human:
       - nekomata girl,cat ears,slit pupils,whiskers,furry,furry female
       - pegasus girl,furry,furry female
       - phoenix girl,body feathers,beak,furry,furry female
-      - quetzalcoatl girl,horns
       - salamander girl,slit pupils,reptile furry female
       - slime girl
       - undine girl,anthro furry female
@@ -202,6 +201,7 @@ non-human:
       - ogre girl,horns
       - orc girl
       - pixie girl
+      - quetzalcoatl girl,horns
       - succubus girl,horns
       - vampire girl,slit pupils,pointy ears
       - witch girl

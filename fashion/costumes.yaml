@@ -12,7 +12,7 @@ costumes:
     - nun outfit
     - race queen,grid girl,skirt,sleeveless
     - stewardess uniform
-    - waitress apron frilled skirt
+    - waitress,apron,frilled skirt
     - __fashion/costumes/business/do__
     - __fashion/costumes/chef/do__
     - __fashion/costumes/formal/do__

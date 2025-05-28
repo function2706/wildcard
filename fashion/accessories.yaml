@@ -1,6 +1,6 @@
 accessories:
   random:
-    - "{0-1$$__fashion/accessories/list__}"
+    - "{0-5$$__fashion/accessories/list__}"
   list:
     - __fashion/accessories/accessories__
     - __fashion/accessories/bags__

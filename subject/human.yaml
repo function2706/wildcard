@@ -3,9 +3,9 @@ human:
     - __subject/human/human__
     - __subject/human/demi-human__
   human:
-    - __subject/human/hair/do__,__subject/human/eye/human__,__subject/human/skin/human__,__subject/human/height__,__subject/human/width__,__subject/human/age__
+    - __subject/human/hair/do__,__subject/human/eye/human__,__subject/human/skin/human__,__subject/human/height__,__subject/human/width__,__subject/human/age/do__
   demi-human:
-    - __subject/human/hair/do__,__subject/human/eye/demi-human__,__subject/human/ear__,__subject/human/skin/demi-human__,__subject/human/height__,__subject/human/width__,__subject/human/age__,__subject/human/misc/do__
+    - __subject/human/hair/do__,__subject/human/eye/demi-human__,__subject/human/ear__,__subject/human/skin/demi-human__,__subject/human/height__,__subject/human/width__,__subject/human/age/do__,__subject/human/misc/do__
     - __subject/non-human/monster/demi-human__
   hair:
     do:
@@ -191,7 +191,7 @@ human:
       - tennager
   misc:
     do:
-      - "{0-1$$__subject/human/misc/option__}"
+      - "{0-3$$__subject/human/misc/option__}"
     option:
       - fang{s|}
       - horn{s|}

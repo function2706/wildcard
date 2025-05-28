@@ -76,7 +76,7 @@ expression:
     - worried
   face:
     random:
-      - "{0-1$$__expression/face/list__}"
+      - "{0-4$$__expression/face/list__}"
     list:
       - __expression/face/eye__
       - __expression/face/eyebrow/do__
@@ -95,7 +95,6 @@ expression:
       - one eye closed
       - ringed eyes
       - rolling eyes
-      - star-shaped pupils
       - upturned eyes
       - white pupils
       - wide-eyed

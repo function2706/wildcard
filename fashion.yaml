@@ -1,9 +1,10 @@
 fashion:
-  - __fashion/costumes/random__
-  - __fashion/dresses/random__
-  - "{0-1$$__fashion/list__}"
-list:
-  - __fashion/tops/random__
-  - __fashion/bottoms/random__
-  - __fashion/footwears/random__
-  - __fashion/accessories/random__
+  random:
+    - __fashion/costumes/random__
+    - __fashion/dresses/random__
+    - "{0-4$$__fashion/list__}"
+  list:
+    - __fashion/tops/random__
+    - __fashion/bottoms/random__
+    - __fashion/footwears/random__
+    - __fashion/accessories/random__

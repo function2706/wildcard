@@ -1,0 +1,1266 @@
+characters:
+  random:
+    - __subject/characters/arknights__
+    - __subject/characters/azur-lane__
+    - __subject/characters/bleach__
+    - __subject/characters/blue-archive__
+    - __subject/characters/bocchi-the-rock__
+    - __subject/characters/boku-no-hero-academia__
+    - __subject/characters/chainsaw-man__
+    - __subject/characters/code-geass__
+    - __subject/characters/digimon__
+    - __subject/characters/dragon-ball__
+    - __subject/characters/dragon-quest__
+    - __subject/characters/evangelion__
+    - __subject/characters/fate__
+    - __subject/characters/final-fantasy__
+    - __subject/characters/fire-emblem__
+    - __subject/characters/fullmetal-alchemist__
+    - __subject/characters/genshin-impact__
+    - __subject/characters/go-toubun-no-hanayome__
+    - __subject/characters/goblin-slayer__
+    - __subject/characters/granblue-fantasy__
+    - __subject/characters/gundam__
+    - __subject/characters/hunter-x-hunter__
+    - __subject/characters/idolmaster__
+    - __subject/characters/jujutsu-kaisen__
+    - __subject/characters/k-on__
+    - __subject/characters/kimetsu-no-yaiba__
+    - __subject/characters/love-live__
+    - __subject/characters/lycoris-recoil__
+    - __subject/characters/mahou-shoujo-madoka-magica__
+    - __subject/characters/mushoku-tensei__
+    - __subject/characters/naruto__
+    - __subject/characters/nintendo__
+    - __subject/characters/one-piece__
+    - __subject/characters/one-punch-man__
+    - __subject/characters/overlord__
+    - __subject/characters/persona__
+    - __subject/characters/pokemon__
+    - __subject/characters/precure__
+    - __subject/characters/princess-connect__
+    - __subject/characters/puyopuyo__
+    - __subject/characters/re-zero-kara-hajimeru-isekai-seikatsu__
+    - __subject/characters/rozen-maiden__
+    - __subject/characters/sailor-moon__
+    - __subject/characters/shingeki-no-kyojin__
+    - __subject/characters/spy-x-family__
+    - __subject/characters/sword-art-online__
+    - __subject/characters/to-love-ru__
+    - __subject/characters/toaru-majutsu-no-index__
+    - __subject/characters/touhou__
+  arknights:
+    - amiya \(arknights\)
+    - angelina \(arknights\)
+    - bagpipe \(arknights\)
+    - blaze \(arknights\)
+    - blemishine \(arknights\)
+    - blue poison \(arknights\)
+    - blue poison \(shoal beat\) \(arknights\)
+    - ceobe \(arknights\)
+    - ch'en \(arknights\)
+    - dusk \(arknights\)
+    - eunectes \(arknights\)
+    - exusiai \(arknights\)
+    - eyjafjalla \(arknights\)
+    - feater \(arknights\)
+    - fiammetta \(arknights\)
+    - frostnova \(arknights\)
+    - goldenglow \(arknights\)
+    - hoshiguma \(arknights\)
+    - ifrit \(arknights\)
+    - irene \(arknights\)
+    - kal'tsit \(arknights\)
+    - la pluma \(arknights\)
+    - lappland \(arknights\)
+    - ling \(arknights\)
+    - magallan \(arknights\)
+    - mostima \(arknights\)
+    - mudrock \(arknights\)
+    - mudrock \(elite ii\) \(arknights\)
+    - nearl \(arknights\)
+    - nian \(arknights\)
+    - platinum \(arknights\)
+    - pramanix \(arknights\)
+    - projekt red \(arknights\)
+    - ptilopsis \(arknights\)
+    - rosa \(arknights\)
+    - rosmontis \(arknights\)
+    - saga \(arknights\)
+    - saria \(arknights\)
+    - schwarz \(arknights\)
+    - shining \(arknights\)
+    - shu \(arknights\)
+    - siege \(arknights\)
+    - silence \(arknights\)
+    - skadi \(arknights\)
+    - skadi the corrupting heart \(arknights\)
+    - sora \(arknights\)
+    - specter \(arknights\)
+    - specter the unchained \(arknights\)
+    - surtr \(arknights\)
+    - sussurro \(arknights\)
+    - suzuran \(arknights\)
+    - swire \(arknights\)
+    - texas \(arknights\)
+    - texas the omertosa \(arknights\)
+    - tomimi \(arknights\)
+    - utage \(arknights\)
+    - w \(arknights\)
+    - whislash \(arknights\)
+    - zima \(arknights\)
+  azur-lane:
+    - admiral graf spee \(azur lane\)
+    - aegir \(azur lane\)
+    - akagi \(azur lane\)
+    - akashi \(azur lane\)
+    - amagi \(azur lane\)
+    - atago \(azur lane\)
+    - atago \(stunning speedster\) \(azur lane\)
+    - ayanami \(azur lane\)
+    - baltimore \(azur lane\)
+    - belfast \(azur lane\)
+    - bismarck \(azur lane\)
+    - bremerton \(azur lane\)
+    - bremerton \(scorching-hot training\) \(azur lane\)
+    - cheshire \(azur lane\)
+    - cleveland \(azur lane\)
+    - dido \(azur lane\)
+    - enterprise \(azur lane\)
+    - formidable \(azur lane\)
+    - graf zeppelin \(azur lane\)
+    - hammann \(azur lane\)
+    - honolulu \(azur lane\)
+    - illustrious \(azur lane\)
+    - javelin \(azur lane\)
+    - jean bart \(azur lane\)
+    - kaga \(azur lane\)
+    - kashino \(azur lane\)
+    - kashino \(hot springs relaxation\) \(azur lane\)
+    - laffey \(azur lane\)
+    - le malin \(azur lane\)
+    - le malin \(listless lapin\) \(azur lane\)
+    - nagato \(azur lane\)
+    - new jersey \(azur lane\)
+    - prinz eugen \(azur lane\)
+    - prinz eugen \(unfading smile\) \(azur lane\)
+    - queen elizabeth \(azur lane\)
+    - roon \(azur lane\)
+    - sheffield \(azur lane\)
+    - shinano \(azur lane\)
+    - shoukaku \(azur lane\)
+    - sirius \(azur lane\)
+    - sirius \(azure horizons\) \(azur lane\)
+    - sirius \(scorching-hot seirios\) \(azur lane\)
+    - st. louis \(azur lane\)
+    - st. louis \(luxurious wheels\) \(azur lane\)
+    - taihou \(azur lane\)
+    - taihou \(enraptured companion\) \(azur lane\)
+    - taihou \(forbidden feast\) \(azur lane\)
+    - takao \(azur lane\)
+    - unicorn \(azur lane\)
+    - yamashiro \(azur lane\)
+    - yuudachi \(azur lane\)
+    - z23 \(azur lane\)
+    - zara \(azur lane\)
+    - zara \(poolside coincidence\) \(azur lane\)
+    - zuikaku \(azur lane\)
+  bleach:
+    - arisawa tatsuki
+    - bambietta basterbine
+    - dokugamine riruka
+    - hinamori momo
+    - inoue orihime
+    - kon \(bleach\)
+    - kotetsu isane
+    - kuchiki rukia
+    - kurotsuchi nemu
+    - matsumoto rangiku
+    - nelliel tu odelschwanck
+    - shiba kuukaku
+    - shihouin yoruichi
+    - sui-feng
+    - tier harribel
+    - unohana retsu
+  blue-archive:
+    - akane \(blue archive\)
+    - ako \(blue archive\)
+    - aris \(blue archive\)
+    - arona \(blue archive\)
+    - aru \(blue archive\)
+    - asuna \(blue archive\)
+    - azusa \(blue archive\)
+    - hanako \(blue archive\)
+    - haruka \(blue archive\)
+    - haruna \(blue archive\)
+    - hasumi \(blue archive\)
+    - hibiki \(blue archive\)
+    - hifumi \(blue archive\)
+    - himari \(blue archive\)
+    - hina \(blue archive\)
+    - hoshino \(blue archive\)
+    - ibuki \(blue archive\)
+    - ichika \(blue archive\)
+    - iori \(blue archive\)
+    - iroha \(blue archive\)
+    - izuna \(blue archive\)
+    - justice task force member \(blue archive\)
+    - kaho \(blue archive\)
+    - kanna \(blue archive\)
+    - karin \(blue archive\)
+    - kayoko \(blue archive\)
+    - kazusa \(blue archive\)
+    - kisaki \(blue archive\)
+    - koharu \(blue archive\)
+    - kokona \(blue archive\)
+    - makoto \(blue archive\)
+    - mari \(blue archive\)
+    - midori \(blue archive\)
+    - mika \(blue archive\)
+    - miyako \(blue archive\)
+    - miyu \(blue archive\)
+    - moe \(blue archive\)
+    - momoi \(blue archive\)
+    - mutsuki \(blue archive\)
+    - nagisa \(blue archive\)
+    - natsu \(blue archive\)
+    - neru \(blue archive\)
+    - noa \(blue archive\)
+    - nonomi \(blue archive\)
+    - plana \(blue archive\)
+    - reisa \(blue archive\)
+    - rio \(blue archive\)
+    - saki \(blue archive\)
+    - saori \(blue archive\)
+    - seia \(blue archive\)
+    - sensei \(blue archive\)
+    - serika \(blue archive\)
+    - shiroko \(blue archive\)
+    - shiroko terror \(blue archive\)
+    - toki \(blue archive\)
+    - tsubaki \(blue archive\)
+    - ui \(blue archive\)
+    - wakamo \(blue archive\)
+    - yuuka \(blue archive\)
+    - yuzu \(blue archive\)
+  bocchi-the-rock:
+    - gotoh futari
+    - gotoh hitori
+    - hiroi kikuri
+    - ijichi nijika
+    - ijichi seika
+    - kita ikuyo
+    - pa-san
+    - yamada ryo
+  boku-no-hero-academia:
+    - ashido mina
+    - asui tsuyu
+    - bakugou mitsuki
+    - eri \(boku no hero academia\)
+    - hadou nejire
+    - hagakure tooru
+    - hatsume mei
+    - jirou kyouka
+    - kendou itsuka
+    - komori kinoko
+    - lady nagant
+    - midnight \(boku no hero academia\)
+    - mirko
+    - mount lady
+    - noumu \(boku no hero academia\)
+    - shimura nana
+    - toga himiko
+    - twice \(boku no hero academia\)
+    - uraraka ochako
+    - utsushimi kemii
+    - yaoyorozu momo
+  chainsaw-man:
+    - cosmo \(chainsaw man\)
+    - falling devil \(chainsaw man\)
+    - fami \(chainsaw man\)
+    - higashiyama kobeni \(chainsaw man\)
+    - himeno \(chainsaw man\)
+    - makima \(chainsaw man\)
+    - mitaka asa \(chainsaw man\)
+    - nayuta \(chainsaw man\)
+    - power \(chainsaw man\)
+    - quanxi \(chainsaw man\)
+    - reze \(chainsaw man\)
+    - santa claus \(chainsaw man\)
+    - sawatari akane \(chainsaw man\)
+    - tanaka \(chainsaw man\)
+    - yoru \(chainsaw man\)
+  code-geass:
+    - anya alstreim
+    - c.c.
+    - cecile croomy
+    - cornelia li britannia
+    - euphemia li britannia
+    - kallen stadtfeld
+    - leila malcal
+    - li xingke
+    - luluko \(code geass\)
+    - milly ashford
+    - monica kruszewski
+    - nina einstein
+    - nunnally vi britannia
+    - shinozaki sayoko
+    - shirley fenette
+    - sumeragi kaguya
+    - tianzi
+    - villetta nu
+    - zero \(code geass\)
+  digimon:
+    - akari hinomoto \(digimon\)
+    - alice mccoy \(digimon\)
+    - angie hinomoto \(digimon\)
+    - arisa kinosaki \(digimon\)
+    - eri karan \(digimon\)
+    - erika mishima \(digimon\)
+    - hikari yagami \(digimon\)
+    - juri katou \(digimon\)
+    - kari kamiya \(digimon\)
+    - lillymon \(digimon\)
+    - maki himekawa \(digimon\)
+    - maria \(digimon\)
+    - meiko mochizuki \(digimon\)
+    - menoa bellucci \(digimon\)
+    - mimi tachikawa \(digimon\)
+    - mina \(digimon\)
+    - momoe inoue \(digimon\)
+    - nancy takaishi \(digimon\)
+    - nene amano \(digimon\)
+    - noriko kawada \(digimon\)
+    - rachel \(digimon\)
+    - renamon \(digimon\),digimon \(creature\)
+    - rosemon \(digimon\),digimon \(creature\)
+    - ruki makino \(digimon\)
+    - ruri tsukiyono \(digimon\)
+    - sora takenouchi \(digimon\)
+    - zoe orimoto \(digimon\)
+  dragon-ball:
+    - android 17
+    - android 18
+    - android 21
+    - bulma
+    - caulifla
+    - cheelai
+    - chi-chi \(dragon ball\)
+    - gine
+    - kale \(dragon ball\)
+    - kefla \(dragon ball\)
+    - lunch \(dragon ball\)
+    - mai \(dragon ball\)
+    - majin android 21
+    - marron \(dragon ball\)
+    - pan \(dragon ball\)
+    - videl
+  dragon-quest:
+    - aisha \(dq\)
+    - alena \(dq4\)
+    - barbara \(dq6\)
+    - bianca \(dq5\)
+    - deborah \(dq5\)
+    - flora \(dq5\)
+    - jessica albert
+    - manya \(dq4\)
+    - maribel \(dq7\)
+    - princess of moonbrook
+    - sylvia \(dq11\)
+    - tania \(dq6\)
+    - veronica \(dq11\)
+  evangelion:
+    - akagi ritsuko
+    - ayanami rei
+    - ibuki maya
+    - katsuragi misato
+    - makinami mari illustrious
+    - souryuu asuka langley
+  fate:
+    - abigail williams \(fate\)
+    - abigail williams \(swimsuit foreigner\) \(fate\)
+    - abigail williams \(swimsuit foreigner\) \(third ascension\) \(fate\)
+    - abigail williams \(third ascension\) \(fate\)
+    - abigail williams \(traveling outfit\) \(fate\)
+    - altera \(fate\)
+    - anastasia \(fate\)
+    - artoria caster \(fate\)
+    - artoria caster \(second ascension\) \(fate\)
+    - artoria pendragon \(fate\)
+    - artoria pendragon \(alter swimsuit rider\) \(fate\)
+    - artoria pendragon \(alter swimsuit rider\) \(second ascension\) \(fate\)
+    - artoria pendragon \(lancer alter\) \(fate\)
+    - artoria pendragon \(lancer\) \(fate\)
+    - artoria pendragon \(swimsuit ruler\) \(fate\)
+    - atalanta \(fate\)
+    - baobhan sith \(fate\)
+    - barghest \(fate\)
+    - bb \(fate\)
+    - bb \(fate/extra\)
+    - bb \(swimsuit mooncancer\) \(fate\)
+    - bb \(swimsuit mooncancer\) \(second ascension\) \(fate\)
+    - bb \(swimsuit mooncancer\) \(third ascension\) \(fate\)
+    - boudica \(fate\)
+    - bradamante \(fate\)
+    - caenis \(fate\)
+    - carmilla \(fate\)
+    - elizabeth bathory \(fate\)
+    - elizabeth bathory \(brave\) \(fate\)
+    - elizabeth bathory \(fate/extra ccc\) \(fate\)
+    - ereshkigal \(fate\)
+    - euryale \(fate\)
+    - florence nightingale \(fate\)
+    - florence nightingale \(trick or treatment\) \(fate\)
+    - fou \(fate\)
+    - frankenstein's monster \(fate\)
+    - fujimaru ritsuka \(female\) \(fate\)
+    - fujimaru ritsuka \(female\) \(polar chaldea uniform\) \(fate\)
+    - hassan of serenity \(fate\)
+    - helena blavatsky \(fate\)
+    - ibaraki douji \(fate\)
+    - illyasviel von einzbern \(fate\)
+    - ishtar \(fate\)
+    - jack the ripper \(fate/apocrypha\) \(fate\)
+    - jeanne d'arc \(fate\)
+    - jeanne d'arc \(ruler\) \(fate\)
+    - jeanne d'arc \(swimsuit archer\) \(fate\)
+    - jeanne d'arc \(swimsuit archer\) \(first ascension\) \(fate\)
+    - jeanne d'arc alter \(fate\)
+    - jeanne d'arc alter \(avenger\) \(fate\)
+    - jeanne d'arc alter \(avenger\) \(third ascension\) \(fate\)
+    - jeanne d'arc alter \(swimsuit berserker\) \(fate\)
+    - jeanne d'arc alter \(ver. shinjuku 1999\) \(fate\)
+    - jeanne d'arc alter santa lily \(fate\)
+    - kama \(fate\)
+    - katsushika hokusai \(fate\)
+    - kiyohime \(fate\)
+    - kiyohime \(swimsuit lancer\) \(fate\)
+    - koyanskaya \(fate\)
+    - lavinia whateley \(fate\)
+    - leonardo da vinci \(fate\)
+    - leonardo da vinci \(rider\) \(fate\)
+    - marie antoinette \(fate\)
+    - martha \(fate\)
+    - mash kyrielight \(fate\)
+    - mash kyrielight \(dangerous beast\) \(fate\)
+    - mash kyrielight \(swimsuit of perpetual summer\) \(fate\)
+    - medb \(fate\)
+    - medusa \(fate\)
+    - medusa \(rider\) \(fate\)
+    - meltryllis \(fate\)
+    - meltryllis \(swimsuit lancer\) \(fate\)
+    - meltryllis \(swimsuit lancer\) \(first ascension\) \(fate\)
+    - meltryllis \(swimsuit lancer\) \(second ascension\) \(fate\)
+    - melusine \(fate\)
+    - merlin \(fate/prototype\) \(fate\)
+    - minamoto no raikou \(fate\)
+    - minamoto no raikou \(swimsuit lancer\) \(fate\)
+    - miyamoto musashi \(fate\)
+    - miyamoto musashi \(swimsuit berserker\) \(fate\)
+    - miyamoto musashi \(swimsuit berserker\) \(second ascension\) \(fate\)
+    - mordred \(fate\)
+    - mordred \(fate/apocrypha\) \(fate\)
+    - mordred \(swimsuit rider\) \(fate\)
+    - morgan le fay \(fate\)
+    - murasaki shikibu \(fate\)
+    - mysterious heroine x \(fate\)
+    - mysterious heroine x alter \(fate\)
+    - mysterious heroine x alter \(first ascension\) \(fate\)
+    - mysterious heroine xx \(fate\)
+    - nero claudius \(fate\)
+    - nero claudius \(fate/extra\) \(fate\)
+    - nero claudius \(swimsuit caster\) \(fate\)
+    - nitocris \(fate\)
+    - nitocris \(swimsuit assassin\) \(fate\)
+    - nursery rhyme \(fate\)
+    - oda nobunaga \(fate\)
+    - oda nobunaga \(koha-ace\) \(fate\)
+    - okita j. souji \(fate\)
+    - okita souji \(fate\)
+    - okita souji \(koha-ace\) \(fate\)
+    - okita souji alter \(fate\)
+    - olga marie animusphere \(fate\)
+    - osakabehime \(fate\)
+    - passionlip \(fate\)
+    - paul bunyan \(fate\)
+    - reines el-melloi archisorte \(fate\)
+    - saber \(fate\)
+    - saber alter \(fate\)
+    - saber alter \(ver. shinjuku 1999\) \(fate\)
+    - scathach \(fate\)
+    - scathach \(piercing bunny\) \(fate\)
+    - scathach \(swimsuit assassin\) \(fate\)
+    - scathach skadi \(fate\)
+    - scheherazade \(fate\)
+    - sei shounagon \(fate\)
+    - sessyoin kiara \(fate\)
+    - shuten douji \(fate\)
+    - tamamo \(fate\)
+    - tamamo cat \(fate\)
+    - tamamo no mae \(fate/extra\) \(fate\)
+    - tamamo no mae \(swimsuit lancer\) \(fate\)
+    - tohsaka rin \(fate\)
+    - tokitarou \(fate\)
+    - tomoe gozen \(fate\)
+    - tomoe gozen \(swimsuit saber\) \(fate\)
+    - ushiwakamaru \(fate\)
+    - utsumi erice \(fate\)
+    - van gogh \(fate\)
+    - viy \(fate\)
+    - xuangzang sanzang \(fate\)
+    - yang guifei \(fate\)
+    - yu mei-ren \(fate\)
+  final-fantasy:
+    - altera moontail \(final fantasy\)
+    - aranea highwind
+    - astrologian \(final fantasy\)
+    - bahamut \(final fantasy\)
+    - elena \(ff7\)
+    - gunner \(final fantasy\)
+    - hilda ware
+    - hydaelyn
+    - iris amicitia
+    - minfilia warde
+    - tifa lockhart \(cowgirl\)
+    - time mage
+    - trance terra branford
+  fire-emblem:
+    - byleth \(fire emblem\)
+    - caeda \(fire emblem\)
+    - celica \(fire emblem\)
+    - daraen \(fire emblem\)
+    - eirika \(fire emblem\)
+    - elincia \(fire emblem\)
+    - hinoka \(fire emblem\)
+    - jill \(fire emblem\)
+    - laura \(fire emblem\)
+    - lena \(fire emblem\)
+    - lucina \(fire emblem\)
+    - lynda \(fire emblem\)
+    - minerva \(fire emblem\)
+    - monica \(fire emblem\)
+    - petra \(fire emblem\)
+    - sophia \(fire emblem\)
+    - sothis \(fire emblem\)
+    - tharja \(fire emblem\)
+    - tiki \(fire emblem\)
+    - veronica \(fire emblem\)
+  fullmetal-alchemist:
+    - lust \(fma\)
+    - may chang
+    - olivier mira armstrong
+    - riza hawkeye
+    - winry rockbell
+  genshin-impact:
+    - amber \(genshin impact\)
+    - arlecchino \(genshin impact\)
+    - barbara \(genshin impact\)
+    - beidou \(genshin impact\)
+    - boo tao \(genshin impact\)
+    - clorinde \(genshin impact\)
+    - cloud retainer \(genshin impact\)
+    - collei \(genshin impact\)
+    - crystalfly \(genshin impact\)
+    - dehya \(genshin impact\)
+    - diona \(genshin impact\)
+    - dodoco \(genshin impact\)
+    - eula \(genshin impact\)
+    - fischl \(genshin impact\)
+    - furina \(genshin impact\)
+    - ganyu \(genshin impact\)
+    - hu tao \(genshin impact\)
+    - jean \(genshin impact\)
+    - jumpy dumpty \(genshin impact\)
+    - kamisato ayaka \(genshin impact\)
+    - keqing \(genshin impact\)
+    - keqing \(opulent splendor\) \(genshin impact\)
+    - kirara \(genshin impact\)
+    - klee \(genshin impact\)
+    - kujou sara \(genshin impact\)
+    - kuki shinobu \(genshin impact\)
+    - layla \(genshin impact\)
+    - lisa \(genshin impact\)
+    - lumine \(genshin impact\)
+    - lynette \(genshin impact\)
+    - mona \(genshin impact\)
+    - nahida \(genshin impact\)
+    - navia \(genshin impact\)
+    - nilou \(genshin impact\)
+    - ningguang \(genshin impact\)
+    - noelle \(genshin impact\)
+    - paimon \(genshin impact\)
+    - qiqi \(genshin impact\)
+    - raiden shogun \(genshin impact\)
+    - rosaria \(genshin impact\)
+    - sangonomiya kokomi \(genshin impact\)
+    - shenhe \(genshin impact\)
+    - sucrose \(genshin impact\)
+    - xiangling \(genshin impact\)
+    - xianyun \(genshin impact\)
+    - yae miko \(genshin impact\)
+    - yanfei \(genshin impact\)
+    - yelan \(genshin impact\)
+    - yoimiya \(genshin impact\)
+    - yun jin \(genshin impact\)
+  go-toubun-no-hanayome:
+    - nakano ichika
+    - nakano itsuki
+    - nakano miku
+    - nakano nino
+    - nakano yotsuba
+  goblin-slayer:
+    - cow girl \(goblin slayer!\)
+    - guild girl \(goblin slayer!\)
+    - high elf archer \(goblin slayer!\)
+    - priestess \(goblin slayer!\)
+    - sword maiden
+  granblue-fantasy:
+    - andira \(granblue fantasy\)
+    - anila \(granblue fantasy\)
+    - beatrix \(granblue fantasy\)
+    - cagliostro \(granblue fantasy\)
+    - clarisse \(granblue fantasy\)
+    - danua \(granblue fantasy\)
+    - djeeta \(granblue fantasy\)
+    - ferry \(granblue fantasy\)
+    - lyria \(granblue fantasy\)
+    - narmaya \(granblue fantasy\)
+    - payila \(granblue fantasy\)
+    - vikala \(granblue fantasy\)
+    - vira \(granblue fantasy\)
+    - vyrn \(granblue fantasy\)
+    - yuel \(granblue fantasy\)
+    - zeta \(granblue fantasy\)
+    - zooey \(granblue fantasy\)
+  gundam:
+    - aida rayhunton
+    - aila jyrkiainen
+    - allenby beardsley
+    - anew returner
+    - atra mixta
+    - audrey burne
+    - ayame \(gundam build divers\)
+    - cagalli yula athha
+    - christina sierra
+    - chuatury panlunch
+    - dianna soreil
+    - elpeo puru
+    - emma sheen
+    - ericht samaya
+    - fa yuiry
+    - feldt grace
+    - felsi rollo
+    - flay allster
+    - four murasame
+    - g-spring goddess \(ishiyumi\)
+    - gigi andalusia
+    - haman karn
+    - hoshino fumina
+    - hots \(gundam suisei no majo\)
+    - iori rinko
+    - julietta juris
+    - kamiki mirai
+    - kamiki sekai
+    - kihel heim
+    - kousaka china
+    - kudelia aina bernstein
+    - lacus clyne
+    - lafter frankland
+    - lalah sune
+    - lilique kadoka lipati
+    - louise halevy
+    - lunamaria hawke
+    - marida cruz
+    - marina ismail
+    - may \(gundam build divers re:rise\)
+    - meer campbell
+    - meyrin hawke
+    - mileina vashti
+    - mineva lao zabi
+    - miorine rembran
+    - momo \(gundam build divers\)
+    - murrue ramius
+    - nena trinity
+    - nika nanaura
+    - norea du noc
+    - prospera mercury
+    - puru two
+    - quess paraya
+    - rain mikamura
+    - reiji \(gundam bf\)
+    - reiko holinger
+    - relena peacecraft
+    - roux louka
+    - sara \(gundam build divers\)
+    - sayla mass
+    - sazaki kaoruko
+    - secelia dote
+    - shaddiq zenelli
+    - sochie heim
+    - soma peries
+    - sophie pulone
+    - stellar loussier
+    - suletta mercury
+    - sumeragi lee noriega
+    - tiffa adill
+    - wang liu mei
+    - yashiro momoka
+  hunter-x-hunter:
+    - machi komacine
+    - meruem
+    - neferpitou
+    - shizuku murasaki
+  idolmaster:
+    - abe nana
+    - amami haruka
+    - araki hina
+    - arisugawa natsuha
+    - asakura toru
+    - asari nanami
+    - fujimoto rina
+    - fukuda noriko
+    - fukumaru koito
+    - futaba anzu
+    - futami ami
+    - futami mami
+    - ganaha hibiki
+    - hachimiya meguru
+    - hakozaki serika
+    - hamaguchi ayame
+    - hayami kanade
+    - higuchi madoka
+    - himekawa yuki
+    - honda mio
+    - hoshii miki
+    - ichihara nina
+    - ichikawa hinana
+    - ichinose shiki
+    - imai kana
+    - izumi mei
+    - kanzaki ranko
+    - kasuga mirai
+    - katagiri sanae
+    - kawashima mizuki
+    - kazano hiori
+    - kikuchi makoto
+    - kirino aya
+    - kiryu tsukasa \(idolmaster\)
+    - kita hinako
+    - kitakami reika
+    - kitami yuzu
+    - kobayakawa sae
+    - koizumi hanayo
+    - komatsu ibuki
+    - komiya kaho
+    - kousaka umi
+    - kurokawa chiaki
+    - kurosaki chitose
+    - kuwayama chiyuki
+    - maekawa miku
+    - matsuda arisa
+    - mayuzumi fuyuko
+    - mimura kanako
+    - minase iori
+    - miura azusa
+    - miura azusa
+    - mogami shizuka
+    - morikubo nono
+    - morino rinze
+    - moroboshi kirari
+    - mukai takumi
+    - nishikawa honami
+    - oikawa shizuku
+    - osaki amana
+    - osaki tenka
+    - sagisawa fumika
+    - saijo juri
+    - sakuma mayu
+    - sakuragi mano
+    - sato shin
+    - serizawa asahi
+    - shibuya rin
+    - shijou takane
+    - shimamura uzuki
+    - shinomiya karen
+    - shiomi syuko
+    - shirakawa hotaru
+    - shirasaka chouko
+    - shirasaka koume
+    - shirase sakuya
+    - sonoda chiyoko
+    - suou momoko
+    - takagaki kaede
+    - takatsuki yayoi
+    - tanaka kotoha
+    - tanaka mamimi
+    - tsujino akari
+    - tsukioka kogane
+    - ueda suzuho
+    - wakui rumi
+    - yagami makino
+    - yanase miyuki
+    - yokoyama nao
+    - yorita yoshino
+    - yukoku kiriko
+    - yumemi riamu
+    - yusa kozue
+  jujutsu-kaisen:
+    - ieiri shoko
+    - iori utahime
+    - kugisaki nobara
+    - mei mei \(jujutsu kaisen\)
+    - miwa kasumi
+    - zen'in mai
+    - zen'in maki
+  k-on:
+    - akiyama mio
+    - hirasawa ui
+    - hirasawa yui
+    - kinoshita shizuka
+    - kotobuki tsumugi
+    - manabe nodoka
+    - nakano azusa
+    - suzuki jun
+    - tachibana himeko
+    - tainaka ritsu
+    - wakaouji ichigo
+    - yamanaka sawako
+  kimetsu-no-yaiba:
+    - agatsuma zenitsu
+    - daki \(kimetsu no yaiba\)
+    - kamado nezuko
+    - kanroji mitsuri
+    - kanzaki aoi \(kimetsu no yaiba\)
+    - kibutsuji muzan
+    - kochou kanae
+    - kochou shinobu
+    - tsuyuri kanao
+  love-live:
+    - arashi chisato
+    - asaka karin
+    - ayase eli
+    - hazuki ren
+    - heanna sumire
+    - hishimiya megumi
+    - hoshizora rin
+    - hoshizora yukiho
+    - konoe kanata
+    - kunikida hanamaru
+    - kurosawa dia
+    - kurosawa ruby
+    - matsuura kanan
+    - mifune ichika
+    - mifune shioriko
+    - minami kotori
+    - miyashita ai
+    - nakasu kasumi
+    - nishikino maki
+    - ohara mari
+    - osaka shizuku
+    - shibuya kanon
+    - sonoda umi
+    - takami chika
+    - tsushima yoshiko
+    - uehara ayumu
+    - watanabe you
+    - yabuki kana
+    - yuki setsuna
+  lycoris-recoil:
+    - inoue takina
+    - kurumi \(lycoris recoil\)
+    - nakahara mizuki
+    - nishikigi chisato
+  mahou-shoujo-madoka-magica:
+    - akemi homura
+    - kaname madoka
+    - miki sayaka
+    - sakura kyoko
+    - tomoe mami
+  mushoku-tensei:
+    - eris greyrat
+    - ghislaine dedoldia
+    - roxy migurdia
+    - sylphiette \(mushoku tensei\)
+  naruto:
+    - haruno sakura
+    - hyuuga hanabi
+    - hyuuga hinata
+    - karin \(naruto\)
+    - konan \(naruto\)
+    - mitarashi anko
+    - nara shikamaru
+    - naruko \(naruto\)
+    - nohara rin
+    - shizune \(naruto\)
+    - tayuya \(naruto\)
+    - temari \(naruto\)
+    - tenten \(naruto\)
+    - terumi mei
+    - tsunade \(naruto\)
+    - uchiha sarada
+    - uzumaki himawari
+    - uzumaki kushina
+    - yamanaka ino
+    - yuuhi kurenai
+  nintendo:
+    - ashley \(warioware\)
+    - elma \(xenoblade x\)
+    - fiora \(xenoblade\)
+    - krystal,furry,fox female,animal ears,fox mouth,fox nose
+    - kumatora \(mother 3\)
+    - malon,the legend of zelda
+    - marina \(splatoon\)
+    - palutena \(kid icarus\)
+    - princess daisy
+    - princess peach
+    - princess zelda
+    - pyra \(xenoblade\)
+    - rizette \(evertale\)
+    - rosalina
+    - samus aran
+    - sharla \(xenoblade\)
+  one-piece:
+    - boa hancock
+    - carrot \(one piece\)
+    - charlotte pudding
+    - jewelry bonney
+    - kouzuki hiyori
+    - kumacy
+    - luffyko
+    - monet \(one piece\)
+    - nami \(one piece\)
+    - nefertari vivi
+    - nico robin
+    - perona
+    - rebecca \(one piece\)
+    - salome \(one piece\)
+    - shirahoshi
+    - tashigi \(one piece\)
+    - ulti \(one piece\)
+    - uta \(one piece\)
+    - vinsmoke reiju
+    - yamato \(one piece\)
+  one-punch-man:
+    - fubuki \(one-punch man\)
+    - kaijin hime do-s
+    - tatsumaki
+  overlord:
+    - ainz ooal gown
+    - albedo  \(overlord\)
+    - aura bella fiora
+    - entoma vasilissa zeta
+    - lupusregina beta
+    - narberal gamma
+    - shalltear bloodfallen
+  persona:
+    - aegis \(persona\)
+    - amagi yukiko
+    - amano maya
+    - caroline \(persona 5\)
+    - doujima nanako
+    - elizabeth \(persona\)
+    - fushimi chihiro
+    - izanami \(persona\)
+    - justine \(persona 5\)
+    - kawakami sadayo
+    - kirijou mitsuru
+    - kujikawa rise
+    - labrys \(persona\)
+    - lisa silverman
+    - margaret \(persona\)
+    - metis \(persona\)
+    - niijima makoto
+    - niijima sae
+    - okumura haru
+    - sakura futaba
+    - satonaka chie
+    - shiomi kotone
+    - shirogane naoto
+    - takamaki anne
+    - takeba yukari
+    - takemi tae
+    - theodore \(persona\)
+    - tougou hifumi
+    - yamagishi fuuka
+    - yoshino chidori
+    - yoshizawa kasumi
+    - yoshizawa sumire
+  pokemon:
+    - acerola \(pokemon\)
+    - anabel \(pokemon\)
+    - bianca \(pokemon\)
+    - bonnie \(pokemon\)
+    - caitlin \(pokemon\)
+    - candice \(pokemon\)
+    - cynthia \(pokemon\)
+    - dawn \(pokemon\)
+    - diantha \(pokemon\)
+    - elesa \(pokemon\)
+    - erika \(pokemon\)
+    - flannery \(pokemon\)
+    - gardenia \(pokemon\)
+    - glacia \(pokemon\)
+    - gloria \(pokemon\)
+    - hilda \(pokemon\)
+    - iris \(pokemon\)
+    - janine \(pokemon\)
+    - jasmine \(pokemon\)
+    - jessie \(pokemon\)
+    - juliana \(pokemon\)
+    - kahili \(pokemon\)
+    - karen \(pokemon\)
+    - katy \(pokemon\)
+    - kris \(pokemon\)
+    - lillie \(pokemon\)
+    - lorelei \(pokemon\)
+    - lyra \(pokemon\)
+    - marnie \(pokemon\)
+    - mars \(pokemon\)
+    - may \(pokemon\)
+    - melony \(pokemon\)
+    - mina \(pokemon\)
+    - miriam \(pokemon\)
+    - misty \(pokemon\)
+    - nurse joy \(pokemon\)
+    - phoebe \(pokemon\)
+    - rosa \(pokemon\)
+    - roxanne \(pokemon\)
+    - roxie \(pokemon\)
+    - sabrina \(pokemon\)
+    - selene \(pokemon\)
+    - serena \(pokemon\)
+    - shauna \(pokemon\)
+    - shauntal \(pokemon\)
+    - skyla \(pokemon\)
+    - sonia \(pokemon\)
+    - valerie \(pokemon\)
+    - viola \(pokemon\)
+    - whitney \(pokemon\)
+    - winona \(pokemon\)
+    - zinnia \(pokemon\)
+  precure:
+    - aida mana
+    - aino megumi
+    - asahina mirai
+    - hanadera nodoka
+    - haruno haruka
+    - hikawa iona
+    - hikawa maria
+    - hoshina hikaru
+    - hoshizora miyuki
+    - kagayaki homare
+    - kasugano urara \(yes! precure 5\)
+    - kurumi erika
+    - midorikawa nao
+    - misumi nagisa
+    - momozono love
+    - natsuki rin
+    - nijigaoka mashiro
+    - ozora akari
+    - tsukikage yuri
+    - yamabuki inori
+    - yukishiro honoka
+    - yumehara nozomi
+  princess-connect:
+    - karyl \(princess connect!\)
+    - karyl \(summer\) \(princess connect!\)
+    - kokkoro \(princess connect!\)
+    - kyouka \(princess connect!\)
+    - pecorine \(princess connect!\)
+    - saren \(princess connect!\)
+    - saren \(summer\) \(princess connect!\)
+    - yui \(princess connect!\)
+    - yuni \(princess connect!\)
+  puyopuyo:
+    - arle nadja
+    - draco \(puyopuyo\)
+    - witch \(puyopuyo\)
+  re-zero-kara-hajimeru-isekai-seikatsu:
+    - beatrice \(re:zero\)
+    - crusch karsten
+    - echidna \(re:zero\)
+    - elsa granhilte
+    - emilia \(re:zero\)
+    - felt \(re:zero\)
+    - frederica baumann
+    - petelgeuse romaneeconti
+    - priscilla barielle
+    - puck \(re:zero\)
+    - ram \(re:zero\)
+    - rem \(re:zero\)
+    - shaula \(re:zero\)
+  rozen-maiden:
+    - hinaichigo \(rozen maiden\)
+    - kanaria
+    - shinku
+    - souseiseki,heterochromia
+    - suigintou
+    - suiseiseki,heterochromia
+  sailor-moon:
+    - aino minako
+    - chibi usa
+    - hino rei
+    - kaiou michiru
+    - kino makoto
+    - meiou setsuna
+    - mizuno ami
+    - tomoe hotaru
+    - tsukino usagi
+  shingeki-no-kyojin:
+    - annie leonhardt
+    - christa renz
+    - gabi braun
+    - hange zoe
+    - mikasa ackerman
+    - petra ral
+    - pieck finger
+    - sasha braus
+    - ymir \(shingeki no kyojin\)
+  spy-x-family:
+    - anya \(spy x family\)
+    - becky blackbell
+    - bond \(spy x family\)
+    - fiona frost
+    - hayami saori
+    - yor briar
+  sword-art-online:
+    - alice zuberg
+    - argo the rat
+    - asada shino
+    - asuna \(sao-alo\)
+    - asuna \(sao\)
+    - asuna \(stacia\)
+    - kirigaya suguha
+    - leafa
+    - leafa \(terraria\)
+    - lisbeth \(sao-alo\)
+    - lisbeth \(sao\)
+    - llenn \(sao\)
+    - mito \(sao\)
+    - philia \(sao\)
+    - pina \(sao\)
+    - quinella
+    - ronye arabel
+    - sachi \(sao\)
+    - silica
+    - silica \(sao-alo\)
+    - sinon
+    - sinon \(sao-alo\)
+    - sinon \(solus\)
+    - strea \(sao\)
+    - tiese schtrinen
+    - titania \(sao\)
+    - yui \(sao-alo\)
+    - yui \(sao\)
+    - yuna \(sao\)
+    - yuuki \(sao\)
+  to-love-ru:
+    - konjiki no yami
+    - kotegawa yui
+    - kujou rin
+    - lala satalin deviluke
+    - momo velia deviluke
+    - nana asta deviluke
+    - sairenji haruna
+    - sawada mio
+    - tearju lunatique
+    - yuuki mikan
+  toaru-majutsu-no-index:
+    - accelerator \(toaru majutsu no index\)
+    - frenda seivelun
+    - index \(toaru majutsu no index\)
+    - kinuhata saiai
+    - last order \(toaru majutsu no index\)
+    - misaka mikoto
+    - mugino shizuri
+    - saten ruiko
+    - shirai kuroko
+    - shokuhou misaki
+    - uiharu kazari
+  touhou:
+    - aki minoriko
+    - aki shizuha
+    - alice margatroid
+    - cirno
+    - clownpiece
+    - elis \(touhou\)
+    - ellen \(touhou\)
+    - flandre scarlet
+    - fujiwara no mokou
+    - hakurei reimu
+    - hata kokoro
+    - hecatia lapislazuli
+    - hijiri byakuren
+    - himekaidou hatate
+    - hinanawi tenko
+    - hinanawi tenshi
+    - hong meiling
+    - hoshiguma yuugi
+    - houraisan kaguya
+    - ibaraki kasen
+    - ibuki suika
+    - imaizumi kagerou
+    - inubashiri momiji
+    - izayoi sakuya
+    - junko
+    - kagiyama hina
+    - kaku seiga
+    - kamishirasawa keine
+    - kana anaberal
+    - kasodani kyouko
+    - kawashiro nitori
+    - kazami yuuka
+    - kicchou yachie
+    - kikuri \(touhou\)
+    - kirisame marisa
+    - kishin sagume
+    - kochiya sanae
+    - komeiji koishi
+    - komeiji satori
+    - konpaku youmu
+    - kotohime \(touhou\)
+    - kumoi ichirin
+    - letty whiterock
+    - lily white
+    - luna child
+    - maribel han
+    - medicine melancholy
+    - mima \(touhou\)
+    - mononobe no futo
+    - moriya suwako
+    - murasa minamitsu
+    - nazrin
+    - niwatari kutaka
+    - okazaki yumemi
+    - onozuka komachi
+    - patchouli knowledge
+    - reisen udongein inaba
+    - reiuji utsuho
+    - remilia scarlet
+    - rika \(touhou\)
+    - rumia \(touhou\)
+    - saigyouji yuyuko
+    - sakata nemuno
+    - sariel \(touhou\)
+    - sekibanki
+    - shameimaru aya
+    - shiki eiki
+    - shinki \(touhou\)
+    - soga no tojiko
+    - star sapphire
+    - sunny milk
+    - teireida mai
+    - tokiko \(touhou\)
+    - toramaru shou
+    - toyohime \(touhou\)
+    - usami sumireko
+    - wakasagihime
+    - watatsuki no toyohime
+    - watatsuki no yorihime
+    - yagokoro eirin
+    - yakumo ran
+    - yakumo yukari
+    - yasaka kanako
+    - yayoi \(touhou\)
+    - yorigami jo'on
+    - yorigami shion

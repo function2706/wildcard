@@ -3,10 +3,9 @@ tops:
     - __fashion/tops/bras/do__
     - __fashion/tops/jackets/do__
     - __fashion/tops/jackets/do__,__fashion/tops/bras/do__
-    - __fashion/tops/jackets/do__,__fashion/tops/nude__
     - __fashion/tops/jackets/do__,__fashion/tops/shirts/do__
     - __fashion/tops/shirts/do__
-    - topless
+    - __fashion/tops/nude/do__
   bras:
     do:
       - __color__ __fashion/tops/bras/type__
@@ -117,7 +116,7 @@ tops:
       - wrap blouse
   shirts:
     do:
-      - __color__ __fashion/tops/shirts/type__,__fashion/tops/nude__
+      - __color__ __fashion/tops/shirts/type__
     type:
       - babydoll
       - blouse
@@ -142,5 +141,11 @@ tops:
       - tank top
       - tunic
   nude:
-    - " "
-    - no bra,breasts,tits,
+    do:
+      - " "
+      - topless
+      - __fashion/tops/jackets/do__,__fashion/tops/nude/option__
+      - __fashion/tops/shirts/do__,__fashion/tops/nude/option__
+    option:
+      - " "
+      - no bra,breasts,tits,

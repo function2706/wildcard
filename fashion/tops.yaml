@@ -9,7 +9,7 @@ tops:
     - topless
   bras:
     do:
-      - __color/random__ __fashion/tops/bras/type__
+      - __color__ __fashion/tops/bras/type__
     type:
       - adhesive bra
       - balconette bra
@@ -55,7 +55,7 @@ tops:
       - wrap top
   jackets:
     do:
-      - __color/random__ __fashion/tops/jackets/type__
+      - __color__ __fashion/tops/jackets/type__
     type:
       - apron
       - bell sleeve blouse
@@ -117,7 +117,7 @@ tops:
       - wrap blouse
   shirts:
     do:
-      - __color/random__ __fashion/tops/shirts/type__,__fashion/tops/nude__
+      - __color__ __fashion/tops/shirts/type__,__fashion/tops/nude__
     type:
       - babydoll
       - blouse

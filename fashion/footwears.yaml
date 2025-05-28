@@ -11,7 +11,7 @@ footwears:
     - barefoot,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
   boots:
     do:
-      - __color/random__ __fashion/footwears/boots/type__
+      - __color__ __fashion/footwears/boots/type__
     type:
       - ankle boots
       - biker boots
@@ -41,7 +41,7 @@ footwears:
       - stiletto heel
   heels:
     do:
-      - __color/random__ __fashion/footwears/heels/type__
+      - __color__ __fashion/footwears/heels/type__
     type:
       - block heels
       - open-toe heels
@@ -53,7 +53,7 @@ footwears:
       - wedge heels
   sandals:
     do:
-      - __color/random__ __fashion/footwears/sandals/type__
+      - __color__ __fashion/footwears/sandals/type__
     type:
       - ankle strap sandals
       - ballet slippers
@@ -70,7 +70,7 @@ footwears:
       - wedge sandals
   shoes:
     do:
-      - __color/random__ __fashion/footwears/shoes/type__
+      - __color__ __fashion/footwears/shoes/type__
     type:
       - crocs
       - flat shoes
@@ -101,10 +101,10 @@ footwears:
       - black
       - brown
       - white
-      - __color/random__
+      - __color__
   socks:
     do:
-      - __color/random__ __fashion/footwears/socks/type__
+      - __color__ __fashion/footwears/socks/type__
     type:
       - ankle socks
       - business socks
@@ -133,4 +133,4 @@ footwears:
       - yellow
   anklet:
     - " "
-    - __color/random__ anklet
+    - __color__ anklet

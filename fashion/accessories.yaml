@@ -83,7 +83,7 @@ accessories:
     - visor
   hats:
     do:
-      - __color/random__ __fashion/accessories/hats/type__
+      - __color__ __fashion/accessories/hats/type__
     type:
       - ascot cap
       - baseball cap
@@ -135,22 +135,22 @@ accessories:
   gloves:
     do:
       - __fashion/accessories/gloves/nail/do__
-      - __color/random__ armlet,__fashion/accessories/gloves/nail/do__
-      - __color/random__ bracelet,__fashion/accessories/gloves/nail/do__
-      - __color/random__ cleaning gloves,__fashion/accessories/gloves/elbow__
-      - __color/random__ cotton gloves,__fashion/accessories/gloves/elbow__
-      - __color/random__ cufflinks,__fashion/accessories/gloves/nail/do__
-      - __color/random__ evening gloves,__fashion/accessories/gloves/elbow__
-      - __color/random__ fingerless gloves,__fashion/accessories/gloves/nail/do__
-      - __color/random__ gauntlets
-      - __color/random__ knit gloves,__fashion/accessories/gloves/elbow__
-      - __color/random__ latex gloves,__fashion/accessories/gloves/elbow__
-      - __color/random__ leather gloves,__fashion/accessories/gloves/elbow__
-      - __color/random__ mittens
-      - __color/random__ ring,__fashion/accessories/gloves/nail/do__
-      - __color/random__ rubber gloves,__fashion/accessories/gloves/elbow__
-      - __color/random__ wrist warmers
-      - __color/random__ wristband,__fashion/accessories/gloves/nail/do__
+      - __color__ armlet,__fashion/accessories/gloves/nail/do__
+      - __color__ bracelet,__fashion/accessories/gloves/nail/do__
+      - __color__ cleaning gloves,__fashion/accessories/gloves/elbow__
+      - __color__ cotton gloves,__fashion/accessories/gloves/elbow__
+      - __color__ cufflinks,__fashion/accessories/gloves/nail/do__
+      - __color__ evening gloves,__fashion/accessories/gloves/elbow__
+      - __color__ fingerless gloves,__fashion/accessories/gloves/nail/do__
+      - __color__ gauntlets
+      - __color__ knit gloves,__fashion/accessories/gloves/elbow__
+      - __color__ latex gloves,__fashion/accessories/gloves/elbow__
+      - __color__ leather gloves,__fashion/accessories/gloves/elbow__
+      - __color__ mittens
+      - __color__ ring,__fashion/accessories/gloves/nail/do__
+      - __color__ rubber gloves,__fashion/accessories/gloves/elbow__
+      - __color__ wrist warmers
+      - __color__ wristband,__fashion/accessories/gloves/nail/do__
     nail:
       do:
         - " "

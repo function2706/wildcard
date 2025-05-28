@@ -5,7 +5,7 @@ bottoms:
     - __fashion/bottoms/pants/do__
   panties:
     do:
-      - __color/random__ __fashion/bottoms/panties/type__
+      - __color__ __fashion/bottoms/panties/type__
       - __fashion/bottoms/nude/do__
     type:
       - beach shorts
@@ -27,7 +27,7 @@ bottoms:
       - v-string
   pants:
     do:
-      - __color/random__ __fashion/bottoms/pants/type__
+      - __color__ __fashion/bottoms/pants/type__
     length:
       - " "
       - short
@@ -78,8 +78,8 @@ bottoms:
       - wool shorts
   skirts:
     do:
-      - __color/random__ __fashion/bottoms/skirts/length__ __fashion/bottoms/skirts/type__
-      - __color/random__ __fashion/bottoms/skirts/length__ __fashion/bottoms/skirts/type__,__fashion/bottoms/panties/do__
+      - __color__ __fashion/bottoms/skirts/length__ __fashion/bottoms/skirts/type__
+      - __color__ __fashion/bottoms/skirts/length__ __fashion/bottoms/skirts/type__,__fashion/bottoms/panties/do__
     length:
       - " "
       - short

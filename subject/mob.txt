@@ -1,1 +1,1 @@
-__mankind/hairstyle__,__color/random__ hair,__mankind/eyestyle__,__color/random__ eye,__mankind/earstyle__,__mankind/age__,__mankind/skinstyle__,__mankind/width__,__mankind/height__
+__mankind/hairstyle__,__color__ hair,__mankind/eyestyle__,__color__ eye,__mankind/earstyle__,__mankind/age__,__mankind/skinstyle__,__mankind/width__,__mankind/height__

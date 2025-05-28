@@ -2,6 +2,8 @@ pose:
   random:
     - __pose/action__
     - __pose/head__
+    - "{0-1$$__pose/list__}"
+  list:
     - __pose/upper__
     - __pose/head__,__pose/upper__
     - __pose/lower__
@@ -33,6 +35,7 @@ pose:
     - sitting
     - sitting astride
     - standing
+    - standing on one leg
     - standing split
     - wariza
     - yokozuwari

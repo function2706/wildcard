@@ -76,21 +76,12 @@ expression:
     - worried
   face:
     random:
+      - "{0-1$$__expression/face/list__}"
+    list:
       - __expression/face/eye__
       - __expression/face/eyebrow/do__
-      - __expression/face/eye__,__expression/face/eyebrow/do__
       - __expression/face/mouth__
-      - __expression/face/eye__,__expression/face/mouth__
-      - __expression/face/eyebrow/do__,__expression/face/mouth__
-      - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/mouth__
       - __expression/face/misc/do__
-      - __expression/face/eye__,__expression/face/misc/do__
-      - __expression/face/eyebrow/do__,__expression/face/misc/do__
-      - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/misc/do__
-      - __expression/face/mouth__,__expression/face/misc/do__
-      - __expression/face/eye__,__expression/face/mouth__,__expression/face/misc/do__
-      - __expression/face/eyebrow/do__,__expression/face/mouth__,__expression/face/misc/do__
-      - __expression/face/eye__,__expression/face/eyebrow/do__,__expression/face/mouth__,__expression/face/misc/do__
     eye:
       - closed eyes
       - constricted pupils

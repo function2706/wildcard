@@ -1,37 +1,12 @@
 accessories:
   random:
-    - " "
+    - "{0-1$$__fashion/accessories/list__}"
+  list:
     - __fashion/accessories/accessories__
     - __fashion/accessories/bags__
-    - __fashion/accessories/bags__,__fashion/accessories/accessories__
     - __fashion/accessories/glasses__
-    - __fashion/accessories/glasses__,__fashion/accessories/accessories__
-    - __fashion/accessories/glasses__,__fashion/accessories/bags__
-    - __fashion/accessories/glasses__,__fashion/accessories/bags__,__fashion/accessories/accessories__
     - __fashion/accessories/gloves/do__
-    - __fashion/accessories/gloves/do__,__fashion/accessories/accessories__
-    - __fashion/accessories/gloves/do__,__fashion/accessories/bags__
-    - __fashion/accessories/gloves/do__,__fashion/accessories/bags__,__fashion/accessories/accessories__
-    - __fashion/accessories/gloves/do__,__fashion/accessories/glasses__
-    - __fashion/accessories/gloves/do__,__fashion/accessories/glasses__,__fashion/accessories/accessories__
-    - __fashion/accessories/gloves/do__,__fashion/accessories/glasses__,__fashion/accessories/bags__
-    - __fashion/accessories/gloves/do__,__fashion/accessories/glasses__,__fashion/accessories/bags__,__fashion/accessories/accessories__
     - __fashion/accessories/hats/do__
-    - __fashion/accessories/hats/do__,__fashion/accessories/accessories__
-    - __fashion/accessories/hats/do__,__fashion/accessories/bags__
-    - __fashion/accessories/hats/do__,__fashion/accessories/bags__,__fashion/accessories/accessories__
-    - __fashion/accessories/hats/do__,__fashion/accessories/glasses__
-    - __fashion/accessories/hats/do__,__fashion/accessories/glasses__,__fashion/accessories/accessories__
-    - __fashion/accessories/hats/do__,__fashion/accessories/glasses__,__fashion/accessories/bags__
-    - __fashion/accessories/hats/do__,__fashion/accessories/glasses__,__fashion/accessories/bags__,__fashion/accessories/accessories__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__,__fashion/accessories/accessories__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__,__fashion/accessories/bags__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__,__fashion/accessories/bags__,__fashion/accessories/accessories__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__,__fashion/accessories/glasses__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__,__fashion/accessories/glasses__,__fashion/accessories/accessories__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__,__fashion/accessories/glasses__,__fashion/accessories/bags__
-    - __fashion/accessories/hats/do__,__fashion/accessories/gloves/do__,__fashion/accessories/glasses__,__fashion/accessories/bags__,__fashion/accessories/accessories__
   accessories:
     - badge
     - belt

@@ -1,0 +1,3 @@
+random:
+  - __expression/random__,__fashion__,__pose/random__,__subject__
+  - __expression/random__,__pose/random__,__subject/character/random__

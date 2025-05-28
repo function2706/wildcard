@@ -1,0 +1,198 @@
+human:
+  random:
+    - __subject/human/human__
+    - __subject/human/demi-human__
+  human:
+    - __subject/human/hair/do__,__subject/human/eye/human__,__subject/human/skin/human__,__subject/human/height__,__subject/human/width__,__subject/human/age__
+  demi-human:
+    - __subject/human/hair/do__,__subject/human/eye/demi-human__,__subject/human/ear__,__subject/human/skin/demi-human__,__subject/human/height__,__subject/human/width__,__subject/human/age__,__subject/human/misc/do__
+    - __subject/non-human/monster/demi-human__
+  hair:
+    do:
+      - __subject/human/hair/style__,__color__ hair
+    style:
+      - 360 waves
+      - a-line cut
+      - afro
+      - asymmetrical cut
+      - ballerina bun
+      - bantu knots
+      - beach waves
+      - beehive
+      - blunt cut
+      - bob
+      - boho updo
+      - bow ponytail
+      - box braids
+      - braided crown
+      - braided ponytail
+      - braided updo
+      - bubble ponytail
+      - bun with braids
+      - bun with twists
+      - buzz cut
+      - chignon
+      - chignon updo
+      - corkscrew curls
+      - cornrows
+      - crew cut
+      - crimped hair
+      - crown braid
+      - curly bob
+      - curly pixie
+      - dreadlocks
+      - dutch braid
+      - elegant updo
+      - faux hawk
+      - feathers cut
+      - finger waves
+      - fishtail braid
+      - flip hairstyle
+      - french braid
+      - french twist
+      - geometric cut
+      - goddess braids
+      - grunge waves
+      - half-up bun
+      - half-up half-down
+      - halo braid
+      - high ponytail
+      - hollywood waves
+      - layered cut
+      - lob (long bob)
+      - loose curls
+      - low bun
+      - low ponytail
+      - marley twists
+      - messy bun
+      - messy updo
+      - messy waves
+      - middle part
+      - milkmaid braids
+      - modern mullet
+      - mohawk
+      - pin curls
+      - pin-up curls
+      - pineapple updo
+      - pixie cut
+      - pompadour
+      - ponytail
+      - ponytail with bangs
+      - ponytail with curls
+      - quiff
+      - retro curls
+      - romantic updo
+      - senegalese twists
+      - shag cut
+      - side part
+      - side ponytail
+      - side-swept waves
+      - sleek ponytail
+      - slicked-back hair
+      - sock bun
+      - space buns
+      - spiral curls
+      - top knot
+      - tousled waves
+      - twist and pin updo
+      - twist braids
+      - twisted ponytail
+      - undercut
+      - updo with flowers
+      - updo with headband
+      - updo with tendrils
+      - victorian curls
+      - victory roll updo
+      - victory rolls
+      - vintage updo
+      - voluminous curls
+      - waterfall braid
+      - wet look
+      - wet-look updo
+      - zigzag part
+  eye:
+    human:
+      - __subject/human/eye/style/shape__,__subject/human/eye/style/pupil/normal__,__subject/human/eye/color__ eye
+    demi-human:
+      - __subject/human/eye/style/shape__,__subject/human/eye/style/pupil/abnormal__,__color__ eye
+    style:
+      shape:
+        - " "
+        - tareme
+        - tsurime
+      pupil:
+        normal:
+          - "{1::sanpaku|9::}"
+        abnormal:
+          - " "
+          - "{heterochromia|}"
+          - "{horizontal pupils|}"
+          - "{sanpaku|}"
+          - "{slit pupils|}"
+    color:
+      - amber
+      - black
+      - blue
+      - brown
+      - dark brown
+      - gray
+      - green
+      - hazel
+      - light brown
+  ear:
+    - " "
+    - animal ears
+    - floppy ears
+    - long pointy ears
+    - pointy ears
+  skin:
+    human:
+      - " "
+      - dark skin
+      - fair skin
+      - light brown skin
+      - medium skin
+      - pale skin
+      - tan skin
+      - tanlines
+      - tanned skin
+      - wheat skin
+    demi-human:
+      - " "
+      - blue skin
+      - green skin
+      - purple skin
+      - red skin
+      - __subject/human/skin/human__
+  height:
+    - lanky
+    - petite
+    - short
+    - tall
+    - tiny
+    - towering
+  width:
+    - athletic
+    - curvy
+    - fit
+    - medium
+    - scrawny
+    - skinny
+    - slender
+    - slim
+    - toned
+  age:
+    do:
+      - " "
+      - __subject/human/age/option__
+    option:
+      - child
+      - loli
+      - tennager
+  misc:
+    do:
+      - "{0-1$$__subject/human/misc/option__}"
+    option:
+      - fang{s|}
+      - horn{s|}
+      - whiskers

@@ -7,6 +7,7 @@ human:
   demi-human:
     - __subject/human/hair/do__,__subject/human/eye/demi-human__,__subject/human/ear__,__subject/human/skin/demi-human__,__subject/human/height__,__subject/human/width__,__subject/human/age/do__,__subject/human/misc/do__
     - __subject/non-human/monster/demi-human__
+    - __subject/non-human/demi-human/do__
   hair:
     do:
       - __subject/human/hair/style__,__color__ hair

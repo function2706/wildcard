@@ -206,3 +206,55 @@ non-human:
       - vampire girl,slit pupils,pointy ears
       - witch girl
       - zombie girl
+  demi-human:
+    do:
+      - __subject/non-human/demi-human/species__ girl
+    species:
+      - alpaca
+      - ant
+      - antelope
+      - bat
+      - bear
+      - bee
+      - buffalo
+      - cat
+      - cow
+      - coyote
+      - crow
+      - deer
+      - dog
+      - donkey
+      - dormouse
+      - eagle
+      - ferret
+      - fish
+      - fox
+      - goat
+      - grasshopper
+      - hare
+      - horse
+      - hyena
+      - impala
+      - jackal
+      - kangaroo
+      - leopard
+      - lion
+      - llama
+      - lynx
+      - moose
+      - moth
+      - mouse
+      - okapi
+      - owl
+      - polar bear
+      - rabbit
+      - rat
+      - sheep
+      - skunk
+      - squirrel
+      - tiger
+      - wasp
+      - weasel
+      - wildcat
+      - wolf
+      - yak

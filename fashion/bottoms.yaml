@@ -2,7 +2,7 @@ bottoms:
   random:
     - __fashion/bottoms/panties/do__
     - __fashion/bottoms/skirts/do__
-    - __fashion/bottoms/skirts/do__,__fashion/bottoms/pants/do__
+    - __fashion/bottoms/skirts/do__,__fashion/bottoms/panties/do__,pantyshot
     - __fashion/bottoms/pants/do__
     - __fashion/bottoms/nude/do__
   panties:
@@ -121,6 +121,7 @@ bottoms:
     option:
       - " "
       - no panties,pussy,__fashion/bottoms/nude/pubic/do__
+      - upskirt,no panties,pussy,__fashion/bottoms/nude/pubic/do__
     pubic:
       do:
         - " "

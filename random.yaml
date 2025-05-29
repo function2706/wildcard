@@ -1,5 +1,5 @@
 random:
   - __random-of__,__subject__
-  - __expression/random__,__pose/random__,__subject/character/random__
+  - __expression/random__,__pose/random__,__subject/character/random__,__location/random__
 random-of:
-  - __expression/random__,__fashion/random__,__pose/random__
+  - __expression/random__,__fashion/random__,__pose/random__,__location/random__

@@ -144,8 +144,15 @@ tops:
     do:
       - " "
       - topless
-      - __fashion/tops/jackets/do__,__fashion/tops/nude/option__
-      - __fashion/tops/shirts/do__,__fashion/tops/nude/option__
-    option:
+      - __fashion/tops/bras/do__,__fashion/tops/nude/bras__
+      - __fashion/tops/jackets/do__,__fashion/tops/nude/jackets__
+      - __fashion/tops/shirts/do__,__fashion/tops/nude/shirts__
+    bras:
       - " "
-      - no bra,breasts,tits,
+      - breast slip
+    jackets:
+      - " "
+      - no bra,breasts out
+    shirts:
+      - " "
+      - breast slip

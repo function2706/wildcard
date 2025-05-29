@@ -1,0 +1,246 @@
+location:
+  random:
+    - __location/indoors/do__,__location/option__
+    - __location/outdoors/do__,__location/option__
+    - __location/ruins/do__,__location/option__
+  option:
+    - " "
+    - blurry background
+  indoors:
+    do:
+      - __location/indoors/location/do__,__location/indoors/option/do__
+    location:
+      do:
+        - arcade
+        - aquarium
+        - casino
+        - castle
+        - church
+        - cockpit
+        - courtroom
+        - laboratory
+        - gym
+        - hospital
+        - library
+        - movie theater
+        - museum
+        - prison cell
+        - stage
+        - theater
+        - voile
+        - __location/indoors/location/pool/do__
+        - __location/indoors/location/room/do__
+        - __location/indoors/location/school/do__
+        - __location/indoors/location/shop/do__
+        - __location/indoors/location/station/do__
+        - __location/indoors/location/vehicle/do__
+      pool:
+        do:
+          - __location/indoors/location/pool/location__
+        location:
+          - pool
+          - poolside
+      room:
+        do:
+          - __location/indoors/location/room/location__
+        location:
+          - bedroom
+          - bathroom
+          - dining room
+          - hotel room
+          - kitchen
+          - living room
+          - messy room
+          - office
+          - room
+          - throne room
+          - toilet
+      school:
+        do:
+          - __location/indoors/location/school/location__,school
+        location:
+          - " "
+          - art room
+          - classroom
+          - clubroom
+          - gym
+          - hallway
+          - infirmary
+          - locker room
+          - restroom
+          - rooftop
+          - schoolyard
+      shop:
+        do:
+          - __location/indoors/location/shop/location__,shop
+        location:
+          - " "
+          - bakery
+          - bar \(place\)
+          - bookstore
+          - cafe
+          - convenience store
+          - clothes shop
+          - flower shop
+          - maid cafe
+          - restaurant
+          - supermarket
+          - tavern
+          - weapon shop
+      station:
+        do:
+          - __location/indoors/location/train/location__
+        location:
+          - airport
+          - helipad
+          - train station
+          - train station platform
+      vehicle:
+        do:
+          - __location/indoors/location/vehicle/location__ interior
+        location:
+          - bus
+          - car
+          - train
+    option:
+      do:
+        - indoors,__location/outdoors/time__,__location/indoors/light__
+      time:
+        - " "
+        - day
+        - night
+      light:
+        - " "
+        - ambient light
+        - bright
+        - dim
+        - darkness
+  outdoors:
+    do:
+      - __location/outdoors/location/artificial__,__location/outdoors/option/do__
+      - __location/outdoors/location/nature__,__location/outdoors/option/do__
+    location:
+      artificial:
+        - amusement park
+        - bridge
+        - castle
+        - farm
+        - garage
+        - garden
+        - graveyard
+        - market
+        - market stall
+        - onsen
+        - park
+        - pier
+        - rooftop
+        - shrine
+        - stadium
+        - temple
+        - tower
+        - __location/outdoors/location/city/do__
+        - __location/outdoors/location/road/do__
+        - __location/indoors/location/pool/do__
+        - __location/indoors/location/station/do__
+      nature:
+        - bamboo forest
+        - cave
+        - desert
+        - forest
+        - field
+        - flower field
+        - hill
+        - jungle
+        - lake
+        - mountain
+        - nature
+        - pond
+        - river
+        - stream
+        - waterfall
+        - wheat field
+        - __location/outdoors/location/ocean/do__
+      city:
+        do:
+          - __location/outdoors/location/city/location__
+        location:
+          - building
+          - city
+          - rural
+          - skyscraper
+          - town
+          - urban
+          - village
+      ocean:
+        do:
+          - __location/outdoors/location/ocean/location
+        location:
+          - beach
+          - coast
+          - dock
+          - harbor
+          - ocean
+          - shore
+      road:
+        do:
+          - __location/outdoors/location/road/location
+        location:
+          - alley
+          - crosswalk
+          - dirt road
+          - path
+          - road
+          - sidewalk
+          - stone walkway
+          - street
+          - tunnel
+    option:
+      do:
+        - outdoors,__location/outdoors/weather__,__location/outdoors/time__
+      weather:
+        - " "
+        - cloudy
+        - rain
+        - snow
+        - sunny
+      time:
+        - " "
+        - day
+        - evening
+        - night
+        - sunset
+        - sunrise
+        - twilight
+  ruins:
+    do:
+      - abandoned __location/indoors/location/do__,ruins,{0-3$$__location/outdoors/location/ruins/option__},__location/indoors/option/do__
+      - abandoned __location/outdoors/location/artificial__,ruins,{0-3$$__location/outdoors/location/ruins/option__},__location/outdoors/option/do__
+    option:
+      - moss
+      - overgrown
+      - rust
+  patterned:
+    do:
+      - __location/patterned/simple/do__
+      - __location/patterned/pattern/do__
+    simple:
+      do:
+        - __location/patterned/simple/list__,simple background
+      list:
+        - __color__ background
+        - __color__ background,gradient background
+        - transparent background
+    pattern:
+      do:
+        - __color__ __location/patterned/pattern/list__ background
+      list:
+        - argyle
+        - checkered
+        - floral
+        - grid
+        - halftone
+        - heart
+        - lace
+        - plaid
+        - polka dot
+        - sunburst

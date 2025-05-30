@@ -1,5 +1,16 @@
 random:
-  - __random-of__,__subject__
-  - __expression/random__,__pose/random__,__subject/character/random__,__location/random__
-random-of:
-  - __expression/random__,__fashion/random__,__pose/random__,__location/random__
+  - __random-for__,__subject__
+random-for:
+  - "{0-4$$__list/full__}"
+random-for-character:
+  - "{0-3$$__list/default-fashion__},__subject/character/random__"
+list:
+  full:
+    - __expression/random__
+    - __fashion/random__
+    - __location/random__
+    - __pose/random__
+  default-fashion:
+    - __expression/random__
+    - __location/random__
+    - __pose/random__

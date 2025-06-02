@@ -1,8 +1,9 @@
-foot-fetish:
-  face:
-    random:
-      - __face/expression__,__state/random__
-    expression:
+nsfw:
+  foot-fetish:
+    face:
+      random:
+        - __face/expression__,__state/random__
+      expression:
         - annoyed,__state/eye__
         - bored,__state/eye__
         - disgusted,__state/eye__
@@ -24,30 +25,30 @@ foot-fetish:
         - smile,__state/eyebrow__,__state/eye__,__state/mouth__
         - smirk,__state/eyebrow__,__state/eye__,__state/mouth__
         - smug,__state/eyebrow__,__state/eye__,__state/mouth__
-  state:
-    random:
-      - " "
-      - __state/blush__
-      - __state/sweat__
-      - __state/blush__,__state/sweat__
-    eyebrow:
-      - " "
-      - raised eyebrows
-      - v-shaped eyebrows
-    eye:
-      - " "
-      - half-closed eyes
-    mouth:
-      - " "
-      - fang out
-      - licking lips
-      - open mouth
-      - parted lips
-    blush:
-      - " "
-      - blush
-    sweat:
-      - " "
-      - "sweat"
-  a:
-    - ((barefoot)),(perfect feet:1.9),{|{spread toes}},((soles)),toes,
+    state:
+      random:
+        - " "
+        - __state/blush__
+        - __state/sweat__
+        - __state/blush__,__state/sweat__
+      eyebrow:
+        - " "
+        - raised eyebrows
+        - v-shaped eyebrows
+      eye:
+        - " "
+        - half-closed eyes
+      mouth:
+        - " "
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+      blush:
+        - " "
+        - blush
+      sweat:
+        - " "
+        - "sweat"
+    a:
+      - ((barefoot)),(perfect feet:1.9),{|{spread toes}},((soles)),toes,

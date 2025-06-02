@@ -1,39 +1,45 @@
 composition:
   random:
-
-  angle:
-    - from above
-    - from behind
-    - from below
-    - from side
-    - straight-on
-    - dutch angle
-  los:
-    - looking afar
-    - looking ahead
-    - looking at another
-    - looking at viewer
-    - looking away
-    - looking down
-    - looking to the side
-    - looking up
-  focus:
-    - armpit focus
-    - ass focus
-    - back focus
-    - breast focus
-    - crotch focus
-    - eye focus
-    - foot focus
-    - hair focus
-    - hand focus
-    - hip focus
-    - navel focus
-    - pectoral focus
-    - pussy focus
+    - __composition/pov/do__
+    - __composition/from-above/do__
+    - __composition/from-below/do__
+    - __composition/from-side/do__
+  from-above:
+    do:
+      - from above,__composition/from-above/los__
+    los:
+      - " "
+      - looking ahead
+      - looking at another
+      - looking at viewer
+      - looking up
+  from-below:
+    do:
+      - from below,__composition/from-below/los__
+    los:
+      - __composition/pov/bool__
+      - looking ahead
+      - looking at another
+      - looking at viewer,__composition/pov/bool__
+      - looking down,__composition/pov/bool__
+  from-side:
+    do:
+      - from side,__composition/from-side/los__
+    los:
+      - " "
+      - looking ahead
+      - looking at another
+      - looking at viewer
+      - looking away
+      - looking down
+      - looking up
   pov:
-    - pov
-    - pov across bed
-    - pov across table
-    - pov doorway
-    - pov hands
+    do:
+      - __composition/pov/bool__,__composition/pov/los__
+    bool:
+      - " "
+      - pov
+    los:
+      - " "
+      - looking at another
+      - looking at viewer

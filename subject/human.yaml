@@ -11,22 +11,28 @@ human:
   hair:
     do:
       - __subject/human/hair/colors__ __subject/human/hair/wholes__
-      - __subject/human/hair/colors__ __subject/human/hair/bases__,{0-5$$__subject/human/hair/list__}
+      - __subject/human/hair/colors__ __subject/human/hair/random__
+    random:
+      - __subject/human/hair/bases/do__,{0-5$$__subject/human/hair/list__}
     list:
-      - __subject/human/hair/decorations__
+      - __subject/human/hair/decorations/do__
       - __subject/human/hair/bangs__
-      - __subject/human/hair/tails__
-      - __subject/human/hair/updos__
+      - __subject/human/hair/extensions/do__
       - __subject/human/hair/sidelocks__
     decorations:
-      - ahoge
-      - antenna hair
-      - crown braid
-      - halo braid
-      - heart ahoge
-      - heart antenna hair
-      - huge ahoge
-      - single hair intake
+      do:
+        - __subject/human/hair/decorations/ahoges__
+        - __subject/human/hair/decorations/patterns__
+      ahoges:
+        - ahoge
+        - antenna hair
+        - heart ahoge
+        - heart antenna hair
+        - huge ahoge
+      patterns:
+        - crown braid
+        - halo braid
+        - single hair intake
     bangs:
       - arched bangs
       - asymmetrical bangs
@@ -43,47 +49,55 @@ human:
       - parted bangs
       - short bangs
       - swept bangs
-    tails:
-      - braid
-      - braided ponytail
-      - drill ponytail
-      - folded ponytail
-      - high ponytail
-      - high side ponytail
-      - long braid
-      - low ponytail
-      - low twin braids
-      - low twintails
-      - one side up
-      - ponytail
-      - short ponytail
-      - short twintails
-      - side ponytail
-      - single braid
-      - split ponytail
-      - twin braids
-      - twin drills
-      - twintails
-      - two side up
-      - uneven twintails
-      - wide ponytail
-    updos:
-      - ballerina bun
-      - blunt bangs
-      - boho updo
-      - braided bun
-      - braided updo
-      - bun cover
-      - cone hair bun
-      - double bun
-      - doughnut hair bun
-      - hair bun
-      - low bun
-      - messy bun
-      - messy updo
-      - single hair bun
-      - single side bun
-      - tied hair
+    extensions:
+      do:
+        - __subject/human/hair/extensions/tails/do__
+        - __subject/human/hair/extensions/updos__
+      tails:
+        do:
+          - __subject/human/hair/extensions/tails/position__ __subject/human/hair/extensions/tails/length__ __subject/human/hair/extensions/tails/type__
+          - __subject/human/hair/extensions/tails/misc__
+        type:
+          - ponytail
+          - single braid
+          - twin braids
+          - twintails
+        length:
+          - " "
+          - long
+          - short
+        position:
+          - " "
+          - high
+          - low
+          - side
+        misc:
+          - braided ponytail
+          - drill ponytail
+          - folded ponytail
+          - one side up
+          - split ponytail
+          - twin drills
+          - two side up
+          - uneven twintails
+          - wide ponytail
+      updos:
+        - ballerina bun
+        - blunt bangs
+        - boho updo
+        - braided bun
+        - braided updo
+        - bun cover
+        - cone hair bun
+        - double bun
+        - doughnut hair bun
+        - hair bun
+        - low bun
+        - messy bun
+        - messy updo
+        - single hair bun
+        - single side bun
+        - tied hair
     sidelocks:
       - asymmetrical sidelocks
       - drill sidelocks
@@ -93,32 +107,36 @@ human:
       - sidelocks
       - single sidelock
     bases:
-      - asymmetrical hair
-      - blunt ends
-      - bob cut
-      - bowl cut
-      - curly bob
-      - curly hair
-      - curly pixie
-      - curtained hair
-      - drill hair
-      - flipped hair
-      - hair flaps
-      - hair intakes
-      - hair over shoulder
-      - long hair
-      - medium hair
-      - messy hair
-      - pixie cut
-      - short hair
-      - spiked hair
-      - straight hair
-      - twisted hair
-      - very long hair
-      - very short hair
-      - wavy hair
+      do:
+        - __subject/human/hair/bases/length__ __subject/human/hair/bases/style__ hair,__subject/human/hair/bases/option__
+      length:
+        - bob
+        - long
+        - medium
+        - pixie
+        - short
+        - very long
+        - very short
+      style:
+        - " "
+        - asymmetrical
+        - curly
+        - curtained hair
+        - drill
+        - flipped
+        - messy
+        - spiked
+        - straight
+        - wavy
+      option:
+        - " "
+        - blunt ends
+        - hair flaps
+        - hair intakes
     wholes:
+      - __subject/human/hair/random__
       - beehive hairdo
+      - bowl cut
       - cornrows
       - dreadlocks
       - hime cut

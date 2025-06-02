@@ -1,42 +1,36 @@
 nsfw:
   foot-fetish:
+    do:
+      -
     face:
       random:
-        - __face/expression__,__state/random__
+        - __nsfw/foot-fetish/face/expression__,__nsfw/foot-fetish/face/option/do__
       expression:
-        - annoyed,__state/eye__
-        - bored,__state/eye__
-        - disgusted,__state/eye__
-        - dominant expression,__state/eyebrow__,__state/eye__,__state/mouth__
-        - dominant expression,evil expression,__state/eyebrow__,__state/eye__,__state/mouth__
-        - embarrassed,__state/eye__
-        - evil expression,__state/eyebrow__,__state/eye__,__state/mouth__
-        - excited,__state/eyebrow__,__state/mouth__
-        - expressionless,__state/eye__
-        - frustrated,__state/eye__
-        - giggle,__state/eyebrow__,__state/eye__,__state/mouth__
-        - grin,__state/eyebrow__,__state/eye__,__state/mouth__
-        - in heat,__state/eyebrow__,__state/eye__,__state/mouth__
-        - naughty face,__state/eyebrow__,__state/eye__,__state/mouth__
+        - annoyed,__nsfw/foot-fetish/face/eye__
+        - bored,__nsfw/foot-fetish/face/eye__
+        - disgusted,__nsfw/foot-fetish/face/eye__
+        - dominant expression,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - dominant expression,evil expression,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - embarrassed,__nsfw/foot-fetish/face/eye__
+        - evil expression,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - excited,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/mouth__
+        - expressionless,__nsfw/foot-fetish/face/eye__
+        - frustrated,__nsfw/foot-fetish/face/eye__
+        - giggle,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - grin,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - in heat,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - naughty face,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
         - nervous
         - scared
-        - seductive smile,__state/eyebrow__,__state/eye__,__state/mouth__
-        - skeptical,__state/eye__
-        - smile,__state/eyebrow__,__state/eye__,__state/mouth__
-        - smirk,__state/eyebrow__,__state/eye__,__state/mouth__
-        - smug,__state/eyebrow__,__state/eye__,__state/mouth__
-    state:
-      random:
-        - " "
-        - __state/blush__
-        - __state/sweat__
-        - __state/blush__,__state/sweat__
+        - seductive smile,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - skeptical,__nsfw/foot-fetish/face/eye__
+        - smile,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - smirk,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
+        - smug,__nsfw/foot-fetish/face/eyebrow__,__nsfw/foot-fetish/face/eye__,__nsfw/foot-fetish/face/mouth__
       eyebrow:
-        - " "
         - raised eyebrows
         - v-shaped eyebrows
       eye:
-        - " "
         - half-closed eyes
       mouth:
         - " "
@@ -44,11 +38,15 @@ nsfw:
         - licking lips
         - open mouth
         - parted lips
-      blush:
-        - " "
-        - blush
-      sweat:
-        - " "
-        - "sweat"
-    a:
-      - ((barefoot)),(perfect feet:1.9),{|{spread toes}},((soles)),toes,
+      option:
+        do:
+          - "{0-2$$__nsfw/foot-fetish/face/option/list__}"
+        list:
+          - __nsfw/foot-fetish/face/option/blush__
+          - __nsfw/foot-fetish/face/option/sweat__
+        blush:
+          - " "
+          - blush
+        sweat:
+          - " "
+          - "sweat"

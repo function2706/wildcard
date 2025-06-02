@@ -3,200 +3,129 @@ try:
     - __try/hair/do__
   hair:
     do:
-      - __try/hair/style__, __try/hair/bang__,__try/hair/color__ hair
-    style:
-      - 360 waves
-      - a-line cut
-      - absurdly long hair
-      - afro
-      - ahoge
-      - antenna hair
-      - asymmetrical cut
-      - ballerina bun
-      - bantu knots
-      - beach waves
-      - beehive
-      - big hair
-      - blunt cut
-      - blunt ends
-      - bob
-      - bob cut
-      - boho updo
-      - bow ponytail
-      - bowl cut
-      - box braids
+      - __human/hair/colors__ __human/hair/wholes__
+      - __human/hair/colors__ __human/hair/bases__,{0-3$$__human/hair/list__}
+    list:
+      - __human/hair/decorations/do__
+      - __human/hair/bangs__
+      - __human/hair/tails__
+      - __human/hair/updos__
+      - __human/hair/sidelocks__
+    decorations:
+      do:
+        - __human/hair/decorations/ahoges__
+        - __human/hair/decorations/patterns__
+      ahoges:
+        - ahoge
+        - antenna hair
+        - heart ahoge
+        - heart antenna hair
+        - huge ahoge
+      patterns:
+        - crown braid
+        - halo braid
+        - single hair intake
+    bangs:
+      - arched bangs
+      - asymmetrical bangs
+      - bangs pinned back
+      - braided bangs
+      - crossed bangs
+      - diagonal bangs
+      - hair between eyes
+      - hair over eyes
+      - hair over one eye
+      - hair pulled back
+      - hair slicked back
+      - long bangs
+      - parted bangs
+      - short bangs
+      - swept bangs
+    tails:
       - braid
-      - braided bun
-      - braided crown
       - braided ponytail
+      - drill ponytail
+      - folded ponytail
+      - high ponytail
+      - high side ponytail
+      - long braid
+      - low ponytail
+      - low twin braids
+      - low twintails
+      - one side up
+      - ponytail
+      - short ponytail
+      - short twintails
+      - side ponytail
+      - single braid
+      - split ponytail
+      - twin braids
+      - twin drills
+      - twintails
+      - two side up
+      - uneven twintails
+      - wide ponytail
+    updos:
+      - ballerina bun
+      - blunt bangs
+      - boho updo
+      - braided bun
       - braided updo
-      - bubble ponytail
       - bun cover
-      - bun with braids
-      - bun with twists
-      - buzz cut
-      - chignon
-      - chignon updo
       - cone hair bun
-      - corkscrew curls
-      - cornrows
-      - crew cut
-      - crimped hair
-      - crown braid
+      - double bun
+      - doughnut hair bun
+      - hair bun
+      - low bun
+      - messy bun
+      - messy updo
+      - single hair bun
+      - single side bun
+      - tied hair
+    sidelocks:
+      - asymmetrical sidelocks
+      - drill sidelocks
+      - low-tied sidelocks
+      - side braid
+      - side braids
+      - sidelocks
+      - single sidelock
+    bases:
+      - asymmetrical hair
+      - blunt ends
+      - bob cut
+      - bowl cut
       - curly bob
       - curly hair
       - curly pixie
       - curtained hair
-      - double bun
-      - doughnut hair bun
-      - dreadlocks
       - drill hair
-      - drill ponytail
-      - dutch braid
-      - elegant updo
-      - faux hawk
-      - feathers cut
-      - finger waves
-      - fishtail braid
-      - flip hairstyle
       - flipped hair
-      - floating hair
-      - fluffy hair
-      - folded ponytail
-      - french braid
-      - french twist
-      - front ponytail
-      - geometric cut
-      - goddess braids
-      - grunge waves
-      - hair bun
       - hair flaps
-      - hair flip
-      - hair flowing over
-      - hair spread out
-      - hair up
-      - half updo
-      - half-up bun
-      - half-up half-down
-      - halo braid
-      - heart ahoge
-      - high ponytail
-      - high side ponytail
-      - hime cut
-      - hollywood waves
-      - huge ahoge
-      - inverted bob
-      - layered cut
-      - lob (long bob)
-      - long braid
+      - hair intakes
+      - hair over shoulder
       - long hair
-      - loose curls
-      - low bun
-      - low ponytail
-      - low twin braids
-      - low twintails
-      - low-braided long hair
-      - marley twists
       - medium hair
-      - messy bun
       - messy hair
-      - messy updo
-      - messy waves
-      - middle part
-      - milkmaid braids
-      - modern mullet
-      - mohawk
-      - multiple braids
-      - one side up
-      - pin curls
-      - pin-up curls
-      - pineapple updo
       - pixie cut
-      - pointy hair
-      - pompadour
-      - ponytail
-      - ponytail with bangs
-      - ponytail with curls
-      - quad tails
-      - quiff
-      - retro curls
-      - romantic updo
-      - senegalese twists
-      - shag cut
       - short hair
-      - short ponytail
-      - short twintails
-      - side braid
-      - side braids
-      - side part
-      - side ponytail
-      - side-swept waves
-      - sidecut
-      - single braid
-      - single hair bun
-      - single side bun
-      - sleek ponytail
-      - slicked-back hair
-      - sock bun
-      - space buns
       - spiked hair
-      - spiral curls
-      - split ponytail
       - straight hair
-      - top knot
-      - tousled waves
-      - tri tails
-      - twin braids
-      - twin drills
-      - twintails
-      - twist and pin updo
-      - twist braids
-      - twisted ponytail
-      - two side up
-      - undercut
-      - uneven twintails
-      - updo with flowers
-      - updo with headband
-      - updo with tendrils
+      - twisted hair
       - very long hair
       - very short hair
-      - victorian curls
-      - victory roll updo
-      - victory rolls
-      - vintage updo
-      - voluminous curls
-      - waterfall braid
       - wavy hair
-      - wet look
-      - wet-look updo
-      - wide ponytail
-      - zigzag part
-    bang:
-      - " "
-      - arched bangs
-      - blunt bangs
-      - braided bangs
-      - choppy bangs
-      - crossed bangs
-      - diagonal bangs
-      - double-parted bangs
-      - dyed bangs
-      - hair between eyes
-      - hair intakes
-      - hair over eyes
-      - hair over one eye
-      - long bangs
-      - parted bangs
-      - short bangs
-      - single hair intake
-      - swept bangs
-    sidelock:
-      - " "
-      - drill sidelocks
-      - low-tied sidelocks
-      - sidelocks
-      - single sidelock
-    color:
+    wholes:
+      - beehive hairdo
+      - cornrows
+      - dreadlocks
+      - hime cut
+      - inverted bob
+      - low-braided long hair
+      - undercut
+      - voluminous curls
+      - wolf cut
+    colors:
       - black
       - blonde
       - brown

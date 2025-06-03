@@ -1,0 +1,615 @@
+expression:
+  random:
+    - __nsfw/expression/list__,__nsfw/expression/option/do__
+  list:
+    - __nsfw/expression/annoyed/do__
+    - __nsfw/expression/ashamed/do__
+    - __nsfw/expression/bored/do__
+    - __nsfw/expression/curious/do__
+    - __nsfw/expression/depressed/do__
+    - __nsfw/expression/disappointed/do__
+    - __nsfw/expression/disgusted/do__
+    - __nsfw/expression/embarrassed/do__
+    - __nsfw/expression/excited/do__
+    - __nsfw/expression/expressionless/do__
+    - __nsfw/expression/flustered/do__
+    - __nsfw/expression/giggle/do__
+    - __nsfw/expression/grin/do__
+    - __nsfw/expression/in-heat/do__
+    - __nsfw/expression/loving/do__
+    - __nsfw/expression/naughty-face/do__
+    - __nsfw/expression/nervous/do__
+    - __nsfw/expression/sadistic/do__
+    - __nsfw/expression/scared/do__
+    - __nsfw/expression/seductive-smile/do__
+    - __nsfw/expression/skeptical/do__
+    - __nsfw/expression/smile/do__
+    - __nsfw/expression/smirk/do__
+    - __nsfw/expression/smug/do__
+    - __nsfw/expression/worried/do
+  annoyed:
+    do:
+      - annoyed,{0-3$$__nsfw/expression/annoyed/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/annoyed/eye__
+      - __nsfw/expression/annoyed/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  ashamed:
+    do:
+      - ashamed,{0-3$$__nsfw/expression/ashamed/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/ashamed/eye__
+      - __nsfw/expression/ashamed/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  bored:
+    do:
+      - bored,{0-3$$__nsfw/expression/bored/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/bored/eye__
+      - __nsfw/expression/bored/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  curious:
+    do:
+      - curious,{0-3$$__nsfw/expression/curious/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/curious/eye__
+      - __nsfw/expression/curious/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  depressed:
+    do:
+      - depressed,{0-3$$__nsfw/expression/depressed/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/depressed/eye__
+      - __nsfw/expression/depressed/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  disappointed:
+    do:
+      - disappointed,{0-3$$__nsfw/expression/disappointed/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/disappointed/eye__
+      - __nsfw/expression/disappointed/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  disgusted:
+    do:
+      - disgusted,{0-3$$__nsfw/expression/disgusted/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/disgusted/eye__
+      - __nsfw/expression/disgusted/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  embarrassed:
+    do:
+      - embarrassed,{0-3$$__nsfw/expression/embarrassed/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/embarrassed/eye__
+      - __nsfw/expression/embarrassed/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  excited:
+    do:
+      - excited,{0-3$$__nsfw/expression/excited/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/excited/eye__
+      - __nsfw/expression/excited/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  expressionless:
+    do:
+      - expressionless,{0-3$$__nsfw/expression/expressionless/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/expressionless/eye__
+      - __nsfw/expression/expressionless/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  flustered:
+    do:
+      - flustered,{0-3$$__nsfw/expression/flustered/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/flustered/eye__
+      - __nsfw/expression/flustered/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  giggle:
+    do:
+      - giggle,{0-3$$__nsfw/expression/giggle/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/giggle/eye__
+      - __nsfw/expression/giggle/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  grin:
+    do:
+      - grin,{0-3$$__nsfw/expression/grin/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/grin/eye__
+      - __nsfw/expression/grin/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  in-heat:
+    do:
+      - in heat,{0-3$$__nsfw/expression/in-heat/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/in-heat/eye__
+      - __nsfw/expression/in-heat/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  loving:
+    do:
+      - loving,{0-3$$__nsfw/expression/loving/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/loving/eye__
+      - __nsfw/expression/loving/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  naughty-face:
+    do:
+      - naughty face,{0-3$$__nsfw/expression/naughty-face/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/naughty-face/eye__
+      - __nsfw/expression/naughty-face/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  nervous:
+    do:
+      - nervous,{0-3$$__nsfw/expression/nervous/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/nervous/eye__
+      - __nsfw/expression/nervous/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  sadistic:
+    do:
+      - "{1-2$$__nsfw/expression/sadistic/base__},{0-3$$__nsfw/expression/sadistic/list__}"
+    base:
+      - dominant expression
+      - evil expression
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/sadistic/eye__
+      - __nsfw/expression/sadistic/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  scared:
+    do:
+      - scared,{0-3$$__nsfw/expression/scared/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/scared/eye__
+      - __nsfw/expression/scared/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  seductive-smile:
+    do:
+      - seductive smile,{0-3$$__nsfw/expression/seductive-smile/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/seductive-smile/eye__
+      - __nsfw/expression/seductive-smile/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  skeptical:
+    do:
+      - skeptical,{0-3$$__nsfw/expression/skeptical/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/skeptical/eye__
+      - __nsfw/expression/skeptical/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  smile:
+    do:
+      - smile,{0-3$$__nsfw/expression/smile/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/smile/eye__
+      - __nsfw/expression/smile/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  smirk:
+    do:
+      - smirk,{0-3$$__nsfw/expression/smirk/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/smirk/eye__
+      - __nsfw/expression/smirk/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  smug:
+    do:
+      - smug,{0-3$$__nsfw/expression/smug/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/smug/eye__
+      - __nsfw/expression/smug/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  worried:
+    do:
+      - worried,{0-3$$__nsfw/expression/worried/list__}
+    list:
+      - __expression/face/eyebrow/do__
+      - __nsfw/expression/worried/eye__
+      - __nsfw/expression/worried/mouth__
+    eye:
+      - closed eyes
+      - half-closed eyes
+      - heart-shaped pupils
+      - narrowed eyes
+      - one eye closed
+      - wide-eyed
+    mouth:
+      - closed mouth
+      - dot mouth
+      - fang out
+      - fangs out
+      - licking lips
+      - open mouth
+      - split mouth
+      - tongue out
+  option:
+    do:
+      - " "
+      - "{1-3$$__nsfw/expression/option/list__}"
+    list:
+      - blush
+      - breath
+      - sweat

@@ -1,18 +1,7 @@
 expression:
   random:
-    - __expression/nsfw__
     - __expression/sfw__
     - __expression/face/random__
-  nsfw:
-    - afterglow
-    - dominant expression
-    - evil expression
-    - in heat
-    - incoming kiss,closed eyes
-    - naughty face
-    - orgasm
-    - seductive smile
-    - torogao
   sfw:
     - __expression/anger__
     - __expression/happiness__
@@ -46,9 +35,16 @@ expression:
     - \:<
     - \:|
     - \:o
+    - afterglow
     - crazy
     - curious
+    - dominant expression
+    - evil expression
     - expressionless
+    - in heat
+    - naughty face
+    - orgasm
+    - seductive smile
     - sleepy
     - thoughtful
     - tired
@@ -99,13 +95,10 @@ expression:
       - wide-eyed
     eyebrow:
       do:
-        - __expression/face/eyebrow/none__
-        - __expression/face/eyebrow/done__
-      none:
         - " "
-      done:
+        - __expression/face/eyebrow/option__
+      option:
         - raised eyebrows
-        - troubled eyebrows
         - v-shaped eyebrows
     mouth:
       - chestnut mouth
@@ -120,11 +113,9 @@ expression:
       - tongue out
     misc:
       do:
-        - __expression/face/misc/none__
-        - __expression/face/misc/done__
-      none:
         - " "
-      done:
+        - __expression/face/misc/option__
+      option:
         - blush
         - ear blush
         - full-face blush

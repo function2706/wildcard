@@ -1,18 +1,18 @@
 random:
-  - __random-for__,__subject__
+  - __mywc/random-for__,__mywc/subject__
 random-for:
-  - "{0-5$$__list/full__}"
+  - "{0-5$$__mywc/list/full__}"
 random-for-character:
-  - "{0-4$$__list/default-fashion__},__subject/character/random__"
+  - "{0-4$$__mywc/list/default-fashion__},__mywc/subject/character/random__"
 list:
   full:
-    - __composition/random__
-    - __expression/random__
-    - __fashion/random__
-    - __location/random__
-    - __pose/random__
+    - __mywc/composition/random__
+    - __mywc/expression/random__
+    - __mywc/fashion/random__
+    - __mywc/location/random__
+    - __mywc/pose/random__
   default-fashion:
-    - __composition/random__
-    - __expression/random__
-    - __location/random__
-    - __pose/random__
+    - __mywc/composition/random__
+    - __mywc/expression/random__
+    - __mywc/location/random__
+    - __mywc/pose/random__

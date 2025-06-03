@@ -13,24 +13,24 @@ costumes:
     - race queen,grid girl,skirt,sleeveless
     - stewardess uniform
     - waitress,apron,frilled skirt
-    - __fashion/costumes/business/do__
-    - __fashion/costumes/chef/do__
-    - __fashion/costumes/formal/do__
-    - __fashion/costumes/gym/do__
-    - __fashion/costumes/idol/do__
-    - __fashion/costumes/magical/do__
-    - __fashion/costumes/maid/do__
-    - __fashion/costumes/nurse/do__
-    - __fashion/costumes/military/do__
-    - __fashion/costumes/police/do__
-    - __fashion/costumes/school/do__
-    - __fashion/costumes/sports/do__
-    - __fashion/costumes/teacher/do__
+    - __mywc/fashion/costumes/business/do__
+    - __mywc/fashion/costumes/chef/do__
+    - __mywc/fashion/costumes/formal/do__
+    - __mywc/fashion/costumes/gym/do__
+    - __mywc/fashion/costumes/idol/do__
+    - __mywc/fashion/costumes/magical/do__
+    - __mywc/fashion/costumes/maid/do__
+    - __mywc/fashion/costumes/nurse/do__
+    - __mywc/fashion/costumes/military/do__
+    - __mywc/fashion/costumes/police/do__
+    - __mywc/fashion/costumes/school/do__
+    - __mywc/fashion/costumes/sports/do__
+    - __mywc/fashion/costumes/teacher/do__
   business:
     do:
-      - business suit,__fashion/costumes/business/bottoms__,__fashion/costumes/business/shoes__
+      - business suit,__mywc/fashion/costumes/business/bottoms__,__mywc/fashion/costumes/business/shoes__
     bottoms:
-      - pencil skirt,__fashion/costumes/business/color__ pantyhose
+      - pencil skirt,__mywc/fashion/costumes/business/color__ pantyhose
       - pants
     shoes:
       - pumps
@@ -41,18 +41,18 @@ costumes:
       - black
   chef:
     do:
-      - chef uniform,__fashion/costumes/chef/accessories__
+      - chef uniform,__mywc/fashion/costumes/chef/accessories__
     accessories:
       - " "
       - hat
   formal:
     do:
-      - formal black ,__fashion/costumes/formal/upper__,__fashion/costumes/formal/accessories__,slacks pants
+      - formal black ,__mywc/fashion/costumes/formal/upper__,__mywc/fashion/costumes/formal/accessories__,slacks pants
     upper:
-      - female butler tailcoat,__fashion/costumes/formal/gloves__
-      - waistcoat,__fashion/costumes/formal/gloves__
-      - suit jacket,__fashion/costumes/formal/gloves__
-      - pant suit,__fashion/costumes/formal/gloves__
+      - female butler tailcoat,__mywc/fashion/costumes/formal/gloves__
+      - waistcoat,__mywc/fashion/costumes/formal/gloves__
+      - suit jacket,__mywc/fashion/costumes/formal/gloves__
+      - pant suit,__mywc/fashion/costumes/formal/gloves__
     gloves:
       - " "
       - white gloves
@@ -61,13 +61,13 @@ costumes:
       - necktie
   gym:
     do:
-      - gym uniform,white t-shirts,__fashion/costumes/gym/bottoms__
+      - gym uniform,white t-shirts,__mywc/fashion/costumes/gym/bottoms__
     bottoms:
       - buruma
       - shorts
   idol:
     do:
-      - idol clothes,puffy short sleeves,__fashion/costumes/idol/bottoms__,__fashion/costumes/idol/gloves__,__fashion/costumes/idol/accessories/do__
+      - idol clothes,puffy short sleeves,__mywc/fashion/costumes/idol/bottoms__,__mywc/fashion/costumes/idol/gloves__,__mywc/fashion/costumes/idol/accessories/do__
     bottoms:
       - long frilled skirt
       - short frilled skirt
@@ -76,7 +76,7 @@ costumes:
       - gloves
     accessories:
       do:
-        - __fashion/costumes/idol/accessories/hair__,__fashion/costumes/idol/accessories/ties__
+        - __mywc/fashion/costumes/idol/accessories/hair__,__mywc/fashion/costumes/idol/accessories/ties__
       hair:
         - " "
         - baret
@@ -88,7 +88,7 @@ costumes:
         - necktie
   magical:
     do:
-      - __fashion/costumes/magical/color__ magical girl,brooch,choker,__fashion/costumes/magical/gloves__,tighthighs,__fashion/costumes/magical/accessories__
+      - __mywc/fashion/costumes/magical/color__ magical girl,brooch,choker,__mywc/fashion/costumes/magical/gloves__,tighthighs,__mywc/fashion/costumes/magical/accessories__
     color:
       - white
       - black
@@ -111,14 +111,14 @@ costumes:
       - hairpin
   maid:
     do:
-      - maid outfit,apron,headdress,__fashion/costumes/maid/gloves__,frilled skirt,puffy sleeves
+      - maid outfit,apron,headdress,__mywc/fashion/costumes/maid/gloves__,frilled skirt,puffy sleeves
     gloves:
       - " "
       - gloves
       - elbow gloves
   military:
     do:
-      - __fashion/costumes/military/pattern__ military uniform,hat,{0-2$$camouflage aiguillette|epaulettes|ribbon bar}
+      - __mywc/fashion/costumes/military/pattern__ military uniform,hat,{0-2$$camouflage aiguillette|epaulettes|ribbon bar}
     pattern:
       - black
       - green
@@ -127,7 +127,7 @@ costumes:
       - woodland
   nurse:
     do:
-      - __fashion/costumes/nurse/color__ nurse,nurse cap
+      - __mywc/fashion/costumes/nurse/color__ nurse,nurse cap
     color:
       - white
       - light pink
@@ -135,7 +135,7 @@ costumes:
       - light green
   police:
     do:
-      - police uniform,__fashion/costumes/police/bottoms__,__fashion/costumes/police/accessories__
+      - police uniform,__mywc/fashion/costumes/police/bottoms__,__mywc/fashion/costumes/police/accessories__
     bottoms:
       - pencil skirt
       - pants
@@ -144,19 +144,19 @@ costumes:
       - hat
   school:
     do:
-      - school uniform,__fashion/costumes/school/tops__,__fashion/costumes/school/bottoms__,__fashion/costumes/school/footwears/do__,__fashion/costumes/school/accessories/bags__
+      - school uniform,__mywc/fashion/costumes/school/tops__,__mywc/fashion/costumes/school/bottoms__,__mywc/fashion/costumes/school/footwears/do__,__mywc/fashion/costumes/school/accessories/bags__
     tops:
-      - shirt,__fashion/costumes/school/accessories/ties__
-      - blazer jacket,shirt,__fashion/costumes/school/accessories/ties__
-      - sailor collar,neckerchief,__fashion/costumes/school/length__ sleeves
+      - shirt,__mywc/fashion/costumes/school/accessories/ties__
+      - blazer jacket,shirt,__mywc/fashion/costumes/school/accessories/ties__
+      - sailor collar,neckerchief,__mywc/fashion/costumes/school/length__ sleeves
       - sailor collar,neckerchief,cardigan
     bottoms:
-      - __fashion/costumes/school/length__ plated skirt
+      - __mywc/fashion/costumes/school/length__ plated skirt
     footwears:
       do:
-        - __fashion/costumes/school/footwears/socks/do__,__fashion/costumes/school/footwears/shoes__
+        - __mywc/fashion/costumes/school/footwears/socks/do__,__mywc/fashion/costumes/school/footwears/shoes__
       socks:
-        do: __fashion/costumes/school/footwears/socks/color__ __fashion/costumes/school/footwears/socks/type__
+        do: __mywc/fashion/costumes/school/footwears/socks/color__ __mywc/fashion/costumes/school/footwears/socks/type__
         type:
           - ankle socks
           - knee-high socks
@@ -183,7 +183,7 @@ costumes:
       - short
   sports:
     do:
-      - __fashion/costumes/sports/type__ uniform
+      - __mywc/fashion/costumes/sports/type__ uniform
     type:
       - baseball
       - basketball
@@ -193,7 +193,7 @@ costumes:
       - volleyball
   teacher:
     do:
-      - teacher,white collared shirt,__fashion/costumes/teacher/accessories__,pencil skirt,__fashion/costumes/teacher/color__ pantyhose
+      - teacher,white collared shirt,__mywc/fashion/costumes/teacher/accessories__,pencil skirt,__mywc/fashion/costumes/teacher/color__ pantyhose
     accessories:
       - " "
       - glasses

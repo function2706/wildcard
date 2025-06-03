@@ -1,12 +1,12 @@
 location:
   random:
-    - __location/indoors/do__
-    - __location/outdoors/do__
-    - __location/patterned/do__
+    - __mywc/location/indoors/do__
+    - __mywc/location/outdoors/do__
+    - __mywc/location/patterned/do__
   indoors:
     do:
-      - __location/indoors/location/do__,__location/indoors/option/do__
-      - __location/ruins/indoors__
+      - __mywc/location/indoors/location/do__,__mywc/location/indoors/option/do__
+      - __mywc/location/ruins/indoors__
     location:
       do:
         - aquarium
@@ -25,10 +25,10 @@ location:
         - theater
         - train station
         - voile
-        - __location/indoors/location/room__
-        - __location/indoors/location/school/do__
-        - __location/indoors/location/shop/do__
-        - __location/indoors/location/vehicle/do__
+        - __mywc/location/indoors/location/room__
+        - __mywc/location/indoors/location/school/do__
+        - __mywc/location/indoors/location/shop/do__
+        - __mywc/location/indoors/location/vehicle/do__
       room:
         - bathroom
         - bedroom
@@ -43,7 +43,7 @@ location:
         - toilet
       school:
         do:
-          - __location/indoors/location/school/location__,school
+          - __mywc/location/indoors/location/school/location__,school
         location:
           - " "
           - classroom
@@ -54,7 +54,7 @@ location:
           - restroom
       shop:
         do:
-          - __location/indoors/location/shop/location__,shop
+          - __mywc/location/indoors/location/shop/location__,shop
         location:
           - " "
           - bakery
@@ -70,13 +70,13 @@ location:
           - tavern
       vehicle:
         do:
-          - __location/indoors/location/vehicle/location__ interior
+          - __mywc/location/indoors/location/vehicle/location__ interior
         location:
           - car
           - train
     option:
       do:
-        - indoors,__location/indoors/option/time__,__location/indoors/option/light__
+        - indoors,__mywc/location/indoors/option/time__,__mywc/location/indoors/option/light__
       time:
         - " "
         - day
@@ -89,9 +89,9 @@ location:
         - darkness
   outdoors:
     do:
-      - __location/outdoors/location/artificial__,__location/outdoors/option/do__
-      - __location/outdoors/location/nature__,__location/outdoors/option/do__
-      - __location/ruins/outdoors__
+      - __mywc/location/outdoors/location/artificial__,__mywc/location/outdoors/option/do__
+      - __mywc/location/outdoors/location/nature__,__mywc/location/outdoors/option/do__
+      - __mywc/location/ruins/outdoors__
     location:
       artificial:
         - amusement park
@@ -109,9 +109,9 @@ location:
         - shrine
         - stadium
         - temple
-        - __location/outdoors/location/city__
-        - __location/outdoors/location/road__
-        - __location/outdoors/location/school/do__
+        - __mywc/location/outdoors/location/city__
+        - __mywc/location/outdoors/location/road__
+        - __mywc/location/outdoors/location/school/do__
       nature:
         - bamboo forest
         - beach
@@ -146,14 +146,14 @@ location:
         - street
       school:
         do:
-          - __location/outdoors/location/school/location__,school
+          - __mywc/location/outdoors/location/school/location__,school
         location:
           - " "
           - rooftop
           - schoolyard
     option:
       do:
-        - outdoors,__location/outdoors/option/weather__,__location/outdoors/option/time__
+        - outdoors,__mywc/location/outdoors/option/weather__,__mywc/location/outdoors/option/time__
       weather:
         - " "
         - cloudy
@@ -170,27 +170,27 @@ location:
         - twilight
   ruins:
     indoors:
-      - abandoned __location/indoors/location/do__,ruins,{0-3$$__location/ruins/option__},__location/indoors/option/do__
+      - abandoned __mywc/location/indoors/location/do__,ruins,{0-3$$__mywc/location/ruins/option__},__mywc/location/indoors/option/do__
     outdoors:
-      - abandoned __location/outdoors/location/artificial__,ruins,{0-3$$__location/ruins/option__},__location/outdoors/option/do__
+      - abandoned __mywc/location/outdoors/location/artificial__,ruins,{0-3$$__mywc/location/ruins/option__},__mywc/location/outdoors/option/do__
     option:
       - moss
       - overgrown
       - rust
   patterned:
     do:
-      - __location/patterned/simple/do__
-      - __location/patterned/pattern/do__
+      - __mywc/location/patterned/simple/do__
+      - __mywc/location/patterned/pattern/do__
     simple:
       do:
-        - __location/patterned/simple/list__,simple background
+        - __mywc/location/patterned/simple/list__,simple background
       list:
-        - __location/patterned/color__ background
-        - __location/patterned/color__ background,gradient background
+        - __mywc/location/patterned/color__ background
+        - __mywc/location/patterned/color__ background,gradient background
         - transparent background
     pattern:
       do:
-        - __location/patterned/color__ __location/patterned/pattern/list__ background
+        - __mywc/location/patterned/color__ __mywc/location/patterned/pattern/list__ background
       list:
         - argyle
         - checkered

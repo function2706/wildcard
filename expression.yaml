@@ -1,13 +1,13 @@
 expression:
   random:
-    - __expression/sfw__
-    - __expression/face/random__
+    - __mywc/expression/sfw__
+    - __mywc/expression/face/random__
   sfw:
-    - __expression/anger__
-    - __expression/happiness__
-    - __expression/misc__
-    - __expression/sadness__
-    - __expression/surprise__
+    - __mywc/expression/anger__
+    - __mywc/expression/happiness__
+    - __mywc/expression/misc__
+    - __mywc/expression/sadness__
+    - __mywc/expression/surprise__
   anger:
     - angry
     - annoyed
@@ -71,12 +71,12 @@ expression:
     - worried
   face:
     random:
-      - "{0-4$$__expression/face/list__}"
+      - "{0-4$$__mywc/expression/face/list__}"
     list:
-      - __expression/face/eye__
-      - __expression/face/eyebrow/do__
-      - __expression/face/mouth__
-      - __expression/face/misc/do__
+      - __mywc/expression/face/eye__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/expression/face/mouth__
+      - __mywc/expression/face/misc/do__
     eye:
       - closed eyes
       - constricted pupils
@@ -96,7 +96,7 @@ expression:
     eyebrow:
       do:
         - " "
-        - __expression/face/eyebrow/option__
+        - __mywc/expression/face/eyebrow/option__
       option:
         - raised eyebrows
         - v-shaped eyebrows
@@ -114,7 +114,7 @@ expression:
     misc:
       do:
         - " "
-        - __expression/face/misc/option__
+        - __mywc/expression/face/misc/option__
       option:
         - blush
         - ear blush

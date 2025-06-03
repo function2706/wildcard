@@ -1,17 +1,17 @@
 footwears:
   random:
-    - __fashion/footwears/boots/do__
-    - __fashion/footwears/pantyhoses/do__
-    - __fashion/footwears/pantyhoses/do__,__fashion/footwears/boots/do__
-    - __fashion/footwears/pantyhoses/do__,__fashion/footwears/heels/do__
-    - __fashion/footwears/pantyhoses/do__,__fashion/footwears/shoes/do__
-    - __fashion/footwears/sandals/do__
-    - __fashion/footwears/socks/do__
-    - __fashion/footwears/socks/do__,__fashion/footwears/shoes/do__
-    - barefoot,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
+    - __mywc/fashion/footwears/boots/do__
+    - __mywc/fashion/footwears/pantyhoses/do__
+    - __mywc/fashion/footwears/pantyhoses/do__,__mywc/fashion/footwears/boots/do__
+    - __mywc/fashion/footwears/pantyhoses/do__,__mywc/fashion/footwears/heels/do__
+    - __mywc/fashion/footwears/pantyhoses/do__,__mywc/fashion/footwears/shoes/do__
+    - __mywc/fashion/footwears/sandals/do__
+    - __mywc/fashion/footwears/socks/do__
+    - __mywc/fashion/footwears/socks/do__,__mywc/fashion/footwears/shoes/do__
+    - barefoot,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
   boots:
     do:
-      - __color__ __fashion/footwears/boots/type__
+      - __mywc/color__ __mywc/fashion/footwears/boots/type__
     type:
       - ankle boots
       - biker boots
@@ -20,19 +20,19 @@ footwears:
       - cowboy boots
       - desert boots
       - hiking boots
-      - kneehigh boots,__fashion/footwears/boots/heel__
-      - latex boots,__fashion/footwears/boots/heel__
-      - long boots,__fashion/footwears/boots/heel__
-      - mid calf boots,__fashion/footwears/boots/heel__
-      - middle boots,__fashion/footwears/boots/heel__
+      - kneehigh boots,__mywc/fashion/footwears/boots/heel__
+      - latex boots,__mywc/fashion/footwears/boots/heel__
+      - long boots,__mywc/fashion/footwears/boots/heel__
+      - mid calf boots,__mywc/fashion/footwears/boots/heel__
+      - middle boots,__mywc/fashion/footwears/boots/heel__
       - platform boots
       - rain boots
       - riding boots
       - santa boots
       - shearling boots
-      - short boots,__fashion/footwears/boots/heel__
+      - short boots,__mywc/fashion/footwears/boots/heel__
       - snow boots
-      - thighhigh boots,__fashion/footwears/boots/heel__
+      - thighhigh boots,__mywc/fashion/footwears/boots/heel__
       - wedge boots
       - western boots
       - winter boots
@@ -41,7 +41,7 @@ footwears:
       - stiletto heel
   heels:
     do:
-      - __color__ __fashion/footwears/heels/type__
+      - __mywc/color__ __mywc/fashion/footwears/heels/type__
     type:
       - block heels
       - open-toe heels
@@ -53,24 +53,24 @@ footwears:
       - wedge heels
   sandals:
     do:
-      - __color__ __fashion/footwears/sandals/type__
+      - __mywc/color__ __mywc/fashion/footwears/sandals/type__
     type:
       - ankle strap sandals
       - ballet slippers
-      - flip-flops,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
+      - flip-flops,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
       - geta
       - gladiator sandals
-      - lace-up sandals,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
+      - lace-up sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
       - mule sandals
-      - sandals,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
+      - sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
       - slippers
-      - straw sandals,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
-      - thonged sandals,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
-      - toe-ring sandals,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
+      - straw sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
+      - thonged sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
+      - toe-ring sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
       - wedge sandals
   shoes:
     do:
-      - __color__ __fashion/footwears/shoes/type__
+      - __mywc/color__ __mywc/fashion/footwears/shoes/type__
     type:
       - crocs
       - flat shoes
@@ -92,7 +92,7 @@ footwears:
       - walking shoes
   pantyhoses:
     do:
-      - __fashion/footwears/pantyhoses/color__ __fashion/footwears/pantyhoses/type__
+      - __mywc/fashion/footwears/pantyhoses/color__ __mywc/fashion/footwears/pantyhoses/type__
     type:
       - fishnet tights
       - pantyhose
@@ -101,10 +101,10 @@ footwears:
       - black
       - brown
       - white
-      - __color__
+      - __mywc/color__
   socks:
     do:
-      - __color__ __fashion/footwears/socks/type__
+      - __mywc/color__ __mywc/fashion/footwears/socks/type__
     type:
       - ankle socks
       - business socks
@@ -120,7 +120,7 @@ footwears:
   toenails:
     do:
       - " "
-      - __fashion/footwears/toenails/color__ toenails
+      - __mywc/fashion/footwears/toenails/color__ toenails
     color:
       - black
       - blue
@@ -133,4 +133,4 @@ footwears:
       - yellow
   anklet:
     - " "
-    - __color__ anklet
+    - __mywc/color__ anklet

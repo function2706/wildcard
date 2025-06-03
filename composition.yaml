@@ -1,12 +1,12 @@
 composition:
   random:
-    - __composition/pov/do__
-    - __composition/from-above/do__
-    - __composition/from-below/do__
-    - __composition/from-side/do__
+    - __mywc/composition/pov/do__
+    - __mywc/composition/from-above/do__
+    - __mywc/composition/from-below/do__
+    - __mywc/composition/from-side/do__
   from-above:
     do:
-      - from above,__composition/from-above/los__
+      - from above,__mywc/composition/from-above/los__
     los:
       - " "
       - looking ahead
@@ -15,16 +15,16 @@ composition:
       - looking up
   from-below:
     do:
-      - from below,__composition/from-below/los__
+      - from below,__mywc/composition/from-below/los__
     los:
-      - __composition/pov/bool__
+      - __mywc/composition/pov/bool__
       - looking ahead
       - looking at another
-      - looking at viewer,__composition/pov/bool__
-      - looking down,__composition/pov/bool__
+      - looking at viewer,__mywc/composition/pov/bool__
+      - looking down,__mywc/composition/pov/bool__
   from-side:
     do:
-      - from side,__composition/from-side/los__
+      - from side,__mywc/composition/from-side/los__
     los:
       - " "
       - looking ahead
@@ -35,7 +35,7 @@ composition:
       - looking up
   pov:
     do:
-      - __composition/pov/bool__,__composition/pov/los__
+      - __mywc/composition/pov/bool__,__mywc/composition/pov/los__
     bool:
       - " "
       - pov

@@ -1,11 +1,11 @@
 pose:
   random:
-    - __pose/action__
-    - "{0-3$$__pose/list__}"
+    - __mywc/pose/action__
+    - "{0-3$$__mywc/pose/list__}"
   list:
-    - __pose/head__
-    - __pose/upper__
-    - __pose/lower__
+    - __mywc/pose/head__
+    - __mywc/pose/upper__
+    - __mywc/pose/lower__
   action:
     - acrobatic pose
     - all fours

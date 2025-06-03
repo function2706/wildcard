@@ -1,11 +1,11 @@
 non-human:
   random:
-    - __subject/non-human/furry/do__
-    - __subject/non-human/anthro__
-    - __subject/non-human/monster/do__
+    - __mywc/subject/non-human/furry/do__
+    - __mywc/subject/non-human/anthro__
+    - __mywc/subject/non-human/monster/do__
   furry:
     do:
-      - __subject/non-human/furry/species__,furry,furry female
+      - __mywc/subject/non-human/furry/species__,furry,furry female
     species:
       - aardvark girl,aardvark ears
       - alpaca girl,alpaca ears,eyelashes
@@ -151,8 +151,8 @@ non-human:
     - wasp girl,antennae,insect eye,insect female,furry female
   monster:
     do:
-      - __subject/non-human/monster/furry__
-      - __subject/non-human/monster/demi-human__
+      - __mywc/subject/non-human/monster/furry__
+      - __mywc/subject/non-human/monster/demi-human__
     furry:
       - anubis girl,anubis ears,furry,furry female
       - dire wolf girl,wolf ears,whiskers,furry,furry female
@@ -208,7 +208,7 @@ non-human:
       - zombie girl
   demi-human:
     do:
-      - __subject/non-human/demi-human/species__ girl
+      - __mywc/subject/non-human/demi-human/species__ girl
     species:
       - alpaca
       - ant

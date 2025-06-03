@@ -1,39 +1,39 @@
 expression:
   random:
-    - __nsfw/expression/list__,__nsfw/expression/option/do__
+    - __mywc/nsfw/expression/list__,__mywc/nsfw/expression/option/do__
   list:
-    - __nsfw/expression/annoyed/do__
-    - __nsfw/expression/ashamed/do__
-    - __nsfw/expression/bored/do__
-    - __nsfw/expression/curious/do__
-    - __nsfw/expression/depressed/do__
-    - __nsfw/expression/disappointed/do__
-    - __nsfw/expression/disgusted/do__
-    - __nsfw/expression/embarrassed/do__
-    - __nsfw/expression/excited/do__
-    - __nsfw/expression/expressionless/do__
-    - __nsfw/expression/flustered/do__
-    - __nsfw/expression/giggle/do__
-    - __nsfw/expression/grin/do__
-    - __nsfw/expression/in-heat/do__
-    - __nsfw/expression/loving/do__
-    - __nsfw/expression/naughty-face/do__
-    - __nsfw/expression/nervous/do__
-    - __nsfw/expression/sadistic/do__
-    - __nsfw/expression/scared/do__
-    - __nsfw/expression/seductive-smile/do__
-    - __nsfw/expression/skeptical/do__
-    - __nsfw/expression/smile/do__
-    - __nsfw/expression/smirk/do__
-    - __nsfw/expression/smug/do__
-    - __nsfw/expression/worried/do
+    - __mywc/nsfw/expression/annoyed/do__
+    - __mywc/nsfw/expression/ashamed/do__
+    - __mywc/nsfw/expression/bored/do__
+    - __mywc/nsfw/expression/curious/do__
+    - __mywc/nsfw/expression/depressed/do__
+    - __mywc/nsfw/expression/disappointed/do__
+    - __mywc/nsfw/expression/disgusted/do__
+    - __mywc/nsfw/expression/embarrassed/do__
+    - __mywc/nsfw/expression/excited/do__
+    - __mywc/nsfw/expression/expressionless/do__
+    - __mywc/nsfw/expression/flustered/do__
+    - __mywc/nsfw/expression/giggle/do__
+    - __mywc/nsfw/expression/grin/do__
+    - __mywc/nsfw/expression/in-heat/do__
+    - __mywc/nsfw/expression/loving/do__
+    - __mywc/nsfw/expression/naughty-face/do__
+    - __mywc/nsfw/expression/nervous/do__
+    - __mywc/nsfw/expression/sadistic/do__
+    - __mywc/nsfw/expression/scared/do__
+    - __mywc/nsfw/expression/seductive-smile/do__
+    - __mywc/nsfw/expression/skeptical/do__
+    - __mywc/nsfw/expression/smile/do__
+    - __mywc/nsfw/expression/smirk/do__
+    - __mywc/nsfw/expression/smug/do__
+    - __mywc/nsfw/expression/worried/do
   annoyed:
     do:
-      - annoyed,{0-3$$__nsfw/expression/annoyed/list__}
+      - annoyed,{0-3$$__mywc/nsfw/expression/annoyed/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/annoyed/eye__
-      - __nsfw/expression/annoyed/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/annoyed/eye__
+      - __mywc/nsfw/expression/annoyed/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -52,11 +52,11 @@ expression:
       - tongue out
   ashamed:
     do:
-      - ashamed,{0-3$$__nsfw/expression/ashamed/list__}
+      - ashamed,{0-3$$__mywc/nsfw/expression/ashamed/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/ashamed/eye__
-      - __nsfw/expression/ashamed/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/ashamed/eye__
+      - __mywc/nsfw/expression/ashamed/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -75,11 +75,11 @@ expression:
       - tongue out
   bored:
     do:
-      - bored,{0-3$$__nsfw/expression/bored/list__}
+      - bored,{0-3$$__mywc/nsfw/expression/bored/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/bored/eye__
-      - __nsfw/expression/bored/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/bored/eye__
+      - __mywc/nsfw/expression/bored/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -98,11 +98,11 @@ expression:
       - tongue out
   curious:
     do:
-      - curious,{0-3$$__nsfw/expression/curious/list__}
+      - curious,{0-3$$__mywc/nsfw/expression/curious/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/curious/eye__
-      - __nsfw/expression/curious/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/curious/eye__
+      - __mywc/nsfw/expression/curious/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -121,11 +121,11 @@ expression:
       - tongue out
   depressed:
     do:
-      - depressed,{0-3$$__nsfw/expression/depressed/list__}
+      - depressed,{0-3$$__mywc/nsfw/expression/depressed/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/depressed/eye__
-      - __nsfw/expression/depressed/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/depressed/eye__
+      - __mywc/nsfw/expression/depressed/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -144,11 +144,11 @@ expression:
       - tongue out
   disappointed:
     do:
-      - disappointed,{0-3$$__nsfw/expression/disappointed/list__}
+      - disappointed,{0-3$$__mywc/nsfw/expression/disappointed/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/disappointed/eye__
-      - __nsfw/expression/disappointed/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/disappointed/eye__
+      - __mywc/nsfw/expression/disappointed/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -167,11 +167,11 @@ expression:
       - tongue out
   disgusted:
     do:
-      - disgusted,{0-3$$__nsfw/expression/disgusted/list__}
+      - disgusted,{0-3$$__mywc/nsfw/expression/disgusted/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/disgusted/eye__
-      - __nsfw/expression/disgusted/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/disgusted/eye__
+      - __mywc/nsfw/expression/disgusted/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -190,11 +190,11 @@ expression:
       - tongue out
   embarrassed:
     do:
-      - embarrassed,{0-3$$__nsfw/expression/embarrassed/list__}
+      - embarrassed,{0-3$$__mywc/nsfw/expression/embarrassed/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/embarrassed/eye__
-      - __nsfw/expression/embarrassed/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/embarrassed/eye__
+      - __mywc/nsfw/expression/embarrassed/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -213,11 +213,11 @@ expression:
       - tongue out
   excited:
     do:
-      - excited,{0-3$$__nsfw/expression/excited/list__}
+      - excited,{0-3$$__mywc/nsfw/expression/excited/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/excited/eye__
-      - __nsfw/expression/excited/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/excited/eye__
+      - __mywc/nsfw/expression/excited/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -236,11 +236,11 @@ expression:
       - tongue out
   expressionless:
     do:
-      - expressionless,{0-3$$__nsfw/expression/expressionless/list__}
+      - expressionless,{0-3$$__mywc/nsfw/expression/expressionless/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/expressionless/eye__
-      - __nsfw/expression/expressionless/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/expressionless/eye__
+      - __mywc/nsfw/expression/expressionless/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -259,11 +259,11 @@ expression:
       - tongue out
   flustered:
     do:
-      - flustered,{0-3$$__nsfw/expression/flustered/list__}
+      - flustered,{0-3$$__mywc/nsfw/expression/flustered/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/flustered/eye__
-      - __nsfw/expression/flustered/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/flustered/eye__
+      - __mywc/nsfw/expression/flustered/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -282,11 +282,11 @@ expression:
       - tongue out
   giggle:
     do:
-      - giggle,{0-3$$__nsfw/expression/giggle/list__}
+      - giggle,{0-3$$__mywc/nsfw/expression/giggle/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/giggle/eye__
-      - __nsfw/expression/giggle/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/giggle/eye__
+      - __mywc/nsfw/expression/giggle/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -305,11 +305,11 @@ expression:
       - tongue out
   grin:
     do:
-      - grin,{0-3$$__nsfw/expression/grin/list__}
+      - grin,{0-3$$__mywc/nsfw/expression/grin/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/grin/eye__
-      - __nsfw/expression/grin/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/grin/eye__
+      - __mywc/nsfw/expression/grin/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -328,11 +328,11 @@ expression:
       - tongue out
   in-heat:
     do:
-      - in heat,{0-3$$__nsfw/expression/in-heat/list__}
+      - in heat,{0-3$$__mywc/nsfw/expression/in-heat/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/in-heat/eye__
-      - __nsfw/expression/in-heat/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/in-heat/eye__
+      - __mywc/nsfw/expression/in-heat/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -351,11 +351,11 @@ expression:
       - tongue out
   loving:
     do:
-      - loving,{0-3$$__nsfw/expression/loving/list__}
+      - loving,{0-3$$__mywc/nsfw/expression/loving/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/loving/eye__
-      - __nsfw/expression/loving/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/loving/eye__
+      - __mywc/nsfw/expression/loving/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -374,11 +374,11 @@ expression:
       - tongue out
   naughty-face:
     do:
-      - naughty face,{0-3$$__nsfw/expression/naughty-face/list__}
+      - naughty face,{0-3$$__mywc/nsfw/expression/naughty-face/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/naughty-face/eye__
-      - __nsfw/expression/naughty-face/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/naughty-face/eye__
+      - __mywc/nsfw/expression/naughty-face/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -397,11 +397,11 @@ expression:
       - tongue out
   nervous:
     do:
-      - nervous,{0-3$$__nsfw/expression/nervous/list__}
+      - nervous,{0-3$$__mywc/nsfw/expression/nervous/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/nervous/eye__
-      - __nsfw/expression/nervous/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/nervous/eye__
+      - __mywc/nsfw/expression/nervous/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -420,14 +420,14 @@ expression:
       - tongue out
   sadistic:
     do:
-      - "{1-2$$__nsfw/expression/sadistic/base__},{0-3$$__nsfw/expression/sadistic/list__}"
+      - "{1-2$$__mywc/nsfw/expression/sadistic/base__},{0-3$$__mywc/nsfw/expression/sadistic/list__}"
     base:
       - dominant expression
       - evil expression
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/sadistic/eye__
-      - __nsfw/expression/sadistic/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/sadistic/eye__
+      - __mywc/nsfw/expression/sadistic/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -446,11 +446,11 @@ expression:
       - tongue out
   scared:
     do:
-      - scared,{0-3$$__nsfw/expression/scared/list__}
+      - scared,{0-3$$__mywc/nsfw/expression/scared/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/scared/eye__
-      - __nsfw/expression/scared/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/scared/eye__
+      - __mywc/nsfw/expression/scared/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -469,11 +469,11 @@ expression:
       - tongue out
   seductive-smile:
     do:
-      - seductive smile,{0-3$$__nsfw/expression/seductive-smile/list__}
+      - seductive smile,{0-3$$__mywc/nsfw/expression/seductive-smile/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/seductive-smile/eye__
-      - __nsfw/expression/seductive-smile/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/seductive-smile/eye__
+      - __mywc/nsfw/expression/seductive-smile/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -492,11 +492,11 @@ expression:
       - tongue out
   skeptical:
     do:
-      - skeptical,{0-3$$__nsfw/expression/skeptical/list__}
+      - skeptical,{0-3$$__mywc/nsfw/expression/skeptical/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/skeptical/eye__
-      - __nsfw/expression/skeptical/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/skeptical/eye__
+      - __mywc/nsfw/expression/skeptical/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -515,11 +515,11 @@ expression:
       - tongue out
   smile:
     do:
-      - smile,{0-3$$__nsfw/expression/smile/list__}
+      - smile,{0-3$$__mywc/nsfw/expression/smile/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/smile/eye__
-      - __nsfw/expression/smile/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/smile/eye__
+      - __mywc/nsfw/expression/smile/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -538,11 +538,11 @@ expression:
       - tongue out
   smirk:
     do:
-      - smirk,{0-3$$__nsfw/expression/smirk/list__}
+      - smirk,{0-3$$__mywc/nsfw/expression/smirk/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/smirk/eye__
-      - __nsfw/expression/smirk/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/smirk/eye__
+      - __mywc/nsfw/expression/smirk/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -561,11 +561,11 @@ expression:
       - tongue out
   smug:
     do:
-      - smug,{0-3$$__nsfw/expression/smug/list__}
+      - smug,{0-3$$__mywc/nsfw/expression/smug/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/smug/eye__
-      - __nsfw/expression/smug/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/smug/eye__
+      - __mywc/nsfw/expression/smug/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -584,11 +584,11 @@ expression:
       - tongue out
   worried:
     do:
-      - worried,{0-3$$__nsfw/expression/worried/list__}
+      - worried,{0-3$$__mywc/nsfw/expression/worried/list__}
     list:
-      - __expression/face/eyebrow/do__
-      - __nsfw/expression/worried/eye__
-      - __nsfw/expression/worried/mouth__
+      - __mywc/expression/face/eyebrow/do__
+      - __mywc/nsfw/expression/worried/eye__
+      - __mywc/nsfw/expression/worried/mouth__
     eye:
       - closed eyes
       - half-closed eyes
@@ -608,7 +608,7 @@ expression:
   option:
     do:
       - " "
-      - "{1-3$$__nsfw/expression/option/list__}"
+      - "{1-3$$__mywc/nsfw/expression/option/list__}"
     list:
       - blush
       - breath

@@ -1,103 +1,103 @@
 dresses:
   random:
-    - __color__ academic gown
-    - __color__ bathrobe
-    - __color__ cheongsam
-    - __color__ dungarees
-    - __color__ furisode
-    - __color__ jinbei
-    - __color__ kimono
-    - __color__ leotard
-    - __color__ loungewear
-    - __color__ nightwear
-    - __color__ overalls
-    - __color__ pajamas
-    - __color__ robe
-    - __color__ sarong
-    - __color__ tabard
-    - __color__ tracksuit
-    - __color__ tuxedo
-    - __color__ v neck dress
-    - __color__ yukata
-    - __fashion/dresses/ball-gown__
-    - __fashion/dresses/bikini/do__
-    - __fashion/dresses/casual-dress__
-    - __fashion/dresses/cocktail-dress__
-    - __fashion/dresses/dress/do__
-    - __fashion/dresses/evening-gown__
-    - __fashion/dresses/high-slit-dress__
-    - __fashion/dresses/party-dress__
-    - __fashion/dresses/prom-dress__
-    - __fashion/dresses/raincoat__
-    - __fashion/dresses/satin-dress__
-    - __fashion/dresses/sequined-dress__
-    - __fashion/dresses/swimwear/do__
-    - __fashion/dresses/velvet-dress__
+    - __mywc/color__ academic gown
+    - __mywc/color__ bathrobe
+    - __mywc/color__ cheongsam
+    - __mywc/color__ dungarees
+    - __mywc/color__ furisode
+    - __mywc/color__ jinbei
+    - __mywc/color__ kimono
+    - __mywc/color__ leotard
+    - __mywc/color__ loungewear
+    - __mywc/color__ nightwear
+    - __mywc/color__ overalls
+    - __mywc/color__ pajamas
+    - __mywc/color__ robe
+    - __mywc/color__ sarong
+    - __mywc/color__ tabard
+    - __mywc/color__ tracksuit
+    - __mywc/color__ tuxedo
+    - __mywc/color__ v neck dress
+    - __mywc/color__ yukata
+    - __mywc/fashion/dresses/ball-gown__
+    - __mywc/fashion/dresses/bikini/do__
+    - __mywc/fashion/dresses/casual-dress__
+    - __mywc/fashion/dresses/cocktail-dress__
+    - __mywc/fashion/dresses/dress/do__
+    - __mywc/fashion/dresses/evening-gown__
+    - __mywc/fashion/dresses/high-slit-dress__
+    - __mywc/fashion/dresses/party-dress__
+    - __mywc/fashion/dresses/prom-dress__
+    - __mywc/fashion/dresses/raincoat__
+    - __mywc/fashion/dresses/satin-dress__
+    - __mywc/fashion/dresses/sequined-dress__
+    - __mywc/fashion/dresses/swimwear/do__
+    - __mywc/fashion/dresses/velvet-dress__
     - wedding dress,white elbow gloves
   ball-gown:
-    - __color__ ball gown,__fashion/dresses/gloves/do__
+    - __mywc/color__ ball gown,__mywc/fashion/dresses/gloves/do__
   bikini:
     do:
-      - __color__ __fashion/dresses/bikini/size__ bikini,__fashion/dresses/footwears/flip-flops__
+      - __mywc/color__ __mywc/fashion/dresses/bikini/size__ bikini,__mywc/fashion/dresses/footwears/flip-flops__
     size:
       - " "
       - micro
   casual-dress:
-    - __color__ casual dress,__fashion/dresses/footwears/pantyhoses/do__
+    - __mywc/color__ casual dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
   cocktail-dress:
-    - __color__ cocktail dress,__fashion/dresses/gloves/do__
+    - __mywc/color__ cocktail dress,__mywc/fashion/dresses/gloves/do__
   dress:
     do:
-      - __color__ __fashion/dresses/dress/size__ dress,__fashion/dresses/footwears/heels__
+      - __mywc/color__ __mywc/fashion/dresses/dress/size__ dress,__mywc/fashion/dresses/footwears/heels__
     size:
       - maxi
       - mini
       - midi
       - micro
   evening-gown:
-    - __color__ evening gown,__fashion/dresses/footwears/heels__,__fashion/dresses/gloves/do__
+    - __mywc/color__ evening gown,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   high-slit-dress:
-    - __color__ high slit dress,__fashion/dresses/footwears/heels__,__fashion/dresses/gloves/do__
+    - __mywc/color__ high slit dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   party-dress:
-    - __color__ party dress,__fashion/dresses/footwears/heels__
+    - __mywc/color__ party dress,__mywc/fashion/dresses/footwears/heels__
   prom-dress:
-    - __color__ prom dress,__fashion/dresses/gloves/do__
+    - __mywc/color__ prom dress,__mywc/fashion/dresses/gloves/do__
   raincoat:
-    - __color__ raincoat,__fashion/dresses/footwears/rainboots__
+    - __mywc/color__ raincoat,__mywc/fashion/dresses/footwears/rainboots__
   satin-dress:
-    - __color__ satin dress,__fashion/dresses/footwears/heels__,__fashion/dresses/gloves/do__
+    - __mywc/color__ satin dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   sequined-dress:
-    - __color__ sequined dress,__fashion/dresses/footwears/heels__,__fashion/dresses/gloves/do__
+    - __mywc/color__ sequined dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   swimwear:
     do:
-      - __color__ __fashion/dresses/swimwear/type__,__fashion/dresses/footwears/flip-flops__
+      - __mywc/color__ __mywc/fashion/dresses/swimwear/type__,__mywc/fashion/dresses/footwears/flip-flops__
     type:
       - one-piece swimsuit
       - swimwear
   velvet-dress:
-    - __color__ velvet dress,__fashion/dresses/footwears/heels__,__fashion/dresses/gloves/do__
+    - __mywc/color__ velvet dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   gloves:
     do:
       - " "
-      - __fashion/dresses/gloves/color__ elbow gloves
+      - __mywc/fashion/dresses/gloves/color__ elbow gloves
     color:
       - black
       - white
-      - __color__
+      - __mywc/color__
   footwears:
     heels:
       - " "
-      - __color__ __fashion/footwears/heels/do__
+      - __mywc/color__ __mywc/fashion/footwears/heels/do__
     rainboots:
       - " "
-      - __color__ rain boots
+      - __mywc/color__ rain boots
     flip-flops:
       - " "
-      - __color__ flip-flops,__fashion/footwears/toenails/do__,__fashion/footwears/anklet__
+      - __mywc/color__ flip-flops,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
     pantyhoses:
       do:
         - " "
-        - __fashion/dresses/footwears/pantyhoses/color__ pantyhose
+        - __mywc/fashion/dresses/footwears/pantyhoses/color__ pantyhose
       color:
         - black
         - beige

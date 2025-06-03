@@ -1,28 +1,28 @@
 human:
   random:
-    - __subject/human/human__
-    - __subject/human/demi-human__
+    - __mywc/subject/human/human__
+    - __mywc/subject/human/demi-human__
   human:
-    - __subject/human/hair/do__,__subject/human/eye/human__,__subject/human/skin/human__,__subject/human/height__,__subject/human/width__,__subject/human/age/do__
+    - __mywc/subject/human/hair/do__,__mywc/subject/human/eye/human__,__mywc/subject/human/skin/human__,__mywc/subject/human/height__,__mywc/subject/human/width__,__mywc/subject/human/age/do__
   demi-human:
-    - __subject/human/hair/do__,__subject/human/eye/demi-human__,__subject/human/ear__,__subject/human/skin/demi-human__,__subject/human/height__,__subject/human/width__,__subject/human/age/do__,__subject/human/misc/do__
-    - __subject/non-human/monster/demi-human__
-    - __subject/non-human/demi-human/do__
+    - __mywc/subject/human/hair/do__,__mywc/subject/human/eye/demi-human__,__mywc/subject/human/ear__,__mywc/subject/human/skin/demi-human__,__mywc/subject/human/height__,__mywc/subject/human/width__,__mywc/subject/human/age/do__,__mywc/subject/human/misc/do__
+    - __mywc/subject/non-human/monster/demi-human__
+    - __mywc/subject/non-human/demi-human/do__
   hair:
     do:
-      - __subject/human/hair/colors__ __subject/human/hair/wholes__
-      - __subject/human/hair/colors__ __subject/human/hair/random__
+      - __mywc/subject/human/hair/colors__ __mywc/subject/human/hair/wholes__
+      - __mywc/subject/human/hair/colors__ __mywc/subject/human/hair/random__
     random:
-      - __subject/human/hair/bases/do__,{0-5$$__subject/human/hair/list__}
+      - __mywc/subject/human/hair/bases/do__,{0-5$$__mywc/subject/human/hair/list__}
     list:
-      - __subject/human/hair/decorations/do__
-      - __subject/human/hair/bangs__
-      - __subject/human/hair/extensions/do__
-      - __subject/human/hair/sidelocks__
+      - __mywc/subject/human/hair/decorations/do__
+      - __mywc/subject/human/hair/bangs__
+      - __mywc/subject/human/hair/extensions/do__
+      - __mywc/subject/human/hair/sidelocks__
     decorations:
       do:
-        - __subject/human/hair/decorations/ahoges__
-        - __subject/human/hair/decorations/patterns__
+        - __mywc/subject/human/hair/decorations/ahoges__
+        - __mywc/subject/human/hair/decorations/patterns__
       ahoges:
         - ahoge
         - antenna hair
@@ -51,12 +51,12 @@ human:
       - swept bangs
     extensions:
       do:
-        - __subject/human/hair/extensions/tails/do__
-        - __subject/human/hair/extensions/updos__
+        - __mywc/subject/human/hair/extensions/tails/do__
+        - __mywc/subject/human/hair/extensions/updos__
       tails:
         do:
-          - __subject/human/hair/extensions/tails/position__ __subject/human/hair/extensions/tails/length__ __subject/human/hair/extensions/tails/type__
-          - __subject/human/hair/extensions/tails/misc__
+          - __mywc/subject/human/hair/extensions/tails/position__ __mywc/subject/human/hair/extensions/tails/length__ __mywc/subject/human/hair/extensions/tails/type__
+          - __mywc/subject/human/hair/extensions/tails/misc__
         type:
           - ponytail
           - single braid
@@ -108,7 +108,7 @@ human:
       - single sidelock
     bases:
       do:
-        - __subject/human/hair/bases/length__ __subject/human/hair/bases/style__ hair,__subject/human/hair/bases/option__
+        - __mywc/subject/human/hair/bases/length__ __mywc/subject/human/hair/bases/style__ hair,__mywc/subject/human/hair/bases/option__
       length:
         - bob
         - long
@@ -134,7 +134,7 @@ human:
         - hair flaps
         - hair intakes
     wholes:
-      - __subject/human/hair/random__
+      - __mywc/subject/human/hair/random__
       - beehive hairdo
       - bowl cut
       - cornrows
@@ -154,12 +154,12 @@ human:
       - light brown
       - red
       - white
-      - __color__
+      - __mywc/color__
   eye:
     human:
-      - __subject/human/eye/style/shape__,__subject/human/eye/style/pupil/normal__,__subject/human/eye/color__ eye
+      - __mywc/subject/human/eye/style/shape__,__mywc/subject/human/eye/style/pupil/normal__,__mywc/subject/human/eye/color__ eye
     demi-human:
-      - __subject/human/eye/style/shape__,__subject/human/eye/style/pupil/abnormal__,__color__ eye
+      - __mywc/subject/human/eye/style/shape__,__mywc/subject/human/eye/style/pupil/abnormal__,__mywc/color__ eye
     style:
       shape:
         - " "
@@ -208,7 +208,7 @@ human:
       - green skin
       - purple skin
       - red skin
-      - __subject/human/skin/human__
+      - __mywc/subject/human/skin/human__
   height:
     - lanky
     - petite
@@ -229,7 +229,7 @@ human:
   age:
     do:
       - " "
-      - __subject/human/age/option__
+      - __mywc/subject/human/age/option__
     option:
       - adult
       - adult young
@@ -240,7 +240,7 @@ human:
       - young
   misc:
     do:
-      - "{0-3$$__subject/human/misc/option__}"
+      - "{0-3$$__mywc/subject/human/misc/option__}"
     option:
       - fang{s|}
       - horn{s|}

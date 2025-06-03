@@ -1,13 +1,13 @@
 bottoms:
   random:
-    - __fashion/bottoms/panties/do__
-    - __fashion/bottoms/skirts/do__
-    - __fashion/bottoms/skirts/do__,__fashion/bottoms/panties/do__,pantyshot
-    - __fashion/bottoms/pants/do__
-    - __fashion/bottoms/nude/do__
+    - __mywc/fashion/bottoms/panties/do__
+    - __mywc/fashion/bottoms/skirts/do__
+    - __mywc/fashion/bottoms/skirts/do__,__mywc/fashion/bottoms/panties/do__,pantyshot
+    - __mywc/fashion/bottoms/pants/do__
+    - __mywc/fashion/bottoms/nude/do__
   panties:
     do:
-      - __color__ __fashion/bottoms/panties/type__
+      - __mywc/color__ __mywc/fashion/bottoms/panties/type__
     type:
       - beach shorts
       - bikini bottom
@@ -28,7 +28,7 @@ bottoms:
       - v-string
   pants:
     do:
-      - __color__ __fashion/bottoms/pants/type__
+      - __mywc/color__ __mywc/fashion/bottoms/pants/type__
     length:
       - " "
       - short
@@ -79,7 +79,7 @@ bottoms:
       - wool shorts
   skirts:
     do:
-      - __color__ __fashion/bottoms/skirts/length__ __fashion/bottoms/skirts/type__
+      - __mywc/color__ __mywc/fashion/bottoms/skirts/length__ __mywc/fashion/bottoms/skirts/type__
     length:
       - " "
       - short
@@ -116,16 +116,16 @@ bottoms:
   nude:
     do:
       - " "
-      - bottomless,__fashion/bottoms/nude/pubic/do__
-      - __fashion/bottoms/skirts/do__,__fashion/bottoms/nude/option__
+      - bottomless,__mywc/fashion/bottoms/nude/pubic/do__
+      - __mywc/fashion/bottoms/skirts/do__,__mywc/fashion/bottoms/nude/option__
     option:
       - " "
-      - no panties,pussy,__fashion/bottoms/nude/pubic/do__
-      - upskirt,no panties,pussy,__fashion/bottoms/nude/pubic/do__
+      - no panties,pussy,__mywc/fashion/bottoms/nude/pubic/do__
+      - upskirt,no panties,pussy,__mywc/fashion/bottoms/nude/pubic/do__
     pubic:
       do:
         - " "
-        - __fashion/bottoms/nude/pubic/style__ pubic hair
+        - __mywc/fashion/bottoms/nude/pubic/style__ pubic hair
       style:
         - " "
         - shaved

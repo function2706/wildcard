@@ -1,10 +1,10 @@
 fashion:
   random:
-    - __fashion/costumes/random__
-    - __fashion/dresses/random__
-    - "{0-4$$__fashion/list__}"
+    - __mywc/fashion/costumes/random__
+    - __mywc/fashion/dresses/random__
+    - "{0-4$$__mywc/fashion/list__}"
   list:
-    - __fashion/tops/random__
-    - __fashion/bottoms/random__
-    - __fashion/footwears/random__
-    - __fashion/accessories/random__
+    - __mywc/fashion/tops/random__
+    - __mywc/fashion/bottoms/random__
+    - __mywc/fashion/footwears/random__
+    - __mywc/fashion/accessories/random__

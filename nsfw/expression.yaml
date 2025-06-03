@@ -26,7 +26,7 @@ expression:
     - __mywc/nsfw/expression/smile/do__
     - __mywc/nsfw/expression/smirk/do__
     - __mywc/nsfw/expression/smug/do__
-    - __mywc/nsfw/expression/worried/do
+    - __mywc/nsfw/expression/worried/do__
   annoyed:
     do:
       - annoyed,{0-3$$__mywc/nsfw/expression/annoyed/list__}

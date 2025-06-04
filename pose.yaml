@@ -5,7 +5,7 @@ pose:
   list:
     - __mywc/pose/head__
     - __mywc/pose/upper__
-    - __mywc/pose/lower__
+    - __mywc/pose/lower/do__
   action:
     - acrobatic pose
     - all fours
@@ -20,21 +20,66 @@ pose:
     - on back
     - on side
     - on stomach
+    - standing split
     - stylish pose
   head:
     - "{1::head tilt|9::}"
   lower:
-    - crossed legs
-    - indian style
-    - kneeling
-    - seiza
-    - sitting
-    - sitting astride
-    - standing
-    - standing on one leg
-    - standing split
-    - wariza
-    - yokozuwari
+    do:
+      - __mywc/try/lower/standing/do__
+      - __mywc/try/lower/sitting/do__
+    standing:
+      do:
+        - contrapposto
+        - standing on one leg
+        - standing,__mywc/try/lower/standing/crossing/do__
+        - standing,__mywc/try/lower/standing/splitting/do__
+        - tiptoes,__mywc/try/lower/standing/crossing/do__
+        - tiptoes,__mywc/try/lower/standing/splitting/do__
+      crossing:
+        do:
+          - " "
+          - __mywc/try/lower/standing/crossing/option__
+        option:
+          - crossed ankles
+          - crossed legs
+      splitting:
+        do:
+          - " "
+          - __mywc/try/lower/standing/splitting/option__
+        option:
+          - legs apart
+    sitting:
+      do:
+        - hugging own legs,__mywc/try/lower/sitting/crossing/do__
+        - indian style
+        - kneeling,__mywc/try/lower/sitting/splitting/do__
+        - knees apart feet together
+        - knees together feet apart
+        - on one knee
+        - outstretched legs,__mywc/try/lower/sitting/crossing/do__
+        - seiza,__mywc/try/lower/sitting/splitting/do__
+        - sitting,__mywc/try/lower/sitting/crossing/do__
+        - sitting,__mywc/try/lower/sitting/crossing/option__,__mywc/try/lower/sitting/splitting/option__
+        - sitting,__mywc/try/lower/sitting/splitting/do__
+        - squatting,__mywc/try/lower/sitting/splitting/do__
+        - wariza
+        - yokozuwari
+      crossing:
+        do:
+          - " "
+          - __mywc/try/lower/sitting/crossing/option__
+        option:
+          - crossed ankles
+          - crossed legs
+      splitting:
+        do:
+          - " "
+          - __mywc/try/lower/sitting/splitting/option__
+        option:
+          - legs together
+          - spread legs
+          - wide spread legs
   upper:
     - 4-finger heart hands
     - arm above head

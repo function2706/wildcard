@@ -167,7 +167,7 @@ non-human:
   monster:
     do:
       - __mywc/subject/non-human/monster/furry/do__
-      - __mywc/subject/non-human/monster/demi-human__
+      - __mywc/subject/non-human/monster/demi-human/do__
     furry:
       do:
         - __mywc/subject/non-human/monster/furry/species__,{0-5$$__mywc/subject/non-human/monster/furry/list__}
@@ -217,57 +217,54 @@ non-human:
           - alpaca girl
           - ant girl,antennae
           - antelope girl
-          - bat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - bat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - bear girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - bee girl,antennae
           - buffalo girl,horns
-          - cat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - cat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - cow girl
-          - coyote girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - coyote girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - crow girl
           - deer girl
-          - dog girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - dog girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - donkey girl
-          - dormouse girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - dormouse girl
           - eagle girl
-          - ferret girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - ferret girl
           - fish girl
-          - fox girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - fox girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - goat girl,horns
           - grasshopper girl,antennae
-          - hare girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - hare girl
           - horse girl
-          - hyena girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - hyena girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - impala girl
-          - jackal girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - jackal girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - kangaroo girl
-          - leopard girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
-          - lion girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - leopard girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - lion girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - llama girl
-          - lynx girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - lynx girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - moose girl
           - moth girl,antennae
-          - mouse girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - mouse girl
           - okapi girl
           - owl girl
-          - polar bear girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
-          - rabbit girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
-          - rat girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - polar bear girl
+          - rabbit girl
+          - rat girl
           - sheep girl,horns
-          - skunk girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
-          - squirrel girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
-          - tiger girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - skunk girl
+          - squirrel girl
+          - tiger girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - wasp girl
-          - weasel girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
-          - wildcat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
-          - wolf girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - weasel girl
+          - wildcat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - wolf girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
           - yak girl,horns
         fangs:
           - " "
           - fangs
-        whiskers:
-          - " "
-          - whiskers
       unreal-species:
         - angel girl
         - archdemon girl,horns

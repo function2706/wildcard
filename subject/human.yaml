@@ -1,10 +1,11 @@
 human:
   random:
-    - __mywc/subject/human/human__
-    - __mywc/subject/human/demi-human__
-  human:
-    - __mywc/subject/profiles/hair/do__,__mywc/subject/profiles/eye/human__,__mywc/subject/profiles/skin/human__,__mywc/subject/profiles/height__,__mywc/subject/profiles/width__,__mywc/subject/profiles/age/do__,__mywc/subject/profiles/breasts__
-  demi-human:
-    - __mywc/subject/profiles/hair/do__,__mywc/subject/profiles/eye/demi-human__,__mywc/subject/profiles/ear__,__mywc/subject/profiles/skin/demi-human__,__mywc/subject/profiles/height__,__mywc/subject/profiles/width__,__mywc/subject/profiles/age/do__,__mywc/subject/profiles/misc/do__,__mywc/subject/profiles/breasts__
-    - __mywc/subject/non-human/monster/demi-human__
-    - __mywc/subject/non-human/demi-human/do__
+    - "{1-7$$__mywc/subject/human/list__}"
+  list:
+    - __mywc/subject/profiles/hair/do__
+    - __mywc/subject/profiles/eye/human__
+    - __mywc/subject/profiles/skin/human__
+    - __mywc/subject/profiles/breasts__
+    - __mywc/subject/profiles/height__
+    - __mywc/subject/profiles/width__
+    - __mywc/subject/profiles/age/do__

@@ -5,7 +5,13 @@ non-human:
     - __mywc/subject/non-human/monster/do__
   furry:
     do:
-      - __mywc/subject/non-human/furry/species__,furry,furry female
+      - __mywc/subject/non-human/furry/species__,furry,furry female,{0-5$$__mywc/subject/non-human/furry/list__}
+    list:
+      - __mywc/subject/profiles/hair/do__
+      - __mywc/subject/profiles/breasts__
+      - __mywc/subject/profiles/height__
+      - __mywc/subject/profiles/width__
+      - __mywc/subject/profiles/age/do__
     species:
       - aardvark girl,aardvark ears
       - alpaca girl,alpaca ears,eyelashes
@@ -83,178 +89,211 @@ non-human:
       - yak girl,yak ears,horns
       - zebra girl,zebra ears
   anthro:
-    - catfish girl,anthro furry female
-    - dolphin girl,anthro furry female
-    - frog girl,horizontal pupils,anthro furry female
-    - goldfish girl,anthro furry female
-    - koi girl,anthro furry female
-    - manta ray girl,anthro furry female
-    - narwhal girl,horn,anthro furry female
-    - newt girl,slit pupils,anthro furry female
-    - orca girl,anthro furry female
-    - porpoise girl,anthro furry female
-    - salamander girl,slit pupils,anthro furry female
-    - sea lion girl,anthro furry female
-    - seal girl,anthro furry female
-    - shark girl,anthro furry female
-    - whale girl,anthro furry female
-    - alligator girl,slit pupils,anthro furry female,reptile furry female
-    - cobra girl,slit pupils,eptile furry female
-    - crocodile girl,slit pupils,anthro furry female,reptile furry female
-    - gecko girl,slit pupils,reptile furry female
-    - iguana girl,slit pupils,reptile furry female
-    - lizard girl,slit pupils,reptile furry female
-    - python girl,slit pupils,reptile furry female
-    - snake girl,slit pupils,reptile furry female
-    - albatross girl,body feathers,beak,furry,furry female
-    - auk girl,body feathers,beak,furry,furry female
-    - blackbird girl,body feathers,beak,furry,furry female
-    - crane girl,body feathers,beak,furry,furry female
-    - crow girl,body feathers,beak,furry,furry female
-    - eagle girl,body feathers,beak,furry,furry female
-    - emu girl,body feathers,beak,furry,furry female
-    - falcon girl,body feathers,beak,furry,furry female
-    - finch girl,body feathers,beak,furry,furry female
-    - gull girl,body feathers,beak,furry,furry female
-    - hawk girl,body feathers,beak,furry,furry female
-    - ibis girl,body feathers,beak,furry,furry female
-    - jay girl,body feathers,beak,furry,furry female
-    - lark girl,body feathers,beak,furry,furry female
-    - magpie girl,body feathers,beak,furry,furry female
-    - partridge girl,body feathers,beak,furry,furry female
-    - pheasant girl,body feathers,beak,furry,furry female
-    - puffin girl,body feathers,beak,furry,furry female
-    - quail girl,body feathers,beak,furry,furry female
-    - raven girl,body feathers,beak,furry,furry female
-    - robin girl,body feathers,beak,furry,furry female
-    - stork girl,body feathers,beak,furry,furry female
-    - swallow girl,body feathers,beak,furry,furry female
-    - tern girl,body feathers,beak,furry,furry female
-    - bee girl,antennae,insect eye,insect female,furry female
-    - beetle girl,antennae,insect eye,insect female,furry female
-    - butterfly girl,antennae,insect eye,insect female,furry female
-    - cockroach girl,antennae,insect eye,insect female,furry female
-    - cricket girl,antennae,insect eye,insect female,furry female
-    - dragonfly girl,antennae,insect eye,insect female,furry female
-    - firefly girl,antennae,insect eye,insect female,furry female
-    - fly girl,antennae,insect eye,insect female,furry female
-    - gnat girl,antennae,insect eye,insect female,furry female
-    - grasshopper girl,antennae,insect eye,insect female,furry female
-    - ladybug girl,antennae,insect eye,insect female,furry female
-    - locust girl,antennae,insect eye,insect female,furry female
-    - maggot girl,antennae,insect eye,insect female,furry female
-    - mosquito girl,antennae,insect eye,insect female,furry female
-    - moth girl,antennae,insect eye,insect female,furry female
-    - scorpion girl,antennae,insect eye,insect female,furry female
-    - spider girl,antennae,insect eye,insect female,furry female
-    - termite girl,antennae,insect eye,insect female,furry female
-    - wasp girl,antennae,insect eye,insect female,furry female
+    do:
+      - __mywc/subject/non-human/anthro/species__,{0-5$$__mywc/subject/non-human/anthro/list__}
+    list:
+      - __mywc/subject/profiles/hair/do__
+      - __mywc/subject/profiles/breasts__
+      - __mywc/subject/profiles/height__
+      - __mywc/subject/profiles/width__
+      - __mywc/subject/profiles/age/do__
+    species:
+      - catfish girl,anthro furry female
+      - dolphin girl,anthro furry female
+      - frog girl,horizontal pupils,anthro furry female
+      - goldfish girl,anthro furry female
+      - koi girl,anthro furry female
+      - manta ray girl,anthro furry female
+      - narwhal girl,horn,anthro furry female
+      - newt girl,slit pupils,anthro furry female
+      - orca girl,anthro furry female
+      - porpoise girl,anthro furry female
+      - salamander girl,slit pupils,anthro furry female
+      - sea lion girl,anthro furry female
+      - seal girl,anthro furry female
+      - shark girl,anthro furry female
+      - whale girl,anthro furry female
+      - alligator girl,slit pupils,anthro furry female,reptile furry female
+      - cobra girl,slit pupils,eptile furry female
+      - crocodile girl,slit pupils,anthro furry female,reptile furry female
+      - gecko girl,slit pupils,reptile furry female
+      - iguana girl,slit pupils,reptile furry female
+      - lizard girl,slit pupils,reptile furry female
+      - python girl,slit pupils,reptile furry female
+      - snake girl,slit pupils,reptile furry female
+      - albatross girl,body feathers,beak,furry,furry female
+      - auk girl,body feathers,beak,furry,furry female
+      - blackbird girl,body feathers,beak,furry,furry female
+      - crane girl,body feathers,beak,furry,furry female
+      - crow girl,body feathers,beak,furry,furry female
+      - eagle girl,body feathers,beak,furry,furry female
+      - emu girl,body feathers,beak,furry,furry female
+      - falcon girl,body feathers,beak,furry,furry female
+      - finch girl,body feathers,beak,furry,furry female
+      - gull girl,body feathers,beak,furry,furry female
+      - hawk girl,body feathers,beak,furry,furry female
+      - ibis girl,body feathers,beak,furry,furry female
+      - jay girl,body feathers,beak,furry,furry female
+      - lark girl,body feathers,beak,furry,furry female
+      - magpie girl,body feathers,beak,furry,furry female
+      - partridge girl,body feathers,beak,furry,furry female
+      - pheasant girl,body feathers,beak,furry,furry female
+      - puffin girl,body feathers,beak,furry,furry female
+      - quail girl,body feathers,beak,furry,furry female
+      - raven girl,body feathers,beak,furry,furry female
+      - robin girl,body feathers,beak,furry,furry female
+      - stork girl,body feathers,beak,furry,furry female
+      - swallow girl,body feathers,beak,furry,furry female
+      - tern girl,body feathers,beak,furry,furry female
+      - bee girl,antennae,insect eye,insect female,furry female
+      - beetle girl,antennae,insect eye,insect female,furry female
+      - butterfly girl,antennae,insect eye,insect female,furry female
+      - cockroach girl,antennae,insect eye,insect female,furry female
+      - cricket girl,antennae,insect eye,insect female,furry female
+      - dragonfly girl,antennae,insect eye,insect female,furry female
+      - firefly girl,antennae,insect eye,insect female,furry female
+      - fly girl,antennae,insect eye,insect female,furry female
+      - gnat girl,antennae,insect eye,insect female,furry female
+      - grasshopper girl,antennae,insect eye,insect female,furry female
+      - ladybug girl,antennae,insect eye,insect female,furry female
+      - locust girl,antennae,insect eye,insect female,furry female
+      - maggot girl,antennae,insect eye,insect female,furry female
+      - mosquito girl,antennae,insect eye,insect female,furry female
+      - moth girl,antennae,insect eye,insect female,furry female
+      - scorpion girl,antennae,insect eye,insect female,furry female
+      - spider girl,antennae,insect eye,insect female,furry female
+      - termite girl,antennae,insect eye,insect female,furry female
+      - wasp girl,antennae,insect eye,insect female,furry female
   monster:
     do:
-      - __mywc/subject/non-human/monster/furry__
+      - __mywc/subject/non-human/monster/furry/do__
       - __mywc/subject/non-human/monster/demi-human__
     furry:
-      - anubis girl,anubis ears,furry,furry female
-      - dire wolf girl,wolf ears,whiskers,furry,furry female
-      - dragon girl,dragon ears,horns,whiskers,furry,furry female
-      - griffin girl,body feathers,beak,furry,furry female
-      - harpy girl,body feathers
-      - hellhound girl,wolf ears,furry,furry female
-      - lamia girl,slit pupils,reptile furry female
-      - lizardfolk girl,slit pupils,reptile furry female
-      - merfolk girl,anthro furry female
-      - mermaid girl
-      - minotaur girl,minotaur ears,horns,whiskers,furry,furry female
-      - nekomata girl,cat ears,slit pupils,whiskers,furry,furry female
-      - pegasus girl,furry,furry female
-      - phoenix girl,body feathers,beak,furry,furry female
-      - salamander girl,slit pupils,reptile furry female
-      - slime girl
-      - undine girl,anthro furry female
-      - unicorn girl,horns,furry,furry female
-      - wendigo girl,horns,furry,furry female
-      - werebear girl,bear ears,furry,furry female
-      - werewolf girl,wolf ears,whiskers,furry,furry female
-      - wyvern girl,horns,whiskers,furry,furry female
-      - yeti girl,furry,furry female
+      do:
+        - __mywc/subject/non-human/monster/furry/species__,{0-5$$__mywc/subject/non-human/monster/furry/list__}
+      list:
+        - __mywc/subject/profiles/hair/do__
+        - __mywc/subject/profiles/breasts__
+        - __mywc/subject/profiles/height__
+        - __mywc/subject/profiles/width__
+        - __mywc/subject/profiles/age/do__
+      species:
+        - anubis girl,anubis ears,furry,furry female
+        - dire wolf girl,wolf ears,whiskers,furry,furry female
+        - dragon girl,dragon ears,horns,whiskers,furry,furry female
+        - griffin girl,body feathers,beak,furry,furry female
+        - harpy girl,body feathers
+        - hellhound girl,wolf ears,furry,furry female
+        - lamia girl,slit pupils,reptile furry female
+        - lizardfolk girl,slit pupils,reptile furry female
+        - merfolk girl,anthro furry female
+        - mermaid girl
+        - minotaur girl,minotaur ears,horns,whiskers,furry,furry female
+        - nekomata girl,cat ears,slit pupils,whiskers,furry,furry female
+        - pegasus girl,furry,furry female
+        - phoenix girl,body feathers,beak,furry,furry female
+        - salamander girl,slit pupils,reptile furry female
+        - slime girl
+        - undine girl,anthro furry female
+        - unicorn girl,horns,furry,furry female
+        - wendigo girl,horns,furry,furry female
+        - werebear girl,bear ears,furry,furry female
+        - werewolf girl,wolf ears,whiskers,furry,furry female
+        - wyvern girl,horns,whiskers,furry,furry female
+        - yeti girl,furry,furry female
     demi-human:
-      - angel girl
-      - archdemon girl,horns
-      - archfey girl,pointy ears
-      - cyclops girl,monoeye
-      - dark elf girl,pointy ears
-      - demon girl,slit pupils
-      - devil girl
-      - dryad girl
-      - dwarf girl
-      - elf girl,pointy ears
-      - fairy girl
-      - gnome girl
-      - goblin girl
-      - hobgoblin girl
-      - imp girl
-      - kitsune girl,fox ears
-      - lich girl
-      - mummy girl
-      - necromancer girl
-      - nymph girl
-      - ogre girl,horns
-      - orc girl
-      - pixie girl
-      - quetzalcoatl girl,horns
-      - succubus girl,horns
-      - vampire girl,slit pupils,pointy ears
-      - witch girl
-      - zombie girl
-  demi-human:
-    do:
-      - __mywc/subject/non-human/demi-human/species__ girl
-    species:
-      - alpaca
-      - ant
-      - antelope
-      - bat
-      - bear
-      - bee
-      - buffalo
-      - cat
-      - cow
-      - coyote
-      - crow
-      - deer
-      - dog
-      - donkey
-      - dormouse
-      - eagle
-      - ferret
-      - fish
-      - fox
-      - goat
-      - grasshopper
-      - hare
-      - horse
-      - hyena
-      - impala
-      - jackal
-      - kangaroo
-      - leopard
-      - lion
-      - llama
-      - lynx
-      - moose
-      - moth
-      - mouse
-      - okapi
-      - owl
-      - polar bear
-      - rabbit
-      - rat
-      - sheep
-      - skunk
-      - squirrel
-      - tiger
-      - wasp
-      - weasel
-      - wildcat
-      - wolf
-      - yak
+      do:
+        - __mywc/subject/non-human/monster/demi-human/species/do__,{0-5$$__mywc/subject/non-human/monster/demi-human/list__}
+        - __mywc/subject/non-human/monster/demi-human/unreal-species__,{0-5$$__mywc/subject/non-human/monster/demi-human/list__}
+        - __mywc/subject/profiles/hair/do__,__mywc/subject/profiles/eye/demi-human__,__mywc/subject/profiles/ear__,__mywc/subject/profiles/breasts__,__mywc/subject/profiles/skin/demi-human__,__mywc/subject/profiles/height__,__mywc/subject/profiles/width__,__mywc/subject/profiles/age/do__,__mywc/subject/profiles/misc/do__
+      list:
+        - __mywc/subject/profiles/hair/do__
+        - __mywc/subject/profiles/breasts__
+        - __mywc/subject/profiles/height__
+        - __mywc/subject/profiles/width__
+        - __mywc/subject/profiles/age/do__
+      species:
+        do:
+          - alpaca girl
+          - ant girl,antennae
+          - antelope girl
+          - bat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - bear girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - bee girl,antennae
+          - buffalo girl,horns
+          - cat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - cow girl
+          - coyote girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - crow girl
+          - deer girl
+          - dog girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - donkey girl
+          - dormouse girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - eagle girl
+          - ferret girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - fish girl
+          - fox girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - goat girl,horns
+          - grasshopper girl,antennae
+          - hare girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - horse girl
+          - hyena girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - impala girl
+          - jackal girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - kangaroo girl
+          - leopard girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - lion girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - llama girl
+          - lynx girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - moose girl
+          - moth girl,antennae
+          - mouse girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - okapi girl
+          - owl girl
+          - polar bear girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - rabbit girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - rat girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - sheep girl,horns
+          - skunk girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - squirrel girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - tiger girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - wasp girl
+          - weasel girl,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - wildcat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - wolf girl,__mywc/subject/non-human/monster/demi-human/species/fangs__,__mywc/subject/non-human/monster/demi-human/species/whiskers__
+          - yak girl,horns
+        fangs:
+          - " "
+          - fangs
+        whiskers:
+          - " "
+          - whiskers
+      unreal-species:
+        - angel girl
+        - archdemon girl,horns
+        - archfey girl,pointy ears
+        - cyclops girl,monoeye
+        - dark elf girl,pointy ears
+        - demon girl,slit pupils
+        - devil girl
+        - dryad girl
+        - dwarf girl
+        - elf girl,pointy ears
+        - fairy girl
+        - gnome girl
+        - goblin girl
+        - hobgoblin girl
+        - imp girl
+        - kitsune girl,fox ears
+        - lich girl
+        - mummy girl
+        - necromancer girl
+        - nymph girl
+        - ogre girl,horns
+        - orc girl
+        - pixie girl
+        - quetzalcoatl girl,horns
+        - succubus girl,horns
+        - vampire girl,slit pupils,pointy ears
+        - witch girl
+        - zombie girl

@@ -1,7 +1,7 @@
 non-human:
   random:
     - __mywc/subject/non-human/furry/do__
-    - __mywc/subject/non-human/anthro__
+    - __mywc/subject/non-human/anthro/do__
     - __mywc/subject/non-human/monster/do__
   furry:
     do:

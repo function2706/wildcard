@@ -4,7 +4,7 @@ pose:
     - "{0-3$$__mywc/pose/list__}"
   list:
     - __mywc/pose/head__
-    - __mywc/pose/upper__
+    - __mywc/pose/upper/do__
     - __mywc/pose/lower/do__
   action:
     - acrobatic pose
@@ -24,6 +24,213 @@ pose:
     - stylish pose
   head:
     - "{1::head tilt|9::}"
+  upper:
+    do:
+      - __mywc/pose/upper/pose/do__
+      - __mywc/pose/upper/touching/do__
+      - __mywc/pose/upper/pov/do__
+      - __mywc/pose/upper/misc__
+    pose:
+      do:
+        - __mywc/pose/upper/pose/one-hand/do__
+        - __mywc/pose/upper/pose/both-hands/do__
+      one-hand:
+        do:
+          - "{1-2$$__mywc/pose/upper/pose/one-hand/list__}"
+        list:
+          - __mywc/pose/upper/pose/one-hand/positions__
+          - __mywc/pose/upper/pose/one-hand/signs__
+        positions:
+          - arm above head
+          - arm across waist
+          - arm at side
+          - arm between legs
+          - arm on knee
+          - arm on own head
+          - arm up
+          - outstretched arm
+          - spread arm
+          - v arm
+          - w arm
+        signs:
+          - clenched hand
+          - finger gun
+          - index finger raised
+          - open hand
+          - outstretched hand
+          - spread fingers
+          - thumb down
+          - thumb up
+          - v
+          - w
+      both-hands:
+        do:
+          - "{1-2$$__mywc/pose/upper/pose/both-hands/list__}"
+        list:
+          - __mywc/pose/upper/pose/both-hands/positions__
+          - __mywc/pose/upper/pose/both-hands/signs__
+        position:
+          - arms above head
+          - arms across waist
+          - arms at sides
+          - arms between legs
+          - arms on knee
+          - arms on own head
+          - arms up
+          - outstretched arms
+          - spread arms
+          - v arms
+          - w arms
+        signs:
+          - clenched hands
+          - double v
+          - double w
+          - finger gun
+          - index fingers raised
+          - open hands
+          - outstretched hand
+          - own hands clasped
+          - own hands together
+          - spread fingers
+          - thumbs down
+          - thumbs up
+    touching:
+      do:
+        - __mywc/pose/upper/touching/hand/one-hand/do__
+        - __mywc/pose/upper/touching/hand/both-hands/do__
+        - __mywc/pose/upper/touching/misc__
+      hand:
+        do:
+          - __mywc/pose/upper/touching/one-hand/do__
+          - __mywc/pose/upper/touching/both-hands/do__
+        one-hand:
+          do:
+            - hand __mywc/pose/upper/touching/hand/one-hand/parts__
+          parts:
+            - between legs
+            - in own hair
+            - on own arm
+            - on own breast
+            - on own cheek
+            - on own chest
+            - on own chin
+            - on own ear
+            - on own face
+            - on own forehead
+            - on own head
+            - on own hip
+            - on own knee
+            - on own leg
+            - on own neck
+            - on own shoulder
+            - on own stomach
+            - on own thigh
+            - over eye
+            - over own mouth
+            - to own mouth
+        both-hands:
+          do:
+            - hands __mywc/pose/upper/touching/both-hands/parts__
+          parts:
+            - between legs
+            - in own hair
+            - on own breasts
+            - on own cheeks
+            - on own chest
+            - on own chin
+            - on own ears
+            - on own face
+            - on own forehead
+            - on own head
+            - on own hip
+            - on own knees
+            - on own legs
+            - on own neck
+            - on own shoulders
+            - on own stomach
+            - on own thighs
+            - over eyes
+            - over own mouth
+      misc:
+        - breast lift
+        - breast suppress
+        - cheek rest
+        - covering breasts
+        - covering face
+        - covering one eye
+        - covering own ears
+        - covering own eyes
+        - covering own mouth
+        - finger to cheek
+        - finger to face
+        - finger to mouth
+        - finger to own chin
+        - fingers to cheeks
+        - head rest
+        - holding hair
+        - holding own arm
+        - holding own hair
+        - holding own wrist
+        - playing with own hair
+        - scratching cheek
+        - scratching head
+        - stroking own chin
+        - twirling hair
+    pov:
+      do:
+        - reaching towards viewer,pov,__mywc/pose/upper/pov/hand/do__
+      hand:
+        do:
+          - "{1-2$$__mywc/pose/upper/pov/hand/list__}"
+        list:
+          - __mywc/pose/upper/pov/hand/directions__
+          - __mywc/pose/upper/pov/hand/shapes__
+        directions:
+          - palm facing upward
+          - palm facing viewer
+          - palm facing downward
+        shapes:
+          - curled fingers
+          - open hand
+          - outstretched hand
+          - spread fingers
+    misc:
+      - 4-finger heart hands
+      - arm rest
+      - arm{|s} behind back
+      - arm{|s} behind head
+      - claw pose
+      - crossed arms
+      - cupping hands
+      - curled fingers
+      - double middle finger
+      - elbow rest
+      - finger frame
+      - finger heart
+      - fist pump
+      - flexing
+      - ghost pose
+      - hand rest
+      - index fingers together
+      - middle finger
+      - ok sign
+      - palms together
+      - paw pose
+      - pinky out
+      - pointing at self
+      - pointing at viewer
+      - pointing up
+      - rabbit pose
+      - raised fist
+      - salute
+      - shushing
+      - steepled fingers
+      - surprised arms
+      - v over eye
+      - v over mouth
+      - victory pose
+      - waving
+      - zombie pose
   lower:
     do:
       - __mywc/try/lower/standing/do__
@@ -80,127 +287,3 @@ pose:
           - legs together
           - spread legs
           - wide spread legs
-  upper:
-    - 4-finger heart hands
-    - arm above head
-    - arm across waist
-    - arm at side
-    - arm behind back
-    - arm behind head
-    - arm between legs
-    - arm on knee
-    - arm on own head
-    - arm rest
-    - arm up
-    - arms at sides
-    - arms behind back
-    - arms behind head
-    - arms between legs
-    - arms up
-    - breast suppress
-    - breast lift
-    - cheek rest
-    - claw pose
-    - clenched hand
-    - clenched hands
-    - covering breasts
-    - covering face
-    - covering one eye
-    - covering own ears
-    - covering own eyes
-    - covering own mouth
-    - crossed arms
-    - cupping hands
-    - curled fingers
-    - double middle finger
-    - double v
-    - elbow rest
-    - finger frame
-    - finger gun
-    - finger heart
-    - finger to cheek
-    - finger to face
-    - finger to mouth
-    - finger to own chin
-    - fingers to cheeks
-    - fist pump
-    - flexing
-    - ghost pose
-    - hand between legs
-    - hand in own hair
-    - hand on own arm
-    - hand on own cheek
-    - hand on own chest
-    - hand on own chin
-    - hand on own ear
-    - hand on own face
-    - hand on own forehead
-    - hand on own head
-    - hand on own hip
-    - hand on own knee
-    - hand on own leg
-    - hand on own neck
-    - hand on own shoulder
-    - hand on own stomach
-    - hand on own thigh
-    - hand over eye
-    - hand over own mouth
-    - hand rest
-    - hand to own mouth
-    - hands on own breasts
-    - hands on own cheeks
-    - hands on own chin
-    - hands on own face
-    - hands on own head
-    - hands on own hips
-    - hands on own knees
-    - hands on own legs
-    - hands on own stomach
-    - hands on own thighs
-    - head rest
-    - holding hair
-    - holding own arm
-    - holding own hair
-    - holding own wrist
-    - index finger raised
-    - index fingers raised
-    - index fingers together
-    - middle finger
-    - ok sign
-    - open hand
-    - open hands
-    - outstretched arm
-    - outstretched arms
-    - outstretched hand
-    - own hands clasped
-    - own hands together
-    - palms together
-    - paw pose
-    - pinky out
-    - playing with own hair
-    - pointing at self
-    - pointing at viewer
-    - pointing up
-    - rabbit pose
-    - raised fist
-    - reaching towards viewer
-    - salute
-    - scratching cheek
-    - scratching head
-    - shushing
-    - spread arms
-    - spread fingers
-    - steepled fingers
-    - stroking own chin
-    - surprised arms
-    - thumbs down
-    - thumbs up
-    - twirling hair
-    - v
-    - v over eye
-    - v over mouth
-    - victory pose
-    - w
-    - w arms
-    - waving
-    - zombie pose

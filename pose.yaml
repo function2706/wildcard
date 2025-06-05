@@ -1,7 +1,7 @@
 pose:
   random:
     - __mywc/pose/action__
-    - "{0-3$$__mywc/pose/list__}"
+    - "{1-3$$__mywc/pose/list__}"
   list:
     - __mywc/pose/head__
     - __mywc/pose/upper/do__
@@ -28,7 +28,6 @@ pose:
     do:
       - __mywc/pose/upper/pose/do__
       - __mywc/pose/upper/touching/do__
-      - __mywc/pose/upper/pov/do__
       - __mywc/pose/upper/misc__
     pose:
       do:
@@ -69,7 +68,7 @@ pose:
         list:
           - __mywc/pose/upper/pose/both-hands/positions__
           - __mywc/pose/upper/pose/both-hands/signs__
-        position:
+        positions:
           - arms above head
           - arms across waist
           - arms at sides
@@ -130,7 +129,7 @@ pose:
             - to own mouth
         both-hands:
           do:
-            - hands __mywc/pose/upper/touching/both-hands/parts__
+            - hands __mywc/pose/upper/touching/hand/both-hands/parts__
           parts:
             - between legs
             - in own hair
@@ -138,9 +137,7 @@ pose:
             - on own cheeks
             - on own chest
             - on own chin
-            - on own ears
             - on own face
-            - on own forehead
             - on own head
             - on own hip
             - on own knees
@@ -176,24 +173,6 @@ pose:
         - scratching head
         - stroking own chin
         - twirling hair
-    pov:
-      do:
-        - reaching towards viewer,pov,__mywc/pose/upper/pov/hand/do__
-      hand:
-        do:
-          - "{1-2$$__mywc/pose/upper/pov/hand/list__}"
-        list:
-          - __mywc/pose/upper/pov/hand/directions__
-          - __mywc/pose/upper/pov/hand/shapes__
-        directions:
-          - palm facing upward
-          - palm facing viewer
-          - palm facing downward
-        shapes:
-          - curled fingers
-          - open hand
-          - outstretched hand
-          - spread fingers
     misc:
       - 4-finger heart hands
       - arm rest
@@ -222,6 +201,7 @@ pose:
       - pointing up
       - rabbit pose
       - raised fist
+      - reaching towards viewer
       - salute
       - shushing
       - steepled fingers
@@ -233,56 +213,56 @@ pose:
       - zombie pose
   lower:
     do:
-      - __mywc/try/lower/standing/do__
-      - __mywc/try/lower/sitting/do__
+      - __mywc/pose/lower/standing/do__
+      - __mywc/pose/lower/sitting/do__
     standing:
       do:
         - contrapposto
         - standing on one leg
-        - standing,__mywc/try/lower/standing/crossing/do__
-        - standing,__mywc/try/lower/standing/splitting/do__
-        - tiptoes,__mywc/try/lower/standing/crossing/do__
-        - tiptoes,__mywc/try/lower/standing/splitting/do__
+        - standing,__mywc/pose/lower/standing/crossing/do__
+        - standing,__mywc/pose/lower/standing/splitting/do__
+        - tiptoes,__mywc/pose/lower/standing/crossing/do__
+        - tiptoes,__mywc/pose/lower/standing/splitting/do__
       crossing:
         do:
           - " "
-          - __mywc/try/lower/standing/crossing/option__
+          - __mywc/pose/lower/standing/crossing/option__
         option:
           - crossed ankles
           - crossed legs
       splitting:
         do:
           - " "
-          - __mywc/try/lower/standing/splitting/option__
+          - __mywc/pose/lower/standing/splitting/option__
         option:
           - legs apart
     sitting:
       do:
-        - hugging own legs,__mywc/try/lower/sitting/crossing/do__
+        - hugging own legs,__mywc/pose/lower/sitting/crossing/do__
         - indian style
-        - kneeling,__mywc/try/lower/sitting/splitting/do__
+        - kneeling,__mywc/pose/lower/sitting/splitting/do__
         - knees apart feet together
         - knees together feet apart
         - on one knee
-        - outstretched legs,__mywc/try/lower/sitting/crossing/do__
-        - seiza,__mywc/try/lower/sitting/splitting/do__
-        - sitting,__mywc/try/lower/sitting/crossing/do__
-        - sitting,__mywc/try/lower/sitting/crossing/option__,__mywc/try/lower/sitting/splitting/option__
-        - sitting,__mywc/try/lower/sitting/splitting/do__
-        - squatting,__mywc/try/lower/sitting/splitting/do__
+        - outstretched legs,__mywc/pose/lower/sitting/crossing/do__
+        - seiza,__mywc/pose/lower/sitting/splitting/do__
+        - sitting,__mywc/pose/lower/sitting/crossing/do__
+        - sitting,__mywc/pose/lower/sitting/crossing/option__,__mywc/pose/lower/sitting/splitting/option__
+        - sitting,__mywc/pose/lower/sitting/splitting/do__
+        - squatting,__mywc/pose/lower/sitting/splitting/do__
         - wariza
         - yokozuwari
       crossing:
         do:
           - " "
-          - __mywc/try/lower/sitting/crossing/option__
+          - __mywc/pose/lower/sitting/crossing/option__
         option:
           - crossed ankles
           - crossed legs
       splitting:
         do:
           - " "
-          - __mywc/try/lower/sitting/splitting/option__
+          - __mywc/pose/lower/sitting/splitting/option__
         option:
           - legs together
           - spread legs

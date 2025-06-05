@@ -1,13 +1,11 @@
 expression:
   random:
-    - __mywc/expression/sfw__
-    - __mywc/expression/face/random__
-  sfw:
     - __mywc/expression/anger__
     - __mywc/expression/happiness__
     - __mywc/expression/misc__
     - __mywc/expression/sadness__
     - __mywc/expression/surprise__
+    - __mywc/expression/face/random__
   anger:
     - angry
     - annoyed

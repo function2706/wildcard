@@ -1,0 +1,245 @@
+profiles:
+  hair:
+    do:
+      - __mywc/subject/profiles/hair/colors__ __mywc/subject/profiles/hair/wholes__
+      - __mywc/subject/profiles/hair/colors__ __mywc/subject/profiles/hair/random__
+    random:
+      - __mywc/subject/profiles/hair/bases/do__,{0-5$$__mywc/subject/profiles/hair/list__}
+    list:
+      - __mywc/subject/profiles/hair/decorations/do__
+      - __mywc/subject/profiles/hair/bangs__
+      - __mywc/subject/profiles/hair/extensions/do__
+      - __mywc/subject/profiles/hair/sidelocks__
+    decorations:
+      do:
+        - __mywc/subject/profiles/hair/decorations/ahoges__
+        - __mywc/subject/profiles/hair/decorations/patterns__
+      ahoges:
+        - ahoge
+        - antenna hair
+        - heart ahoge
+        - heart antenna hair
+        - huge ahoge
+      patterns:
+        - crown braid
+        - halo braid
+        - single hair intake
+    bangs:
+      - arched bangs
+      - asymmetrical bangs
+      - bangs pinned back
+      - braided bangs
+      - crossed bangs
+      - diagonal bangs
+      - hair between eyes
+      - hair over eyes
+      - hair over one eye
+      - hair pulled back
+      - hair slicked back
+      - long bangs
+      - parted bangs
+      - short bangs
+      - swept bangs
+    extensions:
+      do:
+        - __mywc/subject/profiles/hair/extensions/tails/do__
+        - __mywc/subject/profiles/hair/extensions/updos__
+      tails:
+        do:
+          - __mywc/subject/profiles/hair/extensions/tails/position__ __mywc/subject/profiles/hair/extensions/tails/length__ __mywc/subject/profiles/hair/extensions/tails/type__
+          - __mywc/subject/profiles/hair/extensions/tails/misc__
+        type:
+          - ponytail
+          - single braid
+          - twin braids
+          - twintails
+        length:
+          - " "
+          - long
+          - short
+        position:
+          - " "
+          - high
+          - low
+          - side
+        misc:
+          - braided ponytail
+          - drill ponytail
+          - folded ponytail
+          - one side up
+          - split ponytail
+          - twin drills
+          - two side up
+          - uneven twintails
+          - wide ponytail
+      updos:
+        - ballerina bun
+        - blunt bangs
+        - boho updo
+        - braided bun
+        - braided updo
+        - bun cover
+        - cone hair bun
+        - double bun
+        - doughnut hair bun
+        - hair bun
+        - low bun
+        - messy bun
+        - messy updo
+        - single hair bun
+        - single side bun
+        - tied hair
+    sidelocks:
+      - asymmetrical sidelocks
+      - drill sidelocks
+      - low-tied sidelocks
+      - side braid
+      - side braids
+      - sidelocks
+      - single sidelock
+    bases:
+      do:
+        - __mywc/subject/profiles/hair/bases/length__ __mywc/subject/profiles/hair/bases/style__ hair,__mywc/subject/profiles/hair/bases/option__
+      length:
+        - bob
+        - long
+        - medium
+        - pixie
+        - short
+        - very long
+        - very short
+      style:
+        - " "
+        - asymmetrical
+        - curly
+        - curtained hair
+        - drill
+        - flipped
+        - messy
+        - spiked
+        - straight
+        - wavy
+      option:
+        - " "
+        - blunt ends
+        - hair flaps
+        - hair intakes
+    wholes:
+      - __mywc/subject/profiles/hair/random__
+      - beehive hairdo
+      - bowl cut
+      - cornrows
+      - dreadlocks
+      - hime cut
+      - inverted bob
+      - low-braided long hair
+      - undercut
+      - voluminous curls
+      - wolf cut
+    colors:
+      - black
+      - blonde
+      - brown
+      - dark brown
+      - gray
+      - light brown
+      - red
+      - white
+      - __mywc/color__
+  eye:
+    human:
+      - __mywc/subject/profiles/eye/style/shape__,__mywc/subject/profiles/eye/style/pupil/normal__,__mywc/subject/profiles/eye/color__ eye
+    demi-human:
+      - __mywc/subject/profiles/eye/style/shape__,__mywc/subject/profiles/eye/style/pupil/abnormal__,__mywc/color__ eye
+    style:
+      shape:
+        - " "
+        - tareme
+        - tsurime
+      pupil:
+        normal:
+          - "{1::sanpaku|9::}"
+        abnormal:
+          - " "
+          - "{heterochromia|}"
+          - "{horizontal pupils|}"
+          - "{sanpaku|}"
+          - "{slit pupils|}"
+    color:
+      - amber
+      - black
+      - blue
+      - brown
+      - dark brown
+      - gray
+      - green
+      - hazel
+      - light brown
+  ear:
+    - " "
+    - animal ears
+    - floppy ears
+    - long pointy ears
+    - pointy ears
+  skin:
+    human:
+      - " "
+      - dark skin
+      - fair skin
+      - light brown skin
+      - medium skin
+      - pale skin
+      - tan skin
+      - tanlines
+      - tanned skin
+      - wheat skin
+    demi-human:
+      - " "
+      - blue skin
+      - green skin
+      - purple skin
+      - red skin
+      - __mywc/subject/profiles/skin/human__
+  height:
+    - lanky
+    - petite
+    - short
+    - tall
+    - tiny
+    - towering
+  width:
+    - athletic
+    - curvy
+    - fit
+    - medium
+    - scrawny
+    - skinny
+    - slender
+    - slim
+    - toned
+  breasts:
+    - flat chest
+    - huge breasts
+    - large breasts
+    - medium breasts
+    - small breasts
+  age:
+    do:
+      - " "
+      - __mywc/subject/profiles/age/option__
+    option:
+      - adult
+      - adult young
+      - child
+      - loli
+      - mature female
+      - tennager
+      - young
+  misc:
+    do:
+      - "{0-4$$__mywc/subject/profiles/misc/option__}"
+    option:
+      - fang{s|}
+      - forehead mark
+      - horn{s|}
+      - whiskers

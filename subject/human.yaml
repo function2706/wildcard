@@ -3,9 +3,9 @@ human:
     - __mywc/subject/human/human__
     - __mywc/subject/human/demi-human__
   human:
-    - __mywc/subject/human/hair/do__,__mywc/subject/human/eye/human__,__mywc/subject/human/skin/human__,__mywc/subject/human/height__,__mywc/subject/human/width__,__mywc/subject/human/age/do__
+    - __mywc/subject/human/hair/do__,__mywc/subject/human/eye/human__,__mywc/subject/human/skin/human__,__mywc/subject/human/height__,__mywc/subject/human/width__,__mywc/subject/human/age/do__,__mywc/subject/human/breasts__
   demi-human:
-    - __mywc/subject/human/hair/do__,__mywc/subject/human/eye/demi-human__,__mywc/subject/human/ear__,__mywc/subject/human/skin/demi-human__,__mywc/subject/human/height__,__mywc/subject/human/width__,__mywc/subject/human/age/do__,__mywc/subject/human/misc/do__
+    - __mywc/subject/human/hair/do__,__mywc/subject/human/eye/demi-human__,__mywc/subject/human/ear__,__mywc/subject/human/skin/demi-human__,__mywc/subject/human/height__,__mywc/subject/human/width__,__mywc/subject/human/age/do__,__mywc/subject/human/misc/do__,__mywc/subject/human/breasts__
     - __mywc/subject/non-human/monster/demi-human__
     - __mywc/subject/non-human/demi-human/do__
   hair:
@@ -226,6 +226,12 @@ human:
     - slender
     - slim
     - toned
+  breasts:
+    - flat chest
+    - huge breasts
+    - large breasts
+    - medium breasts
+    - small breasts
   age:
     do:
       - " "

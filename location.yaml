@@ -2,11 +2,10 @@ location:
   random:
     - __mywc/location/indoors/do__
     - __mywc/location/outdoors/do__
-    - __mywc/location/patterned/do__
+    - __mywc/location/special/do__
   indoors:
     do:
       - __mywc/location/indoors/location/do__,__mywc/location/indoors/option/do__
-      - __mywc/location/ruins/indoors__
     location:
       do:
         - aquarium
@@ -91,7 +90,6 @@ location:
     do:
       - __mywc/location/outdoors/location/artificial__,__mywc/location/outdoors/option/do__
       - __mywc/location/outdoors/location/nature__,__mywc/location/outdoors/option/do__
-      - __mywc/location/ruins/outdoors__
     location:
       artificial:
         - amusement park
@@ -168,51 +166,54 @@ location:
         - sunrise
         - sunset
         - twilight
-  ruins:
-    indoors:
-      - abandoned __mywc/location/indoors/location/do__,ruins,{0-3$$__mywc/location/ruins/option__},__mywc/location/indoors/option/do__
-    outdoors:
-      - abandoned __mywc/location/outdoors/location/artificial__,ruins,{0-3$$__mywc/location/ruins/option__},__mywc/location/outdoors/option/do__
-    option:
-      - moss
-      - overgrown
-      - rust
-  patterned:
+  special:
     do:
-      - __mywc/location/patterned/simple/do__
-      - __mywc/location/patterned/pattern/do__
-    simple:
+      - __mywc/location/special/patterned/do__
+      - __mywc/location/special/ruins/do__
+    ruins:
       do:
-        - __mywc/location/patterned/simple/list__,simple background
-      list:
-        - __mywc/location/patterned/color__ background
-        - __mywc/location/patterned/color__ background,gradient background
-        - transparent background
-    pattern:
+        - abandoned __mywc/location/indoors/location/do__,ruins,{0-3$$__mywc/location/special/ruins/option__},__mywc/location/indoors/option/do__
+        - abandoned __mywc/location/outdoors/location/artificial__,ruins,{0-3$$__mywc/location/special/ruins/option__},__mywc/location/outdoors/option/do__
+      option:
+        - moss
+        - overgrown
+        - rust
+    patterned:
       do:
-        - __mywc/location/patterned/color__ __mywc/location/patterned/pattern/list__ background
-      list:
-        - argyle
-        - checkered
-        - floral
-        - grid
-        - halftone
-        - plaid
-        - polka dot
-    color:
-      - aqua
-      - beige
-      - black
-      - blue
-      - brown
-      - green
-      - grey
-      - multicolored
-      - orange
-      - pink
-      - purple
-      - rainbow
-      - red
-      - tan
-      - white
-      - yellow
+        - __mywc/location/special/patterned/simple/do__
+        - __mywc/location/special/patterned/pattern/do__
+      simple:
+        do:
+          - __mywc/location/special/patterned/simple/list__,simple background
+        list:
+          - __mywc/location/special/patterned/color__ background
+          - __mywc/location/special/patterned/color__ background,gradient background
+          - transparent background
+      pattern:
+        do:
+          - __mywc/location/special/patterned/color__ __mywc/location/special/patterned/pattern/list__ background
+        list:
+          - argyle
+          - checkered
+          - floral
+          - grid
+          - halftone
+          - plaid
+          - polka dot
+      color:
+        - aqua
+        - beige
+        - black
+        - blue
+        - brown
+        - green
+        - grey
+        - multicolored
+        - orange
+        - pink
+        - purple
+        - rainbow
+        - red
+        - tan
+        - white
+        - yellow

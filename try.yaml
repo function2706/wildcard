@@ -1,1 +1,1006 @@
 try:
+  exercise:
+    - arching the body backwards
+    - balancing
+    - balancing on a beam
+    - biking
+    - boxing
+    - cartwheeling
+    - catching a ball
+    - dancing
+    - doing bench presses
+    - doing burpees
+    - doing crunches
+    - doing deadlifts
+    - doing leg raises
+    - doing lunges
+    - doing pull-ups
+    - doing push-ups
+    - doing sit-ups
+    - doing squats
+    - doing the backstroke
+    - doing the breaststroke
+    - doing the butterfly
+    - doing the crawl
+    - handstanding
+    - hanging from bars
+    - holding a plank
+    - holding a yoga pose
+    - jogging
+    - jumping
+    - jumping on a beam
+    - jumping over a vault
+    - jumping rope
+    - jumping with a straddle
+    - kickboxing
+    - kicking
+    - leaping
+    - lifting dumbbells
+    - punching
+    - rolling
+    - rolling backward
+    - rolling forward
+    - rotating on bars
+    - running
+    - running on a treadmill
+    - skipping
+    - spinning on a beam
+    - sprinting
+    - squatting
+    - standing up
+    - swimming
+    - swinging on bars
+    - throwing a ball
+    - tightening the obliques
+    - twisting in the air
+    - twisting the body
+    - twisting while cartwheeling
+    - walking on a beam
+    - walking over backwards
+    - walking over forwards
+  stretching:
+    - stretching
+    - arching the body backward
+    - arching the body forward
+    - bending and pulling the elbow
+    - bending and pulling the leg
+    - bending legs while crossed
+    - circling the body
+    - clasping hands behind back
+    - crossing arms behind the body
+    - crossing arms in front of the body
+    - extending arms backward
+    - extending knees while crossed
+    - extending legs while crossed
+    - extending the arm
+    - extending the knee
+    - extending the leg
+    - grasping one ankle with both hands
+    - grasping the back with both hands
+    - hugging the legs with both hands
+    - leaning forward
+    - leaning side to side
+    - lowering the body to the floor
+    - moving arms up and down in front of body
+    - nodding the head up and down
+    - opening arms in front of the body
+    - opening arms inwards
+    - opening arms outwards
+    - opening arms to the side of the body
+    - opening legs inwards
+    - opening legs outwards
+    - opening the hip joint
+    - pulling the knee to the chest
+    - reaching arms down
+    - reaching arms forward
+    - reaching arms up
+    - rolling the head forward and backward
+    - rotating the ankle
+    - rotating the shoulders
+    - rounding the back
+    - sitting with legs crossed
+    - splitting legs front and back
+    - splitting legs to the side
+    - stretching the body downwards
+    - stretching the body upwards
+    - tilting the head forward and backward
+    - tilting the head side to side
+    - touching hands to feet
+    - turning the face side to side
+    - twisting the body
+    - twisting the body to the left
+    - twisting the body to the right
+  dancing:
+    - ballet
+    - ballroom dance
+    - belly dance
+    - breakdance
+    - contemporary dance
+    - country dance
+    - flamenco
+    - folk dance
+    - hip hop dance
+    - jazz dance
+    - latin dance
+    - lindy hop
+    - modern dance
+    - popping and locking
+    - salsa
+    - samba
+    - street dance
+    - tango
+    - tap dance
+    - waltz
+  battling:
+    - advancing a step
+    - applying a chokehold
+    - applying a headlock
+    - applying a submission hold
+    - assuming a counter stance
+    - attempting a throw
+    - backstepping
+    - bending the elbow
+    - blocking
+    - breaking a bone
+    - capturing a leg
+    - charging
+    - choking from behind
+    - clinching
+    - counterattacking
+    - delivering a body blow
+    - delivering a low kick
+    - dodging
+    - ducking
+    - elbow striking
+    - evading
+    - executing a body throw
+    - executing a high kick
+    - executing a leg sweep
+    - executing a sweep
+    - executing an arm lock
+    - feinting
+    - grappling
+    - grasping an arm
+    - guarding
+    - guarding with spread legs
+    - handstanding
+    - headbutting
+    - high guarding
+    - initiating ground techniques
+    - jabbing
+    - jumping knee strike
+    - kicking
+    - knee striking
+    - lowering the hips
+    - maintaining distance
+    - parrying
+    - punching
+    - rolling
+    - rotating the body
+    - shooting in
+    - sidestepping
+    - slamming to the ground
+    - slipping the body
+    - sparring
+    - spinning kick
+    - stepping in
+    - stomping
+    - striking in succession
+    - striking the face
+    - tackling
+    - throwing a lead hook
+    - thrusting forward
+  martial-arts:
+    - aikido
+    - baguazhang
+    - boxing
+    - brazilian jiu-jitsu
+    - capoeira
+    - chinese martial arts
+    - jeet kune do
+    - judo
+    - karate
+    - kendo
+    - kickboxing
+    - krav maga
+    - kung fu
+    - kyudo
+    - muay thai
+    - sambo
+    - silat
+    - taekwondo
+    - taijutsu
+    - wing chun
+    - wrestling
+  jogging:
+    - backward running
+    - brisk walk
+    - fatigue run
+    - high-knee walking
+    - hill sprint
+    - hurdle running
+    - interval training
+    - jogging
+    - long-distance running
+    - marathon running
+    - middle-distance running
+    - pace running
+    - quick stepping
+    - skipping
+    - speed walking
+    - sprinting
+    - tabata run
+    - tapping feet
+  mediation:
+    - 4-7-8 breathing
+    - alternate nostril breathing
+    - body scan meditation
+    - box breathing
+    - chakra meditation
+    - diaphragmatic breathing
+    - full yogic breath
+    - guided visualization
+    - loving-kindness meditation
+    - mantra meditation
+    - mindfulness meditation
+    - no-thought meditation
+    - pranayama
+    - prolonged breathing
+    - rapid breathing
+    - standing deep breathing
+    - transcendental meditation
+    - zazen meditation
+  training:
+    - bending knees and lowering hips
+    - bending the arm
+    - bending the wrist
+    - contracting the abdominal muscles
+    - extending arms in front of body
+    - extending the arm
+    - extending the back muscles
+    - holding elbows out to the side
+    - lifting a weight overhead
+    - lifting the leg
+    - pressing feet against the floor
+    - pressing toes into the floor
+    - puffing out the chest
+    - pulling knees to the chest
+    - pushing hips backward
+    - pushing hips forward
+    - rotating the ankle
+    - shrugging the shoulders
+    - squeezing the shoulder blades
+    - tilting head backward
+  sports:
+    - blocking
+    - bouncing
+    - catching a ball
+    - diving
+    - dodging
+    - dribbling
+    - dunking
+    - gripping
+    - heading
+    - jabbing
+    - jumping
+    - kicking
+    - lifting a kick
+    - passing
+    - pitching
+    - racing
+    - rallying
+    - rolling
+    - running
+    - scoring a goal
+    - serving
+    - shooting
+    - sliding
+    - smashing
+    - sprinting
+    - swinging
+    - swinging a bat
+    - tackling
+    - throwing a ball
+    - throwing a punch
+  mountain:
+    - alpine style mountaineering
+    - altitude adjustment breathing
+    - balancing on a cliff edge
+    - belaying technique
+    - crack climbing
+    - moving in a rope team
+    - moving on a glacier
+    - pitching a tent
+    - placing a piton
+    - putting on a climbing harness
+    - rappelling down
+    - rock climbing
+    - securing safety during an avalanche
+    - securing with a rope
+    - using an ice axe
+    - vertical rock ascend
+  swimming:
+    - adjusting goggles
+    - arm pull
+    - backstroke
+    - breaststroke
+    - breathing
+    - butterfly stroke
+    - diving
+    - freestyle stroke
+    - leg kick
+    - performing drills
+    - start dash
+    - tandem swimming
+    - turning at the wall
+    - underwater flip
+    - using a floatation device
+    - water jumping
+  cycling:
+    - adjusting the chain
+    - balancing
+    - braking
+    - climbing uphill
+    - cornering
+    - descending downhill
+    - fixing a flat
+    - gripping the handlebars
+    - leaning forward
+    - mounting the saddle
+    - pedaling
+    - putting on a helmet
+    - putting on the stand
+    - shifting gears
+    - signaling
+    - spinning the wheel
+  gymnastics:
+    - arching the body backwards
+    - balancing on a beam
+    - cartwheeling
+    - handstanding
+    - hanging from bars
+    - jumping on a beam
+    - jumping over a vault
+    - jumping with a straddle
+    - leaping
+    - rolling backward
+    - rolling forward
+    - rotating on bars
+    - spinning on a beam
+    - swinging on bars
+    - twisting in the air
+    - twisting the body
+    - twisting while cartwheeling
+    - walking on a beam
+    - walking over backwards
+    - walking over forwards
+  acrobatics:
+    - arching the back
+    - balancing on feet
+    - balancing on hands
+    - bending body forward and backward
+    - bending body side to side
+    - bending knees
+    - crossing arms
+    - crossing legs
+    - doing backflips
+    - doing double flips
+    - doing push-ups
+    - doing somersaults
+    - doing straddle jumps in the air
+    - extending arms upwards
+    - focusing body on one point
+    - handstanding
+    - jumping
+    - lifting legs upwards
+    - lifting the body
+    - riding a unicycle
+    - rotating hips
+    - rotating in the air
+    - spinning around
+    - spinning upside down
+    - splitting in the air
+    - spreading arms and legs
+    - spreading legs
+    - swinging legs forward and backward
+    - turning with hands on the ground
+    - twisting
+  joy:
+    - acting goofy
+    - applauding
+    - beating one’s chest
+    - blinking joyfully
+    - bouncing back
+    - breathing comfortably
+    - clapping
+    - clapping wholeheartedly
+    - crouching and bouncing up
+    - dancing
+    - doing dance steps
+    - frolicking
+    - getting hyped up
+    - giggling
+    - giving air hugs
+    - heart racing
+    - heart thumping
+    - high-fiving
+    - holding hands
+    - hugging
+    - humming a tune
+    - jumping
+    - laughing
+    - laughing from the heart
+    - leaping for joy
+    - looking delighted
+    - looking up at the sky
+    - looking with sparkling eyes
+    - moving in zigzags
+    - nodding in agreement
+    - raising arms
+    - raising one’s hand
+    - running
+    - singing
+    - skipping
+    - slapping hands together
+    - smiling warmly
+    - spinning around
+    - spreading arms wide
+    - standing on tiptoes
+    - stomping feet
+    - stretching upwards
+    - striking a pose
+    - swaying
+    - swinging hips
+    - swinging legs
+    - taking light jumps
+    - tiptoeing
+    - twirling around
+    - walking with a spring
+    - waving hands
+    - winking
+  sadness:
+    - avoiding eye contact
+    - becoming alone
+    - becoming silent
+    - being still
+    - biting one’s lip
+    - bowing one’s head
+    - brushing hair off one’s face
+    - burying one’s face in the wall
+    - closing the door quietly
+    - covering one’s face
+    - crossing one’s arms
+    - crying
+    - deep in thought
+    - dropping one’s shoulders
+    - gazing at the night sky
+    - giving an empty smile
+    - gripping one’s hands tightly
+    - hitting one’s knees
+    - holding on tightly
+    - holding one’s chest
+    - holding one’s head
+    - hugging one’s knees
+    - leaning against a wall
+    - looking at one’s feet
+    - looking down
+    - looking out the window
+    - looking up at the sky
+    - loosening a clenched fist
+    - lying down on the bed
+    - moistening one’s eyes
+    - mumbling to oneself
+    - nodding silently
+    - putting hands to one’s face
+    - seeking comfort with one’s eyes
+    - shaking one’s head
+    - shaking one’s shoulders
+    - shivering
+    - shrinking oneself
+    - sighing slowly
+    - sinking into the sofa
+    - sitting alone
+    - sitting on the floor
+    - sobbing
+    - spacing out
+    - speaking with a cracked voice
+    - standing in the corner of a room
+    - standing on one’s tiptoes
+    - staring at one’s wrist
+    - staring off into the distance
+    - stumbling
+    - taking a deep breath
+    - walking slowly
+  anger:
+    - bending one’s elbow
+    - biting one’s lip
+    - bowing one’s head
+    - breathing heavily
+    - breathing heavily through the nose
+    - clearing one’s throat
+    - clenching fists
+    - crossing one’s arms
+    - fluttering one’s feet
+    - frowning
+    - furrowing between the eyes
+    - furrowing one’s brow
+    - glaring
+    - grabbing one’s clothes
+    - gritting one’s teeth
+    - growling
+    - inhaling sharply
+    - jutting out one’s chin
+    - kicking a wall
+    - leaning back
+    - leaning forward
+    - looking up at the sky
+    - lowering one’s voice
+    - narrowing one’s eyes
+    - pouting one’s lips
+    - puffing one’s cheeks
+    - puffing up one’s chest
+    - pulling one’s ear
+    - pulling one’s hair
+    - punching a wall
+    - raising one’s arm
+    - raising one’s voice
+    - scratching one’s head
+    - shaking one’s head
+    - shrugging one’s shoulders
+    - slapping one’s thigh
+    - snapping one’s fingers
+    - snorting
+    - spewing spit
+    - spitting
+    - squeezing one’s hand
+    - staring angrily
+    - stiffening up
+    - stomping one’s foot
+    - taking deep breaths
+    - tapping one’s foot
+    - trembling
+    - tugging at the hem of one’s clothes
+    - turning red in the face
+    - yelling
+  fear:
+    - backing away
+    - becoming paralyzed with fear
+    - becoming silent
+    - blinking rapidly
+    - body going cold
+    - breaking into a cold sweat
+    - breathing heavily
+    - burying one’s face in hands
+    - choking on words
+    - closing eyes tightly
+    - covering one’s ears
+    - covering one’s face
+    - cowering
+    - crossing arms defensively
+    - curling up
+    - distorting one’s face
+    - ducking down
+    - escaping
+    - feeling a chill down one’s spine
+    - feeling a pit in one’s stomach
+    - feeling a tightness in the chest
+    - flailing arms
+    - freezing up
+    - getting goosebumps
+    - grasping for hands
+    - gritting teeth
+    - hands shaking
+    - heart racing
+    - hiding
+    - holding one’s breath
+    - jumping up
+    - knees buckling
+    - legs trembling
+    - looking away
+    - lowering one’s voice
+    - lunging forward
+    - mouth going dry
+    - moving away
+    - raising one’s voice
+    - running away
+    - shielding with hands
+    - shivering
+    - shrugging shoulders
+    - stumbling
+    - tensing up arms
+    - tiptoeing
+    - voice trembling
+    - waving hands in the air
+    - widening eyes
+    - yelling out
+  love:
+    - bringing faces closer
+    - caressing the back
+    - caressing the face
+    - closing eyes
+    - directing a smiling face
+    - embracing
+    - entwining legs
+    - exchanging glances
+    - grasping hands
+    - holding hands
+    - holding tightly
+    - hugging
+    - kissing
+    - kissing on the cheek
+    - kissing the hand
+    - leaning heads together
+    - linking arms
+    - patting the shoulder
+    - placing a hand on the shoulder
+    - pulling close to the chest
+    - rubbing noses
+    - stroking the head
+    - stroking the knee
+    - tickling under the arms
+    - touching foreheads
+    - waving hands
+    - whispering
+    - whispering in the ear
+    - wrapping an arm around the shoulder
+    - wrapping hands around the waist
+  jelousy:
+    - avoiding eye contact
+    - bending at the waist
+    - biting one’s lip
+    - blinking less
+    - blushing
+    - bringing hand to face
+    - clenching one’s fists
+    - clenching one’s teeth
+    - covering face with hand
+    - covering one’s ears
+    - craning one’s neck
+    - crossing one’s arms
+    - crossing one’s legs
+    - digging in one’s nails
+    - dragging one’s feet
+    - flailing one’s arms
+    - fluttering one’s feet
+    - folding arms in front
+    - groaning
+    - holding one’s head
+    - hunching over
+    - kicking the ground
+    - letting arms dangle
+    - lowering one’s eyebrows
+    - narrowing one’s eyes
+    - nodding slowly
+    - pinching one’s cheek
+    - pressing one’s lips
+    - puffing up one’s cheeks
+    - puffing up one’s chest
+    - rolling one’s eyes
+    - running hands through hair
+    - scratching one’s head
+    - shaking one’s head
+    - shrugging one’s shoulders
+    - slumping
+    - sniffling
+    - squeezing eyes shut
+    - staring intently
+    - sucking in one’s lips
+    - swallowing hard
+    - taking a deep breath
+    - tapping one’s fingers
+    - tapping one’s foot
+    - trembling lips
+    - trembling one’s body
+    - tucking in one’s chin
+    - turning one’s face away
+    - twisting one’s ankles
+    - waving hand upward
+  anticipation:
+    - biting one’s lip
+    - biting one’s nails
+    - bobbing one’s head
+    - breaking a sweat on forehead
+    - changing facial color
+    - clapping hands
+    - covering face with hands
+    - crossing arms
+    - crossing one’s legs
+    - cupping one’s ear
+    - eyes sparkling
+    - fluttering one’s hands
+    - frequently checking wristwatch
+    - interlocking fingers
+    - leaning forward
+    - lowering one’s head
+    - nodding
+    - pacing back and forth
+    - patting one’s knee
+    - pinching one’s cheek
+    - placing hand on cheek
+    - placing hand on forehead
+    - placing hands on chest
+    - playing with one’s hair
+    - pointing to the sky with hand
+    - puffing out one’s chest
+    - pursing one’s lips
+    - raising one’s hand
+    - resting hand on chin
+    - rubbing hands together
+    - rubbing one’s eyes
+    - scratching one’s head
+    - shaking one’s head side to side
+    - shifting weight side to side
+    - shrugging one’s shoulders
+    - sitting on the edge of a seat
+    - slapping one’s thighs
+    - snapping fingers
+    - spreading both arms wide
+    - standing on tiptoes
+    - stretching one’s back
+    - stretching with arms raised
+    - swaying back and forth
+    - taking a deep breath
+    - tapping one’s foot
+    - tapping one’s head
+    - tapping the table with fingers
+    - tilting one’s face upwards
+    - tilting one’s head
+    - widening one’s eyes
+  friendship:
+    - adventuring together
+    - advising each other
+    - believing in the other
+    - calling out
+    - celebrating together
+    - chatting
+    - comforting each other
+    - comforting while crying
+    - consulting
+    - cooking together
+    - dancing together
+    - dining together
+    - enjoying together
+    - exchanging a trusting look
+    - exchanging gifts
+    - exchanging smiles
+    - exchanging words
+    - giving a gift
+    - helping each other
+    - high-fiving
+    - holding hands
+    - hugging
+    - introducing each other
+    - journeying together
+    - laughing
+    - laughing together
+    - laughing together
+    - laughing while talking
+    - learning from each other
+    - learning together
+    - listening
+    - making plans together
+    - patting on the back
+    - playing sports together
+    - playing together
+    - playing together
+    - relaxing together
+    - reminiscing together
+    - respecting each other
+    - sending encouragement
+    - sharing secrets
+    - shopping together
+    - singing together
+    - sleeping together
+    - spending time together
+    - spending time together
+    - studying together
+    - taking pictures of each other
+    - talking about dreams together
+    - thinking about the other
+    - toasting
+    - traveling together
+    - waiting for the other
+    - walking together
+    - watching a movie together
+    - waving
+    - worrying
+    - writing a letter
+  family:
+    - bouncing a child on one’s knee
+    - carrying a child on shoulders
+    - cooking together as parent and child
+    - feeding a baby with a bottle
+    - having a meal with family
+    - holding a child
+    - holding hands as a family
+    - playing a game as a family
+    - playing with a child
+    - putting a child to bed
+    - reading a book with a child
+    - riding a bike with a child
+    - rocking a baby in a cradle
+    - smiling while looking at a child’s face
+    - stroking a child’s head
+    - taking a family photo
+    - taking a family walk
+    - walking while holding a child’s hand
+    - watching tv as a family
+    - waving hands as parent and child
+  partner:
+    - bringing faces close together
+    - cupping partner’s face in hands
+    - dancing hand in hand
+    - expressing love through eyes
+    - having a meal together
+    - holding hands
+    - holding one’s waist
+    - hugging
+    - kissing
+    - putting an arm around the back
+    - resting head on partner’s shoulder
+    - riding a bike together
+    - shopping together
+    - sitting with legs intertwined
+    - smiling while making eye contact
+    - stroking partner’s hair
+    - taking a walk together
+    - touching foreheads together
+    - walking arm in arm
+    - watching a movie together on a sofa
+  lonliness:
+    - awake alone late at night
+    - crying
+    - dancing alone
+    - deep in thought
+    - drinking coffee alone
+    - eating alone
+    - gazing quietly out the window
+    - holding one’s head in hands
+    - listening to music with headphones
+    - looking at old photos
+    - looking at one’s shadow
+    - looking up at the sky
+    - meditating alone
+    - reading a book alone
+    - reminiscing about the past
+    - sitting alone
+    - sitting on a park bench alone
+    - spending leisure time alone
+    - staring at one’s hands
+    - staring into the distance
+    - surveying an empty room
+    - taking a shower alone
+    - taking deep breaths
+    - talking to oneself
+    - talking to the wall
+    - waiting for a phone call
+    - walking alone
+    - watching a movie alone
+    - watching the stars alone
+    - writing in a diary alone
+  connection:
+    - chatting and laughing in a group
+    - collaboratively working on a task (e.g., cooking)
+    - dancing with others
+    - forming a circle by holding hands with others
+    - high-fiving in a group
+    - holding hands with friends or family
+    - hugging a friend
+    - making eye contact and nodding with someone
+    - making eye contact and smiling at someone
+    - patting someone on the back
+    - peering into someone’s face and laughing
+    - playing sports or games with peers
+    - shaking hands with friends or acquaintances
+    - singing together with others
+    - walking arm in arm with someone
+    - waving hello to someone
+  isolation:
+    - avoiding eye contact with others
+    - being distanced from places where people gather
+    - checking for phone or message notifications and finding none
+    - eating alone
+    - feeling isolated even in a crowd
+    - gazing out of a window in contemplation
+    - sitting alone in the corner of a room
+    - sitting on a park bench alone
+    - standing alone against the wall at a party or event
+    - standing still amidst a moving crowd
+    - staring at a smartphone with no one to talk to
+    - waiting for someone to approach and talk
+    - watching a group of friends laughing loudly from a distance
+    - wearing earphones to avoid conversation with others
+  trust:
+    - adopting a trusting posture
+    - echoing someone’s words
+    - giving a trusting look
+    - grasping hands
+    - holding hands
+    - hugging
+    - laughing together
+    - leaning in close
+    - leaning on someone
+    - letting oneself be guided
+    - listening intently
+    - making eye contact
+    - nodding
+    - nodding in agreement
+    - offering a comforting smile
+    - offering a comforting touch
+    - offering an open palm
+    - opening arms wide in welcome
+    - patting someone’s back
+    - placing a hand on the shoulder
+    - putting an arm around someone
+    - raising a hand in agreement
+    - reaching out a hand
+    - responding with a smile
+    - resting a hand on someone’s shoulder
+    - showing an empathetic expression
+    - sitting right next to someone
+    - sitting together
+    - speaking in a reassuring manner
+    - speaking in a soothing tone
+    - speaking reassuringly
+    - standing together
+    - stroking someone’s head
+    - supporting someone’s face with hands
+    - taking a deep breath together
+    - tilting the head to listen
+    - turning one’s body towards someone
+    - walking arm in arm
+    - walking side by side
+    - waving
+  betrayal:
+    - acting unaware
+    - avoiding a secret handshake
+    - avoiding discussions
+    - avoiding eye contact
+    - avoiding giving blessings
+    - breaking a promise
+    - breaking a vow
+    - changing one’s attitude
+    - changing one’s tone of voice
+    - concealing evidence
+    - creating misunderstandings
+    - cutting ties of friendship
+    - deleting messages
+    - disregarding agreements
+    - dodging explanations
+    - doubting what one believed
+    - ending a relationship
+    - envying others’ success
+    - exposing past secrets
+    - feeling incredulous
+    - feigning kindness
+    - forming alliances behind
+    - giving an insincere smile
+    - harboring suspicions
+    - hiding a letter
+    - hiding the truth
+    - hurting someone with a smile
+    - ignoring someone
+    - leaking information
+    - leaving without a word
+    - losing trust
+    - lying
+    - making a secret deal
+    - pulling away
+    - pushing someone away
+    - putting on a serious face
+    - refusing help
+    - rejecting a gift
+    - rejecting apologies
+    - revealing family secrets
+    - running away
+    - saying hurtful words
+    - setting someone up
+    - severing ties
+    - shifting beliefs
+    - talking behind closed doors
+    - turning allies into enemies
+    - turning one’s back
+    - turning one’s face away
+    - whispering secrets
+    - withdrawing support
+    - withholding information

@@ -1,18 +1,25 @@
 random:
-  - __mywc/random-for__,__mywc/subject__
-random-for:
+  - __mywc/subject__,__mywc/in-random__
+  - __mywc/subject__,__mywc/random-special-action__
+in-random:
   - "{0-5$$__mywc/list/full__}"
-random-for-character:
-  - "{0-4$$__mywc/list/default-fashion__},__mywc/subject/character/random__"
+character-for-random:
+  - "__mywc/subject/character/random__,{0-4$$__mywc/list/default-fashion__}"
+  - "__mywc/subject/character/random__,{0-2$$__mywc/list/for-special-action__}"
+random-special-action:
+  - "__mywc/pose/action/special__,{0-2$$__mywc/list/for-special-action__}"
 list:
   full:
-    - __mywc/composition/random__
-    - __mywc/expression/random__
     - __mywc/fashion/random__
-    - __mywc/location/random__
-    - __mywc/pose/random__
-  default-fashion:
-    - __mywc/composition/random__
     - __mywc/expression/random__
+    - __mywc/pose/general__
     - __mywc/location/random__
-    - __mywc/pose/random__
+    - __mywc/composition/random__
+  default-fashion:
+    - __mywc/expression/random__
+    - __mywc/pose/general__
+    - __mywc/location/random__
+    - __mywc/composition/random__
+  for-special-action:
+    - __mywc/expression/random__
+    - __mywc/composition/random__

@@ -1,1 +1,74 @@
 try:
+  shirts:
+    do:
+      - __mywc/color__ __mywc/fashion/tops/shirts/type__
+    type:
+      without-bottoms:
+        - "{taut|tight} shirt"
+        - band shirt
+        - compression shirt
+        - corset top
+        - cropped {top|shirt}
+        - fur-trimmed shirt
+        - gym shirt
+        - halter {top|shirt}
+        - long shirt
+        - loose shirt
+        - hooded shirt
+        - off-shoulder shirt
+        - oversized shirt
+        - polo shirt
+        - print shirt
+        - scoop neck top
+        - side-tie shirt
+        - single-shoulder shirt
+        - strapless shirt
+        - t-shirt
+        - tied shirt
+        - turtleneck shirt
+        - sweatshirt
+        - tank top
+        - mesh top
+        - tunic
+      with-bottoms:
+        do:
+          - __mywc/fashion/tops/shirts/type/with-bottoms/list__,
+        list:
+          - blouse
+          - collared shirt
+          - frilled shirt
+          - hawaiian shirt
+          - lace-trimmed shirt
+          - ribbon-trimmed shirt
+          - sideless shirt
+          - sleeveless shirt
+        open:
+          do:
+            - " "
+            - __mywc/try/shirts/type/with-bottoms/open/list__
+          list:
+            - " "
+            - open shirt
+            - unbuttoned shirt
+        patterns:
+          do:
+            - " "
+            - __mywc/try/shirts/type/with-bottoms/patterns/list__
+          list:
+            - camouflage shirt
+            - checkered shirt
+            - pinstripe shirt
+            - plaid shirt
+            - polka dot shirt
+            - striped shirt
+            - vertical-striped shirt
+        options:
+          do:
+            - " "
+            - __mywc/try/shirts/type/with-bottoms/options/list__
+          sleeves:
+    lingerie:
+      - babydoll
+      - camisole
+
+      - long-sleeve shirt

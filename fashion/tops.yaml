@@ -5,53 +5,39 @@ tops:
     - __mywc/fashion/tops/jackets/do__,__mywc/fashion/tops/bras/do__
     - __mywc/fashion/tops/jackets/do__,__mywc/fashion/tops/shirts/do__
     - __mywc/fashion/tops/shirts/do__
+    - __mywc/fashion/tops/shirts/opened__,__mywc/fashion/tops/bras/do__
     - __mywc/fashion/tops/nude/do__
   bras:
     do:
-      - __mywc/color__ __mywc/fashion/tops/bras/type__
-    type:
-      - adhesive bra
-      - balconette bra
+      - __mywc/color__ __mywc/fashion/tops/bras/list__
+    list:
+      - "{|heart|star|cross|bandaids on} pasties"
       - bandeau
-      - bra top
-      - bralette
-      - bullet bra
-      - cold shoulder top
-      - convertible bra
-      - corset top
-      - crop top
+      - bow bra
       - cupless bra
-      - demi bra
-      - encapsulation bra
-      - front-closure bra
-      - full coverage bra
-      - halter bra
+      - frilled bra
+      - front-hook bra
+      - front-tie bra
+      - lace-trimmed bra
       - latex bra
-      - longline bra
-      - low-back bra
-      - maternity bra
-      - minimizer bra
-      - nursing bra
-      - off-the-shoulder top
-      - padded bra
-      - plunge bra
-      - push-up bra
-      - racerback bra
-      - shelf bra
-      - side support bra
-      - sleeveless top
-      - soft cup bra
-      - sports bra
       - strapless bra
-      - t-shirt bra
-      - tank top
-      - training bra
       - tube top
-      - twist-front top
-      - underwire bra
-      - unlined bra
-      - wireless bra
-      - wrap top
+    random:
+      do:
+        - __mywc/fashion/tops/bras/random/base__,__mywc/fashion/tops/bras/random/patterns/do__
+      base:
+        - bra
+        - sports bra
+        - training bra
+      patterns:
+        do:
+          - " "
+          - __mywc/fashion/tops/bras/random/patterns/list__
+        list:
+          - plaid bra
+          - polka dot bra
+          - striped bra
+          - vertical-striped bra
   jackets:
     do:
       - __mywc/color__ __mywc/fashion/tops/jackets/type__
@@ -116,30 +102,91 @@ tops:
       - wrap blouse
   shirts:
     do:
-      - __mywc/color__ __mywc/fashion/tops/shirts/type__
-    type:
-      - babydoll
-      - blouse
-      - button-up shirt
-      - camisole
-      - collared shirt
-      - corset top
-      - crop top
-      - gilet
-      - halter top
-      - kurta
-      - long-sleeve shirt
-      - mesh top
-      - overshirt
-      - polo shirt
-      - pullover
-      - rash guard
-      - scoop neck top
-      - spaghetti strap top
-      - sweatshirt
-      - t-shirt
-      - tank top
-      - tunic
+      - __mywc/color__ __mywc/fashion/tops/shirts/without-buttons/do__
+      - __mywc/color__ __mywc/fashion/tops/shirts/with-buttons/do__
+    opened:
+      - __mywc/color__ __mywc/fashion/tops/shirts/with-buttons/list__,open shirt
+      - __mywc/color__ __mywc/fashion/tops/shirts/with-buttons/random/do__,open shirt
+    without-buttons:
+      do:
+        - __mywc/fashion/tops/shirts/without-buttons/list__
+      list:
+        - babydoll
+        - bustier
+        - camisole
+        - compression shirt
+        - corset top
+        - cropped {top|shirt},__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - fur-trimmed shirt
+        - gym shirt,__mywc/fashion/tops/shirts/options/sleeves__
+        - halter {top|shirt}
+        - hooded shirt
+        - long shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - loose shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - mesh top
+        - off-shoulder shirt
+        - oversized shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - polo shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - print shirt,__mywc/fashion/tops/shirts/options/sleeves__
+        - scoop neck top,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - side-tie shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - single-shoulder shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - strapless shirt
+        - sweatshirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - t-shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - tank top,__mywc/fashion/tops/shirts/options/patterns/do__
+        - tied shirt,__mywc/fashion/tops/shirts/without-buttons/random-opt/do__
+        - tight shirt
+        - tunic
+        - turtleneck shirt
+      random-opt:
+        do:
+          - "{0-2$$__mywc/fashion/tops/shirts/without-buttons/random-opt/list__}"
+        list:
+          - __mywc/fashion/tops/shirts/options/sleeves__
+          - __mywc/fashion/tops/shirts/options/patterns/do__
+    with-buttons:
+      do:
+        - __mywc/fashion/tops/shirts/with-buttons/list__,__mywc/fashion/tops/shirts/with-buttons/button-states/do__
+        - __mywc/fashion/tops/shirts/with-buttons/random/do__,__mywc/fashion/tops/shirts/with-buttons/button-states/do__
+      list:
+        - blouse
+        - frilled shirt
+        - hawaiian shirt
+        - lace-trimmed shirt
+        - ribbon-trimmed shirt
+        - sideless shirt
+        - sleeveless shirt
+      random:
+        do:
+          - __mywc/fashion/tops/shirts/with-buttons/random/base__,__mywc/fashion/tops/shirts/options/sleeves__,__mywc/fashion/tops/shirts/options/patterns/do__
+        base:
+          - shirt
+          - collared shirt
+      button-states:
+        do:
+          - " "
+          - __mywc/fashion/tops/shirts/with-buttons/button-states/list__
+        list:
+          - open shirt
+          - unbuttoned shirt
+    options:
+      sleeves:
+        - long sleeves,{|sleeves pushed up|sleeves rolled up}
+        - short sleeves
+        - sleeveless
+      patterns:
+        do:
+          - " "
+          - __mywc/fashion/tops/shirts/options/patterns/list__
+        list:
+          - camouflage shirt
+          - checkered shirt
+          - pinstripe shirt
+          - plaid shirt
+          - polka dot shirt
+          - striped shirt
+          - vertical-striped shirt
   nude:
     do:
       - " "
@@ -155,4 +202,5 @@ tops:
       - no bra,breasts out
     shirts:
       - " "
-      - breast slip
+      - __mywc/fashion/tops/shirts/opened__,no bra,breasts out
+      - __mywc/fashion/tops/shirts/do__,breast slip

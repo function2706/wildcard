@@ -3,18 +3,21 @@ try:
     do:
       - __mywc/color__ __mywc/fashion/tops/shirts/type__
     type:
-      without-bottoms:
+      without-buttons:
         - "{taut|tight} shirt"
+        - babydoll
         - band shirt
+        - camisole
         - compression shirt
         - corset top
         - cropped {top|shirt}
         - fur-trimmed shirt
         - gym shirt
         - halter {top|shirt}
+        - hooded shirt
         - long shirt
         - loose shirt
-        - hooded shirt
+        - mesh top
         - off-shoulder shirt
         - oversized shirt
         - polo shirt
@@ -23,37 +26,47 @@ try:
         - side-tie shirt
         - single-shoulder shirt
         - strapless shirt
-        - t-shirt
-        - tied shirt
-        - turtleneck shirt
         - sweatshirt
+        - t-shirt
         - tank top
-        - mesh top
+        - tied shirt
         - tunic
-      with-bottoms:
+        - turtleneck shirt
+      with-buttons:
         do:
-          - __mywc/fashion/tops/shirts/type/with-bottoms/list__,
+          - __mywc/try/shirts/type/with-buttons/list__,__mywc/try/shirts/type/with-buttons/button-states/do__
+          - __mywc/try/shirts/type/with-buttons/random-shirt__,__mywc/try/shirts/type/with-buttons/button-states/do__
         list:
           - blouse
-          - collared shirt
           - frilled shirt
           - hawaiian shirt
           - lace-trimmed shirt
           - ribbon-trimmed shirt
           - sideless shirt
           - sleeveless shirt
-        open:
+        random-shirt:
+          do:
+            - __mywc/try/shirts/type/with-buttons/random-shirt/base__,__mywc/try/shirts/type/with-buttons/random-shirt/sleeves__,__mywc/try/shirts/type/with-buttons/random-shirt/patterns/do__
+          base:
+            - shirt
+            - collared shirt
+        button-states:
           do:
             - " "
-            - __mywc/try/shirts/type/with-bottoms/open/list__
+            - __mywc/try/shirts/type/with-buttons/open/list__
           list:
             - " "
             - open shirt
             - unbuttoned shirt
+      options:
+        sleeves:
+          - long sleeves,{|sleeves pushed up|sleeves rolled up}
+          - short sleeves
+          - sleeveless
         patterns:
           do:
             - " "
-            - __mywc/try/shirts/type/with-bottoms/patterns/list__
+            - __mywc/try/shirts/type/with-buttons/patterns/list__
           list:
             - camouflage shirt
             - checkered shirt
@@ -62,13 +75,6 @@ try:
             - polka dot shirt
             - striped shirt
             - vertical-striped shirt
-        options:
-          do:
-            - " "
-            - __mywc/try/shirts/type/with-bottoms/options/list__
-          sleeves:
-    lingerie:
-      - babydoll
-      - camisole
-
-      - long-sleeve shirt
+        tuckings:
+          - tucked in
+          - untucked

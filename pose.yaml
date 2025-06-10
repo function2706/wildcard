@@ -53,8 +53,8 @@ pose:
       - dancing
       - dynamic pose
       - eating
-      - eating __mywc/pose/action/object/food__
-      - eating __mywc/pose/action/object/vegetable__
+      - eating __mywc/pose/action/object/foods__
+      - eating __mywc/pose/action/object/vegetables__
       - jogging
       - jumping
       - kicking
@@ -79,7 +79,7 @@ pose:
       - writing
       - yawning
       - yelling
-      - __mywc/pose/action/holding__
+      - __mywc/pose/action/holding/do__
     dancing:
       - ballet
       - ballroom dance
@@ -94,22 +94,25 @@ pose:
       - karate
       - kung fu
     holding:
-      - __mywc/pose/action/object/animal__
-      - __mywc/pose/action/object/container__
-      - __mywc/pose/action/object/cup__
-      - __mywc/pose/action/object/fantasy__
-      - __mywc/pose/action/object/food__
-      - __mywc/pose/action/object/handicrafts__
-      - __mywc/pose/action/object/instruments__
-      - __mywc/pose/action/object/lamps__
-      - __mywc/pose/action/object/literary-works__
-      - __mywc/pose/action/object/plants__
-      - __mywc/pose/action/object/rods__
-      - __mywc/pose/action/object/ropes__
-      - __mywc/pose/action/object/tools__
-      - __mywc/pose/action/object/treasures__
-      - __mywc/pose/action/object/vegetable__
-      - __mywc/pose/action/object/weapons__
+      do:
+        - holding __mywc/pose/action/holding/list__
+      list:
+        - __mywc/pose/action/object/animals__
+        - __mywc/pose/action/object/containers__
+        - __mywc/pose/action/object/cups__
+        - __mywc/pose/action/object/fantasy__
+        - __mywc/pose/action/object/foods__
+        - __mywc/pose/action/object/handicrafts__
+        - __mywc/pose/action/object/instruments__
+        - __mywc/pose/action/object/lamps__
+        - __mywc/pose/action/object/literary-works__
+        - __mywc/pose/action/object/plants__
+        - __mywc/pose/action/object/rods__
+        - __mywc/pose/action/object/ropes__
+        - __mywc/pose/action/object/tools__
+        - __mywc/pose/action/object/treasures__
+        - __mywc/pose/action/object/vegetables__
+        - __mywc/pose/action/object/weapons__
     object:
       animals:
         - bird
@@ -305,7 +308,7 @@ pose:
         - nugget
         - quartz
         - stone
-      vegetable:
+      vegetables:
         - apple
         - avocado
         - banana

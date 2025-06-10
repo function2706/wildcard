@@ -14,27 +14,26 @@ footwears:
       - __mywc/color__ __mywc/fashion/footwears/boots/type__
     type:
       - ankle boots
-      - biker boots
+      - belt boots
       - braided boots
       - combat boots
       - cowboy boots
-      - desert boots
+      - fold-over boots
+      - fur boots
+      - fur-trimmed boots
       - hiking boots
-      - kneehigh boots,__mywc/fashion/footwears/boots/heel__
+      - knee boots,__mywc/fashion/footwears/boots/heel__
+      - lace-up boots
       - latex boots,__mywc/fashion/footwears/boots/heel__
       - long boots,__mywc/fashion/footwears/boots/heel__
-      - mid calf boots,__mywc/fashion/footwears/boots/heel__
-      - middle boots,__mywc/fashion/footwears/boots/heel__
+      - mid calf boots
+      - middle boots
       - platform boots
       - rain boots
-      - riding boots
-      - santa boots
-      - shearling boots
-      - short boots,__mywc/fashion/footwears/boots/heel__
+      - short boots
       - snow boots
       - thighhigh boots,__mywc/fashion/footwears/boots/heel__
       - wedge boots
-      - western boots
       - winter boots
     heel:
       - " "
@@ -48,8 +47,8 @@ footwears:
       - platform heels
       - pump heels
       - pumps
-      - slingback heels
       - stiletto heels
+      - strappy heels
       - wedge heels
   sandals:
     do:
@@ -63,9 +62,7 @@ footwears:
       - lace-up sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
       - mule sandals
       - sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
-      - slippers
       - straw sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
-      - thonged sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
       - toe-ring sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
       - wedge sandals
   shoes:
@@ -75,21 +72,13 @@ footwears:
       - crocs
       - flat shoes
       - flats
-      - high cut sneakers
       - leather shoes
       - loafers
-      - low cut sneakers
       - mary janes
       - moccasins
-      - oxfords
-      - platform shoes
-      - running shoes
       - sneakers
       - soccer cleats
-      - tap shoes
-      - tennis shoes
-      - trekking shoes
-      - walking shoes
+      - uwabaki
   pantyhoses:
     do:
       - __mywc/fashion/footwears/pantyhoses/color__ __mywc/fashion/footwears/pantyhoses/type__
@@ -111,12 +100,12 @@ footwears:
       - calf socks
       - garter belt
       - garter straps
-      - knee-high socks
+      - kneehighs
       - leggings
       - over-kneehighs
       - pantyhose
       - stockings
-      - thigh-high socks
+      - thighhighs
   toenails:
     do:
       - " "

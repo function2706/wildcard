@@ -53,8 +53,8 @@ pose:
       - dancing
       - dynamic pose
       - eating
-      - eating __mywc/pose/action/holding/object/food__
-      - eating __mywc/pose/action/holding/object/vegetable__
+      - eating __mywc/pose/action/object/food__
+      - eating __mywc/pose/action/object/vegetable__
       - jogging
       - jumping
       - kicking
@@ -63,9 +63,9 @@ pose:
       - on back
       - on side
       - on stomach
-      - petting __mywc/pose/action/holding/object/animals__
+      - petting __mywc/pose/action/object/animals__
       - playing
-      - playing __mywc/pose/action/holding/object/instruments__
+      - playing __mywc/pose/action/object/instruments__
       - praying
       - punching
       - reading
@@ -79,7 +79,7 @@ pose:
       - writing
       - yawning
       - yelling
-      - __mywc/pose/action/holding/do__
+      - __mywc/pose/action/holding__
     dancing:
       - ballet
       - ballroom dance
@@ -94,264 +94,263 @@ pose:
       - karate
       - kung fu
     holding:
-      do:
-        - __mywc/pose/action/holding/object/animal__
-        - __mywc/pose/action/holding/object/container__
-        - __mywc/pose/action/holding/object/cup__
-        - __mywc/pose/action/holding/object/fantasy__
-        - __mywc/pose/action/holding/object/food__
-        - __mywc/pose/action/holding/object/handicrafts__
-        - __mywc/pose/action/holding/object/instruments__
-        - __mywc/pose/action/holding/object/lamps__
-        - __mywc/pose/action/holding/object/literary-works__
-        - __mywc/pose/action/holding/object/plants__
-        - __mywc/pose/action/holding/object/rods__
-        - __mywc/pose/action/holding/object/ropes__
-        - __mywc/pose/action/holding/object/tools__
-        - __mywc/pose/action/holding/object/treasures__
-        - __mywc/pose/action/holding/object/vegetable__
-        - __mywc/pose/action/holding/object/weapons__
-      object:
-        animals:
-          - bird
-          - bunny
-          - butterfly
-          - cat
-          - cockatiel
-          - dog
-          - dove
-          - dragonfly
-          - finch
-          - frog
-          - hamster
-          - hedgehog
-          - hummingbird
-          - iguana
-          - kitten
-          - macaw
-          - moth
-          - owl
-          - parakeet
-          - pigeon
-          - puppy
-          - rabbit
-          - rat
-          - snake
-          - songbird
-          - weasel
-        containers:
-          - bag
-          - box
-          - bucket
-          - cage
-          - gift
-          - package
-          - present
-          - sack
-          - trunk
-        cups:
-          - beaker
-          - bottle
-          - chalice
-          - cup
-          - goblet
-          - jug
-          - mug
-          - potion
-          - trophy
-        fantasy:
-          - flame
-          - orb
-          - skull
-        foods:
-          - burrito
-          - chocolate
-          - cookie
-          - corn dog
-          - croissant
-          - cupcake
-          - danish
-          - doughnut
-          - dumpling
-          - egg
-          - food
-          - hamburger
-          - hot dog
-          - ice cream
-          - ice cream cone
-          - lollipop
-          - macaron
-          - muffin
-          - onigiri
-          - pie
-          - pizza
-          - pomegranate
-          - popcorn
-          - popsicle
-          - sandwich
-          - tart
-          - toast
-          - waffle
-          - wine
-        handicrafts:
-          - doll
-          - flag
-          - handkerchief
-          - hat
-          - puppet
-          - yarn
-        instruments:
-          - bell
-          - clarinet
-          - euphonium
-          - flute
-          - guitar
-          - instrument
-          - lute
-          - lyre
-          - pipa
-          - recorder
-          - trumpet
-          - ukulele
-          - violin
-        lamps:
-          - candle
-          - lamp
-          - lantern
-          - light bulb
-          - torch
-        literary-works:
-          - ball
-          - book
-          - card{|s}
-          - document
-          - feather
-          - letter
-          - paper
-          - parchment
-          - picture
-          - quill
-          - scroll
-          - talisman
-          - ticket
-        plants:
-          - basil
-          - branch
-          - cactus
-          - chrysanthemum
-          - clover
-          - daffodil
-          - daisy
-          - dandelion
-          - flower
-          - herb sprig
-          - hibiscus
-          - iris
-          - lavender
-          - leaf
-          - log
-          - maple leaf
-          - marigold
-          - mushroom
-          - parsley
-          - petal
-          - pinecone
-          - poppy
-          - rose
-          - sprout
-          - sunflower
-          - tulip
-          - vine
-          - wildflower
-        rods:
-          - rod
-          - scepter
-          - staff
-          - wand
-        ropes:
-          - braid
-          - chain
-          - rope
-          - string
-          - tape
-        tools:
-          - binoculars
-          - broom
-          - compass
-          - fan
-          - fork
-          - hammer
-          - key
-          - lock
-          - microphone
-          - mirror
-          - net
-          - paintbrush
-          - pen
-          - pickaxe
-          - pipe
-          - rattle
-          - shovel
-          - spoon
-          - tablet
-          - umbrella
-        treasures:
-          - crystal
-          - gem
-          - gold
-          - jewel
-          - medallion
-          - silver
-          - money
-          - nugget
-          - quartz
-          - stone
-        vegetable:
-          - apple
-          - avocado
-          - banana
-          - broccoli
-          - cabbage
-          - carrot
-          - cherry
-          - chili pepper
-          - coconut
-          - corn
-          - cucumber
-          - eggplant
-          - grape
-          - grapefruit
-          - kiwi
-          - leek
-          - lemon
-          - lime
-          - mango
-          - melon {|slice}
-          - peach
-          - pear
-          - pepper
-          - pineapple
-          - potato
-          - pumpkin
-          - radish
-          - raspberry
-          - strawberry
-          - sweet potato
-          - tomato
-          - zucchini
-        weapons:
-          - axe
-          - blade
-          - bow
-          - dagger
-          - gun
-          - knife
-          - scythe
-          - shield
-          - spear
-          - whip
-          - sword
-          - trident
+      - __mywc/pose/action/object/animal__
+      - __mywc/pose/action/object/container__
+      - __mywc/pose/action/object/cup__
+      - __mywc/pose/action/object/fantasy__
+      - __mywc/pose/action/object/food__
+      - __mywc/pose/action/object/handicrafts__
+      - __mywc/pose/action/object/instruments__
+      - __mywc/pose/action/object/lamps__
+      - __mywc/pose/action/object/literary-works__
+      - __mywc/pose/action/object/plants__
+      - __mywc/pose/action/object/rods__
+      - __mywc/pose/action/object/ropes__
+      - __mywc/pose/action/object/tools__
+      - __mywc/pose/action/object/treasures__
+      - __mywc/pose/action/object/vegetable__
+      - __mywc/pose/action/object/weapons__
+    object:
+      animals:
+        - bird
+        - bunny
+        - butterfly
+        - cat
+        - cockatiel
+        - dog
+        - dove
+        - dragonfly
+        - finch
+        - frog
+        - hamster
+        - hedgehog
+        - hummingbird
+        - iguana
+        - kitten
+        - macaw
+        - moth
+        - owl
+        - parakeet
+        - pigeon
+        - puppy
+        - rabbit
+        - rat
+        - snake
+        - songbird
+        - weasel
+      containers:
+        - bag
+        - box
+        - bucket
+        - cage
+        - gift
+        - package
+        - present
+        - sack
+        - trunk
+      cups:
+        - beaker
+        - bottle
+        - chalice
+        - cup
+        - goblet
+        - jug
+        - mug
+        - potion
+        - trophy
+      fantasy:
+        - flame
+        - orb
+        - skull
+      foods:
+        - burrito
+        - chocolate
+        - cookie
+        - corn dog
+        - croissant
+        - cupcake
+        - danish
+        - doughnut
+        - dumpling
+        - egg
+        - food
+        - hamburger
+        - hot dog
+        - ice cream
+        - ice cream cone
+        - lollipop
+        - macaron
+        - muffin
+        - onigiri
+        - pie
+        - pizza
+        - pomegranate
+        - popcorn
+        - popsicle
+        - sandwich
+        - tart
+        - toast
+        - waffle
+        - wine
+      handicrafts:
+        - doll
+        - flag
+        - handkerchief
+        - hat
+        - puppet
+        - yarn
+      instruments:
+        - bell
+        - clarinet
+        - euphonium
+        - flute
+        - guitar
+        - instrument
+        - lute
+        - lyre
+        - pipa
+        - recorder
+        - trumpet
+        - ukulele
+        - violin
+      lamps:
+        - candle
+        - lamp
+        - lantern
+        - light bulb
+        - torch
+      literary-works:
+        - ball
+        - book
+        - card{|s}
+        - document
+        - feather
+        - letter
+        - paper
+        - parchment
+        - picture
+        - quill
+        - scroll
+        - talisman
+        - ticket
+      plants:
+        - basil
+        - branch
+        - cactus
+        - chrysanthemum
+        - clover
+        - daffodil
+        - daisy
+        - dandelion
+        - flower
+        - herb sprig
+        - hibiscus
+        - iris
+        - lavender
+        - leaf
+        - log
+        - maple leaf
+        - marigold
+        - mushroom
+        - parsley
+        - petal
+        - pinecone
+        - poppy
+        - rose
+        - sprout
+        - sunflower
+        - tulip
+        - vine
+        - wildflower
+      rods:
+        - rod
+        - scepter
+        - staff
+        - wand
+      ropes:
+        - braid
+        - chain
+        - rope
+        - string
+        - tape
+      tools:
+        - binoculars
+        - broom
+        - compass
+        - fan
+        - fork
+        - hammer
+        - key
+        - lock
+        - microphone
+        - mirror
+        - net
+        - paintbrush
+        - pen
+        - pickaxe
+        - pipe
+        - rattle
+        - shovel
+        - spoon
+        - tablet
+        - umbrella
+      treasures:
+        - crystal
+        - gem
+        - gold
+        - jewel
+        - medallion
+        - silver
+        - money
+        - nugget
+        - quartz
+        - stone
+      vegetable:
+        - apple
+        - avocado
+        - banana
+        - broccoli
+        - cabbage
+        - carrot
+        - cherry
+        - chili pepper
+        - coconut
+        - corn
+        - cucumber
+        - eggplant
+        - grape
+        - grapefruit
+        - kiwi
+        - leek
+        - lemon
+        - lime
+        - mango
+        - melon {|slice}
+        - peach
+        - pear
+        - pepper
+        - pineapple
+        - potato
+        - pumpkin
+        - radish
+        - raspberry
+        - strawberry
+        - sweet potato
+        - tomato
+        - zucchini
+      weapons:
+        - axe
+        - blade
+        - bow
+        - dagger
+        - gun
+        - knife
+        - scythe
+        - shield
+        - spear
+        - whip
+        - sword
+        - trident
   head:
     - "{1::head tilt|9::}"
   upper:

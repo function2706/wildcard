@@ -1,12 +1,10 @@
 tops:
   random:
-    - __mywc/fashion/tops/bras/do__
     - __mywc/fashion/tops/outers/do__
-    - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/bras/do__
     - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/inners/do__
-    - __mywc/fashion/tops/inners/opened__,__mywc/fashion/tops/bras/do__
     - __mywc/fashion/tops/inners/do__
-    - __mywc/fashion/tops/nude/do__
+    - __mywc/fashion/tops/nsfw/do__
+  sfw:
   bras:
     do:
       - __mywc/color__ __mywc/fashion/tops/bras/list__
@@ -51,12 +49,12 @@ tops:
         - __mywc/fashion/tops/outers/jackets/list__,__mywc/fashion/tops/outers/jackets/state__
       list:
         - bomber jacket
+        - cardigan
         - chore jacket
         - collared jacket
         - cropped jacket
         - denim jacket
         - down jacket
-        - fleece
         - frilled jacket
         - fur jacket
         - fur-trimmed jacket
@@ -79,6 +77,7 @@ tops:
         - track jacket
         - turtleneck jacket
         - tuxedo jacket
+        - vest
         - windbreaker
       state:
         - " "
@@ -90,18 +89,17 @@ tops:
         - collared coat
         - duffel coat
         - frock coat
-        - lab coat
-        - fur-trimmed coat
         - fur coat
+        - fur-trimmed coat
+        - lab coat
         - long coat
         - hooded coat
         - overcoat
         - pea coat
-        - sleeveless coat
         - sport coat
         - trench coat
-        - winter coat
         - waistcoat
+        - winter coat
         - wool coat
       state:
         - " "
@@ -129,19 +127,10 @@ tops:
       - wing cape
     misc:
       - apron
-      - cardigan
-      - cashmere
-      - coverall
-      - cropped knit
-      - down vest
       - hanten
       - haori
       - happi
-      - knit top
-      - nightgown
       - poncho
-      - shawl
-      - vest
   inners:
     do:
       - __mywc/color__ __mywc/fashion/tops/inners/without-buttons/do__
@@ -156,13 +145,16 @@ tops:
         - babydoll
         - bustier
         - camisole
+        - cashmere
         - compression shirt
         - corset top
-        - cropped {top|shirt},__mywc/fashion/tops/inners/without-buttons/random-opt/do__
+        - cropped {shirt|top|knit},__mywc/fashion/tops/inners/without-buttons/random-opt/do__
+        - fleece
         - fur-trimmed shirt
         - gym shirt,__mywc/fashion/tops/inners/options/sleeves__
-        - halter {top|shirt}
+        - halter {shirt|top}
         - hooded shirt
+        - knit top
         - long shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
         - loose shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
         - mesh top
@@ -239,20 +231,23 @@ tops:
           - polka dot shirt
           - striped shirt
           - vertical-striped shirt
-  nude:
+  nsfw:
     do:
-      - " "
+      - __mywc/fashion/tops/nsfw/list__
+      - __mywc/fashion/tops/nsfw/for-adjustment__
+    list:
       - topless
-      - __mywc/fashion/tops/bras/do__,__mywc/fashion/tops/nude/bras__
-      - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/nude/outers__
-      - __mywc/fashion/tops/inners/do__,__mywc/fashion/tops/nude/inners__
-    bras:
-      - " "
-      - breast slip
+      - __mywc/fashion/tops/bras/do__,{|breast slip}
+      - __mywc/fashion/tops/nsfw/outers__
+      - __mywc/fashion/tops/nsfw/inners__
+    for-adjustment:
+      - __mywc/fashion/tops/outers/do__
+      - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/inners/do__
+      - __mywc/fashion/tops/inners/do__
     outers:
-      - " "
-      - no bra,breasts out
+      - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/bras/do__
+      - __mywc/fashion/tops/outers/do__,no bra,breasts out
     inners:
-      - " "
+      - __mywc/fashion/tops/inners/opened__,__mywc/fashion/tops/bras/do__
       - __mywc/fashion/tops/inners/opened__,no bra,breasts out
       - __mywc/fashion/tops/inners/do__,breast slip

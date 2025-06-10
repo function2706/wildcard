@@ -4,7 +4,6 @@ tops:
     - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/inners/do__
     - __mywc/fashion/tops/inners/do__
     - __mywc/fashion/tops/nsfw/do__
-  sfw:
   bras:
     do:
       - __mywc/color__ __mywc/fashion/tops/bras/list__
@@ -67,7 +66,6 @@ tops:
         - puffer jacket
         - quilted jacket
         - safari jacket
-        - see-through jacket
         - ski jacket
         - sleeveless jacket
         - sports jersey

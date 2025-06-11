@@ -84,7 +84,7 @@ footwears:
       - uwabaki
   pantyhoses:
     do:
-      - __mywc/fashion/footwears/pantyhoses/color__ __mywc/fashion/footwears/pantyhoses/option/do__
+      - __mywc/fashion/footwears/pantyhoses/color__ __mywc/fashion/footwears/pantyhoses/option/do__ pantyhose
     color:
       - black
       - brown
@@ -92,27 +92,22 @@ footwears:
       - __mywc/color__
     option:
       do:
-        - "{1-2$$__mywc/fashion/footwears/pantyhoses/option/list__}"
+        - "{0-2$$ $$__mywc/fashion/footwears/pantyhoses/option/list__}"
       list:
-        - __mywc/fashion/footwears/pantyhoses/option/patterns__ pantyhose
-        - __mywc/fashion/footwears/pantyhoses/option/decorations__ pantyhose
+        - __mywc/fashion/footwears/pantyhoses/option/patterns__
+        - __mywc/fashion/footwears/pantyhoses/option/decorations__
       decorations:
         - " "
         - torn
       patterns:
-        - camouflage
-        - pinstripe
-        - plaid
-        - polka dot
+        - " "
         - print
-        - striped
-        - vertical-striped
   socks:
     do:
       - __mywc/color__ __mywc/fashion/footwears/socks/list__
+      - __mywc/color__ __mywc/fashion/footwears/socks/random/do__
     list:
       - business socks
-      - calf socks
       - fishnet {socks|thighhighs|pantyhose}
       - garter belt
       - garter straps
@@ -121,7 +116,7 @@ footwears:
       - loose socks
     random:
       do:
-        - ${type=!__mywc/fashion/footwears/socks/random/base__}${type},__mywc/fashion/footwears/socks/random/option/do__
+        - ${type=!__mywc/fashion/footwears/socks/random/base__}__mywc/fashion/footwears/socks/random/option/do__
       base:
         - ankle socks
         - kneehighs
@@ -130,22 +125,18 @@ footwears:
         - thighhighs
       option:
         do:
-          - "{0-2$$__mywc/fashion/footwears/socks/random/option/list__}"
+          - "{0-2$$ $$__mywc/fashion/footwears/socks/random/option/list__} ${type}"
         list:
-          - __mywc/fashion/footwears/socks/random/option/decorations__ ${type}
-          - __mywc/fashion/footwears/socks/random/option/patterns__ ${type}
+          - __mywc/fashion/footwears/socks/random/option/decorations__
+          - __mywc/fashion/footwears/socks/random/option/patterns__
         decorations:
           - bow
-          - dirty
           - frilled
           - lace-trimmed
           - torn
         patterns:
-          - camouflage
           - pinstripe
-          - plaid
           - polka dot
-          - print
           - striped
           - vertical-striped
   barefeet:
@@ -155,19 +146,8 @@ footwears:
       do:
         - "{0-2$$__mywc/fashion/footwears/barefeet/option/list__}"
       list:
-        - __mywc/fashion/footwears/barefeet/option/decorations/do__
-        - __mywc/fashion/footwears/barefeet/option/states__
-      decorations:
-        do:
-          - "{0-2$$__mywc/fashion/footwears/barefeet/option/decorations/list__}"
-        list:
-          - __mywc/fashion/footwears/toenails/do__
-          - __mywc/fashion/footwears/anklet__
-      states:
-        - " "
-        - dirty {feet|soles}
-        - sweaty {feet|soles}
-        - blood on {feet|soles}
+        - __mywc/fashion/footwears/toenails/do__
+        - __mywc/fashion/footwears/anklet__
   toenails:
     do:
       - " "

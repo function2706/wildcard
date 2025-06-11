@@ -9,6 +9,7 @@ costumes:
     - lab coat
     - marching band uniform,shako cap
     - miko,red hakama,japanese clothes
+    - ninja outfit
     - nun outfit
     - race queen,grid girl,skirt,sleeveless
     - stewardess uniform
@@ -146,12 +147,17 @@ costumes:
     do:
       - school uniform,__mywc/fashion/costumes/school/tops__,__mywc/fashion/costumes/school/bottoms__,__mywc/fashion/costumes/school/footwears/do__,__mywc/fashion/costumes/school/accessories/bags__
     tops:
-      - shirt,__mywc/fashion/costumes/school/accessories/ties__
-      - blazer jacket,shirt,__mywc/fashion/costumes/school/accessories/ties__
-      - sailor collar,neckerchief,__mywc/fashion/costumes/school/length__ sleeves
-      - sailor collar,neckerchief,cardigan
+      do:
+        - shirt,__mywc/fashion/costumes/school/accessories/ties__,__mywc/fashion/costumes/school/length/tops/sleeves__
+        - blazer jacket,shirt,__mywc/fashion/costumes/school/accessories/ties__
+        - sailor collar,neckerchief,__mywc/fashion/costumes/school/tops/sleeves__
+        - sailor collar,neckerchief,cardigan
+      sleeves:
+        - long sleeves,{|sleeves pushed up|sleeves rolled up}
+        - short sleeves
     bottoms:
-      - __mywc/fashion/costumes/school/length__ plated skirt
+      - long plated skirt
+      - short plated skirt
     footwears:
       do:
         - __mywc/fashion/costumes/school/footwears/socks/do__,__mywc/fashion/costumes/school/footwears/shoes__
@@ -179,9 +185,6 @@ costumes:
       ties:
         - bowtie
         - necktie
-    length:
-      - long
-      - short
   sports:
     do:
       - __mywc/fashion/costumes/sports/type__ uniform

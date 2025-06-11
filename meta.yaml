@@ -1,0 +1,77 @@
+meta:
+  random:
+    - "{1-2$$__mywc/meta/list__}"
+  list:
+    - __mywc/meta/composition/random__
+    - __mywc/meta/artstyle__
+  composition:
+    random:
+      - __mywc/meta/composition/pov/do__
+      - __mywc/meta/composition/from-above/do__
+      - __mywc/meta/composition/from-below/do__
+      - __mywc/meta/composition/from-side/do__
+    from-above:
+      do:
+        - from above,__mywc/meta/composition/from-above/los__
+      los:
+        - " "
+        - looking ahead
+        - looking at another
+        - looking at viewer
+        - looking up
+    from-below:
+      do:
+        - from below,__mywc/meta/composition/from-below/los__
+      los:
+        - __mywc/meta/composition/pov/bool__
+        - looking ahead
+        - looking at another
+        - looking at viewer,__mywc/meta/composition/pov/bool__
+        - looking down,__mywc/meta/composition/pov/bool__
+    from-side:
+      do:
+        - from side,__mywc/meta/composition/from-side/los__
+      los:
+        - " "
+        - looking ahead
+        - looking at another
+        - looking at viewer
+        - looking away
+        - looking down
+        - looking up
+    pov:
+      do:
+        - __mywc/meta/composition/pov/bool__,__mywc/meta/composition/pov/los__
+      bool:
+        - " "
+        - pov
+      los:
+        - " "
+        - looking at another
+        - looking at viewer
+  artstyle:
+    - 3d model
+    - anime style
+    - chiaroscuro
+    - comic style
+    - contour drawing
+    - digital painting
+    - flat design
+    - flat design
+    - gouache
+    - impasto
+    - ink drawing
+    - line art
+    - low poly
+    - manga style
+    - oil painting
+    - pastel
+    - photorealistic
+    - pixel art
+    - pop art
+    - realistic
+    - silhouette
+    - sketch
+    - thick paint
+    - vector art
+    - watercolor

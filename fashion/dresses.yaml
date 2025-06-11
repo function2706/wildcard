@@ -1,197 +1,148 @@
 dresses:
   random:
     - __mywc/color__ academic gown
+    - __mywc/color__ ball gown,__mywc/fashion/dresses/gloves/do__
     - __mywc/color__ bathrobe
-    - __mywc/color__ cheongsam
+    - __mywc/color__ casual dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
+    - __mywc/color__ china dress,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ cocktail dress,__mywc/fashion/dresses/gloves/do__
     - __mywc/color__ dungarees
+    - __mywc/color__ evening gown,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ funeral dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/pantyhoses/do__,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ furisode
+    - __mywc/color__ halter dress,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ high slit dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ highleg dress,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ jinbei
     - __mywc/color__ kimono
     - __mywc/color__ leotard
     - __mywc/color__ loungewear
     - __mywc/color__ nightwear
-    - __mywc/color__ overalls
     - __mywc/color__ overall skirt
+    - __mywc/color__ overalls
     - __mywc/color__ pajamas
+    - __mywc/color__ party dress,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ pencil dress,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ pinafore dress
+    - __mywc/color__ prom dress,__mywc/fashion/dresses/gloves/do__
+    - __mywc/color__ raincoat,__mywc/fashion/dresses/footwears/rainboots__
     - __mywc/color__ robe
+    - __mywc/color__ sailor dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
     - __mywc/color__ sarong
+    - __mywc/color__ satin dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ sequined dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ sweater dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
     - __mywc/color__ tabard
     - __mywc/color__ tracksuit
+    - __mywc/color__ tube dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ turtleneck dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
     - __mywc/color__ tuxedo
     - __mywc/color__ v neck dress
+    - __mywc/color__ velvet dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
+    - __mywc/color__ vietnamese dress,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ yukata
-    - __mywc/fashion/dresses/ball-gown__
-    - __mywc/fashion/dresses/bikini/do__
-    - __mywc/fashion/dresses/casual-dress__
-    - __mywc/fashion/dresses/cocktail-dress__
-    - __mywc/fashion/dresses/dress/do__
-    - __mywc/fashion/dresses/evening-gown__
-    - __mywc/fashion/dresses/high-slit-dress__
-    - __mywc/fashion/dresses/party-dress__
-    - __mywc/fashion/dresses/prom-dress__
-    - __mywc/fashion/dresses/raincoat__
-    - __mywc/fashion/dresses/satin-dress__
-    - __mywc/fashion/dresses/sequined-dress__
-    - __mywc/fashion/dresses/swimwear/do__
-    - __mywc/fashion/dresses/velvet-dress__
+    - santa dress, red fur boots
     - wedding dress,white elbow gloves
-  trying:
-    - china dress
-    - coat dress
-    - funeral dress
-    - halter dress
-    - highleg dress
-    - pencil dress
-    - pinafore dress
-    - sailor dress
-    - santa dress
-    - sundress
-    - sweater dress
-    - tube dress
-    - turtleneck dress
-    - vietnamese dress
-  ball-gown:
-    - __mywc/color__ ball gown,__mywc/fashion/dresses/gloves/do__
+    - __mywc/fashion/dresses/bikini/do__
+    - __mywc/fashion/dresses/dress/do__
+    - __mywc/fashion/dresses/swimsuit/do__
+    - __mywc/color__ sundress
   bikini:
     do:
-      - __mywc/color__ {0-2$$   $$__mywc/fashion/dresses/bikini/list__} __mywc/fashion/dresses/bikini/base__,__mywc/fashion/dresses/footwears/flip-flops__
+      - ((__mywc/color__ {0-2$$ $$__mywc/fashion/dresses/bikini/list__} __mywc/fashion/dresses/bikini/base__)),__mywc/fashion/dresses/footwears/flip-flops__
     base:
-      - bandeau
       - bikini
-      - bikini skirt
       - eyepatch bikini
-      - front-tie bikini top
-      - leaf bikini
-      - maid bikini
+      - front-tie bikini
       - micro bikini
       - o-ring bikini
       - sailor bikini
       - santa bikini
-      - shell bikini
-      - side-tie bikini bottom
+      - side-tie bikini
       - sports bikini
       - strapless bikini
       - string bikini
-      - thong bikini
     list:
       - __mywc/fashion/dresses/bikini/decorations__
       - __mywc/fashion/dresses/bikini/patterns__
     decorations:
       - bow
-      - cross-laced
       - frilled
-      - fur-trimmed
-      - layered
     patterns:
-      - american flag
-      - camouflage
-      - checkered
-      - mismatched
       - pinstripe
       - plaid
       - polka dot
-      - print
       - striped
       - vertical-striped
-  casual-dress:
-    - __mywc/color__ casual dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
-  cocktail-dress:
-    - __mywc/color__ cocktail dress,__mywc/fashion/dresses/gloves/do__
   dress:
     do:
-      - __mywc/color__ __mywc/fashion/dresses/dress/size__ __mywc/fashion/dresses/dress/option/do__,__mywc/fashion/dresses/footwears/heels__
+      - ((__mywc/color__ __mywc/fashion/dresses/dress/size__ __mywc/fashion/dresses/dress/structures/do__ __mywc/fashion/dresses/dress/base__)),__mywc/fashion/dresses/dress/decorations/do__,__mywc/fashion/dresses/footwears/heels__
+    base:
+      - cross-laced dress
+      - feather dress
+      - frilled dress
+      - fur-trimmed dress
+      - hooded dress
+      - lace-trimmed dress
+      - latex dress
+      - taut dress
     size:
       - maxi
       - mini
       - midi
       - micro
       - short
-    option:
+    structures:
       do:
-        - __mywc/fashion/dresses/dress/option/base__,{0-3$$__mywc/fashion/dresses/dress/option/list__}
-      base:
-        - cross-laced dress
-        - feather dress
-        - frilled dress
-        - fur-trimmed dress
-        - hooded dress
-        - lace-trimmed dress
-        - latex dress
-        - taut dress
+        - " "
+        - __mywc/fashion/dresses/dress/structures/list__
       list:
-        - __mywc/fashion/dresses/dress/option/structures__
-        - __mywc/fashion/dresses/dress/option/states__
-        - "{0-3$$__mywc/fashion/dresses/dress/option/decorations__}"
-      structures:
-        - backless dress
-        - collared dress
-        - layered dress
-        - off-shoulder dress
-        - pleated dress
-        - side-tie dress
-        - sideless dress
-        - single-shoulder dress
-        - sleeveless dress
-        - strapless dress
-      states:
-        - open dress
-        - torn dress
-      decorations:
+        - backless
+        - collared
+        - layered
+        - off-shoulder
+        - pleated
+        - side-tie
+        - sideless
+        - single-shoulder
+        - sleeveless
+        - strapless
+    decorations:
+      do:
+        - " "
+        - __mywc/fashion/dresses/dress/decorations/list__
+      list:
         - dress bow
         - dress flower
         - dress ribbon
-  evening-gown:
-    - __mywc/color__ evening gown,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
-  high-slit-dress:
-    - __mywc/color__ high slit dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
-  party-dress:
-    - __mywc/color__ party dress,__mywc/fashion/dresses/footwears/heels__
-  prom-dress:
-    - __mywc/color__ prom dress,__mywc/fashion/dresses/gloves/do__
-  raincoat:
-    - __mywc/color__ raincoat,__mywc/fashion/dresses/footwears/rainboots__
-  satin-dress:
-    - __mywc/color__ satin dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
-  sequined-dress:
-    - __mywc/color__ sequined dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   swimsuit:
     do:
-      - __mywc/color__ {0-2$$   $$__mywc/fashion/dresses/swimsuit/list__} __mywc/fashion/dresses/swimsuit/base__,__mywc/fashion/dresses/footwears/flip-flops__
+      - ((__mywc/color__ {0-2$$ $$__mywc/fashion/dresses/swimsuit/list__} __mywc/fashion/dresses/swimsuit/base__)),__mywc/fashion/dresses/footwears/flip-flops__
     base:
-      - "{|casual|strapless|off-shoulder} one-piece swimsuit"
-      - "{|competition|old|new} school swimsuit"
       - backless swimsuit
       - competition swimsuit
       - dress swimsuit
       - front zipper swimsuit
       - o-ring swimsuit
-      - sarong
       - side-tie swimsuit
       - slingshot swimsuit
       - swimsuit
       - tankini
+      - "{|casual|strapless|off-shoulder} one-piece swimsuit"
+      - "{|competition|old|new} school swimsuit"
     list:
       - __mywc/fashion/dresses/swimsuit/decorations__
       - __mywc/fashion/dresses/swimsuit/patterns__
     decorations:
       - bow
-      - cross-laced
       - frilled
-      - fur-trimmed
-      - layered
     patterns:
-      - american flag
       - camouflage
-      - checkered
-      - mismatched
-      - pinstripe
       - plaid
       - polka dot
       - print
       - striped
       - vertical-striped
-  velvet-dress:
-    - __mywc/color__ velvet dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   gloves:
     do:
       - " "

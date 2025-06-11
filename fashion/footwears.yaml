@@ -130,7 +130,7 @@ footwears:
         - thighhighs
       option:
         do:
-          - "{0-3$$__mywc/fashion/footwears/socks/random/option/list__}"
+          - "{0-2$$__mywc/fashion/footwears/socks/random/option/list__}"
         list:
           - __mywc/fashion/footwears/socks/random/option/decorations__ ${type}
           - __mywc/fashion/footwears/socks/random/option/patterns__ ${type}

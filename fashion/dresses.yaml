@@ -35,6 +35,21 @@ dresses:
     - __mywc/fashion/dresses/swimwear/do__
     - __mywc/fashion/dresses/velvet-dress__
     - wedding dress,white elbow gloves
+  trying:
+    - china dress
+    - coat dress
+    - funeral dress
+    - halter dress
+    - highleg dress
+    - pencil dress
+    - pinafore dress
+    - sailor dress
+    - santa dress
+    - sundress
+    - sweater dress
+    - tube dress
+    - turtleneck dress
+    - vietnamese dress
   ball-gown:
     - __mywc/color__ ball gown,__mywc/fashion/dresses/gloves/do__
   bikini:
@@ -49,12 +64,47 @@ dresses:
     - __mywc/color__ cocktail dress,__mywc/fashion/dresses/gloves/do__
   dress:
     do:
-      - __mywc/color__ __mywc/fashion/dresses/dress/size__ dress,__mywc/fashion/dresses/footwears/heels__
+      - __mywc/color__ __mywc/fashion/dresses/dress/size__ __mywc/fashion/dresses/dress/option/do__,__mywc/fashion/dresses/footwears/heels__
     size:
       - maxi
       - mini
       - midi
       - micro
+      - short
+    option:
+      do:
+        - __mywc/fashion/dresses/dress/option/base__,{0-3$$__mywc/fashion/dresses/dress/option/list__}
+      base:
+        - cross-laced dress
+        - feather dress
+        - frilled dress
+        - fur-trimmed dress
+        - hooded dress
+        - lace-trimmed dress
+        - latex dress
+        - taut dress
+      list:
+        - __mywc/fashion/dresses/dress/option/structures__
+        - __mywc/fashion/dresses/dress/option/states__
+        - "{0-3$$__mywc/fashion/dresses/dress/option/decorations__}"
+      structures:
+        - backless dress
+        - collared dress
+        - layered dress
+        - off-shoulder dress
+        - pleated dress
+        - side-tie dress
+        - sideless dress
+        - single-shoulder dress
+        - sleeveless dress
+        - strapless dress
+      states:
+        - open dress
+        - torn dress
+      decorations:
+        - dress bow
+        - dress flower
+        - dress ribbon
   evening-gown:
     - __mywc/color__ evening gown,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   high-slit-dress:

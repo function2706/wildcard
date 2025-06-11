@@ -1,18 +1,21 @@
 footwears:
   random:
     - __mywc/fashion/footwears/boots/do__
+    - __mywc/fashion/footwears/heels/do__
+    - __mywc/fashion/footwears/sandals/do__
+    - __mywc/fashion/footwears/shoes/do__
     - __mywc/fashion/footwears/pantyhoses/do__
     - __mywc/fashion/footwears/pantyhoses/do__,__mywc/fashion/footwears/boots/do__
     - __mywc/fashion/footwears/pantyhoses/do__,__mywc/fashion/footwears/heels/do__
     - __mywc/fashion/footwears/pantyhoses/do__,__mywc/fashion/footwears/shoes/do__
-    - __mywc/fashion/footwears/sandals/do__
     - __mywc/fashion/footwears/socks/do__
+    - __mywc/fashion/footwears/socks/do__,__mywc/fashion/footwears/boots/do__
     - __mywc/fashion/footwears/socks/do__,__mywc/fashion/footwears/shoes/do__
-    - barefoot,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
+    - __mywc/fashion/footwears/barefeet/do__
   boots:
     do:
-      - __mywc/color__ __mywc/fashion/footwears/boots/type__
-    type:
+      - __mywc/color__ __mywc/fashion/footwears/boots/list__
+    list:
       - ankle boots
       - belt boots
       - braided boots
@@ -40,8 +43,8 @@ footwears:
       - stiletto heel
   heels:
     do:
-      - __mywc/color__ __mywc/fashion/footwears/heels/type__
-    type:
+      - __mywc/color__ __mywc/fashion/footwears/heels/list__
+    list:
       - block heels
       - open-toe heels
       - platform heels
@@ -52,8 +55,8 @@ footwears:
       - wedge heels
   sandals:
     do:
-      - __mywc/color__ __mywc/fashion/footwears/sandals/type__
-    type:
+      - __mywc/color__ __mywc/fashion/footwears/sandals/list__
+    list:
       - ankle strap sandals
       - ballet slippers
       - flip-flops,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
@@ -67,8 +70,8 @@ footwears:
       - wedge sandals
   shoes:
     do:
-      - __mywc/color__ __mywc/fashion/footwears/shoes/type__
-    type:
+      - __mywc/color__ __mywc/fashion/footwears/shoes/list__
+    list:
       - crocs
       - flat shoes
       - flats
@@ -81,31 +84,90 @@ footwears:
       - uwabaki
   pantyhoses:
     do:
-      - __mywc/fashion/footwears/pantyhoses/color__ __mywc/fashion/footwears/pantyhoses/type__
-    type:
-      - fishnet tights
-      - pantyhose
-      - stockings
+      - __mywc/fashion/footwears/pantyhoses/color__ __mywc/fashion/footwears/pantyhoses/option/do__
     color:
       - black
       - brown
       - white
       - __mywc/color__
+    option:
+      do:
+        - "{1-2$$__mywc/fashion/footwears/pantyhoses/option/list__}"
+      list:
+        - __mywc/fashion/footwears/pantyhoses/option/patterns__ pantyhose
+        - __mywc/fashion/footwears/pantyhoses/option/decorations__ pantyhose
+      decorations:
+        - " "
+        - torn
+      patterns:
+        - camouflage
+        - pinstripe
+        - plaid
+        - polka dot
+        - print
+        - striped
+        - vertical-striped
   socks:
     do:
-      - __mywc/color__ __mywc/fashion/footwears/socks/type__
-    type:
-      - ankle socks
+      - __mywc/color__ __mywc/fashion/footwears/socks/list__
+    list:
       - business socks
       - calf socks
+      - fishnet {socks|thighhighs|pantyhose}
       - garter belt
       - garter straps
-      - kneehighs
+      - latex {socks|kneehighs|over-kneehighs|thighhighs}
       - leggings
-      - over-kneehighs
-      - pantyhose
-      - stockings
-      - thighhighs
+      - loose socks
+    random:
+      do:
+        - ${type=!__mywc/fashion/footwears/socks/random/base__}${type},__mywc/fashion/footwears/socks/random/option/do__
+      base:
+        - ankle socks
+        - kneehighs
+        - over-kneehighs
+        - socks
+        - thighhighs
+      option:
+        do:
+          - "{0-3$$__mywc/fashion/footwears/socks/random/option/list__}"
+        list:
+          - __mywc/fashion/footwears/socks/random/option/decorations__ ${type}
+          - __mywc/fashion/footwears/socks/random/option/patterns__ ${type}
+        decorations:
+          - bow
+          - dirty
+          - frilled
+          - lace-trimmed
+          - torn
+        patterns:
+          - camouflage
+          - pinstripe
+          - plaid
+          - polka dot
+          - print
+          - striped
+          - vertical-striped
+  barefeet:
+    do:
+      - barefoot,__mywc/fashion/footwears/barefeet/option/do__
+    option:
+      do:
+        - "{0-2$$__mywc/fashion/footwears/barefeet/option/list__}"
+      list:
+        - __mywc/fashion/footwears/barefeet/option/decorations/do__
+        - __mywc/fashion/footwears/barefeet/option/states__
+      decorations:
+        do:
+          - "{0-2$$__mywc/fashion/footwears/barefeet/option/decorations/list__}"
+        list:
+          - __mywc/fashion/footwears/toenails/do__
+          - __mywc/fashion/footwears/anklet__
+      states:
+        - " "
+        - dirty {feet|soles}
+        - sweaty {feet|soles}
+        - blood on {feet|soles}
   toenails:
     do:
       - " "

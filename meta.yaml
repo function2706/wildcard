@@ -1,9 +1,4 @@
 meta:
-  random:
-    - "{1-2$$__mywc/meta/list__}"
-  list:
-    - __mywc/meta/composition/random__
-    - __mywc/meta/artstyle__
   composition:
     random:
       - __mywc/meta/composition/pov/do__
@@ -51,27 +46,11 @@ meta:
         - looking at viewer
   artstyle:
     - 3d model
-    - anime style
-    - chiaroscuro
-    - comic style
-    - contour drawing
-    - digital painting
-    - flat design
-    - flat design
-    - gouache
-    - impasto
-    - ink drawing
     - line art
-    - low poly
     - manga style
     - oil painting
-    - pastel
     - photorealistic
     - pixel art
-    - pop art
     - realistic
-    - silhouette
-    - sketch
-    - thick paint
     - vector art
     - watercolor

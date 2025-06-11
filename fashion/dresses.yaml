@@ -54,10 +54,45 @@ dresses:
     - __mywc/color__ ball gown,__mywc/fashion/dresses/gloves/do__
   bikini:
     do:
-      - __mywc/color__ __mywc/fashion/dresses/bikini/size__ bikini,__mywc/fashion/dresses/footwears/flip-flops__
-    size:
-      - " "
-      - micro
+      - __mywc/color__ {0-2$$   $$__mywc/fashion/dresses/bikini/list__} __mywc/fashion/dresses/bikini/base__,__mywc/fashion/dresses/footwears/flip-flops__
+    base:
+      - bandeau
+      - bikini
+      - bikini skirt
+      - eyepatch bikini
+      - front-tie bikini top
+      - leaf bikini
+      - maid bikini
+      - micro bikini
+      - o-ring bikini
+      - sailor bikini
+      - santa bikini
+      - shell bikini
+      - side-tie bikini bottom
+      - sports bikini
+      - strapless bikini
+      - string bikini
+      - thong bikini
+    list:
+      - __mywc/fashion/dresses/bikini/decorations__
+      - __mywc/fashion/dresses/bikini/patterns__
+    decorations:
+      - bow
+      - cross-laced
+      - frilled
+      - fur-trimmed
+      - layered
+    patterns:
+      - american flag
+      - camouflage
+      - checkered
+      - mismatched
+      - pinstripe
+      - plaid
+      - polka dot
+      - print
+      - striped
+      - vertical-striped
   casual-dress:
     - __mywc/color__ casual dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
   cocktail-dress:
@@ -119,12 +154,42 @@ dresses:
     - __mywc/color__ satin dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   sequined-dress:
     - __mywc/color__ sequined dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
-  swimwear:
+  swimsuit:
     do:
-      - __mywc/color__ __mywc/fashion/dresses/swimwear/type__,__mywc/fashion/dresses/footwears/flip-flops__
-    type:
-      - one-piece swimsuit
-      - swimwear
+      - __mywc/color__ {0-2$$   $$__mywc/fashion/dresses/swimsuit/list__} __mywc/fashion/dresses/swimsuit/base__,__mywc/fashion/dresses/footwears/flip-flops__
+    base:
+      - "{|casual|strapless|off-shoulder} one-piece swimsuit"
+      - "{|competition|old|new} school swimsuit"
+      - backless swimsuit
+      - competition swimsuit
+      - dress swimsuit
+      - front zipper swimsuit
+      - o-ring swimsuit
+      - sarong
+      - side-tie swimsuit
+      - slingshot swimsuit
+      - swimsuit
+      - tankini
+    list:
+      - __mywc/fashion/dresses/swimsuit/decorations__
+      - __mywc/fashion/dresses/swimsuit/patterns__
+    decorations:
+      - bow
+      - cross-laced
+      - frilled
+      - fur-trimmed
+      - layered
+    patterns:
+      - american flag
+      - camouflage
+      - checkered
+      - mismatched
+      - pinstripe
+      - plaid
+      - polka dot
+      - print
+      - striped
+      - vertical-striped
   velvet-dress:
     - __mywc/color__ velvet dress,__mywc/fashion/dresses/footwears/heels__,__mywc/fashion/dresses/gloves/do__
   gloves:

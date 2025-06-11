@@ -148,7 +148,7 @@ costumes:
       - school uniform,__mywc/fashion/costumes/school/tops__,__mywc/fashion/costumes/school/bottoms__,__mywc/fashion/costumes/school/footwears/do__,__mywc/fashion/costumes/school/accessories/bags__
     tops:
       do:
-        - shirt,__mywc/fashion/costumes/school/accessories/ties__,__mywc/fashion/costumes/school/length/tops/sleeves__
+        - shirt,__mywc/fashion/costumes/school/accessories/ties__,__mywc/fashion/costumes/school/tops/sleeves__
         - blazer jacket,shirt,__mywc/fashion/costumes/school/accessories/ties__
         - sailor collar,neckerchief,__mywc/fashion/costumes/school/tops/sleeves__
         - sailor collar,neckerchief,cardigan

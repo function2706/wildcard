@@ -49,7 +49,7 @@ dresses:
     - __mywc/color__ sundress
   bikini:
     do:
-      - ((__mywc/color__ {0-2$$ $$__mywc/fashion/dresses/bikini/list__} __mywc/fashion/dresses/bikini/base__)),__mywc/fashion/dresses/footwears/flip-flops__
+      - __mywc/color__ {0-2$$ $$__mywc/fashion/dresses/bikini/list__} __mywc/fashion/dresses/bikini/base__,__mywc/fashion/dresses/footwears/flip-flops__
     base:
       - bikini
       - eyepatch bikini
@@ -76,7 +76,7 @@ dresses:
       - vertical-striped
   dress:
     do:
-      - ((__mywc/color__ __mywc/fashion/dresses/dress/size__ __mywc/fashion/dresses/dress/structures/do__ __mywc/fashion/dresses/dress/base__)),__mywc/fashion/dresses/dress/decorations/do__,__mywc/fashion/dresses/footwears/heels__
+      - __mywc/color__ __mywc/fashion/dresses/dress/size__ __mywc/fashion/dresses/dress/structures/do__ __mywc/fashion/dresses/dress/base__,__mywc/fashion/dresses/dress/decorations/do__,__mywc/fashion/dresses/footwears/heels__
     base:
       - cross-laced dress
       - feather dress
@@ -117,7 +117,7 @@ dresses:
         - dress ribbon
   swimsuit:
     do:
-      - ((__mywc/color__ {0-2$$ $$__mywc/fashion/dresses/swimsuit/list__} __mywc/fashion/dresses/swimsuit/base__)),__mywc/fashion/dresses/footwears/flip-flops__
+      - __mywc/color__ {0-2$$ $$__mywc/fashion/dresses/swimsuit/list__} __mywc/fashion/dresses/swimsuit/base__,__mywc/fashion/dresses/footwears/flip-flops__
     base:
       - backless swimsuit
       - competition swimsuit

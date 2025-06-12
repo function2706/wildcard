@@ -179,8 +179,10 @@ profiles:
     - " "
     - animal ears
     - floppy ears
+    - horse ears
     - long pointy ears
     - pointy ears
+    - rabbit ears
   skin:
     human:
       - " "
@@ -236,9 +238,10 @@ profiles:
       - young
   misc:
     do:
-      - "{0-4$$__mywc/subject/profiles/misc/option__}"
+      - "{0-5$$__mywc/subject/profiles/misc/option__}"
     option:
+      - { antennae \(anatomy\)|halo|horn|horns }
       - fang{s|}
-      - forehead mark
-      - horn{s|}
+      - tail
       - whiskers
+      - wings

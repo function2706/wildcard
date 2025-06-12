@@ -240,7 +240,7 @@ profiles:
     do:
       - "{0-5$$__mywc/subject/profiles/misc/option__}"
     option:
-      - { antennae \(anatomy\)|halo|horn|horns }
+      - "{antennae|halo|horn|horns}"
       - fang{s|}
       - tail
       - whiskers

@@ -41,7 +41,7 @@ dresses:
     - __mywc/color__ velvet dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ vietnamese dress,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ yukata
-    - santa dress, red fur boots
+    - "{red|black} santa dress,fur boots"
     - wedding dress,white elbow gloves
     - __mywc/fashion/dresses/bikini/do__
     - __mywc/fashion/dresses/dress/do__

@@ -4,10 +4,10 @@ accessories:
   list:
     - __mywc/fashion/accessories/head/do__
     - __mywc/fashion/accessories/face/do__
-    - __mywc/fashion/accessories/neck__
+    - __mywc/fashion/accessories/neck/do__
     - __mywc/fashion/accessories/hand/do__
-    - __mywc/fashion/accessories/bags__
-    - __mywc/fashion/accessories/one-points__
+    - __mywc/color__ __mywc/fashion/accessories/bags__
+    - __mywc/color__ __mywc/fashion/accessories/one-points__
   head:
     do:
       - "{1-2$$__mywc/fashion/accessories/head/list__}"
@@ -25,21 +25,18 @@ accessories:
         - "{|mini} top hat"
         - "{|triangular} headpiece"
         - "{witch|wizard} hat"
-        - ascot cap
         - backwards hat
         - bandana
         - baseball cap
         - beanie
         - beret
         - boater
-        - bonnet
         - bowler hat
         - bucket hat
         - cabbie hat
         - chef hat
         - cloche hat
         - cowboy hat
-        - crew hat
         - deerstalker
         - fascinator
         - fedora
@@ -49,9 +46,7 @@ accessories:
         - fur hat
         - garrison cap
         - hachimaki
-        - head net
         - headband
-        - headdress
         - headscarf
         - hijab
         - jester cap
@@ -70,13 +65,11 @@ accessories:
         - police hat
         - sailor hat
         - santa hat
-        - shawl
         - snapback
         - sombrero
         - stetson
         - straw hat
         - sun hat
-        - tam
         - tiara
         - tokin hat
         - towel on head
@@ -93,25 +86,22 @@ accessories:
         - hat ribbon
     ornaments:
       - "{|crescent|heart|star} head ornament"
-      - "{|surgical} mask"
       - "{eyewear|goggles} on head"
-      - "{head stick|kanzashi}"
-      - diadem
-      - head beads
-      - head bobbles
+      - head bow
       - head flower
       - head ribbon
       - head scrunchie
-      - head tie
+      - head stick
       - headclip
       - headphones
       - headpiece
       - headpin
-      - headpods
-      - tilted headwear
+      - kanzashi
   face:
     do:
-      - __mywc/fashion/accessories/face/glasses__,"{1-2$$__mywc/fashion/accessories/face/list__}"
+      - " "
+      - __mywc/fashion/accessories/face/glasses__
+      - __mywc/fashion/accessories/face/glasses__,{1-2$$__mywc/fashion/accessories/face/list__}
     list:
       - __mywc/fashion/accessories/face/face__
       - __mywc/fashion/accessories/face/ear__
@@ -119,79 +109,76 @@ accessories:
       - aviator glasses
       - browline glasses
       - eye patch
-      - glasses
       - goggles
       - monocle
-      - over-rim eyewear
       - pince-nez
       - rimless glasses
       - round glasses
       - safety glasses
-      - smart glasses
-      - spectacles
       - sports glasses
       - sunglasses
       - tinted glasses
       - visor
     face:
-      - bandaid on {cheek|face|nose}
+      - " "
+      - bandaid on {cheek|nose}
       - bindi
+      - surgical mask
     ear:
-      - "{|cross|dangle|hoop|star|heart|stud} earrings"
-      - ear bow
-      - ear piercings
+      - " "
+      - "{|cross|hoop|star|heart|stud} earrings"
   neck:
-    - "{|bead|chain|cross|heart|pearl} necklace"
-    - "{|bell|belt|popped|spiked|wing} collar"
-    - "{|frilled}choker"
-    - "{|loose} necktie"
-    - bow tie
-    - brooch
-    - headphones around neck
-    - kerchief
-    - lanyard
-    - locket
-    - muffler
-    - neck ring
-    - neckerchief
-    - pendant
-    - rosary
-    - scarf
-    - stole
+    do:
+      - __mywc/color__ __mywc/fashion/accessories/neck/list__
+    list:
+      - "{|bead|chain|cross|heart|pearl} necklace"
+      - "{|bell|belt|spiked} collar"
+      - "{|frilled} choker"
+      - "{|loose} necktie"
+      - ascot
+      - bow tie
+      - brooch
+      - capelet
+      - headphones around neck
+      - lanyard
+      - locket
+      - neck ring
+      - neckerchief
+      - pendant
+      - rosary
+      - scarf
+      - shawl
   hand:
     do:
-      - __mywc/fashion/accessories/hand/gloves/do__
+      - __mywc/color__ __mywc/fashion/accessories/hand/gloves/do__
       - __mywc/fashion/accessories/hand/barehand/do__
     gloves:
       do:
-        - __mywc/color__ cleaning gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - __mywc/color__ cotton gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - __mywc/color__ evening gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - __mywc/color__ fingerless gloves
-        - __mywc/color__ knit gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - __mywc/color__ latex gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - __mywc/color__ leather gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - __mywc/color__ mittens
-        - __mywc/color__ rubber gloves,__mywc/fashion/accessories/hand/gloves/elbow__
+        - "{|elbow} gloves"
+        - cleaning gloves
+        - evening gloves,__mywc/fashion/accessories/hand/gloves/elbow__
+        - fingerless gloves
+        - latex gloves,__mywc/fashion/accessories/hand/gloves/elbow__
+        - mittens
       elbow:
         - " "
         - elbow gloves
     barehand:
       do:
-        - __mywc/fashion/accessories/hand/barehand/nail/do__,__mywc/fashion/accessories/hand/barehand/ring__
-        - __mywc/color__ __mywc/fashion/accessories/hand/barehand/list__,__mywc/fashion/accessories/hand/barehand/nail/do__,__mywc/fashion/accessories/hand/barehand/ring__
+        - "{1-3$$__mywc/fashion/accessories/hand/barehand/list__}"
       list:
+        - __mywc/color__ __mywc/fashion/accessories/hand/barehand/accessories__
+        - __mywc/fashion/accessories/hand/barehand/nail/do__
+        - __mywc/fashion/accessories/hand/barehand/ring__
+      accessories:
         - armlet
         - bracelet
-        - cufflinks
-        - sash
         - watch
         - wrist cuffs
-        - wrist warmers
         - wristband
       ring:
         - " "
-        - __mywc/color__ ring
+        - "{silver|gold} ring"
       nail:
         do:
           - " "
@@ -207,23 +194,17 @@ accessories:
           - red
           - yellow
   bags:
+    - "{|belt|waist} pouch"
     - bag
-    - belt pouch
     - clutch bag
     - handbag
-    - pouch
-    - purse
     - quiver
     - school bag
     - shopping bag
     - shoulder bag
-    - tote bag
-    - waist pouch
   one-points:
-    - ascot
     - badge
     - belt
     - corsage
     - lapel pin
     - medallion
-    - suspenders

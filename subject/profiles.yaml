@@ -148,9 +148,9 @@ profiles:
       - __mywc/color__
   eye:
     human:
-      - __mywc/subject/profiles/eye/style/shape__,__mywc/subject/profiles/eye/style/pupil/normal__,__mywc/subject/profiles/eye/color__ eye
+      - "{|__mywc/subject/profiles/eye/style/shape__},{9::|1::__mywc/subject/profiles/eye/style/pupil/normal__},__mywc/subject/profiles/eye/color__ eye"
     demi-human:
-      - __mywc/subject/profiles/eye/style/shape__,__mywc/subject/profiles/eye/style/pupil/abnormal__,__mywc/color__ eye
+      - "{|__mywc/subject/profiles/eye/style/shape__},{2::|1::__mywc/subject/profiles/eye/style/pupil/abnormal__},__mywc/color__ eye"
     style:
       shape:
         - " "
@@ -158,13 +158,12 @@ profiles:
         - tsurime
       pupil:
         normal:
-          - "{1::sanpaku|9::}"
+          - sanpaku
         abnormal:
-          - " "
-          - "{heterochromia|}"
-          - "{horizontal pupils|}"
-          - "{sanpaku|}"
-          - "{slit pupils|}"
+          - heterochromia
+          - horizontal pupils
+          - sanpaku
+          - slit pupils
     color:
       - amber
       - black
@@ -197,10 +196,7 @@ profiles:
       - wheat skin
     demi-human:
       - " "
-      - blue skin
-      - green skin
-      - purple skin
-      - red skin
+      - "{blue|green|purple|red} skin"
       - __mywc/subject/profiles/skin/human__
   height:
     - lanky

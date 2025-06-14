@@ -439,8 +439,7 @@ expression:
       - parted lips
   option:
     do:
-      - " "
-      - "{1-3$$__mywc/nsfw/expression/option/list__}"
+      - "{4::|1::{1-3$$__mywc/nsfw/expression/option/list__}}"
     list:
       - blush
       - breath

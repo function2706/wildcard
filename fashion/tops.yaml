@@ -1,9 +1,6 @@
 tops:
   random:
-    - __mywc/fashion/tops/outers/do__
-    - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/inners/do__
-    - __mywc/fashion/tops/inners/do__
-    - __mywc/fashion/tops/nsfw/do__
+    - "{8::{1-2$$__mywc/fashion/tops/outers/do__|__mywc/fashion/tops/inners/do__}|1::__mywc/fashion/tops/nsfw/do__}"
   bras:
     do:
       - __mywc/color__ __mywc/fashion/tops/bras/list__
@@ -230,17 +227,10 @@ tops:
           - vertical-striped shirt
   nsfw:
     do:
-      - __mywc/fashion/tops/nsfw/list__
-      - __mywc/fashion/tops/nsfw/for-adjustment__
-    list:
       - topless
       - __mywc/fashion/tops/bras/do__,{|breast slip}
       - __mywc/fashion/tops/nsfw/outers__
       - __mywc/fashion/tops/nsfw/inners__
-    for-adjustment:
-      - __mywc/fashion/tops/outers/do__
-      - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/inners/do__
-      - __mywc/fashion/tops/inners/do__
     outers:
       - __mywc/fashion/tops/outers/do__,__mywc/fashion/tops/bras/do__
       - __mywc/fashion/tops/outers/do__,no bra,breasts out

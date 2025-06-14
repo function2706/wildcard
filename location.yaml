@@ -75,13 +75,11 @@ location:
           - train
     option:
       do:
-        - indoors,__mywc/location/indoors/option/time__,__mywc/location/indoors/option/light__
+        - "indoors{|,__mywc/location/indoors/option/time__}{|,__mywc/location/indoors/option/light__}"
       time:
-        - " "
         - day
         - night
       light:
-        - " "
         - ambient light
         - bright
         - dark
@@ -151,15 +149,13 @@ location:
           - schoolyard
     option:
       do:
-        - outdoors,__mywc/location/outdoors/option/weather__,__mywc/location/outdoors/option/time__
+        - "outdoors{|,__mywc/location/outdoors/option/weather__}{|,__mywc/location/outdoors/option/time__}"
       weather:
-        - " "
         - cloudy
         - rain
         - snow
         - sunny
       time:
-        - " "
         - day
         - evening
         - night

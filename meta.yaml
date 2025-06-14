@@ -7,27 +7,28 @@ meta:
       - __mywc/meta/composition/from-side/do__
     from-above:
       do:
-        - from above,__mywc/meta/composition/from-above/los__
+        - from above{|,__mywc/meta/composition/from-above/los__}
       los:
-        - " "
         - looking ahead
         - looking at another
         - looking at viewer
         - looking up
     from-below:
       do:
-        - from below,__mywc/meta/composition/from-below/los__
+        - from below{|,__mywc/meta/composition/from-below/los__}
       los:
-        - __mywc/meta/composition/pov/bool__
+        - __mywc/meta/composition/from-below/pov-bool__
         - looking ahead
         - looking at another
-        - looking at viewer,__mywc/meta/composition/pov/bool__
-        - looking down,__mywc/meta/composition/pov/bool__
+        - looking at viewer,__mywc/meta/composition/from-below/pov-bool__
+        - looking down,__mywc/meta/composition/from-below/pov-bool__
+      pov-bool:
+        - " "
+        - pov
     from-side:
       do:
-        - from side,__mywc/meta/composition/from-side/los__
+        - from side{|,__mywc/meta/composition/from-side/los__}
       los:
-        - " "
         - looking ahead
         - looking at another
         - looking at viewer
@@ -36,10 +37,7 @@ meta:
         - looking up
     pov:
       do:
-        - __mywc/meta/composition/pov/bool__,__mywc/meta/composition/pov/los__
-      bool:
-        - " "
-        - pov
+        - pov{|,__mywc/meta/composition/pov/los__}
       los:
         - " "
         - looking at another

@@ -99,12 +99,10 @@ accessories:
       - kanzashi
   face:
     do:
-      - " "
-      - __mywc/fashion/accessories/face/glasses__
-      - __mywc/fashion/accessories/face/glasses__,{1-2$$__mywc/fashion/accessories/face/list__}
+      - __mywc/fashion/accessories/face/glasses__,{0-2$$__mywc/fashion/accessories/face/list__}
     list:
-      - __mywc/fashion/accessories/face/face__
-      - __mywc/fashion/accessories/face/ear__
+      - "{|__mywc/fashion/accessories/face/face__}"
+      - "{|__mywc/fashion/accessories/face/ear__}"
     glasses:
       - aviator glasses
       - browline glasses
@@ -114,18 +112,14 @@ accessories:
       - pince-nez
       - rimless glasses
       - round glasses
-      - safety glasses
       - sports glasses
       - sunglasses
       - tinted glasses
-      - visor
     face:
-      - " "
+      - "{|white|black} surgical mask"
       - bandaid on {cheek|nose}
       - bindi
-      - surgical mask
     ear:
-      - " "
       - "{|cross|hoop|star|heart|stud} earrings"
   neck:
     do:

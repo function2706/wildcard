@@ -14,6 +14,7 @@ costumes:
     - race queen,grid girl,skirt,sleeveless
     - stewardess uniform
     - waitress,apron,frilled skirt
+    - wedding dress,white elbow gloves
     - __mywc/fashion/costumes/business/do__
     - __mywc/fashion/costumes/chef/do__
     - __mywc/fashion/costumes/formal/do__
@@ -24,6 +25,7 @@ costumes:
     - __mywc/fashion/costumes/nurse/do__
     - __mywc/fashion/costumes/military/do__
     - __mywc/fashion/costumes/police/do__
+    - __mywc/fashion/costumes/santa/do__
     - __mywc/fashion/costumes/school/do__
     - __mywc/fashion/costumes/sports/do__
     - __mywc/fashion/costumes/teacher/do__
@@ -80,7 +82,6 @@ costumes:
         - __mywc/fashion/costumes/idol/accessories/hair__,__mywc/fashion/costumes/idol/accessories/ties__
       hair:
         - " "
-        - baret
         - hair ornament
         - hairpin
       ties:
@@ -142,6 +143,23 @@ costumes:
       - pants
     accessories:
       - " "
+      - hat
+  santa:
+    do:
+      - __mywc/fashion/costumes/santa/colors__ santa dress,__mywc/fashion/costumes/santa/socks__,__mywc/fashion/costumes/santa/footwears__,__mywc/fashion/costumes/santa/accessories__
+    colors:
+      - red
+      - black
+    socks:
+      - " "
+      - "{black|brown|white} pantyhose"
+    footwears:
+      - " "
+      - fur boots
+      - long boots
+      - short boots
+    accessories:
+      - "{|elbow} gloves"
       - hat
   school:
     do:

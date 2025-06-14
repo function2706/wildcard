@@ -1,8 +1,6 @@
 bottoms:
   random:
-    - __mywc/fashion/bottoms/skirts/do__
-    - __mywc/fashion/bottoms/pants/do__
-    - __mywc/fashion/bottoms/nsfw/do__
+    - "{4::__mywc/fashion/bottoms/skirts/do__|4::__mywc/fashion/bottoms/pants/do__|1::__mywc/fashion/bottoms/nsfw/do__}"
   panties:
     do:
       - __mywc/color__ __mywc/fashion/bottoms/panties/list__
@@ -186,18 +184,11 @@ bottoms:
           - vertical-striped
   nsfw:
     do:
-      - __mywc/fashion/bottoms/nsfw/list__
-      - __mywc/fashion/bottoms/nsfw/for-adjustment__
-    list:
       - bottomless,__mywc/fashion/bottoms/nsfw/pubic/do__
       - __mywc/fashion/bottoms/panties/do__
       - __mywc/fashion/bottoms/skirts/do__,__mywc/fashion/bottoms/panties/do__,pantyshot
       - __mywc/fashion/bottoms/skirts/do__,__mywc/fashion/bottoms/nsfw/option__
-    for-adjustment:
-      - __mywc/fashion/bottoms/skirts/do__
-      - __mywc/fashion/bottoms/pants/do__
     option:
-      - " "
       - no panties,pussy,__mywc/fashion/bottoms/nsfw/pubic/do__
       - upskirt,no panties,pussy,__mywc/fashion/bottoms/nsfw/pubic/do__
     pubic:

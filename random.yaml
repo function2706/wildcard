@@ -1,25 +1,13 @@
 random:
-  - __mywc/subject__,__mywc/in-random__
-  - __mywc/subject__,__mywc/random-special-action__
-in-random:
-  - "{0-5$$__mywc/list/full__}"
-character-for-random:
-  - "__mywc/subject/character/random__,{0-4$$__mywc/list/default-fashion__}"
-  - "__mywc/subject/character/random__,{0-2$$__mywc/list/for-special-action__}"
-random-special-action:
-  - "__mywc/pose/action/special__,{0-2$$__mywc/list/for-special-action__}"
-list:
   full:
-    - __mywc/fashion/random__
-    - __mywc/expression/random__
-    - __mywc/pose/general__
-    - __mywc/location/random__
-    - __mywc/meta/composition/random__
-  default-fashion:
-    - __mywc/expression/random__
-    - __mywc/pose/general__
-    - __mywc/location/random__
-    - __mywc/meta/composition/random__
-  for-special-action:
-    - __mywc/expression/random__
-    - __mywc/meta/composition/random__
+    - ${subject=!__mywc/subject/full__}__mywc/random/base__
+  mob:
+    - ${subject=!__mywc/subject/mob__}__mywc/random/base__
+  copyright:
+    - ${subject=!__mywc/subject/copyright__}__mywc/random/base__
+  base:
+    - "{2::${subject},__mywc/at-random__|1::${subject},__mywc/at-special__}"
+at-random:
+  - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/composition/random__}"
+at-special:
+  - "__mywc/pose/action/special__,{0-2$$__mywc/expression/random__|__mywc/meta/composition/random__}"

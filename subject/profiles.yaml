@@ -1,8 +1,7 @@
 profiles:
   hair:
     do:
-      - __mywc/subject/profiles/hair/colors__ __mywc/subject/profiles/hair/wholes__
-      - __mywc/subject/profiles/hair/colors__ __mywc/subject/profiles/hair/random__
+      - __mywc/subject/profiles/hair/colors__ {1::__mywc/subject/profiles/hair/wholes__|3::__mywc/subject/profiles/hair/random__}
     random:
       - __mywc/subject/profiles/hair/bases/do__,{0-4$$__mywc/subject/profiles/hair/list__}
     list:
@@ -22,7 +21,6 @@ profiles:
         - huge ahoge
       patterns:
         - crown braid
-        - halo braid
         - single hair intake
     bangs:
       - arched bangs
@@ -125,7 +123,6 @@ profiles:
         - hair flaps
         - hair intakes
     wholes:
-      - __mywc/subject/profiles/hair/random__
       - beehive hairdo
       - bowl cut
       - cornrows
@@ -216,10 +213,9 @@ profiles:
     - slim
     - toned
   breasts:
-    - flat chest
+    - "{flat|small} chest"
     - large breasts
     - medium breasts
-    - small breasts
   age:
     do:
       - " "

@@ -1,5 +1,6 @@
 costumes:
   random:
+    - __mywc/fashion/costumes/artist/do__
     - __mywc/fashion/costumes/ballerina/do__
     - __mywc/fashion/costumes/barista/do__
     - __mywc/fashion/costumes/bartender/do__
@@ -7,6 +8,7 @@ costumes:
     - __mywc/fashion/costumes/cheerleader/do__
     - __mywc/fashion/costumes/chef/do__
     - __mywc/fashion/costumes/detective/do__
+    - __mywc/fashion/costumes/doctor/do__
     - __mywc/fashion/costumes/employee/do__
     - __mywc/fashion/costumes/farmer/do__
     - __mywc/fashion/costumes/formal/do__
@@ -27,7 +29,9 @@ costumes:
     - __mywc/fashion/costumes/pirate/do__
     - __mywc/fashion/costumes/police/do__
     - __mywc/fashion/costumes/priest/do__
+    - __mywc/fashion/costumes/princess/do__
     - __mywc/fashion/costumes/race-queen/do__
+    - __mywc/fashion/costumes/roomwear/do__
     - __mywc/fashion/costumes/sailor/do__
     - __mywc/fashion/costumes/santa/do__
     - __mywc/fashion/costumes/school/do__
@@ -37,11 +41,26 @@ costumes:
     - __mywc/fashion/costumes/teacher/do__
     - __mywc/fashion/costumes/travel-attendant/do__
     - __mywc/fashion/costumes/waitress/do__
+    - __mywc/fashion/costumes/warrior/do__
     - __mywc/fashion/costumes/wedding/do__
-    - assassin costume
-    - rogue costume
-    - warrior costume{|,sword on waist}
-    - wizard costume
+  artist:
+    do:
+      - artist painter,{brown|green} apron,{0-3$$__mywc/fashion/costumes/artist/list__}
+    list:
+      - __mywc/fashion/costumes/artist/tops__
+      - __mywc/fashion/costumes/artist/bottoms__
+      - __mywc/fashion/costumes/artist/accessories/do__
+    tops:
+      - shirt
+    bottoms:
+      - skirts
+      - pants
+    accessories:
+      do:
+        - "{1-2$$__mywc/fashion/costumes/artist/accessories/list__}"
+      list:
+        - beret
+        - paint on clothes
   ballerina:
     do:
       - __mywc/fashion/costumes/ballerina/colors__ ballerina,{0-4$$__mywc/fashion/costumes/ballerina/list__}
@@ -181,6 +200,24 @@ costumes:
         - gloves
         - hat
         - pen in pocket
+  doctor:
+    do:
+      - doctor,lab coat,{0-3$$__mywc/fashion/costumes/doctor/list__}
+    list:
+      - __mywc/fashion/costumes/doctor/bottoms__
+      - __mywc/fashion/costumes/doctor/accessories/do__
+    bottoms:
+      - maxi skirt,{white|beige|black|brown} pantyhose,heels
+      - pants,socks,{heels|shoes}
+    accessories:
+      do:
+        - "{1-5$$__mywc/fashion/costumes/doctor/accessories/list__}"
+      list:
+        - "{|light blue|white} surgical mask"
+        - glasses
+        - lanyard
+        - medical gloves
+        - stethoscope on neck
   employee:
     do:
       - employee uniform,{0-3$$__mywc/fashion/costumes/employee/list__}
@@ -776,6 +813,39 @@ costumes:
         - cross pendant
         - mitre
         - rosary
+  princess:
+    do:
+      - princess,__mywc/fashion/costumes/princess/tops/do__,{0-3$$__mywc/fashion/costumes/princess/list__}
+    list:
+      - __mywc/fashion/costumes/princess/bottoms__
+      - __mywc/fashion/costumes/princess/gloves__
+      - __mywc/fashion/costumes/princess/accessories/do__
+    tops:
+      do:
+        - __mywc/fashion/costumes/princess/tops/decorations__ __mywc/fashion/costumes/princess/tops/base__,__mywc/fashion/costumes/princess/tops/sleeves__
+      base:
+        - dress
+        - gown
+      sleeves:
+        - "{|puffy} long sleeves"
+        - "{|puffy} short sleeves"
+      decorations:
+        - " "
+        - frilled
+        - fur trimmed
+        - lace trimmed
+    bottoms:
+      - layered skirt
+      - long skirt
+      - short skirt
+    gloves:
+      - "{|elbow} gloves"
+    accessories:
+      do:
+        - "{1-2$$__mywc/fashion/costumes/princess/accessories/list__}"
+      list:
+        - "{tiara|crown}"
+        - jewelry
   race-queen:
     do:
       - race queen,mini skirt,{0-3$$__mywc/fashion/costumes/race-queen/list__}
@@ -797,6 +867,18 @@ costumes:
         - belt
         - gloves
         - sunglasses on head
+  roomwear:
+    do:
+      - __mywc/fashion/costumes/roomwear/cloths__,__mywc/fashion/costumes/roomwear/footwears__
+    cloths:
+      - bathrobe
+      - loungewear
+      - nightwear
+      - pajamas
+      - robe
+    footwears:
+      - " "
+      - slippers
   sailor:
     do:
       - "{naval|sailor} uniform,__mywc/fashion/costumes/sailor/tops__,naval pants,__mywc/fashion/costumes/sailor/accessories/do__"
@@ -1029,6 +1111,42 @@ costumes:
         - "{bow|neck}tie"
         - name tag
         - sleeves rolled up
+  warrior:
+    do:
+      - __mywc/fashion/costumes/warrior/color__ warrior,__mywc/fashion/costumes/warrior/armors/do__,{0-4$$__mywc/fashion/costumes/warrior/list__}
+    list:
+      - __mywc/fashion/costumes/warrior/headwears__
+      - __mywc/fashion/costumes/warrior/gloves__
+      - __mywc/fashion/costumes/warrior/footwears__
+      - __mywc/fashion/costumes/warrior/accessories/do__
+    armors:
+      do:
+        - __mywc/fashion/costumes/warrior/armors/type__ armor
+      type:
+        - bikini
+        - iron {|breastplate}
+        - leather
+        - plated {|breastplate}
+        - scale {|breastplate}
+        - steel {|breastplate}
+    headwears:
+      - gorget,{|helmet}
+    gloves:
+      - gauntlets
+    footwears:
+      - boots,{|heel}
+    accessories:
+      do:
+        - "{1-3$$__mywc/fashion/costumes/warrior/accessories/list__}"
+      list:
+        - capelet
+        - faulds
+        - pauldrons
+    color:
+      - black
+      - gold
+      - silver
+      - white
   wedding:
     do:
       - "{0-2$$ $$__mywc/fashion/costumes/wedding/list__} __mywc/fashion/costumes/wedding/color__ wedding dress,__mywc/fashion/costumes/wedding/accessories/do__"
@@ -1041,8 +1159,8 @@ costumes:
       - off-shoulder
       - strapless
     decorations:
-      - lace_trimmed
       - frilled
+      - lace trimmed
     accessories:
       do:
         - "{0-2$$__mywc/fashion/costumes/wedding/accessories/list__}"

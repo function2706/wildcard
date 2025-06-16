@@ -2,7 +2,6 @@ dresses:
   random:
     - __mywc/color__ academic gown
     - __mywc/color__ ball gown,__mywc/fashion/dresses/gloves/do__
-    - __mywc/color__ bathrobe
     - __mywc/color__ casual dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
     - __mywc/color__ china dress,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ cocktail dress,__mywc/fashion/dresses/gloves/do__
@@ -13,17 +12,13 @@ dresses:
     - __mywc/color__ high slit dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ highleg dress,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ leotard
-    - __mywc/color__ loungewear
-    - __mywc/color__ nightwear
     - __mywc/color__ overall skirt
     - __mywc/color__ overalls
-    - __mywc/color__ pajamas
     - __mywc/color__ party dress,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ pencil dress,__mywc/fashion/dresses/footwears/heels__
     - __mywc/color__ pinafore dress
     - __mywc/color__ prom dress,__mywc/fashion/dresses/gloves/do__
     - __mywc/color__ raincoat,__mywc/fashion/dresses/footwears/rainboots__
-    - __mywc/color__ robe
     - __mywc/color__ sailor dress,__mywc/fashion/dresses/footwears/pantyhoses/do__
     - __mywc/color__ sarong
     - __mywc/color__ satin dress,__mywc/fashion/dresses/gloves/do__,__mywc/fashion/dresses/footwears/heels__

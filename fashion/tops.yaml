@@ -44,6 +44,7 @@ tops:
       do:
         - __mywc/fashion/tops/outers/jackets/list__,__mywc/fashion/tops/outers/jackets/state__
       list:
+        - blazer jacket
         - bomber jacket
         - cardigan
         - chore jacket

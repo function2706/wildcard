@@ -105,7 +105,7 @@ costumes:
       - pants
     accessories:
       do:
-        - "{1-3$$__mywc/fashion/costumes/barista/accessories/list__}"
+        - "{1-4$$__mywc/fashion/costumes/barista/accessories/list__}"
       list:
         - "{bow|neck}tie"
         - bandana
@@ -285,14 +285,14 @@ costumes:
       - vest
     accessories:
       do:
-        - "{1-4$$__mywc/fashion/costumes/detective/accessories/list__}"
+        - "{1-3$$__mywc/fashion/costumes/detective/accessories/list__}"
       list:
         - gloves
         - hat
         - pen in pocket
   doctor:
     do:
-      - doctor,lab coat,{0-3$$__mywc/fashion/costumes/doctor/list__}
+      - doctor,lab coat,{0-2$$__mywc/fashion/costumes/doctor/list__}
     list:
       - __mywc/fashion/costumes/doctor/bottoms__
       - __mywc/fashion/costumes/doctor/accessories/do__
@@ -873,7 +873,7 @@ costumes:
       - gloves
     accessories:
       do:
-        - "{1-6$$__mywc/fashion/costumes/pilot/accessories/list__}"
+        - "{1-5$$__mywc/fashion/costumes/pilot/accessories/list__}"
       list:
         - aviator cap
         - aviator glasses
@@ -900,14 +900,14 @@ costumes:
       - boots
     accessories:
       do:
-        - "{0-3$$__mywc/fashion/costumes/pirate/accessories/list__}"
+        - "{1-3$$__mywc/fashion/costumes/pirate/accessories/list__}"
       list:
         - "{pistol|sword} on waist"
         - eye patch
         - sash
   police:
     do:
-      - police,{0-5$$__mywc/fashion/costumes/police/list__}
+      - police,{0-4$$__mywc/fashion/costumes/police/list__}
     list:
       - __mywc/fashion/costumes/police/tops__
       - __mywc/fashion/costumes/police/bottoms__
@@ -1133,7 +1133,7 @@ costumes:
       - __mywc/fashion/costumes/swimwear/swimsuit/do__
     bikini:
       do:
-        - __mywc/fashion/costumes/swimwear/accessories/do__ {|{1-2$$__mywc/fashion/costumes/swimwear/bikini/list__} }bikini,__mywc/fashion/costumes/swimwear/footwears__
+        - __mywc/fashion/costumes/swimwear/accessories/do__ {1::|10::{1-2$$__mywc/fashion/costumes/swimwear/bikini/list__} }bikini,__mywc/fashion/costumes/swimwear/footwears__
       list:
         - __mywc/fashion/costumes/swimwear/bikini/option__
         - __mywc/fashion/costumes/swimwear/bikini/type__
@@ -1437,9 +1437,7 @@ costumes:
         - black
   wizard:
     do:
-      - wizard,__mywc/fashion/costumes/witch/tops__,{0-1$$__mywc/fashion/costumes/witch/list__}
-    list:
-      - __mywc/fashion/costumes/witch/accessories/do__
+      - wizard,__mywc/fashion/costumes/witch/tops__,__mywc/fashion/costumes/witch/accessories/do__
     tops:
       - hooded robe
       - hooded cape
@@ -1447,7 +1445,7 @@ costumes:
       - hooded tunic
     accessories:
       do:
-        - "{1-2$$__mywc/fashion/costumes/wizard/accessories/list__}"
+        - "{0-2$$__mywc/fashion/costumes/wizard/accessories/list__}"
       list:
         - "{|leather{| cuirass}} gloves"
         - hood up

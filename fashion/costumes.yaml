@@ -46,7 +46,7 @@ costumes:
     - __mywc/fashion/costumes/teacher/do__
     - __mywc/fashion/costumes/thief/tops__
     - __mywc/fashion/costumes/travel-attendant/do__
-    - __mywc/fashion/costumes/travel-marchant/do__
+    - __mywc/fashion/costumes/traveling-marchant/do__
     - __mywc/fashion/costumes/waitress/do__
     - __mywc/fashion/costumes/warrior/do__
     - __mywc/fashion/costumes/wedding/do__
@@ -69,6 +69,7 @@ costumes:
         - "{1-2$$__mywc/fashion/costumes/artist/accessories/list__}"
       list:
         - beret
+        - glasses
         - paint on clothes
   assassin:
     do:
@@ -134,10 +135,9 @@ costumes:
       - pants
     accessories:
       do:
-        - "{1-4$$__mywc/fashion/costumes/barista/accessories/list__}"
+        - "{1-3$$__mywc/fashion/costumes/barista/accessories/list__}"
       list:
         - "{bow|neck}tie"
-        - bandana
         - cap
         - sleeves rolled up
   bartender:
@@ -752,7 +752,7 @@ costumes:
           - shoes
     accessories:
       do:
-        - "{1-4$$__mywc/fashion/costumes/musician/accessories/list__}"
+        - "{1-3$$__mywc/fashion/costumes/musician/accessories/list__}"
       list:
         - choker
         - headset
@@ -831,9 +831,10 @@ costumes:
       - sandals
     accessories:
       do:
-        - "{1-5$$__mywc/fashion/costumes/nurse/accessories/list__}"
+        - "{1-6$$__mywc/fashion/costumes/nurse/accessories/list__}"
       list:
         - "{|light blue|white} surgical mask"
+        - glasses
         - lanyard
         - medical gloves
         - ${nurse-color} nurse cap

@@ -116,7 +116,7 @@ footwears:
       - loose socks
     random:
       do:
-        - ${type=!__mywc/fashion/footwears/socks/random/base__}__mywc/fashion/footwears/socks/random/option/do__
+        - ${footwears-type=!__mywc/fashion/footwears/socks/random/base__}__mywc/fashion/footwears/socks/random/option/do__
       base:
         - ankle socks
         - kneehighs
@@ -125,7 +125,7 @@ footwears:
         - thighhighs
       option:
         do:
-          - "{0-2$$ $$__mywc/fashion/footwears/socks/random/option/list__} ${type}"
+          - "{0-2$$ $$__mywc/fashion/footwears/socks/random/option/list__} ${footwears-type}"
         list:
           - __mywc/fashion/footwears/socks/random/option/decorations__
           - __mywc/fashion/footwears/socks/random/option/patterns__

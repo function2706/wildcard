@@ -91,13 +91,13 @@ bottoms:
       - swim shorts
     random:
       do:
-        - ${type=!__mywc/fashion/bottoms/pants/random/base__}__mywc/fashion/bottoms/pants/random/option/do__
+        - ${bottoms-type=!__mywc/fashion/bottoms/pants/random/base__}__mywc/fashion/bottoms/pants/random/option/do__
       base:
         - "{|capri} pants"
         - "{|micro|short} shorts"
       option:
         do:
-          - "{0-3$$ $$__mywc/fashion/bottoms/pants/random/option/list__} ${type}"
+          - "{0-3$$ $$__mywc/fashion/bottoms/pants/random/option/list__} ${bottoms-type}"
         list:
           - __mywc/fashion/bottoms/pants/random/option/patterns__
           - __mywc/fashion/bottoms/pants/random/option/decorations__

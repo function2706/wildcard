@@ -8,7 +8,7 @@ one-pieces:
     - china dress,__mywc/fashion/one-pieces/footwears/do__
     - cocktail dress,__mywc/fashion/one-pieces/gloves/do__
     - dungarees
-    - evening {dress|gown},__mywc/fashion/one-pieces/gloves/do__,__mywc/fashion/one-pieces/footwears/do__
+    - evening dress,__mywc/fashion/one-pieces/gloves/do__,__mywc/fashion/one-pieces/footwears/do__
     - funeral dress,__mywc/fashion/one-pieces/gloves/do__,__mywc/fashion/one-pieces/socks/do__,__mywc/fashion/one-pieces/footwears/do__
     - halter dress,__mywc/fashion/one-pieces/footwears/do__
     - high slit dress,__mywc/fashion/one-pieces/gloves/do__,__mywc/fashion/one-pieces/footwears/do__
@@ -103,20 +103,13 @@ one-pieces:
       - __mywc/fashion/one-pieces/dress/size__ {|__mywc/fashion/one-pieces/dress/structures__ }__mywc/fashion/one-pieces/dress/type__ dress,__mywc/fashion/one-pieces/dress/decorations/do__
     type:
       - cross-laced
-      - empire
       - feather
       - frilled
-      - funeral
       - fur-trimme
-      - hobble
       - hooded
-      - hourglass
       - lace-trimmed
       - latex
-      - princess
       - taut
-      - trapeze
-      - tube
     size:
       - long
       - maxi

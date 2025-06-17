@@ -1,1 +1,35 @@
 try:
+  formal:
+    - ball gown
+    - cocktail dress
+    - evening dress
+    - funeral dress
+    - halter dress
+    - high slit dress
+    - party dress
+    - pencil dress
+    - prom dress
+    - raincoat
+    - sailor dress
+    - satin dress
+    - sequined dress
+    - tube dress
+    - tuxedo
+    - velvet dress
+  non-formal:
+    - academic gown
+    - casual dress
+    - china dress
+    - dungarees
+    - highleg dress
+    - leotard
+    - overall skirt
+    - overalls
+    - pinafore dress
+    - sarong
+    - sundress
+    - sweater dress
+    - tabard
+    - turtleneck dress
+    - v neck dress
+    - vietnamese dress

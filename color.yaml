@@ -1,37 +1,30 @@
 color:
+  - "{|deep|light} blue"
+  - "{|deep|light} green"
+  - "{|deep|light} magenta"
+  - "{|deep|light} orange"
+  - "{|deep|light} pink"
+  - "{|deep|light} purple"
+  - "{|deep|light} red"
+  - "{|deep|light} yellow"
   - amber
   - amethyst
   - aqua
   - azure
   - beige
   - black
-  - blue
   - brown
   - burgundy
   - crimson
   - emerald
   - gray
-  - green
   - indigo
   - jade
-  - light blue
-  - light green
-  - light magenta
-  - light orange
-  - light pink
-  - light purple
-  - light red
-  - light yellow
   - lilac
-  - magenta
   - maroon
   - midnight blue
   - navy blue
   - olive
-  - orange
-  - pink
-  - purple
-  - red
   - ruby
   - sapphire
   - scarlet
@@ -40,4 +33,3 @@ color:
   - vermillion
   - violet
   - white
-  - yellow

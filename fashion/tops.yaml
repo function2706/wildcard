@@ -44,6 +44,7 @@ tops:
       do:
         - __mywc/fashion/tops/outers/jackets/list__,__mywc/fashion/tops/outers/jackets/state__
       list:
+        - "{|butler} tailcoat"
         - blazer jacket
         - bomber jacket
         - cardigan
@@ -51,6 +52,7 @@ tops:
         - collared jacket
         - cropped jacket
         - denim jacket
+        - double-breasted jacket
         - down jacket
         - frilled jacket
         - fur jacket
@@ -59,16 +61,22 @@ tops:
         - jean jacket
         - leather jacket
         - letterman jacket
+        - mess jacket
+        - midriff jacket
         - military jacket
         - padded jacket
+        - pant suit
+        - peplum jacket
         - puffer jacket
         - quilted jacket
         - safari jacket
         - ski jacket
         - sleeveless jacket
+        - spencer jacket
         - sports jersey
         - suit jacket
         - sukajan
+        - tailored jacket
         - tied jacket
         - track jacket
         - turtleneck jacket

@@ -2,7 +2,7 @@ fashion:
   random:
     - __mywc/fashion/costumes/random__
     - __mywc/fashion/dresses/random__
-    - "{0-4$$__mywc/fashion/list__}"
+    - "{1-4$$__mywc/fashion/list__}"
   list:
     - __mywc/fashion/tops/random__
     - __mywc/fashion/bottoms/random__

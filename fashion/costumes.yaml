@@ -4,9 +4,11 @@ costumes:
     - __mywc/fashion/costumes/ballerina/do__
     - __mywc/fashion/costumes/barista/do__
     - __mywc/fashion/costumes/bartender/do__
+    - __mywc/fashion/costumes/bdsm/do__
     - __mywc/fashion/costumes/bunny-girl/do__
     - __mywc/fashion/costumes/cheerleader/do__
     - __mywc/fashion/costumes/chef/do__
+    - __mywc/fashion/costumes/dancer/do__
     - __mywc/fashion/costumes/detective/do__
     - __mywc/fashion/costumes/doctor/do__
     - __mywc/fashion/costumes/employee/do__
@@ -14,6 +16,7 @@ costumes:
     - __mywc/fashion/costumes/formal/do__
     - __mywc/fashion/costumes/goth-roli/do__
     - __mywc/fashion/costumes/gym/do__
+    - __mywc/fashion/costumes/hunter/do__
     - __mywc/fashion/costumes/idol/do__
     - __mywc/fashion/costumes/japan/do__
     - __mywc/fashion/costumes/magical/do__
@@ -29,6 +32,7 @@ costumes:
     - __mywc/fashion/costumes/pirate/do__
     - __mywc/fashion/costumes/police/do__
     - __mywc/fashion/costumes/priest/do__
+    - __mywc/fashion/costumes/prince/do__
     - __mywc/fashion/costumes/princess/do__
     - __mywc/fashion/costumes/race-queen/do__
     - __mywc/fashion/costumes/roomwear/do__
@@ -39,10 +43,14 @@ costumes:
     - __mywc/fashion/costumes/sports/do__
     - __mywc/fashion/costumes/swimwear/do__
     - __mywc/fashion/costumes/teacher/do__
+    - __mywc/fashion/costumes/thief/tops__
     - __mywc/fashion/costumes/travel-attendant/do__
+    - __mywc/fashion/costumes/travel-marchant/do__
     - __mywc/fashion/costumes/waitress/do__
     - __mywc/fashion/costumes/warrior/do__
     - __mywc/fashion/costumes/wedding/do__
+    - __mywc/fashion/costumes/witch/do__
+    - __mywc/fashion/costumes/wizard/do__
   artist:
     do:
       - artist painter,{brown|green} apron,{0-3$$__mywc/fashion/costumes/artist/list__}
@@ -117,6 +125,73 @@ costumes:
       list:
         - "{bow|neck}tie"
         - sleeves rolled up
+  bdsm:
+    do:
+      - ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}${bdsm-color} __mywc/fashion/costumes/bdsm/tops__,${bdsm-color} __mywc/fashion/costumes/bdsm/bottoms__,{0-4$$__mywc/fashion/costumes/bdsm/list__}
+    list:
+      - ${bdsm-color} __mywc/fashion/costumes/bdsm/gloves__
+      - __mywc/fashion/costumes/bdsm/socks__
+      - ${bdsm-color} __mywc/fashion/costumes/bdsm/footwears/do__
+      - __mywc/fashion/costumes/bdsm/accessories/do__
+    tops:
+      - latex {|strapless} bra
+      - latex {|strapless} bustier
+    bottoms:
+      - latex panties
+      - leather shorts
+      - leather mini skirt,{|latex panties}
+    gloves:
+      - latex elbow gloves
+    socks:
+      - "{black|brown} garter belt"
+      - "{black|brown} pantyhose"
+      - fishnet pantyhose
+    footwears:
+      do:
+        - __mywc/fashion/costumes/bdsm/footwears/boots/do__
+        - __mywc/fashion/costumes/bdsm/footwears/heels__
+      boots:
+        do:
+          - latex __mywc/fashion/costumes/bdsm/footwears/boots/accessories/do__ __mywc/fashion/costumes/bdsm/footwears/boots/size__ __mywc/fashion/costumes/bdsm/footwears/boots/shape__
+        size:
+          - ankle
+          - long
+          - short
+          - thighhigh
+        shape:
+          - boots
+          - boots,stiletto heels
+          - platform boots
+        accessories:
+          do:
+            - " "
+            - __mywc/fashion/costumes/bdsm/footwears/boots/accessories/list__
+          list:
+            - belt
+            - braided
+      heels:
+        - block heels
+        - open-toe heels
+        - platform heels
+        - stiletto heels
+        - strappy heels
+        - wedge heels
+    accessories:
+      do:
+        - "{1-5$$__mywc/fashion/costumes/bdsm/accessories/list__}"
+      list:
+        - belt
+        - corset
+        - choker
+        - earrings
+        - pendant
+    color:
+      - " "
+      - black
+      - blue
+      - red
+      - pink
+      - white
   bunny-girl:
     do:
       - __mywc/fashion/costumes/bunny-girl/colors__ bunny girl,{0-4$$__mywc/fashion/costumes/bunny-girl/list__}
@@ -183,6 +258,21 @@ costumes:
         - hat
         - neckerchief
         - white surgical mask
+  dancer:
+    do:
+      - dancer,__mywc/fashion/costumes/dancer/cloths__,{4-8$$__mywc/fashion/costumes/dancer/accessories__}
+    cloths:
+      - arabian clothes
+      - harem outfit
+    accessories:
+      - amulet
+      - anklet
+      - armlet
+      - bracelet
+      - choker
+      - earrings
+      - necklace
+      - pelvic curtain
   detective:
     do:
       - detective,{0-2$$__mywc/fashion/costumes/detective/list__}
@@ -261,18 +351,28 @@ costumes:
         - straw hat
   formal:
     do:
-      - formal cloths,slacks pants,{0-3$$__mywc/fashion/costumes/formal/list__}
+      - __mywc/fashion/costumes/formal/color__ formal cloths,{0-4$$__mywc/fashion/costumes/formal/list__}
     list:
       - __mywc/fashion/costumes/formal/tops__
+      - __mywc/fashion/costumes/formal/bottoms__
       - __mywc/fashion/costumes/formal/gloves__
       - __mywc/fashion/costumes/formal/accessories/do__
     tops:
       - "{|butler} tailcoat"
-      - waistcoat
-      - suit jacket
+      - double-breasted jacket
+      - mess jacket
+      - midriff jacket
       - pant suit
+      - peplum jacket
+      - spencer jacket
+      - suit jacket
+      - tailored jacket
       - trench coat
       - vest,{|sleeves pushed up|sleeves rolled up}
+      - waistcoat
+    bottoms:
+      - "{|slacks} pants,{|shoes}"
+      - pencil skirt,{|pantyhose},{|heels|shoes}
     gloves:
       - white gloves
     accessories:
@@ -282,6 +382,9 @@ costumes:
         - "{bow|neck}tie"
         - hat
         - pocket square
+    color:
+      - black
+      - white
   goth-roli:
     do:
       - gothic lolita,{0-6$$__mywc/fashion/costumes/goth-roli/list__}
@@ -349,6 +452,35 @@ costumes:
       - blue
       - red
       - white
+  hunter:
+    do:
+      - hunter,{0-5$$__mywc/fashion/costumes/hunter/list__}
+    list:
+      - __mywc/fashion/costumes/hunter/tops__
+      - __mywc/fashion/costumes/hunter/bottoms__
+      - __mywc/fashion/costumes/hunter/gloves__
+      - __mywc/fashion/costumes/hunter/footwears__
+      - __mywc/fashion/costumes/hunter/accessories/do__
+    tops:
+      - cloak
+      - tunic
+    bottoms:
+      - pants
+    gloves:
+      - "{|leather{| cuirass}} gloves"
+    footwears:
+      - socks,boots
+      - socks,shoes
+    accessories:
+      do:
+        - "{1-6$$__mywc/fashion/costumes/hunter/accessories/list__}"
+      list:
+        - "{{bi|tri}corne|hat}"
+        - capelet
+        - binoculars on neck
+        - goggles on head
+        - knife on waist
+        - quiver
   idol:
     do:
       - __mywc/fashion/costumes/idol/color__ idol clothes,{0-6$$__mywc/fashion/costumes/idol/list__}
@@ -813,6 +945,17 @@ costumes:
         - cross pendant
         - mitre
         - rosary
+  prince:
+    do:
+      - prince,{deep green|white|wine red} jacket,epaulettes,slacks,pants,__mywc/fashion/costumes/prince/accessories/do__
+    accessories:
+      do:
+        - "{0-4$$__mywc/fashion/costumes/prince/accessories/list__}"
+      list:
+        - aiguillette
+        - ascot
+        - epaulettes
+        - gloves
   princess:
     do:
       - princess,__mywc/fashion/costumes/princess/tops/do__,{0-3$$__mywc/fashion/costumes/princess/list__}
@@ -925,8 +1068,8 @@ costumes:
         - "{|loose} necktie"
         - bowtie
     bottoms:
-      - long plated skirt
-      - short plated skirt
+      - long pleated skirt
+      - short pleated skirt
     footwears:
       do:
         - __mywc/fashion/costumes/school/footwears/socks__,__mywc/fashion/costumes/school/footwears/shoes__
@@ -990,19 +1133,25 @@ costumes:
       - __mywc/fashion/costumes/swimwear/swimsuit/do__
     bikini:
       do:
-        - __mywc/fashion/costumes/swimwear/accessories/do__ __mywc/fashion/costumes/swimwear/bikini/cloths__,__mywc/fashion/costumes/swimwear/footwears__
-      cloths:
-        - bikini
-        - eyepatch bikini
-        - front-tie bikini
-        - micro bikini
-        - o-ring bikini
-        - sailor bikini
-        - santa bikini
-        - side-tie bikini
-        - sports bikini
-        - strapless bikini
-        - string bikini
+        - __mywc/fashion/costumes/swimwear/accessories/do__ {|{1-2$$__mywc/fashion/costumes/swimwear/bikini/list__} }bikini,__mywc/fashion/costumes/swimwear/footwears__
+      list:
+        - __mywc/fashion/costumes/swimwear/bikini/option__
+        - __mywc/fashion/costumes/swimwear/bikini/type__
+      option:
+        - micro
+        - slingshot
+        - string
+        - thong
+      type:
+        - "{|front-tie} {|side-tie}"
+        - "{|cross} halter neck"
+        - eyepatch
+        - maid
+        - o-ring
+        - sailor
+        - santa
+        - sports
+        - strapless
     swimsuit:
       do:
         - __mywc/fashion/costumes/swimwear/accessories/do__ __mywc/fashion/costumes/swimwear/swimsuit/cloths__,__mywc/fashion/costumes/swimwear/footwears__
@@ -1013,6 +1162,7 @@ costumes:
         - competition swimsuit
         - dress swimsuit
         - front zipper swimsuit
+        - monokini
         - o-ring swimsuit
         - side-tie swimsuit
         - slingshot swimsuit
@@ -1061,6 +1211,33 @@ costumes:
         - glasses
         - lanyard
         - necktie
+  thief:
+    do:
+      - thief,__mywc/fashion/costumes/thief/color__ __mywc/fashion/costumes/thief/tops__,{0-2$$__mywc/fashion/costumes/thief/list__}
+    list:
+      - __mywc/fashion/costumes/thief/footwears__
+      - __mywc/fashion/costumes/thief/accessories/do__
+    tops:
+      - cape
+      - cloak
+      - tunic
+    footwears:
+      - boots
+      - shoes
+    accessories:
+      do:
+        - "{1-7$$__mywc/fashion/costumes/wizard/accessories/list__}"
+      list:
+        - dagger on waist
+        - gloves
+        - hood
+        - mask
+        - sash on waist
+        - scarf
+        - waist pouch
+    color:
+      - black
+      - brown
   travel-attendant:
     do:
       - travel attendant,pencil skirt,{0-4$$__mywc/fashion/costumes/travel-attendant/list__}
@@ -1086,6 +1263,43 @@ costumes:
         - name tag
         - neckerchief
         - sash on waist
+  traveling-marchant:
+    do:
+      - __mywc/fashion/costumes/traveling-marchant/color__ traveling merchant,__mywc/fashion/costumes/traveling-marchant/bags__,{0-4$$__mywc/fashion/costumes/traveling-marchant/list__}
+    list:
+      - __mywc/fashion/costumes/traveling-marchant/tops__
+      - __mywc/fashion/costumes/traveling-marchant/bottoms__
+      - __mywc/fashion/costumes/traveling-marchant/footwears__
+      - __mywc/fashion/costumes/traveling-marchant/accessories/do__
+    tops:
+      - "{|medieval} cape"
+      - "{|medieval} cloak"
+      - tunik
+      - vest
+    bottoms:
+      - long skirt
+      - pants
+    footwears:
+      - socks,boots
+      - socks,shoes
+    bags:
+      do:
+        - "{|huge} backpack,{0-2$$__mywc/fashion/costumes/traveling-marchant/bags/option__}"
+      option:
+        - pouch
+        - satchel
+    accessories:
+      do:
+        - "{1-3$$__mywc/fashion/costumes/traveling-marchant/accessories/list__}"
+      list:
+        - "{bi|tri}corne"
+        - sash on waist
+        - scarf
+    color:
+      - " "
+      - green
+      - blue
+      - brown
   waitress:
     do:
       - waitress,apron,{0-4$$__mywc/fashion/costumes/waitress/list__}
@@ -1173,3 +1387,67 @@ costumes:
       - light pink
       - light yellow
       - white
+  witch:
+    do:
+      - witch,__mywc/fashion/costumes/witch/cloths/do__,{0-2$$__mywc/fashion/costumes/witch/list__}
+    list:
+      - __mywc/fashion/costumes/witch/footwears/do__
+      - __mywc/fashion/costumes/witch/accessories/do__
+    cloths:
+      do:
+        - "{0-2$$ $$__mywc/fashion/costumes/witch/cloths/option__|__mywc/fashion/costumes/witch/cloths/structures__} __mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/cloths/list__"
+      list:
+        - cocktail dress
+        - evening dress
+        - long dress
+      option:
+        - hobble
+        - latex
+        - satin
+        - taut
+        - velvet
+      structures:
+        - long sleeves
+        - off-shoulder
+        - puffy {|long|short} sleeves
+        - short sleeves
+        - sleeveless
+    footwears:
+      do:
+        - __mywc/fashion/costumes/witch/footwears/socks__ {|short|long|thighhigh} boots
+      socks:
+        - " "
+        - fishnet pantyhose
+        - pantyhose
+        - thighhighs
+    accessories:
+      do:
+        - "{1-5$$__mywc/fashion/costumes/witch/accessories/list__}"
+      list:
+        - "{|elbow} gloves"
+        - choker
+        - hoop earrings
+        - pentagram charm
+        - witch hat
+    color:
+      do:
+        - __mywc/fashion/costumes/witch/color/list__ and gold
+      list:
+        - "{green|purple|red}"
+        - black
+  wizard:
+    do:
+      - wizard,__mywc/fashion/costumes/witch/tops__,{0-1$$__mywc/fashion/costumes/witch/list__}
+    list:
+      - __mywc/fashion/costumes/witch/accessories/do__
+    tops:
+      - hooded robe
+      - hooded cape
+      - hooded cloak
+      - hooded tunic
+    accessories:
+      do:
+        - "{1-2$$__mywc/fashion/costumes/wizard/accessories/list__}"
+      list:
+        - "{|leather{| cuirass}} gloves"
+        - hood up

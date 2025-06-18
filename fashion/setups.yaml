@@ -1,94 +1,96 @@
 setups:
   random:
-  dress:
-    formal:
-      - ball gown,__mywc/fashion/unis/gloves/do__
-      - cocktail dress,__mywc/fashion/unis/gloves/do__
-      - evening dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-      - funeral dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/socks/do__,__mywc/fashion/unis/footwears/do__
-      - halter dress,__mywc/fashion/unis/footwears/do__
-      - high slit dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-      - party dress,__mywc/fashion/unis/footwears/do__
-      - pencil dress,__mywc/fashion/unis/footwears/do__
-      - prom dress,__mywc/fashion/unis/gloves/do__
-      - satin dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-      - sequined dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-      - tube dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-      - velvet dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-    gloves:
+    - __mywc/fashion/setups/formal/dress/do__
+  formal:
+    dress:
       do:
-        - " "
-        - __mywc/fashion/unis/gloves/main__
-      main:
-        - __mywc/fashion/unis/socks/color__ {|lace} {|elbow} gloves
-      color:
-        - " "
-        - ${unis-color}
-        - black
-        - white
-    socks:
-      do:
-        - " "
-        - __mywc/fashion/unis/socks/main__
-      main:
-        - __mywc/fashion/unis/socks/color__ pantyhose
-      color:
-        - " "
-        - black
-        - brown
-        - white
-    footwears:
-      do:
-        - " "
-        - __mywc/fashion/unis/footwears/main__
-      main:
-        - __mywc/fashion/unis/footwears/color__ __mywc/fashion/footwears/heels/do__
-      color:
-        - " "
-        - ${unis-color}
-        - black
-        - white
-    accessories:
-      do:
-        - "{0-5$$__mywc/fashion/unis/accessories/list__}"
+        - ${dress-color=!__mywc/fashion/setups/formal/dress/color__}${dress-color} __mywc/fashion/setups/formal/dress/list__
       list:
-        - __mywc/fashion/unis/accessories/head__
-        - __mywc/fashion/unis/accessories/face__
-        - __mywc/fashion/unis/accessories/ear__
-        - __mywc/fashion/unis/accessories/neck__
-        - __mywc/fashion/unis/accessories/one-points__
-      head:
-        - "{|sun} hat"
-        - tiara
-        - veil
-      face:
-        - glasses
-      ear:
-        - earrings
-      neck:
-        - ascot
-        - brooch
-        - locket
-        - pendant
-        - scarf
-        - shawl
-      one-points:
-        - badge
-        - bag
-        - corsage
-    non-formal:
-      - academic gown
-      - casual dress,__mywc/fashion/unis/socks/do__
-      - dungarees
-      - highleg dress,__mywc/fashion/unis/footwears/do__
-      - leotard
-      - overall skirt
-      - overalls
-      - pinafore dress
-      - raincoat,{|rain boots}
-      - sailor dress,__mywc/fashion/unis/socks/do__
-      - sundress
-      - sweater dress,__mywc/fashion/unis/socks/do__
-      - tabard
-      - turtleneck dress,__mywc/fashion/unis/socks/do__
-      - v neck dress
+        - ball gown,{1$$|__mywc/fashion/setups/formal/dress/gloves/do__}
+        - cocktail dress,{1$$|__mywc/fashion/setups/formal/dress/gloves/do__}
+        - evening dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - funeral dress,{0-3$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/socks/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - halter dress,{1$$|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - high slit dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - party dress,{1$$|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - pencil dress,{1$$|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - prom dress,{1$$|__mywc/fashion/setups/formal/dress/gloves/do__}
+        - satin dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - sequined dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - tube dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - velvet dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+      gloves:
+        do:
+          - __mywc/fashion/setups/formal/dress/socks/color__ {|lace} {|elbow} gloves
+        color:
+          - " "
+          - ${dress-color}
+          - black
+          - white
+      socks:
+        do:
+          - __mywc/fashion/setups/formal/dress/socks/color__ pantyhose
+        color:
+          - " "
+          - black
+          - brown
+          - white
+      footwears:
+        do:
+          - __mywc/fashion/setups/formal/dress/footwears/color__ __mywc/fashion/footwears/heels/do__
+        color:
+          - " "
+          - ${dress-color}
+          - black
+          - white
+      accessories:
+        do:
+          - "{1-5$$__mywc/fashion/setups/formal/dress/accessories/list__}"
+        list:
+          - __mywc/fashion/setups/formal/dress/accessories/head__
+          - __mywc/fashion/setups/formal/dress/accessories/face__
+          - __mywc/fashion/setups/formal/dress/accessories/ear__
+          - __mywc/fashion/setups/formal/dress/accessories/neck__
+          - __mywc/fashion/setups/formal/dress/accessories/one-points__
+        head:
+          - "{|sun} hat"
+          - tiara
+          - veil
+        face:
+          - glasses
+        ear:
+          - earrings
+        neck:
+          - ascot
+          - brooch
+          - locket
+          - pendant
+          - scarf
+          - shawl
+        one-points:
+          - badge
+          - bag
+          - corsage
+      color:
+        - black
+        - deep blue
+        - deep green
+        - deep orange
+        - deep purple
+        - deep red
+        - scarlet
+        - white
+  non-formal:
+    - casual dress
+    - highleg dress
+    - leotard
+    - overall skirt
+    - overalls
+    - pinafore dress
+    - raincoat,{|rain boots}
+    - sailor dress
+    - sundress
+    - sweater dress
+    - tabard
+    - turtleneck dress
+    - v neck dress

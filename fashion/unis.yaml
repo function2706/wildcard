@@ -2,13 +2,14 @@ unis:
   random:
     - "__mywc/color__ {6::__mywc/fashion/unis/flippable__|2::__mywc/fashion/unis/unflippable__|1::__mywc/fashion/unis/nsfw/do__}"
   flippable:
-    - academic gown
     - casual dress
     - cocktail dress
     - evening dress
     - funeral dress
     - halter dress
     - high slit dress
+    - highleg dress
+    - overall skirt
     - party dress
     - pencil dress
     - pinafore dress
@@ -18,23 +19,22 @@ unis:
     - sequined dress
     - sundress
     - sweater dress
-    - tabard
     - tube dress
     - turtleneck dress
     - v neck dress
     - velvet dress
     - __mywc/fashion/unis/make-dress/do__
   unflippable:
+    - academic gown
     - ball gown
     - dungarees
-    - highleg dress
     - leotard
-    - overall skirt
     - overalls
+    - tabard
     - tuxedo
   make-dress:
     do:
-      - __mywc/fashion/unis/dress/size__ {|__mywc/fashion/unis/make-dress/structures__ }__mywc/fashion/unis/make-dress/type__ dress,__mywc/fashion/unis/make-dress/decorations/do__
+      - __mywc/fashion/unis/make-dress/size__ {|__mywc/fashion/unis/make-dress/structures__ }__mywc/fashion/unis/make-dress/type__ dress,__mywc/fashion/unis/make-dress/decorations/do__
     type:
       - cross-laced
       - feather

@@ -1,52 +1,6 @@
 bottoms:
   random:
     - "{4::__mywc/fashion/bottoms/skirts/do__|4::__mywc/fashion/bottoms/pants/do__|1::__mywc/fashion/bottoms/nsfw/do__}"
-  panties:
-    do:
-      - __mywc/color__ __mywc/fashion/bottoms/panties/list__
-      - __mywc/color__ __mywc/fashion/bottoms/panties/random/do__
-    list:
-      - beach shorts
-      - bikini bottom
-      - bloomers
-      - boxers
-      - highleg panties
-      - loincloth
-      - lowleg panties
-      - seamless panties
-      - side-tie panties
-      - string panties
-      - swim briefs
-      - thong
-      - underpants
-    random:
-      do:
-        - "{1-3$$ $$__mywc/fashion/bottoms/panties/random/list__} panties"
-      list:
-        - __mywc/fashion/bottoms/panties/random/patterns__
-        - __mywc/fashion/bottoms/panties/random/decorations__
-        - __mywc/fashion/bottoms/panties/random/materials__
-      materials:
-        - cotton
-        - cross-laced
-        - lace
-        - latex
-        - lace-trimmed
-        - see-through
-        - silk
-      decorations:
-        - bow
-        - crotch seam
-        - crotchless
-        - frilled
-        - ribbon-trimmed
-      patterns:
-        - pinstripe
-        - plaid
-        - polka dot
-        - print
-        - striped
-        - vertical-striped
   pants:
     do:
       - __mywc/color__ __mywc/fashion/bottoms/pants/pants__
@@ -182,6 +136,52 @@ bottoms:
           - polka dot
           - striped
           - vertical-striped
+  panties:
+    do:
+      - __mywc/color__ __mywc/fashion/bottoms/panties/list__
+      - __mywc/color__ __mywc/fashion/bottoms/panties/random/do__
+    list:
+      - beach shorts
+      - bikini bottom
+      - bloomers
+      - boxers
+      - highleg panties
+      - loincloth
+      - lowleg panties
+      - seamless panties
+      - side-tie panties
+      - string panties
+      - swim briefs
+      - thong
+      - underpants
+    random:
+      do:
+        - "{1-3$$ $$__mywc/fashion/bottoms/panties/random/list__} panties"
+      list:
+        - __mywc/fashion/bottoms/panties/random/patterns__
+        - __mywc/fashion/bottoms/panties/random/decorations__
+        - __mywc/fashion/bottoms/panties/random/materials__
+      materials:
+        - cotton
+        - cross-laced
+        - lace
+        - latex
+        - lace-trimmed
+        - see-through
+        - silk
+      decorations:
+        - bow
+        - crotch seam
+        - crotchless
+        - frilled
+        - ribbon-trimmed
+      patterns:
+        - pinstripe
+        - plaid
+        - polka dot
+        - print
+        - striped
+        - vertical-striped
   nsfw:
     do:
       - bottomless,__mywc/fashion/bottoms/nsfw/pubic/do__

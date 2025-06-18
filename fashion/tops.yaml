@@ -1,38 +1,6 @@
 tops:
   random:
     - "{8::{1-2$$__mywc/fashion/tops/outers/do__|__mywc/fashion/tops/inners/do__}|1::__mywc/fashion/tops/nsfw/do__}"
-  bras:
-    do:
-      - __mywc/color__ __mywc/fashion/tops/bras/list__
-      - __mywc/color__ __mywc/fashion/tops/bras/random/do__
-    list:
-      - "{|heart|star|cross|bandaids on} pasties"
-      - bandeau
-      - bow bra
-      - cupless bra
-      - frilled bra
-      - front-hook bra
-      - front-tie bra
-      - lace-trimmed bra
-      - latex bra
-      - strapless bra
-      - tube top
-    random:
-      do:
-        - __mywc/fashion/tops/bras/random/base__,__mywc/fashion/tops/bras/random/patterns/do__
-      base:
-        - bra
-        - sports bra
-        - training bra
-      patterns:
-        do:
-          - " "
-          - __mywc/fashion/tops/bras/random/patterns/list__
-        list:
-          - plaid bra
-          - polka dot bra
-          - striped bra
-          - vertical-striped bra
   outers:
     do:
       - __mywc/color__ __mywc/fashion/tops/outers/jackets/do__
@@ -226,6 +194,38 @@ tops:
           - polka dot shirt
           - striped shirt
           - vertical-striped shirt
+  bras:
+    do:
+      - __mywc/color__ __mywc/fashion/tops/bras/list__
+      - __mywc/color__ __mywc/fashion/tops/bras/random/do__
+    list:
+      - "{|heart|star|cross|bandaids on} pasties"
+      - bandeau
+      - bow bra
+      - cupless bra
+      - frilled bra
+      - front-hook bra
+      - front-tie bra
+      - lace-trimmed bra
+      - latex bra
+      - strapless bra
+      - tube top
+    random:
+      do:
+        - __mywc/fashion/tops/bras/random/base__,__mywc/fashion/tops/bras/random/patterns/do__
+      base:
+        - bra
+        - sports bra
+        - training bra
+      patterns:
+        do:
+          - " "
+          - __mywc/fashion/tops/bras/random/patterns/list__
+        list:
+          - plaid bra
+          - polka dot bra
+          - striped bra
+          - vertical-striped bra
   nsfw:
     do:
       - topless

@@ -9,6 +9,7 @@ costumes:
     - __mywc/fashion/costumes/bunny-girl/do__
     - __mywc/fashion/costumes/cheerleader/do__
     - __mywc/fashion/costumes/chef/do__
+    - __mywc/fashion/costumes/china/do__
     - __mywc/fashion/costumes/cross-dressing/do__
     - __mywc/fashion/costumes/dancer/do__
     - __mywc/fashion/costumes/detective/do__
@@ -47,6 +48,7 @@ costumes:
     - __mywc/fashion/costumes/thief/tops__
     - __mywc/fashion/costumes/travel-attendant/do__
     - __mywc/fashion/costumes/traveling-marchant/do__
+    - __mywc/fashion/costumes/vietnam/do__
     - __mywc/fashion/costumes/waitress/do__
     - __mywc/fashion/costumes/warrior/do__
     - __mywc/fashion/costumes/wedding/do__
@@ -277,6 +279,32 @@ costumes:
         - hat
         - neckerchief
         - white surgical mask
+  china:
+    do:
+      - __mywc/fashion/costumes/china/color__ {china dress|cheongsam},{0-3$$__mywc/fashion/costumes/china/list__}
+    list:
+      - __mywc/fashion/costumes/china/gloves__
+      - __mywc/fashion/costumes/china/footwears__
+      - __mywc/fashion/costumes/china/accessories/do__
+    gloves:
+      - white elbow gloves
+    footwears:
+      - chinese shoes
+      - heels
+    accessories:
+      do:
+        - "{1-4$$__mywc/fashion/costumes/china/accessories/list__}"
+      list:
+        - bracelet
+        - earrings
+        - hairpin
+        - necklace
+    color:
+      - " "
+      - blue
+      - green
+      - purple
+      - red
   cross-dressing:
     do:
       - __mywc/fashion/costumes/cross-dressing/color__ formal cloths,pants,{0-3$$__mywc/fashion/costumes/cross-dressing/list__}
@@ -1151,6 +1179,7 @@ costumes:
         - micro
         - o-ring
         - sailor
+        - sarong
         - slingshot
         - sports
         - strapless
@@ -1298,6 +1327,27 @@ costumes:
       - green
       - blue
       - brown
+  vietnam:
+    do:
+      - __mywc/fashion/costumes/vietnam/color__ {vietnamese dress|ao dai},{0-3$$__mywc/fashion/costumes/vietnam/list__}
+    list:
+      - __mywc/fashion/costumes/vietnam/footwears__
+      - __mywc/fashion/costumes/vietnam/accessories/do__
+    footwears:
+      - chinese shoes
+      - heels
+    accessories:
+      do:
+        - "{1-4$$__mywc/fashion/costumes/vietnam/accessories/list__}"
+      list:
+        - bracelet
+        - earrings
+        - hairpin
+        - necklace
+    color:
+      - " "
+      - light blue
+      - white
   waitress:
     do:
       - waitress,apron,{0-4$$__mywc/fashion/costumes/waitress/list__}

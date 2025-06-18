@@ -1,106 +1,40 @@
 unis:
   random:
-    - ${unis-color=!__mywc/color__}${unis-color} __mywc/fashion/unis/list__,__mywc/fashion/unis/accessories/do__
-  list:
+    - "__mywc/color__ {6::__mywc/fashion/unis/flippable__|2::__mywc/fashion/unis/unflippable__|1::__mywc/fashion/unis/nsfw/do__}"
+  flippable:
     - academic gown
-    - ball gown,__mywc/fashion/unis/gloves/do__
-    - casual dress,__mywc/fashion/unis/socks/do__
-    - china dress,__mywc/fashion/unis/footwears/do__
-    - cocktail dress,__mywc/fashion/unis/gloves/do__
+    - casual dress
+    - cocktail dress
+    - evening dress
+    - funeral dress
+    - halter dress
+    - high slit dress
+    - party dress
+    - pencil dress
+    - pinafore dress
+    - prom dress
+    - sailor dress
+    - satin dress
+    - sequined dress
+    - sundress
+    - sweater dress
+    - tabard
+    - tube dress
+    - turtleneck dress
+    - v neck dress
+    - velvet dress
+    - __mywc/fashion/unis/make-dress/do__
+  unflippable:
+    - ball gown
     - dungarees
-    - evening dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-    - funeral dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/socks/do__,__mywc/fashion/unis/footwears/do__
-    - halter dress,__mywc/fashion/unis/footwears/do__
-    - high slit dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-    - highleg dress,__mywc/fashion/unis/footwears/do__
+    - highleg dress
     - leotard
     - overall skirt
     - overalls
-    - party dress,__mywc/fashion/unis/footwears/do__
-    - pencil dress,__mywc/fashion/unis/footwears/do__
-    - pinafore dress
-    - prom dress,__mywc/fashion/unis/gloves/do__
-    - raincoat,{|rain boots}
-    - sailor dress,__mywc/fashion/unis/socks/do__
-    - sarong
-    - satin dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-    - sequined dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-    - sundress
-    - sweater dress,__mywc/fashion/unis/socks/do__
-    - tabard
-    - tube dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-    - turtleneck dress,__mywc/fashion/unis/socks/do__
     - tuxedo
-    - v neck dress
-    - velvet dress,__mywc/fashion/unis/gloves/do__,__mywc/fashion/unis/footwears/do__
-    - vietnamese dress,__mywc/fashion/unis/footwears/do__
-    - __mywc/fashion/unis/dress/do__
-  gloves:
+  make-dress:
     do:
-      - " "
-      - __mywc/fashion/unis/gloves/main__
-    main:
-      - __mywc/fashion/unis/socks/color__ {|lace} {|elbow} gloves
-    color:
-      - " "
-      - ${unis-color}
-      - black
-      - white
-  socks:
-    do:
-      - " "
-      - __mywc/fashion/unis/socks/main__
-    main:
-      - __mywc/fashion/unis/socks/color__ pantyhose
-    color:
-      - " "
-      - black
-      - brown
-      - white
-  footwears:
-    do:
-      - " "
-      - __mywc/fashion/unis/footwears/main__
-    main:
-      - __mywc/fashion/unis/footwears/color__ __mywc/fashion/footwears/heels/do__
-    color:
-      - " "
-      - ${unis-color}
-      - black
-      - white
-  accessories:
-    do:
-      - "{0-5$$__mywc/fashion/unis/accessories/list__}"
-    list:
-      - __mywc/fashion/unis/accessories/head__
-      - __mywc/fashion/unis/accessories/face__
-      - __mywc/fashion/unis/accessories/ear__
-      - __mywc/fashion/unis/accessories/neck__
-      - __mywc/fashion/unis/accessories/one-points__
-    head:
-      - "{|sun} hat"
-      - tiara
-      - veil
-    face:
-      - glasses
-    ear:
-      - earrings
-    neck:
-      - ascot
-      - brooch
-      - locket
-      - pendant
-      - scarf
-      - shawl
-    one-points:
-      - badge
-      - bag
-      - corsage
-  dress:
-    do:
-      - __mywc/fashion/unis/dress/base__,{0-4$$__mywc/fashion/unis/dress/misc__}
-    base:
-      - __mywc/fashion/unis/dress/size__ {|__mywc/fashion/unis/dress/structures__ }__mywc/fashion/unis/dress/type__ dress,__mywc/fashion/unis/dress/decorations/do__
+      - __mywc/fashion/unis/dress/size__ {|__mywc/fashion/unis/make-dress/structures__ }__mywc/fashion/unis/make-dress/type__ dress,__mywc/fashion/unis/make-dress/decorations/do__
     type:
       - cross-laced
       - feather
@@ -131,13 +65,12 @@ unis:
       - strapless
     decorations:
       do:
-        - "{0-4$$__mywc/fashion/unis/dress/decorations/list__}"
+        - "{0-3$$__mywc/fashion/unis/make-dress/decorations/list__}"
       list:
         - dress bow
         - dress flower
         - dress ribbon
-    misc:
-      - __mywc/fashion/unis/gloves/main__
-      - __mywc/fashion/unis/socks/main__
-      - __mywc/fashion/unis/footwears/main__
-      - __mywc/fashion/unis/accessories/do__
+  nsfw:
+    do:
+      - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/panties/do__,pantyshot
+      - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/nsfw/option__

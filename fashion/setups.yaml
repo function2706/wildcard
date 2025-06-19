@@ -3,6 +3,24 @@ setups:
     - __mywc/fashion/setups/formal/do__
     - __mywc/fashion/setups/roomwear/do__
     - __mywc/fashion/setups/swimwear/do__
+  casual:
+    do:
+    list:
+    tops:
+      - t-shirt
+    bottoms:
+      - jeans
+      - pants
+      - skirts
+    unis:
+      - casual dress,__mywc/fashion/one-pieces/socks/do__
+      - overall skirt
+      - overalls
+      - pinafore dress
+      - sundress
+      - sweater dress
+      - turtleneck dress
+    socks:
   formal:
     do:
       - __mywc/fashion/setups/formal/dress/do__
@@ -198,19 +216,10 @@ setups:
           - "{|heart-shaped|star-shaped} sunglasses"
           - glasses
   non-formal:
-    - casual dress,__mywc/fashion/one-pieces/socks/do__
     - highleg dress,__mywc/fashion/one-pieces/footwears/do__
-    - overall skirt
-    - overalls
-    - pinafore dress
     - sailor dress,__mywc/fashion/one-pieces/socks/do_
-    - sundress
-    - sweater dress
     - tabard
-    - turtleneck dress
     - v neck dress
-  one-piece:
   rainy:
     - raincoat,{|rain boots}
-  lightly:
   warmly:

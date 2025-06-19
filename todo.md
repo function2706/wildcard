@@ -2,3 +2,4 @@
 2. Make setups.
 3. Make nsfwbox.
 4. Put default value on each variables.
+5. Adapt wild_back, wild_composi.

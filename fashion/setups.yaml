@@ -8,6 +8,29 @@ setups:
     list:
     tops:
       - t-shirt
+      - bomber jacket
+      - cardigan
+      - chore jacket
+      - collared jacket
+      - cropped jacket
+      - down jacket
+      - frilled jacket
+      - fur jacket
+      - fur-trimmed jacket
+      - hooded jacket
+      - jean jacket
+      - leather jacket
+      - letterman jacket
+      - midriff jacket
+      - padded jacket
+      - puffer jacket
+      - quilted jacket
+      - ski jacket
+      - sleeveless jacket
+      - sports jersey
+      - sukajan
+      - tied jacket
+      - windbreaker
     bottoms:
       - jeans
       - pants
@@ -135,25 +158,30 @@ setups:
         - white
   roomwear:
     do:
-      - __mywc/fashion/setups/roomwear/cloths__
+      - __mywc/fashion/setups/roomwear/cloths__,{0-2$$__mywc/fashion/setups/roomwear/list__}
+    list:
+      - __mywc/fashion/setups/roomwear/footwears__
+      - __mywc/fashion/setups/roomwear/accessories__
     cloths:
-      - babydoll,{|slippers}
-      - bathrobe,{|towel on head}
-      - camisole,{0-2$$nightcap|slippers}
-      - loungewear,{|slippers}
-      - naked towel,{|towel on head}
-      - negligee,{0-2$$nightcap|slippers}
-      - nightwear,{0-2$$nightcap|slippers}
-      - onesie,{|slippers}
-      - pajamas,{0-2$$nightcap|slippers}
-      - robe,{|slippers}
+      - babydoll
+      - bathrobe
+      - camisole
+      - loungewear
+      - naked towel
+      - negligee
+      - nightwear
+      - pajamas
+    footwears:
+      - slippers
+    accessories:
+      - towel on {head|neck}
   swimwear:
     do:
       - __mywc/fashion/setups/swimwear/bikini/do__
       - __mywc/fashion/setups/swimwear/swimsuit/do__
     bikini:
       do:
-        - __mywc/fashion/setups/swimwear/option/do__ __mywc/fashion/setups/swimwear/bikini/cloths__ bikini,__mywc/fashion/setups/swimwear/footwears__
+        - __mywc/fashion/setups/swimwear/option/do__ __mywc/fashion/setups/swimwear/bikini/cloths__ bikini,{|__mywc/fashion/setups/swimwear/accessories/do__}
       cloths:
         - " "
         - "{|front-tie} {|side-tie}"
@@ -168,7 +196,7 @@ setups:
         - string
     swimsuit:
       do:
-        - __mywc/fashion/setups/swimwear/option/do__ __mywc/fashion/setups/swimwear/swimsuit/cloths__,__mywc/fashion/setups/swimwear/footwears__
+        - __mywc/fashion/setups/swimwear/option/do__ __mywc/fashion/setups/swimwear/swimsuit/cloths__,{|__mywc/fashion/setups/swimwear/accessories/do__}
       cloths:
         - "{|casual|strapless|off-shoulder} one-piece swimsuit"
         - "{|competition|old|new} school swimsuit"
@@ -197,7 +225,7 @@ setups:
         - striped
     accessories:
       do:
-        - "{0-7$$__mywc/fashion/setups/swimwear/accessories/list__}"
+        - "{1-7$$__mywc/fashion/setups/swimwear/accessories/list__}"
       list:
         - "{necklace|pendant}"
         - anklet
@@ -217,6 +245,7 @@ setups:
           - glasses
   non-formal:
     - highleg dress,__mywc/fashion/one-pieces/footwears/do__
+    - robe
     - sailor dress,__mywc/fashion/one-pieces/socks/do_
     - tabard
     - v neck dress

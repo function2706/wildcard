@@ -1,24 +1,30 @@
 setups:
   random:
-    - __mywc/fashion/setups/formal/dress/do__
+    - __mywc/fashion/setups/formal/do__
+    - __mywc/fashion/setups/roomwear/do__
+    - __mywc/fashion/setups/swimwear/do__
   formal:
+    do:
+      - __mywc/fashion/setups/formal/dress/do__
+      - __mywc/fashion/setups/formal/suit/do__
     dress:
       do:
         - ${dress-color=!__mywc/fashion/setups/formal/dress/color__}${dress-color} __mywc/fashion/setups/formal/dress/list__
       list:
-        - ball gown,{1$$|__mywc/fashion/setups/formal/dress/gloves/do__}
-        - cocktail dress,{1$$|__mywc/fashion/setups/formal/dress/gloves/do__}
+        - ball gown,{|__mywc/fashion/setups/formal/dress/gloves/do__}
+        - cocktail dress,{|__mywc/fashion/setups/formal/dress/gloves/do__}
         - evening dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
         - funeral dress,{0-3$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/socks/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
-        - halter dress,{1$$|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - halter dress,{|__mywc/fashion/setups/formal/dress/footwears/do__}
         - high slit dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
-        - party dress,{1$$|__mywc/fashion/setups/formal/dress/footwears/do__}
-        - pencil dress,{1$$|__mywc/fashion/setups/formal/dress/footwears/do__}
-        - prom dress,{1$$|__mywc/fashion/setups/formal/dress/gloves/do__}
+        - party dress,{|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - pencil dress,{|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - prom dress,{|__mywc/fashion/setups/formal/dress/gloves/do__}
         - satin dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
         - sequined dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
         - tube dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
         - velvet dress,{0-2$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
+        - __mywc/fashion/unis/make-dress/do__,{0-3$$__mywc/fashion/setups/formal/dress/gloves/do__|__mywc/fashion/setups/formal/dress/socks/do__|__mywc/fashion/setups/formal/dress/footwears/do__}
       gloves:
         do:
           - __mywc/fashion/setups/formal/dress/socks/color__ {|lace} {|elbow} gloves
@@ -80,17 +86,131 @@ setups:
         - deep red
         - scarlet
         - white
+    suit:
+      do:
+        - __mywc/fashion/setups/formal/suit/color__ formal cloths,pants,{0-3$$__mywc/fashion/setups/formal/suit/list__}
+      list:
+        - __mywc/fashion/setups/formal/suit/tops__
+        - __mywc/fashion/setups/formal/suit/gloves__
+        - __mywc/fashion/setups/formal/suit/accessories/do__
+      tops:
+        - "{|butler} tailcoat"
+        - pant suit
+        - suit jacket
+        - tailored jacket
+        - trench coat
+        - tuxedo jacket
+        - vest,{|sleeves pushed up|sleeves rolled up}
+        - waistcoat
+      gloves:
+        - white gloves
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/setups/formal/suit/accessories/list__}"
+        list:
+          - "{|fedora|top} hat"
+          - "{bow|neck}tie"
+          - "{glasses|monocle}"
+          - pocket square
+      color:
+        - black
+        - white
+  roomwear:
+    do:
+      - __mywc/fashion/setups/roomwear/cloths__
+    cloths:
+      - babydoll,{|slippers}
+      - bathrobe,{|towel on head}
+      - camisole,{0-2$$nightcap|slippers}
+      - loungewear,{|slippers}
+      - naked towel,{|towel on head}
+      - negligee,{0-2$$nightcap|slippers}
+      - nightwear,{0-2$$nightcap|slippers}
+      - onesie,{|slippers}
+      - pajamas,{0-2$$nightcap|slippers}
+      - robe,{|slippers}
+  swimwear:
+    do:
+      - __mywc/fashion/setups/swimwear/bikini/do__
+      - __mywc/fashion/setups/swimwear/swimsuit/do__
+    bikini:
+      do:
+        - __mywc/fashion/setups/swimwear/option/do__ __mywc/fashion/setups/swimwear/bikini/cloths__ bikini,__mywc/fashion/setups/swimwear/footwears__
+      cloths:
+        - " "
+        - "{|front-tie} {|side-tie}"
+        - cross halter neck
+        - micro
+        - o-ring
+        - sailor
+        - sarong
+        - slingshot
+        - sports
+        - strapless
+        - string
+    swimsuit:
+      do:
+        - __mywc/fashion/setups/swimwear/option/do__ __mywc/fashion/setups/swimwear/swimsuit/cloths__,__mywc/fashion/setups/swimwear/footwears__
+      cloths:
+        - "{|casual|strapless|off-shoulder} one-piece swimsuit"
+        - "{|competition|old|new} school swimsuit"
+        - backless swimsuit
+        - competition swimsuit
+        - dress swimsuit
+        - front zipper swimsuit
+        - monokini
+        - o-ring swimsuit
+        - side-tie swimsuit
+        - slingshot swimsuit
+        - swimsuit
+        - tankini
+    option:
+      do:
+        - "{0-2$$ $$__mywc/fashion/setups/swimwear/option/list__}"
+      list:
+        - __mywc/fashion/setups/swimwear/option/decorations__
+        - __mywc/fashion/setups/swimwear/option/patterns__
+      decorations:
+        - bow
+        - frilled
+      patterns:
+        - plaid
+        - polka dot
+        - striped
+    accessories:
+      do:
+        - "{0-7$$__mywc/fashion/setups/swimwear/accessories/list__}"
+      list:
+        - "{necklace|pendant}"
+        - anklet
+        - bracelet
+        - earrings
+        - flip-flops
+        - open jacket,{|hood up}
+        - __mywc/fashion/setups/swimwear/accessories/head/do__
+      head:
+        do:
+          - "{|sun|straw} hat"
+          - flower ornament
+          - swim cap
+          - __mywc/fashion/setups/swimwear/accessories/head/glasses__ {|on head}
+        glasses:
+          - "{|heart-shaped|star-shaped} sunglasses"
+          - glasses
   non-formal:
-    - casual dress
-    - highleg dress
-    - leotard
+    - casual dress,__mywc/fashion/one-pieces/socks/do__
+    - highleg dress,__mywc/fashion/one-pieces/footwears/do__
     - overall skirt
     - overalls
     - pinafore dress
-    - raincoat,{|rain boots}
-    - sailor dress
+    - sailor dress,__mywc/fashion/one-pieces/socks/do_
     - sundress
     - sweater dress
     - tabard
     - turtleneck dress
     - v neck dress
+  one-piece:
+  rainy:
+    - raincoat,{|rain boots}
+  lightly:
+  warmly:

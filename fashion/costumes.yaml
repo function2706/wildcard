@@ -14,6 +14,7 @@ costumes:
     - __mywc/fashion/costumes/detective/do__
     - __mywc/fashion/costumes/doctor/do__
     - __mywc/fashion/costumes/employee/do__
+    - __mywc/fashion/costumes/explorer/do__
     - __mywc/fashion/costumes/farmer/do__
     - __mywc/fashion/costumes/goth-roli/do__
     - __mywc/fashion/costumes/gym/do__
@@ -373,6 +374,36 @@ costumes:
         - cap
         - sleeves rolled up
         - watch
+  explorer:
+    do:
+      - __mywc/fashion/costumes/explorer/tops/do__,hat,{0-3$$__mywc/fashion/costumes/explorer/list__}
+    list:
+      - __mywc/fashion/costumes/explorer/bottoms__
+      - __mywc/fashion/costumes/explorer/footwears/do__
+      - __mywc/fashion/costumes/explorer/accessories/do__
+    tops:
+      do:
+        - safari jacket,__mywc/fashion/costumes/explorer/tops/option__
+      option:
+        - long sleeves
+        - short sleeves
+        - sleeves {rolled|pushed} up
+    bottoms:
+      - half pants
+      - pants
+    footwears:
+      do:
+        - socks,__mywc/fashion/costumes/explorer/footwears/option__
+      option:
+        - "{|desert|hiking} boots"
+        - leather sneakers
+    accessories:
+      do:
+        - "{1-3$$__mywc/fashion/costumes/explorer/accessories/list__}"
+      list:
+        - "{{|waist} pouch|backpack|bag}"
+        - gloves
+        - neckerchief
   farmer:
     do:
       - farmer,{0-3$$__mywc/fashion/costumes/farmer/list__}

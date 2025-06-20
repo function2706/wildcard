@@ -7,7 +7,6 @@ setups:
     do:
     list:
     tops:
-      - t-shirt
       - bomber jacket
       - cardigan
       - chore jacket
@@ -39,8 +38,6 @@ setups:
       - casual dress,__mywc/fashion/one-pieces/socks/do__
       - overall skirt
       - overalls
-      - pinafore dress
-      - sundress
       - sweater dress
       - turtleneck dress
     socks:
@@ -156,6 +153,8 @@ setups:
       color:
         - black
         - white
+  rainy:
+    - raincoat,{|rain boots}
   roomwear:
     do:
       - __mywc/fashion/setups/roomwear/cloths__,{0-2$$__mywc/fashion/setups/roomwear/list__}
@@ -175,6 +174,72 @@ setups:
       - slippers
     accessories:
       - towel on {head|neck}
+  summer:
+    do:
+      - __mywc/fashion/setups/summer/tops/do__,__mywc/fashion/setups/summer/bottoms__,{0-3$$__mywc/fashion/setups/summer/list__}
+      - __mywc/fashion/setups/summer/unis__,{0-3$$__mywc/fashion/setups/summer/list__}
+    list:
+      - __mywc/fashion/setups/summer/socks__
+      - __mywc/fashion/setups/summer/footwears__
+      - __mywc/fashion/setups/summer/accessories/do__
+    unis:
+      - pinafore dress
+      - sundress
+    tops:
+      do:
+        - __mywc/fashion/setups/summer/tops/color__ {|__mywc/fashion/setups/summer/tops/patterns__} __mywc/fashion/setups/summer/tops/type__,__mywc/fashion/setups/summer/tops/structions__
+      type:
+        - blouse
+        - camisole
+        - crop top
+        - polo shirt
+        - shirt
+        - t-shirt
+        - tanktop
+        - tube top
+        - tunic
+      structions:
+        - short sleeves
+        - sleeves {rolled|pushed} up
+        - sleeveless
+      patterns:
+        - camouflage
+        - checkered
+        - pinstripe
+        - plaid
+        - polka dot
+        - striped
+        - vertical-striped
+      color:
+        - " "
+        - black
+        - white
+    bottoms:
+      - "{|short} {shorts|skirt}"
+      - bike shorts
+      - hot pants
+      - pleated skirt
+      - suspender {shorts|skirt}
+    socks:
+      do:
+      list:
+        - ankle socks
+        - knee socks
+        - kneehighs
+        - thighhighs
+      color:
+        - " "
+        - black
+        - white
+    footwears:
+      do:
+        - "{flip-flops|crocs|{|ankle strap|mule|wedge} sandals}"
+        - sneakers
+    accessories:
+      do:
+        - "{0-6$$__mywc/fashion/setups/summer/accessories/list__}"
+      list:
+        - hat
   swimwear:
     do:
       - __mywc/fashion/setups/swimwear/bikini/do__
@@ -249,6 +314,22 @@ setups:
     - sailor dress,__mywc/fashion/one-pieces/socks/do_
     - tabard
     - v neck dress
-  rainy:
-    - raincoat,{|rain boots}
-  warmly:
+  sample:
+    do:
+      - sample,{0-6$$__mywc/fashion/setups/sample/list__}
+    list:
+      - __mywc/fashion/setups/sample/tops__
+      - __mywc/fashion/setups/sample/bottoms__
+      - __mywc/fashion/setups/sample/gloves__
+      - __mywc/fashion/setups/sample/socks__
+      - __mywc/fashion/setups/sample/footwears__
+      - __mywc/fashion/setups/sample/accessories/do__
+    tops:
+    bottoms:
+    gloves:
+    socks:
+    footwears:
+    accessories:
+      do:
+        - "{0-6$$__mywc/fashion/setups/sample/accessories/list__}"
+      list:

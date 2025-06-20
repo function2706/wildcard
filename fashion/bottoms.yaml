@@ -10,40 +10,26 @@ bottoms:
       - baggy pants
       - bell-bottoms
       - cargo pants
-      - drawstring pants
       - gaucho pants
-      - genie pants
-      - gym pants
       - hakama pants
       - harem pants
       - jeans
-      - joggers
       - pleated pants
-      - skinny jeans
-      - slacks
-      - straight pants
       - sweatpants
       - tight pants
       - track pants
-      - trousers
       - yoga pants
     shorts:
       - baggy shorts
       - bike shorts
-      - bikini shorts
       - buruma
       - cargo shorts
-      - culottes
-      - cycling shorts
       - dolphin shorts
-      - gym shorts
       - hakama shorts
       - hot pants
       - ripped shorts
-      - running shorts
       - sport shorts
-      - suspender shorts
-      - swim shorts
+      - track shorts
     random:
       do:
         - ${bottoms-type=!__mywc/fashion/bottoms/pants/random/base__}__mywc/fashion/bottoms/pants/random/option/do__
@@ -77,22 +63,15 @@ bottoms:
       - __mywc/color__ __mywc/fashion/bottoms/skirts/list__
       - __mywc/color__ __mywc/fashion/bottoms/skirts/random/do__
     list:
-      - apron skirt
       - bubble skirt
       - circle skirt
       - hakama skirt
-      - high-low skirt
       - hoop skirt
       - layered skirt
       - pencil skirt
-      - petticoat skirt
+      - petticoat
       - pleated skirt
-      - prairie skirt
-      - ruffled skirt
-      - school skirt
       - side-tie skirt
-      - suspender skirt
-      - swimsuit skirt
       - taut skirt
       - tennis skirt
       - tied skirt
@@ -142,19 +121,13 @@ bottoms:
       - __mywc/color__ __mywc/fashion/bottoms/panties/list__
       - __mywc/color__ __mywc/fashion/bottoms/panties/random/do__
     list:
-      - beach shorts
-      - bikini bottom
       - bloomers
       - boxers
-      - highleg panties
       - loincloth
-      - lowleg panties
       - seamless panties
       - side-tie panties
       - string panties
-      - swim briefs
       - thong
-      - underpants
     random:
       do:
         - "{1-3$$ $$__mywc/fashion/bottoms/panties/random/list__} panties"

@@ -17,7 +17,9 @@ unis:
     - sailor dress
     - satin dress
     - sequined dress
+    - smock
     - sundress
+    - suspender skirt
     - sweater dress
     - tube dress
     - turtleneck dress
@@ -30,11 +32,12 @@ unis:
     - dungarees
     - leotard
     - overalls
+    - suspender {pants|shorts}
     - tabard
     - tuxedo
   make-dress:
     do:
-      - __mywc/fashion/unis/make-dress/size__ {|__mywc/fashion/unis/make-dress/structures__ }__mywc/fashion/unis/make-dress/type__ dress,__mywc/fashion/unis/make-dress/decorations/do__
+      - __mywc/fashion/unis/make-dress/size__ {|__mywc/fashion/unis/make-dress/structions__ }__mywc/fashion/unis/make-dress/type__ dress,__mywc/fashion/unis/make-dress/decorations/do__
     type:
       - cross-laced
       - feather
@@ -51,7 +54,7 @@ unis:
       - midi
       - micro
       - short
-    structures:
+    structions:
       - backless
       - collared
       - halter neck

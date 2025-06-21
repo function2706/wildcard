@@ -141,7 +141,7 @@ costumes:
         - sleeves rolled up
   bartender:
     do:
-      - bartender,white shirt,trousers,{0-2$$__mywc/fashion/costumes/bartender/list__}
+      - bartender,white shirt,pants,{0-2$$__mywc/fashion/costumes/bartender/list__}
     list:
       - __mywc/fashion/costumes/bartender/tops__
       - __mywc/fashion/costumes/bartender/accessories/do__
@@ -899,7 +899,7 @@ costumes:
         - watch
   pilot:
     do:
-      - pilot,trousers,{0-3$$__mywc/fashion/costumes/pilot/list__}
+      - pilot,pants,{0-3$$__mywc/fashion/costumes/pilot/list__}
     list:
       - __mywc/fashion/costumes/pilot/tops__
       - __mywc/fashion/costumes/pilot/gloves__
@@ -985,7 +985,7 @@ costumes:
         - rosary
   prince:
     do:
-      - prince costume,{deep green|white|wine red} jacket,epaulettes,slacks,pants,__mywc/fashion/costumes/prince/accessories/do__
+      - prince costume,{deep green|white|wine red} jacket,epaulettes,pants,__mywc/fashion/costumes/prince/accessories/do__
     accessories:
       do:
         - "{0-3$$__mywc/fashion/costumes/prince/accessories/list__}"
@@ -1328,9 +1328,9 @@ costumes:
     do:
       - "{0-2$$ $$__mywc/fashion/costumes/wedding/list__} __mywc/fashion/costumes/wedding/color__ wedding dress,__mywc/fashion/costumes/wedding/accessories/do__"
     list:
-      - __mywc/fashion/costumes/wedding/structures__
+      - __mywc/fashion/costumes/wedding/structions__
       - __mywc/fashion/costumes/wedding/decorations__
-    structures:
+    structions:
       - backless
       - halter neck
       - off-shoulder
@@ -1358,7 +1358,7 @@ costumes:
       - __mywc/fashion/costumes/witch/accessories/do__
     cloths:
       do:
-        - "{0-2$$ $$__mywc/fashion/costumes/witch/cloths/option__|__mywc/fashion/costumes/witch/cloths/structures__} __mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/cloths/list__"
+        - "{|__mywc/fashion/costumes/witch/cloths/option__} __mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/cloths/list__,{|__mywc/fashion/costumes/witch/cloths/structions__}"
       list:
         - cocktail dress
         - evening dress
@@ -1368,7 +1368,7 @@ costumes:
         - satin
         - taut
         - velvet
-      structures:
+      structions:
         - long sleeves
         - off-shoulder
         - puffy {|long|short} sleeves

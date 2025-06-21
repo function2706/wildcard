@@ -16,33 +16,28 @@ tops:
         - blazer jacket
         - bomber jacket
         - cardigan
-        - chore jacket
         - collared jacket
         - cropped jacket
         - down jacket
         - frilled jacket
-        - fur jacket
-        - fur-trimmed jacket
+        - fur{|-trimmed} jacket
         - hooded jacket
         - jean jacket
         - leather jacket
         - letterman jacket
-        - midriff jacket
         - military jacket
         - padded jacket
-        - puffer jacket
         - quilted jacket
         - raincoat
         - safari jacket
-        - ski jacket
         - sleeveless jacket
-        - sports jersey
         - suit jacket
         - sukajan
         - tied jacket
         - track jacket
         - tuxedo jacket
         - vest
+        - waistcoat
         - windbreaker
       state:
         - " "
@@ -53,19 +48,13 @@ tops:
       list:
         - collared coat
         - duffel coat
-        - frock coat
-        - fur coat
-        - fur-trimmed coat
+        - fur{|-trimmed} coat
+        - hooded coat
         - lab coat
         - long coat
-        - hooded coat
         - overcoat
-        - pea coat
-        - sport coat
         - trench coat
-        - waistcoat
         - winter coat
-        - wool coat
       state:
         - " "
         - open coat
@@ -101,76 +90,104 @@ tops:
       - __mywc/color__ __mywc/fashion/tops/inners/with-buttons/do__
     opened:
       - __mywc/color__ __mywc/fashion/tops/inners/with-buttons/list__,open shirt
-      - __mywc/color__ __mywc/fashion/tops/inners/with-buttons/random/do__,open shirt
+      - __mywc/color__ __mywc/fashion/tops/inners/with-buttons/shirts/do__,open shirt
     without-buttons:
       do:
         - __mywc/fashion/tops/inners/without-buttons/list__
+        - __mywc/fashion/tops/inners/without-buttons/t-shirts/do__
+        - __mywc/fashion/tops/inners/without-buttons/sweaters/do__
       list:
+        - "{|camouflage|polka dot|striped} hooded shirt"
+        - "{|camouflage|polka dot|striped} parka"
+        - "{|camouflage|plaid|polka dot|striped} strapless shirt"
+        - "{|camouflage|plaid|polka dot|striped} tank top"
+        - "{|camouflage|plaid|polka dot|striped} taut shirt"
         - babydoll
         - bustier
         - camisole
-        - cashmere
         - compression shirt
-        - corset top
-        - cropped {shirt|top|knit},__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - fleece
-        - fur-trimmed shirt
-        - gym shirt,__mywc/fashion/tops/inners/options/sleeves__
-        - halter {shirt|top}
-        - hooded shirt
-        - knit top
-        - long shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - loose shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
+        - gym shirt,{|{long|short} sleeves|sleeves {pushed|rolled} up}
         - mesh top
-        - off-shoulder shirt
-        - oversized shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - parka,__mywc/fashion/tops/inners/options/patterns/do__
-        - polo shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - print shirt,__mywc/fashion/tops/inners/options/sleeves__
-        - scoop neck top,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - side-tie shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - single-shoulder shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - strapless shirt
-        - sweater,__mywc/fashion/tops/inners/options/patterns/do__
-        - sweatshirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - t-shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - tank top,__mywc/fashion/tops/inners/options/patterns/do__
-        - tied shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - taut shirt
         - tunic
-        - tunic sweater
-        - turtleneck shirt
-        - v-neck shirt,__mywc/fashion/tops/inners/without-buttons/random-opt/do__
-        - v-neck sweater,__mywc/fashion/tops/inners/options/patterns/do__
-      random-opt:
+        - turtleneck shirt,{|sleeveless|sleeves {pushed|rolled} up}
+      t-shirts:
         do:
-          - "{0-2$$__mywc/fashion/tops/inners/without-buttons/random-opt/list__}"
+          - "{0-2$$ $$__mywc/fashion/tops/inners/without-buttons/t-shirts/list__} {t-|__mywc/fashion/tops/inners/without-buttons/t-shirts/type__ }shirt,{|__mywc/fashion/tops/inners/without-buttons/t-shirts/structions__}"
         list:
-          - __mywc/fashion/tops/inners/options/sleeves__
-          - __mywc/fashion/tops/inners/options/patterns/do__
+          - __mywc/fashion/tops/inners/without-buttons/t-shirts/decorations__
+          - __mywc/fashion/tops/inners/without-buttons/t-shirts/patterns__
+        type:
+          - "{off|single}-shoulder"
+          - cropped
+          - long
+          - loose
+          - oversized
+          - polo
+          - scoop neck
+          - side-tie
+          - tied
+          - v-neck
+        structions:
+          - long sleeves
+          - short sleeves
+          - sleeveless
+          - sleeves {pushed|rolled} up
+        decorations:
+          - bow
+          - frilled
+          - fur-trimmed
+          - ribbon-trimmed
+        patterns:
+          - camouflage
+          - pinstripe
+          - plaid
+          - polka dot
+          - print
+          - striped
+          - vertical-striped
+      sweaters:
+        do:
+          - "__mywc/fashion/tops/inners/without-buttons/sweaters/type__ sweater,{|__mywc/fashion/tops/inners/without-buttons/sweaters/structions__}"
+        type:
+          - cropped
+          - knit
+          - v-neck
+        structions:
+          - long sleeves
+          - sleeves {pushed|rolled} up
     with-buttons:
       do:
         - __mywc/fashion/tops/inners/with-buttons/list__,__mywc/fashion/tops/inners/with-buttons/button-states/do__
-        - __mywc/fashion/tops/inners/with-buttons/random/do__,__mywc/fashion/tops/inners/with-buttons/button-states/do__
+        - __mywc/fashion/tops/inners/with-buttons/shirts/do__,__mywc/fashion/tops/inners/with-buttons/button-states/do__
       list:
-        - bell sleeve blouse
-        - blouse
-        - chiffon blouse
-        - frilled shirt
-        - hawaiian shirt
-        - lace-trimmed shirt
-        - ribbon-trimmed shirt
-        - sideless shirt
-        - sleeveless shirt
-        - smock blouse
-        - tunic blouse
-        - wrap blouse
-      random:
+        - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ blouse,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
+        - hawaiian shirt__mywc/fashion/tops/inners/with-buttons/shirts/structions__
+        - sideless shirt,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
+      shirts:
         do:
-          - __mywc/fashion/tops/inners/with-buttons/random/base__,__mywc/fashion/tops/inners/options/sleeves__,__mywc/fashion/tops/inners/options/patterns/do__
-        base:
-          - shirt
-          - collared shirt
+          - "{0-2$$ $$__mywc/fashion/tops/inners/with-buttons/shirts/list__} collared shirt,{|__mywc/fashion/tops/inners/with-buttons/shirts/structions__}"
+        list:
+          - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__
+          - __mywc/fashion/tops/inners/with-buttons/shirts/patterns__
+        structions:
+          - long sleeves
+          - short sleeves
+          - sleeveless
+          - sleeves {pushed|rolled} up
+        decorations:
+          - bow
+          - frilled
+          - fur-trimmed
+          - lace-trimmed
+          - ribbon-trimmed
+        patterns:
+          - camouflage
+          - checkered
+          - pinstripe
+          - plaid
+          - polka dot
+          - striped
+          - vertical-striped
       button-states:
         do:
           - " "
@@ -178,23 +195,6 @@ tops:
         list:
           - open shirt
           - unbuttoned shirt
-    options:
-      sleeves:
-        - long sleeves,{|sleeves pushed up|sleeves rolled up}
-        - short sleeves
-        - sleeveless
-      patterns:
-        do:
-          - " "
-          - __mywc/fashion/tops/inners/options/patterns/list__
-        list:
-          - camouflage shirt
-          - checkered shirt
-          - pinstripe shirt
-          - plaid shirt
-          - polka dot shirt
-          - striped shirt
-          - vertical-striped shirt
   bras:
     do:
       - __mywc/color__ __mywc/fashion/tops/bras/list__
@@ -202,31 +202,30 @@ tops:
     list:
       - "{|heart|star|cross|bandaids on} pasties"
       - bandeau
-      - bow bra
       - cupless bra
-      - frilled bra
-      - front-hook bra
-      - front-tie bra
-      - lace-trimmed bra
       - latex bra
-      - strapless bra
       - tube top
+      - "{|__mywc/fashion/tops/bras/random/patterns__} {sports|training} bra"
     random:
       do:
-        - __mywc/fashion/tops/bras/random/base__,__mywc/fashion/tops/bras/random/patterns/do__
+        - "{0-2$$ $$__mywc/fashion/tops/bras/random/list__} __mywc/fashion/tops/bras/random/base__"
+      list:
+        - __mywc/fashion/tops/bras/random/decorations__
+        - __mywc/fashion/tops/bras/random/patterns__
       base:
         - bra
-        - sports bra
-        - training bra
+        - strapless bra
+      decorations:
+        - bow
+        - frilled
+        - front-hook
+        - front-tie
+        - lace-trimmed
       patterns:
-        do:
-          - " "
-          - __mywc/fashion/tops/bras/random/patterns/list__
-        list:
-          - plaid bra
-          - polka dot bra
-          - striped bra
-          - vertical-striped bra
+        - plaid
+        - polka dot
+        - striped
+        - vertical-striped
   nsfw:
     do:
       - topless

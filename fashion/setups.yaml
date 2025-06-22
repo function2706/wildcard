@@ -2,6 +2,7 @@ setups:
   random:
     - __mywc/fashion/setups/formal/do__
     - __mywc/fashion/setups/roomwear/do__
+    - __mywc/fashion/setups/summer/do__
     - __mywc/fashion/setups/swimwear/do__
   casual:
     do:
@@ -9,24 +10,18 @@ setups:
     tops:
       - bomber jacket
       - cardigan
-      - chore jacket
       - collared jacket
       - cropped jacket
       - down jacket
       - frilled jacket
-      - fur jacket
-      - fur-trimmed jacket
+      - fur{|-trimmed} jacket
       - hooded jacket
       - jean jacket
       - leather jacket
       - letterman jacket
-      - midriff jacket
       - padded jacket
-      - puffer jacket
       - quilted jacket
-      - ski jacket
       - sleeveless jacket
-      - sports jersey
       - sukajan
       - tied jacket
       - windbreaker
@@ -176,37 +171,29 @@ setups:
       - towel on {head|neck}
   summer:
     do:
-      - __mywc/fashion/setups/summer/tops/do__,__mywc/fashion/setups/summer/bottoms__,{0-3$$__mywc/fashion/setups/summer/list__}
-      - __mywc/fashion/setups/summer/unis__,{0-3$$__mywc/fashion/setups/summer/list__}
+      - __mywc/fashion/setups/summer/tops/do__,__mywc/fashion/setups/summer/bottoms__,{0-2$$__mywc/fashion/setups/summer/list__}
+      - __mywc/fashion/setups/summer/unis__,{0-2$$__mywc/fashion/setups/summer/list__}
     list:
-      - __mywc/fashion/setups/summer/socks__
-      - __mywc/fashion/setups/summer/footwears__
+      - __mywc/fashion/setups/summer/footwears/do__
       - __mywc/fashion/setups/summer/accessories/do__
     unis:
-      - pinafore dress
+      - casual dress,__mywc/fashion/setups/summer/tops/structions__
+      - pinafore dress,__mywc/fashion/setups/summer/tops/structions__
+      - sailor dress
       - sundress
     tops:
       do:
-        - __mywc/fashion/setups/summer/tops/color__ {|__mywc/fashion/setups/summer/tops/patterns__} __mywc/fashion/setups/summer/tops/type__,__mywc/fashion/setups/summer/tops/structions__
-      type:
-        - blouse
+        - "{|camouflage|plaid|polka dot|striped} strapless shirt"
+        - "{|camouflage|plaid|polka dot|striped} tank top"
         - camisole
-        - crop top
-        - polo shirt
-        - shirt
-        - t-shirt
-        - tanktop
-        - tube top
-        - tunic
+        - __mywc/fashion/setups/summer/tops/color__ {|__mywc/fashion/setups/summer/tops/patterns__} t-shirt,__mywc/fashion/setups/summer/tops/structions__
+        - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ blouse,__mywc/fashion/setups/summer/tops/structions__
       structions:
         - short sleeves
         - sleeves {rolled|pushed} up
         - sleeveless
       patterns:
         - camouflage
-        - checkered
-        - pinstripe
-        - plaid
         - polka dot
         - striped
         - vertical-striped
@@ -216,30 +203,36 @@ setups:
         - white
     bottoms:
       - "{|short} {shorts|skirt}"
-      - bike shorts
       - hot pants
       - pleated skirt
-      - suspender {shorts|skirt}
-    socks:
-      do:
-      list:
-        - ankle socks
-        - knee socks
-        - kneehighs
-        - thighhighs
-      color:
-        - " "
-        - black
-        - white
     footwears:
       do:
-        - "{flip-flops|crocs|{|ankle strap|mule|wedge} sandals}"
-        - sneakers
+        - "{flip-flops|{|ankle strap|mule|wedge} sandals}"
+        - sneakers,__mywc/fashion/setups/summer/footwears/socks/do__
+      socks:
+        do:
+          - __mywc/fashion/setups/summer/footwears/socks/color__ __mywc/fashion/setups/summer/footwears/socks/type__
+        type:
+          - ankle socks
+          - knee socks
+          - kneehighs
+          - thighhighs
+        color:
+          - " "
+          - black
+          - white
     accessories:
       do:
-        - "{0-6$$__mywc/fashion/setups/summer/accessories/list__}"
+        - "{0-2$$__mywc/fashion/setups/summer/accessories/list__}"
       list:
-        - hat
+        - __mywc/fashion/setups/summer/accessories/head__
+        - __mywc/fashion/setups/summer/accessories/face__
+      head:
+        - "{{|visor} cap|snapback}"
+        - "{|straw|sun} hat,{|hat {bow|flower}}"
+        - headpin
+      face:
+        - "{|{|sun}glasses}"
   swimwear:
     do:
       - __mywc/fashion/setups/swimwear/bikini/do__
@@ -266,6 +259,7 @@ setups:
         - "{|casual|strapless|off-shoulder} one-piece swimsuit"
         - "{|competition|old|new} school swimsuit"
         - backless swimsuit
+        - bikini shorts,swimsuit
         - competition swimsuit
         - dress swimsuit
         - front zipper swimsuit
@@ -273,7 +267,9 @@ setups:
         - o-ring swimsuit
         - side-tie swimsuit
         - slingshot swimsuit
+        - swim briefs,swimsuit
         - swimsuit
+        - swimsuit skirt,swimsuit
         - tankini
     option:
       do:
@@ -308,12 +304,6 @@ setups:
         glasses:
           - "{|heart-shaped|star-shaped} sunglasses"
           - glasses
-  non-formal:
-    - highleg dress,__mywc/fashion/one-pieces/footwears/do__
-    - robe
-    - sailor dress,__mywc/fashion/one-pieces/socks/do_
-    - tabard
-    - v neck dress
   sample:
     do:
       - sample,{0-6$$__mywc/fashion/setups/sample/list__}
@@ -333,3 +323,15 @@ setups:
       do:
         - "{0-6$$__mywc/fashion/setups/sample/accessories/list__}"
       list:
+        - __mywc/fashion/setups/sample/accessories/head/__
+        - __mywc/fashion/setups/sample/accessories/face/__
+        - __mywc/fashion/setups/sample/accessories/neck/__
+        - __mywc/fashion/setups/sample/accessories/hand/__
+        - __mywc/color__ __mywc/fashion/setups/sample/accessories/bags__
+        - __mywc/color__ __mywc/fashion/setups/sample/accessories/one-points__
+      head:
+      face:
+      neck:
+      hand:
+      bags:
+      one-points:

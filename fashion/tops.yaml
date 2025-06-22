@@ -161,7 +161,7 @@ tops:
         - __mywc/fashion/tops/inners/with-buttons/shirts/do__,__mywc/fashion/tops/inners/with-buttons/button-states/do__
       list:
         - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ blouse,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
-        - hawaiian shirt__mywc/fashion/tops/inners/with-buttons/shirts/structions__
+        - hawaiian shirt,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
         - sideless shirt,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
       shirts:
         do:

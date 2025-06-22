@@ -6,7 +6,7 @@ random:
   copyright:
     - ${subject=!__mywc/subject/copyright__}__mywc/random/base__
   base:
-    - "{2::${subject},__mywc/at-random__|1::${subject},__mywc/at-special__}"
+    - "{2::${subject:__mywc/subject/mob__},__mywc/at-random__|1::${subject:${subject:__mywc/subject/mob__},__mywc/at-random__},__mywc/at-special__}"
 at-random:
   - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/composition/random__}"
 at-special:

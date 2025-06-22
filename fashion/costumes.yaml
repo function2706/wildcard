@@ -161,11 +161,11 @@ costumes:
         - sleeves rolled up
   bdsm:
     do:
-      - ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}${bdsm-color} __mywc/fashion/costumes/bdsm/tops__,${bdsm-color} __mywc/fashion/costumes/bdsm/bottoms__,{0-4$$__mywc/fashion/costumes/bdsm/list__}
+      - ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}${bdsm-color:black} __mywc/fashion/costumes/bdsm/tops__,${bdsm-color:black} __mywc/fashion/costumes/bdsm/bottoms__,{0-4$$__mywc/fashion/costumes/bdsm/list__}
     list:
-      - ${bdsm-color} __mywc/fashion/costumes/bdsm/gloves__
+      - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/gloves__
       - __mywc/fashion/costumes/bdsm/socks__
-      - ${bdsm-color} __mywc/fashion/costumes/bdsm/footwears/do__
+      - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/footwears/do__
       - __mywc/fashion/costumes/bdsm/accessories/do__
     tops:
       - latex {|strapless} bra
@@ -175,8 +175,8 @@ costumes:
     gloves:
       - latex elbow gloves
     socks:
-      - "{${bdsm-color}|black|brown} garter belt"
-      - "{${bdsm-color}|black|brown|fishnet} thighhighs"
+      - "{${bdsm-color:black}|black|brown} garter belt"
+      - "{${bdsm-color:black}|black|brown|fishnet} thighhighs"
     footwears:
       do:
         - __mywc/fashion/costumes/bdsm/footwears/boots/do__
@@ -435,7 +435,7 @@ costumes:
       - __mywc/fashion/costumes/formal/suit/do__
     dress:
       do:
-        - ${dress-color=!__mywc/fashion/costumes/formal/dress/color__}${dress-color} __mywc/fashion/costumes/formal/dress/list__
+        - ${dress-color=!__mywc/fashion/costumes/formal/dress/color__}${dress-color:black} __mywc/fashion/costumes/formal/dress/list__
       list:
         - ball gown,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
         - cocktail dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
@@ -453,10 +453,10 @@ costumes:
         - __mywc/fashion/unis/make-dress/do__,{0-3$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/socks/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
       gloves:
         do:
-          - __mywc/fashion/costumes/formal/dress/socks/color__ {|lace} {|elbow} gloves
+          - __mywc/fashion/costumes/formal/dress/gloves/color__ {|lace} {|elbow} gloves
         color:
           - " "
-          - ${dress-color}
+          - ${dress-color:black}
           - black
           - white
       socks:
@@ -469,10 +469,10 @@ costumes:
           - white
       footwears:
         do:
-          - __mywc/fashion/costumes/formal/dress/footwears/color__ __mywc/fashion/footwears/heels/do__
+          - __mywc/fashion/costumes/formal/dress/footwears/color__ __mywc/fashion/footwears/heels/list__
         color:
           - " "
-          - ${dress-color}
+          - ${dress-color:black}
           - black
           - white
       accessories:
@@ -962,8 +962,8 @@ costumes:
     do:
       - ${nurse-color=!__mywc/fashion/costumes/nurse/color__}nurse,{0-4$$__mywc/fashion/costumes/nurse/list__}
     list:
-      - ${nurse-color} __mywc/fashion/costumes/nurse/tops__
-      - ${nurse-color} __mywc/fashion/costumes/nurse/bottoms__
+      - ${nurse-color:white} __mywc/fashion/costumes/nurse/tops__
+      - ${nurse-color:white} __mywc/fashion/costumes/nurse/bottoms__
       - __mywc/fashion/costumes/nurse/footwears__
       - __mywc/fashion/costumes/nurse/accessories/do__
     tops:
@@ -982,7 +982,7 @@ costumes:
         - glasses
         - lanyard
         - medical gloves
-        - ${nurse-color} nurse cap
+        - ${nurse-color:white} nurse cap
         - stethoscope on neck
     color:
       - white
@@ -1248,17 +1248,17 @@ costumes:
         - sailor cap
   santa:
     do:
-      - ${santa-color=!__mywc/fashion/costumes/santa/colors__}${santa-color} santa costume,__mywc/fashion/costumes/santa/footwears__,{0-3$$__mywc/fashion/costumes/santa/accessories__}
+      - ${santa-color=!__mywc/fashion/costumes/santa/colors__}${santa-color:red} santa costume,__mywc/fashion/costumes/santa/footwears__,{0-3$$__mywc/fashion/costumes/santa/accessories__}
     colors:
       - red
       - black
     footwears:
       - " "
-      - ${santa-color} fur boots
+      - ${santa-color:red} fur boots
     accessories:
-      - "${santa-color} {|elbow} gloves"
+      - "${santa-color:red} {|elbow} gloves"
       - "{black|brown|white} pantyhose"
-      - "${santa-color} hat"
+      - "${santa-color:red} hat"
   school:
     do:
       - school uniform,{0-4$$__mywc/fashion/costumes/school/list__}

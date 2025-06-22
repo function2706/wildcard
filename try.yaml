@@ -1,1 +1,32 @@
 try:
+  sample:
+    do:
+      - sample,{0-6$$__mywc/fashion/setups/sample/list__}
+    list:
+      - __mywc/fashion/setups/sample/tops__
+      - __mywc/fashion/setups/sample/bottoms__
+      - __mywc/fashion/setups/sample/gloves__
+      - __mywc/fashion/setups/sample/socks__
+      - __mywc/fashion/setups/sample/footwears__
+      - __mywc/fashion/setups/sample/accessories/do__
+    tops:
+    bottoms:
+    gloves:
+    socks:
+    footwears:
+    accessories:
+      do:
+        - "{0-6$$__mywc/fashion/setups/sample/accessories/list__}"
+      list:
+        - __mywc/fashion/setups/sample/accessories/head/__
+        - __mywc/fashion/setups/sample/accessories/face/__
+        - __mywc/fashion/setups/sample/accessories/neck/__
+        - __mywc/fashion/setups/sample/accessories/hand/__
+        - __mywc/color__ __mywc/fashion/setups/sample/accessories/bags__
+        - __mywc/color__ __mywc/fashion/setups/sample/accessories/one-points__
+      head:
+      face:
+      neck:
+      hand:
+      bags:
+      one-points:

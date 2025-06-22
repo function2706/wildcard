@@ -1,6 +1,6 @@
 unis:
   random:
-    - "__mywc/color__ {6::__mywc/fashion/unis/flippable__|2::__mywc/fashion/unis/unflippable__|1::__mywc/fashion/unis/nsfw/do__}"
+    - "__mywc/color__ {6::__mywc/fashion/unis/flippable__|2::__mywc/fashion/unis/unflippable__|1::__mywc/fashion/unis/nsfw__}"
   flippable:
     - casual dress
     - cocktail dress
@@ -76,6 +76,5 @@ unis:
         - dress flower
         - dress ribbon
   nsfw:
-    do:
-      - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/panties/do__,pantyshot
-      - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/nsfw/option__
+    - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/panties/do__,pantyshot
+    - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/nsfw/option__

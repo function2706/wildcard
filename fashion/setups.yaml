@@ -2,42 +2,10 @@ setups:
   random:
     - __mywc/fashion/setups/formal/do__
     - __mywc/fashion/setups/roomwear/do__
-    - __mywc/fashion/setups/rainy/do__
+    - __mywc/fashion/setups/rainy__
     - __mywc/fashion/setups/summer/do__
     - __mywc/fashion/setups/swimwear/do__
     - __mywc/fashion/setups/winter/do__
-  casual:
-    do:
-    list:
-    tops:
-      - bomber jacket
-      - cardigan
-      - collared jacket
-      - cropped jacket
-      - down jacket
-      - frilled jacket
-      - fur{|-trimmed} jacket
-      - hooded jacket
-      - jean jacket
-      - leather jacket
-      - letterman jacket
-      - padded jacket
-      - quilted jacket
-      - sleeveless jacket
-      - sukajan
-      - tied jacket
-      - windbreaker
-    bottoms:
-      - jeans
-      - pants
-      - skirts
-    unis:
-      - casual dress,__mywc/fashion/one-pieces/socks/do__
-      - overall skirt
-      - overalls
-      - sweater dress
-      - turtleneck dress
-    socks:
   formal:
     do:
       - __mywc/fashion/setups/formal/dress/do__
@@ -154,23 +122,71 @@ setups:
     - raincoat,{|rain boots}
   roomwear:
     do:
-      - __mywc/fashion/setups/roomwear/cloths__,{0-2$$__mywc/fashion/setups/roomwear/list__}
-    list:
-      - __mywc/fashion/setups/roomwear/footwears__
-      - __mywc/fashion/setups/roomwear/accessories__
-    cloths:
-      - babydoll
-      - bathrobe
-      - camisole
-      - loungewear
-      - naked towel
-      - negligee
-      - nightwear
-      - pajamas
-    footwears:
-      - slippers
-    accessories:
-      - towel on {head|neck}
+      - __mywc/fashion/setups/roomwear/bathing__
+      - __mywc/fashion/setups/roomwear/bedding/do__
+      - __mywc/fashion/setups/roomwear/cooking__
+      - __mywc/fashion/setups/roomwear/lounging/do__
+    bathing:
+      - bathrobe,towel on {head|neck}
+      - naked towel,towel on {head|neck}
+    bedding:
+      do:
+        - __mywc/fashion/setups/roomwear/bedding/cloths__,{4::|1::__mywc/fashion/setups/roomwear/bedding/caps__}
+      cloths:
+        - negligee
+        - nightwear
+        - pajamas
+      caps:
+        - mob cap
+        - nightcap
+    cooking:
+      - apron,{|__mywc/fashion/setups/roomwear/lounging/warm-sets/do__}
+    lounging:
+      do:
+        - __mywc/fashion/setups/roomwear/lounging/unis__,__mywc/fashion/setups/roomwear/lounging/cool-sets/accessories/do__
+        - __mywc/fashion/setups/roomwear/lounging/cool-sets/do__
+        - __mywc/fashion/setups/roomwear/lounging/warm-sets/do__
+      unis:
+        - babydoll
+        - camisole
+      cool-sets:
+        do:
+          - __mywc/fashion/setups/roomwear/lounging/cool-sets/tops__,__mywc/fashion/setups/roomwear/lounging/cool-sets/bottoms__,__mywc/fashion/setups/roomwear/lounging/cool-sets/accessories/do__
+        tops:
+          - blouse,short sleeves
+          - t-shirt,short sleeves
+          - tank top
+        bottoms:
+          - denim shorts
+          - dolphin shorts
+          - shorts,{|drawstring}
+        accessories:
+          do:
+            - "{0-2$$__mywc/fashion/setups/roomwear/lounging//cool-sets/accessories/list__}"
+          list:
+            - "{|glasses}"
+            - slippers
+      warm-sets:
+        do:
+          - __mywc/fashion/setups/roomwear/lounging/warm-sets/tops__,__mywc/fashion/setups/roomwear/lounging/warm-sets/bottoms__,__mywc/fashion/setups/roomwear/lounging/warm-sets/accessories/do__
+        tops:
+          - cardigan,{|sleeves {pushed|rolled} up}
+          - hooded shirt,{|sleeves {pushed|rolled} up}
+          - loungewear,{|sleeves {pushed|rolled} up}
+          - polo shirt,{|sleeves {pushed|rolled} up}
+          - sweater,{|sleeves {pushed|rolled} up}
+          - turtleneck shirt,{|sleeves {pushed|rolled} up}
+        bottoms:
+          - jeans
+          - pants,{|drawstring}
+          - sweatpants
+        accessories:
+          do:
+            - "{0-3$$__mywc/fashion/setups/roomwear/lounging/warm-sets/accessories/list__}"
+          list:
+            - "{|glasses}"
+            - slippers
+            - socks
   summer:
     do:
       - __mywc/fashion/setups/summer/tops/do__,__mywc/fashion/setups/summer/bottoms__,{0-2$$__mywc/fashion/setups/summer/list__}
@@ -317,7 +333,6 @@ setups:
       - __mywc/fashion/setups/winter/footwears/do__
       - __mywc/fashion/setups/winter/accessories/do__
     tops:
-      - cardigan
       - collared coat
       - down jacket
       - duffel coat
@@ -328,6 +343,7 @@ setups:
       - long coat
       - overcoat
       - padded jacket
+      - parka
       - quilted jacket
       - trench coat
       - winter coat
@@ -353,51 +369,22 @@ setups:
       do:
         - "{0-4$$__mywc/fashion/setups/winter/accessories/list__}"
       list:
+        - "{1-2$$__mywc/fashion/setups/winter/accessories/face__}"
         - __mywc/fashion/setups/winter/accessories/head__
-        - __mywc/fashion/setups/winter/accessories/face__
         - __mywc/fashion/setups/winter/accessories/neck__
         - __mywc/fashion/setups/winter/accessories/body__
       head:
         - beanie
+        - earmuffs
         - fur hat
         - paddy cap
         - ushanka
       face:
         - "{|glasses}"
+        - "{|white|black} surgical mask"
       neck:
         - capelet
         - scarf
         - shawl
       body:
-        - gloves
-  sample:
-    do:
-      - sample,{0-6$$__mywc/fashion/setups/sample/list__}
-    list:
-      - __mywc/fashion/setups/sample/tops__
-      - __mywc/fashion/setups/sample/bottoms__
-      - __mywc/fashion/setups/sample/gloves__
-      - __mywc/fashion/setups/sample/socks__
-      - __mywc/fashion/setups/sample/footwears__
-      - __mywc/fashion/setups/sample/accessories/do__
-    tops:
-    bottoms:
-    gloves:
-    socks:
-    footwears:
-    accessories:
-      do:
-        - "{0-6$$__mywc/fashion/setups/sample/accessories/list__}"
-      list:
-        - __mywc/fashion/setups/sample/accessories/head/__
-        - __mywc/fashion/setups/sample/accessories/face/__
-        - __mywc/fashion/setups/sample/accessories/neck/__
-        - __mywc/fashion/setups/sample/accessories/hand/__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/bags__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/one-points__
-      head:
-      face:
-      neck:
-      hand:
-      bags:
-      one-points:
+        - mittens

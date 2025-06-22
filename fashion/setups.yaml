@@ -2,8 +2,10 @@ setups:
   random:
     - __mywc/fashion/setups/formal/do__
     - __mywc/fashion/setups/roomwear/do__
+    - __mywc/fashion/setups/rainy/do__
     - __mywc/fashion/setups/summer/do__
     - __mywc/fashion/setups/swimwear/do__
+    - __mywc/fashion/setups/winter/do__
   casual:
     do:
     list:
@@ -230,7 +232,11 @@ setups:
       head:
         - "{{|visor} cap|snapback}"
         - "{|straw|sun} hat,{|hat {bow|flower}}"
+        - bandana
+        - boater
+        - bucket hat
         - headpin
+        - panama hat
       face:
         - "{|{|sun}glasses}"
   swimwear:
@@ -304,6 +310,66 @@ setups:
         glasses:
           - "{|heart-shaped|star-shaped} sunglasses"
           - glasses
+  winter:
+    do:
+      - __mywc/fashion/setups/winter/tops__,__mywc/fashion/setups/winter/bottoms/do__,{0-2$$__mywc/fashion/setups/winter/list__}
+    list:
+      - __mywc/fashion/setups/winter/footwears/do__
+      - __mywc/fashion/setups/winter/accessories/do__
+    tops:
+      - cardigan
+      - collared coat
+      - down jacket
+      - duffel coat
+      - fur{|-trimmed} coat
+      - fur{|-trimmed} jacket
+      - hooded coat
+      - leather jacket
+      - long coat
+      - overcoat
+      - padded jacket
+      - quilted jacket
+      - trench coat
+      - winter coat
+    bottoms:
+      do:
+        - "{|long} {pants|skirt,{|pantyhose}}"
+        - "pleated {pants|skirt,{|pantyhose}}"
+        - jeans
+        - layered skirt,{|pantyhose}
+    footwears:
+      do:
+        - __mywc/fashion/setups/winter/footwears/color__ __mywc/fashion/setups/winter/footwears/type__
+      type:
+        - "{|ankle|knee|long|middle|short} {|braided|fur{|-trimmed}} boots"
+        - "{snow|boots} boots"
+        - loafers
+        - shoes
+      color:
+        - " "
+        - black
+        - brown
+    accessories:
+      do:
+        - "{0-4$$__mywc/fashion/setups/winter/accessories/list__}"
+      list:
+        - __mywc/fashion/setups/winter/accessories/head__
+        - __mywc/fashion/setups/winter/accessories/face__
+        - __mywc/fashion/setups/winter/accessories/neck__
+        - __mywc/fashion/setups/winter/accessories/body__
+      head:
+        - beanie
+        - fur hat
+        - paddy cap
+        - ushanka
+      face:
+        - "{|glasses}"
+      neck:
+        - capelet
+        - scarf
+        - shawl
+      body:
+        - gloves
   sample:
     do:
       - sample,{0-6$$__mywc/fashion/setups/sample/list__}

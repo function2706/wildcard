@@ -964,8 +964,8 @@ costumes:
         - "{1-4$$__mywc/fashion/costumes/police/accessories/list__}"
       list:
         - "{baton|pistol} on waist"
+        - "{hat|peaked cap}"
         - badge
-        - hat
         - necktie
   priest:
     do:

@@ -356,7 +356,7 @@ costumes:
     do:
       - ${doctor-list={0-2$$__mywc/fashion/costumes/doctor/list__}}__mywc/fashion/costumes/doctor/base__
     base:
-      - doctor,lab coat,${doctor-list=" "}
+      - doctor,lab coat,${doctor-list:" "}
     list:
       - __mywc/fashion/costumes/doctor/bottoms__
       - __mywc/fashion/costumes/doctor/accessories/do__
@@ -430,7 +430,7 @@ costumes:
     do:
       - ${farmer-list={0-3$$__mywc/fashion/costumes/farmer/list__}}__mywc/fashion/costumes/farmer/base__
     base:
-      - farmer,${farmer-list=" "}
+      - farmer,${farmer-list:" "}
     list:
       - __mywc/fashion/costumes/farmer/cloths__
       - __mywc/fashion/costumes/farmer/footwears__
@@ -453,7 +453,9 @@ costumes:
       - __mywc/fashion/costumes/formal/suit/do__
     dress:
       do:
-        - ${dress-color=!__mywc/fashion/costumes/formal/dress/color__}${dress-color:black} __mywc/fashion/costumes/formal/dress/list__
+        - ${formal-dress-list=__mywc/fashion/costumes/formal/dress/list__}__mywc/fashion/costumes/formal/base__
+      base:
+        - ${dress-color=!__mywc/fashion/costumes/formal/dress/color__}${dress-color:black} ${formal-dress-list:" "}
       list:
         - ball gown,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
         - cocktail dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
@@ -561,7 +563,9 @@ costumes:
         - white
   goth-roli:
     do:
-      - gothic lolita,{0-6$$__mywc/fashion/costumes/goth-roli/list__}
+      - ${goth-roli-list={0-6$$__mywc/fashion/costumes/goth-roli/list__}}__mywc/fashion/costumes/goth-roli/base__
+    base:
+      - gothic lolita,${goth-roli-list:" "}
     list:
       - __mywc/fashion/costumes/goth-roli/tops__
       - __mywc/fashion/costumes/goth-roli/bottoms__
@@ -593,7 +597,9 @@ costumes:
         - ribbons
   gym:
     do:
-      - gym uniform,{0-5$$__mywc/fashion/costumes/gym/list__}
+      - ${gym-list={0-5$$__mywc/fashion/costumes/gym/list__}}__mywc/fashion/costumes/gym/base__
+    base:
+      - gym uniform,${gym-list:" "}
     list:
       - __mywc/fashion/costumes/gym/tops__
       - __mywc/fashion/costumes/gym/bottoms__
@@ -628,7 +634,9 @@ costumes:
       - white
   hunter:
     do:
-      - hunter,{0-5$$__mywc/fashion/costumes/hunter/list__}
+      - ${hunter-list={0-5$$__mywc/fashion/costumes/hunter/list__}}__mywc/fashion/costumes/hunter/base__
+    base:
+      - hunter,${hunter-list:" "}
     list:
       - __mywc/fashion/costumes/hunter/tops__
       - __mywc/fashion/costumes/hunter/bottoms__
@@ -656,7 +664,9 @@ costumes:
         - quiver
   idol:
     do:
-      - __mywc/fashion/costumes/idol/color__ idol clothes,{0-6$$__mywc/fashion/costumes/idol/list__}
+      - ${idol-list={0-6$$__mywc/fashion/costumes/idol/list__}}__mywc/fashion/costumes/idol/base__
+    base:
+      - __mywc/fashion/costumes/idol/color__ idol clothes,${idol-list:" "}
     list:
       - __mywc/fashion/costumes/idol/tops/do__
       - __mywc/fashion/costumes/idol/bottoms__
@@ -705,7 +715,9 @@ costumes:
       - white
   japan:
     do:
-      - __mywc/fashion/costumes/japan/cloths__
+      - ${japan-list=__mywc/fashion/costumes/japan/cloths__}__mywc/fashion/costumes/japan/base__
+    base:
+      - ${japan-list:" "}
     cloths:
       - miko,red hakama,{|tabi,zori}
       - __mywc/fashion/costumes/japan/color__ furisode,{|tabi,sandal},{|kanzashi}
@@ -722,7 +734,9 @@ costumes:
       - "{|light} yellow"
   magical:
     do:
-      - __mywc/fashion/costumes/magical/color__ magical girl,{0-6$$__mywc/fashion/costumes/magical/list__}
+      - ${magical-list={0-6$$__mywc/fashion/costumes/magical/list__}}__mywc/fashion/costumes/magical/base__
+    base:
+      - __mywc/fashion/costumes/magical/color__ magical girl,${magical-list:" "}
     list:
       - __mywc/fashion/costumes/magical/tops__
       - __mywc/fashion/costumes/magical/bottoms__
@@ -774,7 +788,9 @@ costumes:
       - white
   maid:
     do:
-      - maid,apron,{0-6$$__mywc/fashion/costumes/maid/list__}
+      - ${maid-list={0-6$$__mywc/fashion/costumes/maid/list__}}__mywc/fashion/costumes/maid/base__
+    base:
+      - maid,apron,${maid-list:" "}
     list:
       - __mywc/fashion/costumes/maid/tops__
       - __mywc/fashion/costumes/maid/bottoms__
@@ -807,7 +823,9 @@ costumes:
         - ribbon
   marching-band:
     do:
-      - marching band,{0-4$$__mywc/fashion/costumes/marching-band/list__}
+      - ${marching-band-list={0-4$$__mywc/fashion/costumes/marching-band/list__}}__mywc/fashion/costumes/marching-band/base__
+    base:
+      - marching band,${marching-band-list:" "}
     list:
       - __mywc/fashion/costumes/marching-band/tops__
       - __mywc/fashion/costumes/marching-band/bottoms__
@@ -830,9 +848,11 @@ costumes:
         - shako cap
   military:
     do:
-      - military,commander,{0-5$$__mywc/fashion/costumes/military/commander/list__}
-      - military,soldier,{0-5$$__mywc/fashion/costumes/military/soldier/list__}
+      - ${military-commander-list={0-5$$__mywc/fashion/costumes/military/commander/list__}}__mywc/fashion/costumes/military/commander/base__
+      - ${military-soldier-list={0-5$$__mywc/fashion/costumes/military/soldier/list__}}__mywc/fashion/costumes/military/soldier/base__
     commander:
+      base:
+        - military,commander,${military-commander-list:" "}
       list:
         - __mywc/fashion/costumes/military/commander/tops__
         - __mywc/fashion/costumes/military/commander/bottoms__
@@ -861,6 +881,8 @@ costumes:
           - peaked cap
           - ribbon bar
     soldier:
+      base:
+        - military,soldier,${military-soldier-list:" "}
       list:
         - __mywc/fashion/costumes/military/soldier/tops__
         - __mywc/fashion/costumes/military/soldier/bottoms__
@@ -890,7 +912,9 @@ costumes:
         - green
   musician:
     do:
-      - musician costume,{0-3$$__mywc/fashion/costumes/musician/list__}
+      - ${musician-list={0-3$$__mywc/fashion/costumes/musician/list__}}__mywc/fashion/costumes/musician/base__
+    base:
+      - musician costume,${musician-list:" "}
     list:
       - __mywc/fashion/costumes/musician/tops__
       - __mywc/fashion/costumes/musician/bottoms/do__
@@ -922,7 +946,9 @@ costumes:
         - wristbands
   ninja:
     do:
-      - __mywc/fashion/costumes/ninja/color__ ninja,{0-4$$__mywc/fashion/costumes/ninja/list__}
+      - ${ninja-list={0-4$$__mywc/fashion/costumes/ninja/list__}}__mywc/fashion/costumes/ninja/base__
+    base:
+      - __mywc/fashion/costumes/ninja/color__ ninja,${ninja-list:" "}
     list:
       - __mywc/fashion/costumes/ninja/tops__
       - __mywc/fashion/costumes/ninja/bottoms__
@@ -952,7 +978,9 @@ costumes:
       - red
   nun:
     do:
-      - __mywc/fashion/costumes/nun/color__ nun,{0-4$$__mywc/fashion/costumes/nun/list__}
+      - ${nun-list={0-4$$__mywc/fashion/costumes/nun/list__}}__mywc/fashion/costumes/nun/base__
+    base:
+      - __mywc/fashion/costumes/nun/color__ nun,${nun-list:" "}
     list:
       - __mywc/fashion/costumes/nun/gloves__
       - __mywc/fashion/costumes/nun/socks__
@@ -978,7 +1006,9 @@ costumes:
       - white
   nurse:
     do:
-      - ${nurse-color=!__mywc/fashion/costumes/nurse/color__}nurse,{0-4$$__mywc/fashion/costumes/nurse/list__}
+      - ${nurse-list={0-4$$__mywc/fashion/costumes/nurse/list__}}__mywc/fashion/costumes/nurse/base__
+    base:
+      - ${nurse-color=!__mywc/fashion/costumes/nurse/color__}nurse,${nurse-list:" "}
     list:
       - ${nurse-color:white} __mywc/fashion/costumes/nurse/tops__
       - ${nurse-color:white} __mywc/fashion/costumes/nurse/bottoms__

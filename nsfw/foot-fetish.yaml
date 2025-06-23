@@ -21,20 +21,20 @@ foot-fetish:
       - __mywc/fashion/costumes/employee/do__
       - __mywc/nsfw/foot-fetish/fashion/explorer/do__
       - __mywc/nsfw/foot-fetish/fashion/farmer/do__
-      - __mywc/fashion/costumes/formal/do__
-      - __mywc/fashion/costumes/goth-roli/do__
-      - __mywc/fashion/costumes/gym/do__
-      - __mywc/fashion/costumes/hunter/do__
-      - __mywc/fashion/costumes/idol/do__
-      - __mywc/fashion/costumes/japan/do__
-      - __mywc/fashion/costumes/magical/do__
-      - __mywc/fashion/costumes/maid/do__
-      - __mywc/fashion/costumes/marching-band/do__
-      - __mywc/fashion/costumes/military/do__
-      - __mywc/fashion/costumes/musician/do__
-      - __mywc/fashion/costumes/ninja/do__
-      - __mywc/fashion/costumes/nun/do__
-      - __mywc/fashion/costumes/nurse/do__
+      - __mywc/nsfw/foot-fetish/fashion/formal/do__
+      - __mywc/nsfw/foot-fetish/fashion/goth-roli/do__
+      - __mywc/nsfw/foot-fetish/fashion/gym/do__
+      - __mywc/nsfw/foot-fetish/fashion/hunter/do__
+      - __mywc/nsfw/foot-fetish/fashion/idol/do__
+      - __mywc/nsfw/foot-fetish/fashion/japan/do__
+      - __mywc/nsfw/foot-fetish/fashion/magical/do__
+      - __mywc/nsfw/foot-fetish/fashion/maid/do__
+      - __mywc/nsfw/foot-fetish/fashion/marching-band/do__
+      - __mywc/nsfw/foot-fetish/fashion/military/do__
+      - __mywc/nsfw/foot-fetish/fashion/musician/do__
+      - __mywc/nsfw/foot-fetish/fashion/ninja/do__
+      - __mywc/nsfw/foot-fetish/fashion/nun/do__
+      - __mywc/nsfw/foot-fetish/fashion/nurse/do__
       - __mywc/fashion/costumes/office-lady/do__
       - __mywc/fashion/costumes/pilot/do__
       - __mywc/fashion/costumes/pirate/do__
@@ -122,3 +122,137 @@ foot-fetish:
       list:
         - __mywc/fashion/costumes/farmer/cloths__
         - __mywc/fashion/costumes/farmer/accessories/do__
+    formal:
+      do:
+        - ${formal-dress-list=__mywc/nsfw/foot-fetish/fashion/formal/dress-list__}__mywc/fashion/costumes/formal/dress/base__
+        - __mywc/fashion/costumes/formal/suit/do__
+      dress-list:
+        - ball gown,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - cocktail dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - evening dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - funeral dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - halter dress
+        - high slit dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - party dress
+        - pencil dress
+        - prom dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - satin dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - sequined dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - tube dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - velvet dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+        - __mywc/fashion/unis/make-dress/do__,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+    goth-roli:
+      do:
+        - ${goth-roli-list={0-4$$__mywc/nsfw/foot-fetish/fashion/goth-roli/list__}}__mywc/fashion/costumes/goth-roli/base__
+      list:
+        - __mywc/fashion/costumes/goth-roli/tops__
+        - __mywc/fashion/costumes/goth-roli/bottoms__
+        - __mywc/fashion/costumes/goth-roli/gloves__
+        - __mywc/fashion/costumes/goth-roli/accessories/do__
+    gym:
+      do:
+        - ${gym-list={0-3$$__mywc/nsfw/foot-fetish/fashion/gym/list__}}__mywc/fashion/costumes/gym/base__
+      list:
+        - __mywc/fashion/costumes/gym/tops__
+        - __mywc/fashion/costumes/gym/bottoms__
+        - __mywc/fashion/costumes/gym/accessories/do__
+    hunter:
+      do:
+        - ${hunter-list={0-4$$__mywc/nsfw/foot-fetish/fashion/hunter/list__}}__mywc/fashion/costumes/hunter/base__
+      list:
+        - __mywc/fashion/costumes/hunter/tops__
+        - __mywc/fashion/costumes/hunter/bottoms__
+        - __mywc/fashion/costumes/hunter/gloves__
+        - __mywc/fashion/costumes/hunter/accessories/do__
+    idol:
+      do:
+        - ${idol-list={0-4$$__mywc/nsfw/foot-fetish/fashion/idol/list__}}__mywc/fashion/costumes/idol/base__
+      list:
+        - __mywc/fashion/costumes/idol/tops/do__
+        - __mywc/fashion/costumes/idol/bottoms__
+        - __mywc/fashion/costumes/idol/gloves__
+        - __mywc/fashion/costumes/idol/accessories/do__
+    japan:
+      do:
+        - ${japan-list=__mywc/nsfw/foot-fetish/fashion/japan/list__}__mywc/fashion/costumes/japan/base__
+      list:
+        - miko,red hakama
+        - __mywc/fashion/costumes/japan/color__ furisode,{|kanzashi}
+        - __mywc/fashion/costumes/japan/color__ jinbei
+        - __mywc/fashion/costumes/japan/color__ kimono,{|kanzashi}
+        - __mywc/fashion/costumes/japan/color__ yukata
+    magical:
+      do:
+        - ${magical-list={0-4$$__mywc/nsfw/foot-fetish/fashion/magical/list__}}__mywc/fashion/costumes/magical/base__
+      list:
+        - __mywc/fashion/costumes/magical/tops__
+        - __mywc/fashion/costumes/magical/bottoms__
+        - __mywc/fashion/costumes/magical/gloves__
+        - __mywc/fashion/costumes/magical/accessories/do__
+    maid:
+      do:
+        - ${maid-list={0-4$$__mywc/nsfw/foot-fetish/fashion/maid/list__}}__mywc/fashion/costumes/maid/base__
+      list:
+        - __mywc/fashion/costumes/maid/tops__
+        - __mywc/fashion/costumes/maid/bottoms__
+        - __mywc/fashion/costumes/maid/gloves__
+        - __mywc/fashion/costumes/maid/accessories/do__
+    marching-band:
+      do:
+        - ${marching-band-list={0-4$$__mywc/nsfw/foot-fetish/fashion/marching-band/list__}}__mywc/fashion/costumes/marching-band/base__
+      list:
+        - __mywc/fashion/costumes/marching-band/tops__
+        - __mywc/nsfw/foot-fetish/fashion/marching-band/bottoms__
+        - __mywc/fashion/costumes/marching-band/gloves__
+        - __mywc/fashion/costumes/marching-band/accessories/do__
+      bottoms:
+        - "{|mini} skirt"
+        - pants
+    military:
+      do:
+        - ${military-commander-list={0-4$$__mywc/nsfw/foot-fetish/fashion/military/commander-list__}}__mywc/fashion/costumes/military/commander/base__
+        - ${military-soldier-list={0-4$$__mywc/nsfw/foot-fetish/fashion/military/soldier-list__}}__mywc/fashion/costumes/military/soldier/base__
+      commander-list:
+        - __mywc/fashion/costumes/military/commander/tops__
+        - __mywc/fashion/costumes/military/commander/bottoms__
+        - __mywc/fashion/costumes/military/commander/gloves__
+        - __mywc/fashion/costumes/military/commander/accessories/do__
+      soldier-list:
+        - __mywc/fashion/costumes/military/soldier/tops__
+        - __mywc/fashion/costumes/military/soldier/bottoms__
+        - __mywc/fashion/costumes/military/soldier/gloves__
+        - __mywc/fashion/costumes/military/soldier/accessories/do__
+    musician:
+      do:
+        - ${musician-list={0-3$$__mywc/nsfw/foot-fetish/fashion/musician/list__}}__mywc/fashion/costumes/musician/base__
+      list:
+        - __mywc/fashion/costumes/musician/tops__
+        - __mywc/nsfw/foot-fetish/fashion/musician/bottoms__
+        - __mywc/fashion/costumes/musician/accessories/do__
+      bottoms:
+        - "{|leather|torn} {jeans|pants}"
+        - "{|leather|torn} {shorts|skirt}"
+    ninja:
+      do:
+        - ${ninja-list={0-3$$__mywc/nsfw/foot-fetish/fashion/ninja/list__}}__mywc/fashion/costumes/ninja/base__
+      list:
+        - __mywc/fashion/costumes/ninja/tops__
+        - __mywc/fashion/costumes/ninja/bottoms__
+        - __mywc/fashion/costumes/ninja/accessories/do__
+    nun:
+      do:
+        - ${nun-list={0-3$$__mywc/nsfw/foot-fetish/fashion/nun/list__}}__mywc/fashion/costumes/nun/base__
+      list:
+        - __mywc/fashion/costumes/nun/gloves__
+        - __mywc/fashion/costumes/nun/socks__
+        - __mywc/fashion/costumes/nun/accessories/do__
+    nurse:
+      do:
+        - ${nurse-list={0-3$$__mywc/nsfw/foot-fetish/fashion/nurse/list__}}__mywc/fashion/costumes/nurse/base__
+      list:
+        - ${nurse-color:white} __mywc/fashion/costumes/nurse/tops__
+        - ${nurse-color:white} __mywc/nsfw/foot-fetish/fashion/nurse/bottoms__
+        - __mywc/fashion/costumes/nurse/accessories/do__
+      bottoms:
+        - maxi skirt
+        - pants

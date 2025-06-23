@@ -57,64 +57,6 @@ costumes:
     - __mywc/fashion/costumes/witch/do__
     - __mywc/fashion/costumes/winter/do__
     - __mywc/fashion/costumes/wizard/do__
-  without-footwears:
-    - __mywc/fashion/costumes/artist/do__
-    - __mywc/fashion/costumes/assassin/without-footwears__
-    - __mywc/fashion/costumes/ballerina/without-footwears__
-    - __mywc/fashion/costumes/barista/do__
-    - __mywc/fashion/costumes/bartender/do__
-    - __mywc/fashion/costumes/bdsm/without-footwears__
-    - __mywc/fashion/costumes/bunny-girl/do__
-    - __mywc/fashion/costumes/cheerleader/do__
-    - __mywc/fashion/costumes/chef/do__
-    - __mywc/fashion/costumes/china/do__
-    - __mywc/fashion/costumes/dancer/do__
-    - __mywc/fashion/costumes/detective/do__
-    - __mywc/fashion/costumes/doctor/do__
-    - __mywc/fashion/costumes/employee/do__
-    - __mywc/fashion/costumes/explorer/do__
-    - __mywc/fashion/costumes/farmer/do__
-    - __mywc/fashion/costumes/formal/do__
-    - __mywc/fashion/costumes/goth-roli/do__
-    - __mywc/fashion/costumes/gym/do__
-    - __mywc/fashion/costumes/hunter/do__
-    - __mywc/fashion/costumes/idol/do__
-    - __mywc/fashion/costumes/japan/do__
-    - __mywc/fashion/costumes/magical/do__
-    - __mywc/fashion/costumes/maid/do__
-    - __mywc/fashion/costumes/marching-band/do__
-    - __mywc/fashion/costumes/military/do__
-    - __mywc/fashion/costumes/musician/do__
-    - __mywc/fashion/costumes/ninja/do__
-    - __mywc/fashion/costumes/nun/do__
-    - __mywc/fashion/costumes/nurse/do__
-    - __mywc/fashion/costumes/office-lady/do__
-    - __mywc/fashion/costumes/pilot/do__
-    - __mywc/fashion/costumes/pirate/do__
-    - __mywc/fashion/costumes/police/do__
-    - __mywc/fashion/costumes/priest/do__
-    - __mywc/fashion/costumes/prince/do__
-    - __mywc/fashion/costumes/princess/do__
-    - __mywc/fashion/costumes/race-queen/do__
-    - __mywc/fashion/costumes/rainy__
-    - __mywc/fashion/costumes/roomwear/do__
-    - __mywc/fashion/costumes/sailor/do__
-    - __mywc/fashion/costumes/santa/do__
-    - __mywc/fashion/costumes/school/do__
-    - __mywc/fashion/costumes/scientist/do__
-    - __mywc/fashion/costumes/sports/do__
-    - __mywc/fashion/costumes/summer/do__
-    - __mywc/fashion/costumes/swimwear/do__
-    - __mywc/fashion/costumes/teacher/do__
-    - __mywc/fashion/costumes/thief/tops__
-    - __mywc/fashion/costumes/travel-attendant/do__
-    - __mywc/fashion/costumes/traveling-marchant/do__
-    - __mywc/fashion/costumes/waitress/do__
-    - __mywc/fashion/costumes/warrior/do__
-    - __mywc/fashion/costumes/wedding/do__
-    - __mywc/fashion/costumes/witch/do__
-    - __mywc/fashion/costumes/winter/do__
-    - __mywc/fashion/costumes/wizard/do__
   artist:
     do:
       - artist painter,{brown|green} apron,{0-3$$__mywc/fashion/costumes/artist/list__}
@@ -138,7 +80,7 @@ costumes:
     do:
       - ${assassin-list={0-4$$__mywc/fashion/costumes/assassin/list__}}__mywc/fashion/costumes/assassin/base__
     base:
-      - __mywc/fashion/costumes/assassin/color__ assassin,hood,${assassin-list}
+      - __mywc/fashion/costumes/assassin/color__ assassin,hood,${assassin-list:" "}
     list:
       - __mywc/fashion/costumes/assassin/tops__
       - __mywc/fashion/costumes/assassin/gloves__
@@ -164,17 +106,11 @@ costumes:
       - " "
       - black
       - purple
-    without-footwears:
-      - ${assassin-list={0-3$$__mywc/fashion/costumes/assassin/list-without-footwears__}}__mywc/fashion/costumes/assassin/base__
-    list-without-footwears:
-      - __mywc/fashion/costumes/assassin/tops__
-      - __mywc/fashion/costumes/assassin/gloves__
-      - __mywc/fashion/costumes/assassin/accessories/do__
   ballerina:
     do:
       - ${ballerina-list={0-4$$__mywc/fashion/costumes/ballerina/list__}}__mywc/fashion/costumes/ballerina/base__
     base:
-      - __mywc/fashion/costumes/ballerina/colors__ ballerina,${ballerina-list}
+      - __mywc/fashion/costumes/ballerina/colors__ ballerina,${ballerina-list:" "}
     list:
       - __mywc/fashion/costumes/ballerina/cloths__
       - __mywc/fashion/costumes/ballerina/socks__
@@ -193,12 +129,6 @@ costumes:
       - " "
       - black
       - white
-    without-footwears:
-      - ${ballerina-list={0-3$$__mywc/fashion/costumes/ballerina/list-without-footwears__}}__mywc/fashion/costumes/ballerina/base__
-    list-without-footwears:
-      - __mywc/fashion/costumes/ballerina/cloths__
-      - __mywc/fashion/costumes/ballerina/socks__
-      - __mywc/fashion/costumes/ballerina/accessories__
   barista:
     do:
       - barista,apron,{0-3$$__mywc/fashion/costumes/barista/list__}
@@ -237,7 +167,7 @@ costumes:
     do:
       - ${bdsm-list={0-4$$__mywc/fashion/costumes/bdsm/list__}}__mywc/fashion/costumes/bdsm/base__
     base:
-      - ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}${bdsm-color:black} __mywc/fashion/costumes/bdsm/tops__,${bdsm-color:black} __mywc/fashion/costumes/bdsm/bottoms__,${bdsm-list}
+      - ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}${bdsm-color:black} __mywc/fashion/costumes/bdsm/tops__,${bdsm-color:black} __mywc/fashion/costumes/bdsm/bottoms__,${bdsm-list:" "}
     list:
       - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/gloves__
       - __mywc/fashion/costumes/bdsm/socks__
@@ -292,14 +222,11 @@ costumes:
       - "{|deep} red"
       - black
       - deep blue
-    without-footwears:
-      - ${bdsm-list={0-2$$__mywc/fashion/costumes/bdsm/list-without-footwears__}}__mywc/fashion/costumes/bdsm/base__
-    list-without-footwears:
-      - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/gloves__
-      - __mywc/fashion/costumes/bdsm/accessories/do__
   bunny-girl:
     do:
-      - __mywc/fashion/costumes/bunny-girl/colors__ bunny girl,{0-4$$__mywc/fashion/costumes/bunny-girl/list__}
+      - ${bunny-girl-list={0-4$$__mywc/fashion/costumes/bunny-girl/list__}}__mywc/fashion/costumes/bunny-girl/base__
+    base:
+      - __mywc/fashion/costumes/bunny-girl/colors__ bunny girl,${bunny-girl-list:" "}
     list:
       - __mywc/fashion/costumes/bunny-girl/cloths__
       - __mywc/fashion/costumes/bunny-girl/socks__
@@ -327,7 +254,9 @@ costumes:
       - red
   cheerleader:
     do:
-      - cheerleader,{0-5$$__mywc/fashion/costumes/cheerleader/list__}
+      - ${cheerleader-list={0-5$$__mywc/fashion/costumes/cheerleader/list__}}__mywc/fashion/costumes/cheerleader/base__
+    base:
+      - cheerleader,${cheerleader-list:" "}
     list:
       - __mywc/fashion/costumes/cheerleader/tops__
       - __mywc/fashion/costumes/cheerleader/bottoms__
@@ -365,7 +294,9 @@ costumes:
         - white surgical mask
   china:
     do:
-      - __mywc/fashion/costumes/china/color__ china dress,{0-3$$__mywc/fashion/costumes/china/list__}
+      - ${china-list={0-3$$__mywc/fashion/costumes/china/list__}}__mywc/fashion/costumes/china/base__
+    base:
+      - __mywc/fashion/costumes/china/color__ china dress,${china-list:" "}
     list:
       - __mywc/fashion/costumes/china/gloves__
       - __mywc/fashion/costumes/china/footwears__
@@ -423,7 +354,9 @@ costumes:
         - pen in pocket
   doctor:
     do:
-      - doctor,lab coat,{0-2$$__mywc/fashion/costumes/doctor/list__}
+      - ${doctor-list={0-2$$__mywc/fashion/costumes/doctor/list__}}__mywc/fashion/costumes/doctor/base__
+    base:
+      - doctor,lab coat,${doctor-list=" "}
     list:
       - __mywc/fashion/costumes/doctor/bottoms__
       - __mywc/fashion/costumes/doctor/accessories/do__
@@ -463,7 +396,9 @@ costumes:
         - watch
   explorer:
     do:
-      - __mywc/fashion/costumes/explorer/tops/do__,hat,{0-3$$__mywc/fashion/costumes/explorer/list__}
+      - ${explorer-list={0-3$$__mywc/fashion/costumes/explorer/list__}}__mywc/fashion/costumes/explorer/base__
+    base:
+      - __mywc/fashion/costumes/explorer/tops/do__,hat,${explorer-list:" "}
     list:
       - __mywc/fashion/costumes/explorer/bottoms__
       - __mywc/fashion/costumes/explorer/footwears/do__
@@ -493,7 +428,9 @@ costumes:
         - neckerchief
   farmer:
     do:
-      - farmer,{0-3$$__mywc/fashion/costumes/farmer/list__}
+      - ${farmer-list={0-3$$__mywc/fashion/costumes/farmer/list__}}__mywc/fashion/costumes/farmer/base__
+    base:
+      - farmer,${farmer-list=" "}
     list:
       - __mywc/fashion/costumes/farmer/cloths__
       - __mywc/fashion/costumes/farmer/footwears__

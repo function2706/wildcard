@@ -453,7 +453,7 @@ costumes:
       - __mywc/fashion/costumes/formal/suit/do__
     dress:
       do:
-        - ${formal-dress-list=__mywc/fashion/costumes/formal/dress/list__}__mywc/fashion/costumes/formal/base__
+        - ${formal-dress-list=__mywc/fashion/costumes/formal/dress/list__}__mywc/fashion/costumes/formal/dress/base__
       base:
         - ${dress-color=!__mywc/fashion/costumes/formal/dress/color__}${dress-color:black} ${formal-dress-list:" "}
       list:
@@ -1302,20 +1302,31 @@ costumes:
         - sailor cap
   santa:
     do:
-      - ${santa-color=!__mywc/fashion/costumes/santa/colors__}${santa-color:red} santa costume,__mywc/fashion/costumes/santa/footwears__,{0-3$$__mywc/fashion/costumes/santa/accessories__}
-    colors:
-      - red
-      - black
+      - ${santa-list={0-3$$__mywc/fashion/costumes/santa/list__}}__mywc/fashion/costumes/santa/base__
+    base:
+      - ${santa-color=!__mywc/fashion/costumes/santa/color__}${santa-color:red} santa costume,${santa-list:" "}
+    list:
+      - __mywc/fashion/costumes/santa/socks__
+      - __mywc/fashion/costumes/santa/footwears__
+      - __mywc/fashion/costumes/santa/accessories/do__
+    socks:
+      - "{black|brown|white} pantyhose"
     footwears:
-      - " "
       - ${santa-color:red} fur boots
     accessories:
-      - "${santa-color:red} {|elbow} gloves"
-      - "{black|brown|white} pantyhose"
-      - "${santa-color:red} hat"
+      do:
+        - "{1-2$$__mywc/fashion/costumes/santa/accessories/list__}"
+      list:
+        - "${santa-color:red} {|elbow} gloves"
+        - "${santa-color:red} hat"
+    color:
+      - red
+      - black
   school:
     do:
-      - school uniform,{0-4$$__mywc/fashion/costumes/school/list__}
+      - ${school-list={0-4$$__mywc/fashion/costumes/school/list__}}__mywc/fashion/costumes/school/base__
+    base:
+      - school uniform,${school-list:" "}
     list:
       - __mywc/fashion/costumes/school/tops/do__
       - __mywc/fashion/costumes/school/bottoms__
@@ -1361,7 +1372,9 @@ costumes:
         - school bag
   scientist:
     do:
-      - scientist,lab coat,{0-3$$__mywc/fashion/costumes/scientist/list__}
+      - ${scientist-list={0-3$$__mywc/fashion/costumes/scientist/list__}}__mywc/fashion/costumes/scientist/base__
+    base:
+      - scientist,lab coat,${scientist-list:" "}
     list:
       - __mywc/fashion/costumes/scientist/bottoms__
       - __mywc/fashion/costumes/scientist/footwears__
@@ -1395,8 +1408,10 @@ costumes:
       - towel on neck
   summer:
     do:
-      - __mywc/fashion/costumes/summer/tops/do__,__mywc/fashion/costumes/summer/bottoms__,{0-2$$__mywc/fashion/costumes/summer/list__}
-      - __mywc/fashion/costumes/summer/unis__,{0-2$$__mywc/fashion/costumes/summer/list__}
+      - ${summer-list={0-2$$__mywc/fashion/costumes/summer/list__}}__mywc/fashion/costumes/summer/base__
+    base:
+      - __mywc/fashion/costumes/summer/tops/do__,__mywc/fashion/costumes/summer/bottoms__,${summer-list:" "}
+      - __mywc/fashion/costumes/summer/unis__,${summer-list:" "}
     list:
       - __mywc/fashion/costumes/summer/footwears/do__
       - __mywc/fashion/costumes/summer/accessories/do__
@@ -1467,7 +1482,9 @@ costumes:
       - __mywc/fashion/costumes/swimwear/swimsuit/do__
     bikini:
       do:
-        - __mywc/fashion/costumes/swimwear/option/do__ __mywc/fashion/costumes/swimwear/bikini/cloths__ bikini,{|__mywc/fashion/costumes/swimwear/accessories/do__}
+        - ${swimwear-bikini-list=__mywc/fashion/costumes/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/bikini/base__
+      base:
+        - __mywc/fashion/costumes/swimwear/option/do__ __mywc/fashion/costumes/swimwear/bikini/cloths__ bikini,{|${swimwear-bikini-list:" "}}
       cloths:
         - " "
         - "{|front-tie} {|side-tie}"
@@ -1482,7 +1499,9 @@ costumes:
         - string
     swimsuit:
       do:
-        - __mywc/fashion/costumes/swimwear/option/do__ __mywc/fashion/costumes/swimwear/swimsuit/cloths__,{|__mywc/fashion/costumes/swimwear/accessories/do__}
+        - ${swimwear-swimsuit-list=__mywc/fashion/costumes/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/swimsuit/base__
+      base:
+        - __mywc/fashion/costumes/swimwear/option/do__ __mywc/fashion/costumes/swimwear/swimsuit/cloths__,{|${swimwear-swimsuit-list:" "}}
       cloths:
         - "{|casual|strapless|off-shoulder} one-piece swimsuit"
         - "{|competition|old|new} school swimsuit"
@@ -1534,7 +1553,9 @@ costumes:
           - glasses
   teacher:
     do:
-      - teacher,{0-4$$__mywc/fashion/costumes/teacher/list__}
+      - ${teacher-list={0-4$$__mywc/fashion/costumes/teacher/list__}}__mywc/fashion/costumes/teacher/base__
+    base:
+      - teacher,${teacher-list:" "}
     list:
       - __mywc/fashion/costumes/teacher/tops__
       - __mywc/fashion/costumes/teacher/bottoms__
@@ -1561,7 +1582,9 @@ costumes:
         - necktie
   thief:
     do:
-      - thief,__mywc/fashion/costumes/thief/color__ __mywc/fashion/costumes/thief/tops__,{0-2$$__mywc/fashion/costumes/thief/list__}
+      - ${thief-list={0-2$$__mywc/fashion/costumes/thief/list__}}__mywc/fashion/costumes/thief/base__
+    base:
+      - thief,__mywc/fashion/costumes/thief/color__ __mywc/fashion/costumes/thief/tops__,${thief-list:" "}
     list:
       - __mywc/fashion/costumes/thief/footwears__
       - __mywc/fashion/costumes/thief/accessories/do__

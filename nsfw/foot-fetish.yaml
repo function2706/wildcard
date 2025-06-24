@@ -43,17 +43,17 @@ foot-fetish:
       - __mywc/fashion/costumes/prince/do__
       - __mywc/fashion/costumes/princess/do__
       - __mywc/nsfw/foot-fetish/fashion/race-queen/do__
-      - __mywc/fashion/costumes/rainy__
-      - __mywc/fashion/costumes/roomwear/do__
+      - __mywc/nsfw/foot-fetish/fashion/rainy__
+      - __mywc/nsfw/foot-fetish/fashion/roomwear/do__
       - __mywc/fashion/costumes/sailor/do__
-      - __mywc/fashion/costumes/santa/do__
-      - __mywc/fashion/costumes/school/do__
-      - __mywc/fashion/costumes/scientist/do__
+      - __mywc/nsfw/foot-fetish/fashion/santa/do__
+      - __mywc/nsfw/foot-fetish/fashion/school/do__
+      - __mywc/nsfw/foot-fetish/fashion/scientist/do__
       - __mywc/fashion/costumes/sports/do__
-      - __mywc/fashion/costumes/summer/do__
-      - __mywc/fashion/costumes/swimwear/do__
-      - __mywc/fashion/costumes/teacher/do__
-      - __mywc/fashion/costumes/thief/tops__
+      - __mywc/nsfw/foot-fetish/fashion/summer/do__
+      - __mywc/nsfw/foot-fetish/fashion/swimwear/do__
+      - __mywc/nsfw/foot-fetish/fashion/teacher/do__
+      - __mywc/nsfw/foot-fetish/fashion/thief/tops__
       - __mywc/fashion/costumes/travel-attendant/do__
       - __mywc/fashion/costumes/traveling-marchant/do__
       - __mywc/fashion/costumes/waitress/do__
@@ -287,3 +287,90 @@ foot-fetish:
       list:
         - __mywc/fashion/costumes/race-queen/tops__
         - __mywc/fashion/costumes/race-queen/accessories/do__
+    rainy:
+      - raincoat
+    roomwear:
+      do:
+        - __mywc/fashion/costumes/roomwear/bathing__
+        - __mywc/fashion/costumes/roomwear/bedding/do__
+        - __mywc/fashion/costumes/roomwear/cooking__
+        - __mywc/nsfw/foot-fetish/fashion/roomwear/lounging/do__
+      lounging:
+        do:
+          - __mywc/fashion/costumes/roomwear/lounging/unis__,__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/cool-sets/accessories/do__
+          - __mywc/nsfw/foot-fetish/fashion/roomwear/lounging/cool-sets/do__
+          - __mywc/nsfw/foot-fetish/fashion/roomwear/lounging/warm-sets/do__
+        cool-sets:
+          do:
+            - __mywc/fashion/costumes/roomwear/lounging/cool-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/cool-sets/bottoms__,__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/cool-sets/accessories/do__
+          accessories:
+            do:
+              - "{0-2$$__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/cool-sets/accessories/list__}"
+            list:
+              - "{|glasses}"
+        warm-sets:
+          do:
+            - __mywc/fashion/costumes/roomwear/lounging/warm-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/warm-sets/bottoms__,__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/warm-sets/accessories/do__
+          accessories:
+            do:
+              - "{0-3$$__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/warm-sets/accessories/list__}"
+            list:
+              - "{|glasses}"
+    santa:
+      do:
+        - ${santa-list={0-1$$__mywc/nsfw/foot-fetish/fashion/santa/list__}}__mywc/fashion/costumes/santa/base__
+      list:
+        - __mywc/fashion/costumes/santa/accessories/do__
+    school:
+      do:
+        - ${school-list={0-3$$__mywc/nsfw/foot-fetish/fashion/school/list__}}__mywc/fashion/costumes/school/base__
+      list:
+        - __mywc/fashion/costumes/school/tops/do__
+        - __mywc/fashion/costumes/school/bottoms__
+        - __mywc/fashion/costumes/school/accessories/do__
+    scientist:
+      do:
+        - ${scientist-list={0-2$$__mywc/nsfw/foot-fetish/fashion/scientist/list__}}__mywc/fashion/costumes/scientist/base__
+      list:
+        - __mywc/nsfw/foot-fetish/fashion/scientist/bottoms__
+        - __mywc/fashion/costumes/scientist/accessories/do__
+      bottoms:
+        - maxi skirt
+        - pants
+    summer:
+      do:
+        - ${summer-list={0-1$$__mywc/nsfw/foot-fetish/fashion/summer/list__}}__mywc/fashion/costumes/summer/base__
+      list:
+        - __mywc/fashion/costumes/summer/accessories/do__
+    swimwear:
+      do:
+        - __mywc/nsfw/foot-fetish/fashion/swimwear/bikini__
+        - __mywc/nsfw/foot-fetish/fashion/swimwear/swimsuit__
+      bikini:
+        - ${swimwear-bikini-list=__mywc/nsfw/foot-fetish/fashion/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/bikini/base__
+      swimsuit:
+        - ${swimwear-swimsuit-list=__mywc/nsfw/foot-fetish/fashion/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/swimsuit/base__
+      accessories:
+        do:
+          - "{1-5$$__mywc/nsfw/foot-fetish/fashion/swimwear/accessories/list__}"
+        list:
+          - "{necklace|pendant}"
+          - bracelet
+          - earrings
+          - open jacket,{|hood up}
+          - __mywc/fashion/costumes/swimwear/accessories/head/do__
+    teacher:
+      do:
+        - ${teacher-list={0-3$$__mywc/nsfw/foot-fetish/fashion/teacher/list__}}__mywc/fashion/costumes/teacher/base__
+      list:
+        - __mywc/fashion/costumes/teacher/tops__
+        - __mywc/nsfw/foot-fetish/fashion/teacher/bottoms__
+        - __mywc/fashion/costumes/teacher/accessories/do__
+      bottoms:
+        - pencil skirt
+        - pants
+    thief:
+      do:
+        - ${thief-list={0-1$$__mywc/nsfw/foot-fetish/fashion/thief/list__}}__mywc/fashion/costumes/thief/base__
+      list:
+        - __mywc/fashion/costumes/thief/accessories/do__

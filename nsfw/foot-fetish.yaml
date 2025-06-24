@@ -35,14 +35,14 @@ foot-fetish:
       - __mywc/nsfw/foot-fetish/fashion/ninja/do__
       - __mywc/nsfw/foot-fetish/fashion/nun/do__
       - __mywc/nsfw/foot-fetish/fashion/nurse/do__
-      - __mywc/fashion/costumes/office-lady/do__
+      - __mywc/nsfw/foot-fetish/fashion/office-lady/do__
       - __mywc/fashion/costumes/pilot/do__
-      - __mywc/fashion/costumes/pirate/do__
-      - __mywc/fashion/costumes/police/do__
+      - __mywc/nsfw/foot-fetish/fashion/pirate/do__
+      - __mywc/nsfw/foot-fetish/fashion/police/do__
       - __mywc/fashion/costumes/priest/do__
       - __mywc/fashion/costumes/prince/do__
       - __mywc/fashion/costumes/princess/do__
-      - __mywc/fashion/costumes/race-queen/do__
+      - __mywc/nsfw/foot-fetish/fashion/race-queen/do__
       - __mywc/fashion/costumes/rainy__
       - __mywc/fashion/costumes/roomwear/do__
       - __mywc/fashion/costumes/sailor/do__
@@ -256,3 +256,34 @@ foot-fetish:
       bottoms:
         - maxi skirt
         - pants
+    office-lady:
+      do:
+        - ${office-lady-list={0-3$$__mywc/nsfw/foot-fetish/fashion/office-lady/list__}}__mywc/fashion/costumes/office-lady/base__
+      list:
+        - __mywc/fashion/costumes/office-lady/tops__
+        - __mywc/fashion/costumes/office-lady/bottoms__
+        - __mywc/fashion/costumes/office-lady/accessories/do__
+    pirate:
+      do:
+        - ${pirate-list={0-3$$__mywc/nsfw/foot-fetish/fashion/pirate/list__}}__mywc/fashion/costumes/pirate/base__
+      list:
+        - __mywc/fashion/costumes/pirate/headwears__
+        - __mywc/fashion/costumes/pirate/tops__
+        - __mywc/fashion/costumes/pirate/accessories/do__
+    police:
+      do:
+        - ${police-list={0-4$$__mywc/nsfw/foot-fetish/fashion/police/list__}}__mywc/fashion/costumes/police/base__
+      list:
+        - __mywc/fashion/costumes/police/tops__
+        - __mywc/nsfw/foot-fetish/fashion/police/bottoms__
+        - __mywc/fashion/costumes/police/gloves__
+        - __mywc/fashion/costumes/police/accessories/do__
+      bottoms:
+        - pencil skirt
+        - pants
+    race-queen:
+      do:
+        - ${race-queen-list={0-2$$__mywc/nsfw/foot-fetish/fashion/race-queen/list__}}__mywc/fashion/costumes/race-queen/base__
+      list:
+        - __mywc/fashion/costumes/race-queen/tops__
+        - __mywc/fashion/costumes/race-queen/accessories/do__

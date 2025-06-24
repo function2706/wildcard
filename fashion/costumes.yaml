@@ -1038,7 +1038,9 @@ costumes:
       - light green
   office-lady:
     do:
-      - office lady,{0-4$$__mywc/fashion/costumes/office-lady/list__}
+      - ${office-lady-list={0-4$$__mywc/fashion/costumes/office-lady/list__}}__mywc/fashion/costumes/office-lady/base__
+    base:
+      - office lady,${office-lady-list:" "}
     list:
       - __mywc/fashion/costumes/office-lady/tops__
       - __mywc/fashion/costumes/office-lady/bottoms__
@@ -1086,21 +1088,21 @@ costumes:
         - necktie
   pirate:
     do:
-      - pirate,{0-4$$__mywc/fashion/costumes/pirate/list__}
+      - ${pirate-list={0-4$$__mywc/fashion/costumes/pirate/list__}}__mywc/fashion/costumes/pirate/base__
+    base:
+      - pirate,${pirate-list:" "}
     list:
       - __mywc/fashion/costumes/pirate/headwears__
       - __mywc/fashion/costumes/pirate/tops__
       - __mywc/fashion/costumes/pirate/footwears__
       - __mywc/fashion/costumes/pirate/accessories/do__
     headwears:
-      - " "
       - bandana
       - pirate hat
     tops:
       - "{|striped} shirt"
       - waistcoat
     footwears:
-      - " "
       - boots
     accessories:
       do:
@@ -1111,7 +1113,9 @@ costumes:
         - sash
   police:
     do:
-      - police,{0-4$$__mywc/fashion/costumes/police/list__}
+      - ${police-list={0-4$$__mywc/fashion/costumes/police/list__}}__mywc/fashion/costumes/police/base__
+    base:
+      - police,${police-list:" "}
     list:
       - __mywc/fashion/costumes/police/tops__
       - __mywc/fashion/costumes/police/bottoms__
@@ -1194,7 +1198,9 @@ costumes:
         - jewelry
   race-queen:
     do:
-      - race queen,mini skirt,{0-3$$__mywc/fashion/costumes/race-queen/list__}
+      - ${race-queen-list={0-3$$__mywc/fashion/costumes/race-queen/list__}}__mywc/fashion/costumes/race-queen/base__
+    base:
+      - race queen,mini skirt,${race-queen-list:" "}
     list:
       - __mywc/fashion/costumes/race-queen/tops__
       - __mywc/fashion/costumes/race-queen/footwears__
@@ -1257,7 +1263,7 @@ costumes:
           - shorts,{|drawstring}
         accessories:
           do:
-            - "{0-2$$__mywc/fashion/costumes/roomwear/lounging//cool-sets/accessories/list__}"
+            - "{0-2$$__mywc/fashion/costumes/roomwear/lounging/cool-sets/accessories/list__}"
           list:
             - "{|glasses}"
             - slippers

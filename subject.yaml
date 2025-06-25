@@ -8,3 +8,7 @@ subject:
     - __mywc/subject/non-human/random__
   copyright:
     - __mywc/subject/copyright/random__
+  for-nsfw:
+    - __mywc/subject/human/random__
+    - __mywc/subject/non-human/monster/demi-human/do__
+    - __mywc/subject/copyright/random__

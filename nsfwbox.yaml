@@ -1,8 +1,4 @@
 nsfwbox:
-  subject:
-    - __mywc/subject/human/random__
-    - __mywc/subject/non-human/monster/demi-human/do__
-    - __mywc/subject/copyright/random__
   bdsm-show:
     - __mywc/nsfw/expression/random__
   cbt:
@@ -12,43 +8,7 @@ nsfwbox:
   cunnilings:
     - __mywc/nsfw/expression/random__
   foot-fetish:
-    do:
-      - "__mywc/nsfwbox/foot-fetish/foot-state/do__,__mywc/nsfwbox/foot-fetish/pose__,__mywc/nsfw/expression/random__,((foot focus)),((pov)),((view from below)),foreshortening,1girl,((solo)),__mywc/nsfwbox/subject__"
-    foot-state:
-      do:
-        - "((__mywc/nsfwbox/foot-fetish/foot-state/feet/do__)),(perfect feet:1.9),((soles)),toes,__mywc/nsfwbox/foot-fetish/foot-state/feet/pose__"
-        - "((__mywc/nsfwbox/foot-fetish/foot-state/shoes/do__)),({|red }outsole:1.4)"
-      feet:
-        do:
-          - __mywc/nsfwbox/foot-fetish/foot-state/feet/textures__ barefoot
-          - __mywc/nsfwbox/foot-fetish/foot-state/feet/colors__ pantyhose
-          - __mywc/nsfwbox/foot-fetish/foot-state/feet/colors__ socks
-        colors:
-          - beige
-          - brown
-          - black
-          - white
-          - red
-        textures:
-          - " "
-          - "{|dirty}"
-          - "{|sweaty}"
-          - "{|bloody}"
-        pose:
-          - " "
-          - spread toes
-      shoes:
-        do:
-          - __mywc/nsfwbox/foot-fetish/foot-state/shoes/colors__ thigh latex boots,{|stiletto heels}
-          - __mywc/nsfwbox/foot-fetish/foot-state/shoes/colors__ high heels
-        colors:
-          - black
-          - red
-          - white
-          - __mywc/color__
-    pose:
-      - standing {|on one leg},{|hand on own hip}
-      - sitting {|crossed legs},{|head rest}
+    - __mywc/nsfw/foot-fetish/do__
   pussy:
     - __mywc/nsfw/expression/random__
   peeing:

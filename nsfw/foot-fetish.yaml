@@ -380,9 +380,9 @@ foot-fetish:
       list:
         - __mywc/fashion/costumes/travel-attendant/gloves__
         - __mywc/fashion/costumes/travel-attendant/accessories/do__
-    travel-marchant:
+    traveling-marchant:
       do:
-        - ${travel-marchant-list={0-2$$__mywc/nsfw/foot-fetish/fashion/travel-marchant/list__}}__mywc/fashion/costumes/travel-marchant/base__
+        - ${traveling-marchant-list={0-2$$__mywc/nsfw/foot-fetish/fashion/traveling-marchant/list__}}__mywc/fashion/costumes/traveling-marchant/base__
       list:
         - __mywc/fashion/costumes/traveling-marchant/bottoms__
         - __mywc/fashion/costumes/traveling-marchant/accessories/do__

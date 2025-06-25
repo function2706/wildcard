@@ -54,13 +54,13 @@ foot-fetish:
       - __mywc/nsfw/foot-fetish/fashion/swimwear/do__
       - __mywc/nsfw/foot-fetish/fashion/teacher/do__
       - __mywc/nsfw/foot-fetish/fashion/thief/tops__
-      - __mywc/fashion/costumes/travel-attendant/do__
-      - __mywc/fashion/costumes/traveling-marchant/do__
-      - __mywc/fashion/costumes/waitress/do__
-      - __mywc/fashion/costumes/warrior/do__
+      - __mywc/nsfw/foot-fetish/fashion/travel-attendant/do__
+      - __mywc/nsfw/foot-fetish/fashion/traveling-marchant/do__
+      - __mywc/nsfw/foot-fetish/fashion/waitress/do__
+      - __mywc/nsfw/foot-fetish/fashion/warrior/do__
       - __mywc/fashion/costumes/wedding/do__
-      - __mywc/fashion/costumes/witch/do__
-      - __mywc/fashion/costumes/winter/do__
+      - __mywc/nsfw/foot-fetish/fashion/witch/do__
+      - __mywc/nsfw/foot-fetish/fashion/winter/do__
       - __mywc/fashion/costumes/wizard/do__
     assassin:
       do:
@@ -305,7 +305,7 @@ foot-fetish:
             - __mywc/fashion/costumes/roomwear/lounging/cool-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/cool-sets/bottoms__,__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/cool-sets/accessories/do__
           accessories:
             do:
-              - "{0-2$$__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/cool-sets/accessories/list__}"
+              - "{0-1$$__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/cool-sets/accessories/list__}"
             list:
               - "{|glasses}"
         warm-sets:
@@ -313,7 +313,7 @@ foot-fetish:
             - __mywc/fashion/costumes/roomwear/lounging/warm-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/warm-sets/bottoms__,__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/warm-sets/accessories/do__
           accessories:
             do:
-              - "{0-3$$__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/warm-sets/accessories/list__}"
+              - "{0-1$$__mywc/nsfw/foot-fetish/fashion/roomwear/lounging/warm-sets/accessories/list__}"
             list:
               - "{|glasses}"
     santa:
@@ -374,3 +374,47 @@ foot-fetish:
         - ${thief-list={0-1$$__mywc/nsfw/foot-fetish/fashion/thief/list__}}__mywc/fashion/costumes/thief/base__
       list:
         - __mywc/fashion/costumes/thief/accessories/do__
+    travel-attendant:
+      do:
+        - ${travel-attendant-list={0-2$$__mywc/nsfw/foot-fetish/fashion/travel-attendant/list__}}__mywc/fashion/costumes/travel-attendant/base__
+      list:
+        - __mywc/fashion/costumes/travel-attendant/gloves__
+        - __mywc/fashion/costumes/travel-attendant/accessories/do__
+    travel-marchant:
+      do:
+        - ${travel-marchant-list={0-2$$__mywc/nsfw/foot-fetish/fashion/travel-marchant/list__}}__mywc/fashion/costumes/travel-marchant/base__
+      list:
+        - __mywc/fashion/costumes/traveling-marchant/bottoms__
+        - __mywc/fashion/costumes/traveling-marchant/accessories/do__
+    waitress:
+      do:
+        - ${waitress-list={0-3$$__mywc/nsfw/foot-fetish/fashion/waitress/list__}}__mywc/fashion/costumes/waitress/base__
+      list:
+        - __mywc/fashion/costumes/waitress/tops__
+        - __mywc/nsfw/foot-fetish/fashion/waitress/bottoms__
+        - __mywc/fashion/costumes/waitress/accessories/do__
+      bottoms:
+        - "{|frilled} skirt"
+        - pants
+    warrior:
+      do:
+        - ${warrior-list={0-3$$__mywc/nsfw/foot-fetish/fashion/warrior/list__}}__mywc/fashion/costumes/warrior/base__
+      list:
+        - __mywc/fashion/costumes/warrior/headwears__
+        - __mywc/fashion/costumes/warrior/gloves__
+        - __mywc/fashion/costumes/warrior/accessories/do__
+    witch:
+      do:
+        - ${witch-list={0-1$$__mywc/nsfw/foot-fetish/fashion/witch/list__}}__mywc/fashion/costumes/witch/base__
+      list:
+        - __mywc/fashion/costumes/witch/accessories/do__
+    winter:
+      do:
+        - ${winter-bottoms=__mywc/nsfw/foot-fetish/fashion/winter/bottoms__}${winter-list={0-1$$__mywc/nsfw/foot-fetish/fashion/winter/list__}}__mywc/fashion/costumes/winter/base__
+      list:
+        - __mywc/fashion/costumes/winter/accessories/do__
+      bottoms:
+        - "{|long} {pants|skirt}"
+        - "pleated {pants|skirt}"
+        - jeans
+        - layered skirt

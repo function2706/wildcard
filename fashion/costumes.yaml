@@ -1611,7 +1611,9 @@ costumes:
       - brown
   travel-attendant:
     do:
-      - travel attendant,pencil skirt,{0-4$$__mywc/fashion/costumes/travel-attendant/list__}
+      - ${travel-attendant-list={0-4$$__mywc/fashion/costumes/travel-attendant/list__}}__mywc/fashion/costumes/travel-attendant/base__
+    base:
+      - travel attendant,pencil skirt,${travel-attendant-list:" "}
     list:
       - __mywc/fashion/costumes/travel-attendant/gloves__
       - __mywc/fashion/costumes/travel-attendant/socks__
@@ -1636,7 +1638,9 @@ costumes:
         - sash on waist
   traveling-marchant:
     do:
-      - marchant,__mywc/fashion/costumes/traveling-marchant/color__ __mywc/fashion/costumes/traveling-marchant/tops__,__mywc/fashion/costumes/traveling-marchant/bags/do__,{0-3$$__mywc/fashion/costumes/traveling-marchant/list__}
+      - ${traveling-marchant-list={0-3$$__mywc/fashion/costumes/traveling-marchant/list__}}__mywc/fashion/costumes/traveling-marchant/base__
+    base:
+      - marchant,__mywc/fashion/costumes/traveling-marchant/color__ __mywc/fashion/costumes/traveling-marchant/tops__,__mywc/fashion/costumes/traveling-marchant/bags/do__,${traveling-marchant-list:" "}
     list:
       - __mywc/fashion/costumes/traveling-marchant/bottoms__
       - __mywc/fashion/costumes/traveling-marchant/footwears__
@@ -1668,7 +1672,9 @@ costumes:
       - brown
   waitress:
     do:
-      - waitress,apron,{0-4$$__mywc/fashion/costumes/waitress/list__}
+      - ${waitress-list={0-4$$__mywc/fashion/costumes/waitress/list__}}__mywc/fashion/costumes/waitress/base__
+    base:
+      - waitress,apron,${waitress-list:" "}
     list:
       - __mywc/fashion/costumes/waitress/tops__
       - __mywc/fashion/costumes/waitress/bottoms__
@@ -1693,7 +1699,9 @@ costumes:
         - sleeves rolled up
   warrior:
     do:
-      - __mywc/fashion/costumes/warrior/color__ warrior,__mywc/fashion/costumes/warrior/armors/do__,{0-4$$__mywc/fashion/costumes/warrior/list__}
+      - ${warrior-list={0-4$$__mywc/fashion/costumes/warrior/list__}}__mywc/fashion/costumes/warrior/base__
+    base:
+      - __mywc/fashion/costumes/warrior/color__ warrior,__mywc/fashion/costumes/warrior/armors/do__,${warrior-list:" "}
     list:
       - __mywc/fashion/costumes/warrior/headwears__
       - __mywc/fashion/costumes/warrior/gloves__
@@ -1755,7 +1763,9 @@ costumes:
       - white
   witch:
     do:
-      - witch,__mywc/fashion/costumes/witch/cloths/do__,{0-2$$__mywc/fashion/costumes/witch/list__}
+      - ${witch-list={0-2$$__mywc/fashion/costumes/witch/list__}}__mywc/fashion/costumes/witch/base__
+    base:
+      - witch,__mywc/fashion/costumes/witch/cloths/do__,${witch-list:" "}
     list:
       - __mywc/fashion/costumes/witch/footwears/do__
       - __mywc/fashion/costumes/witch/accessories/do__
@@ -1804,7 +1814,9 @@ costumes:
         - red
   winter:
     do:
-      - __mywc/fashion/costumes/winter/tops__,__mywc/fashion/costumes/winter/bottoms/do__,{0-2$$__mywc/fashion/costumes/winter/list__}
+      - ${winter-bottoms=__mywc/fashion/costumes/winter/bottoms__}${winter-list={0-2$$__mywc/fashion/costumes/winter/list__}}__mywc/fashion/costumes/winter/base__
+    base:
+      - __mywc/fashion/costumes/winter/tops__,${winter-bottoms:" "},${winter-list:" "}
     list:
       - __mywc/fashion/costumes/winter/footwears/do__
       - __mywc/fashion/costumes/winter/accessories/do__
@@ -1824,11 +1836,10 @@ costumes:
       - trench coat
       - winter coat
     bottoms:
-      do:
-        - "{|long} {pants|skirt,{|pantyhose}}"
-        - "pleated {pants|skirt,{|pantyhose}}"
-        - jeans
-        - layered skirt,{|pantyhose}
+      - "{|long} {pants|skirt,{|pantyhose}}"
+      - "pleated {pants|skirt,{|pantyhose}}"
+      - jeans
+      - layered skirt,{|pantyhose}
     footwears:
       do:
         - __mywc/fashion/costumes/winter/footwears/color__ __mywc/fashion/costumes/winter/footwears/type__

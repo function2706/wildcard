@@ -1,26 +1,43 @@
 foot-fetish:
   do:
-    - __mywc/nsfw/foot-fetish/foot-state/do__,__mywc/nsfw/foot-fetish/pose__,__mywc/nsfw/expression/random__,(foot focus:1.21),(pov:1.21),(from below:1.21),foreshortening,1girl,solo,__mywc/subject/for-nsfw__,__mywc/nsfw/foot-fetish/fashion/random__
-  foot-state:
+    - __mywc/nsfw/foot-fetish/list__,__mywc/nsfw/expression/random__,(from below:1.21),1girl,solo,__mywc/subject/for-nsfw__,__mywc/nsfw/foot-fetish/fashion/random__
+  list:
+    - __mywc/nsfw/foot-fetish/feet/do__
+    - __mywc/nsfw/foot-fetish/socks/do__
+    - __mywc/nsfw/foot-fetish/shoes/do__
+  feet:
     do:
-      - __mywc/nsfw/foot-fetish/foot-state/feet__
-      - __mywc/nsfw/foot-fetish/foot-state/socks__
-      - __mywc/nsfw/foot-fetish/foot-state/shoes__
-    feet:
-      - ({|{dirty|sweaty|bloody}} barefoot:__mywc/nsfw/foot-fetish/foot-state/weight__),{|(spread toes:__mywc/weight/positive__)},soles
-    socks:
-      - ({|beige|brown|black|white} {|torn|dirty} pantyhose:__mywc/nsfw/foot-fetish/foot-state/weight__),soles
-      - ({|black|white} {|torn|dirty} socks:__mywc/nsfw/foot-fetish/foot-state/weight__),soles
-    shoes:
-      - ({|black|red|white} thigh latex boots:__mywc/nsfw/foot-fetish/foot-state/weight__),{|stiletto heels},shoe soles
-      - ({|black|red|white} stiletto heels:__mywc/nsfw/foot-fetish/foot-state/weight__),shoe soles
-    weight:
-      - "1.21"
-  pose:
-    - standing {|on one leg},{|hand on own hip}
-    - sitting,{|crossed legs},{|head rest}
+      - __mywc/nsfw/foot-fetish/feet/foot-state__,(perfect feet:1.5),__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/feet/pose__
+    foot-state:
+      - ({|{dirty|sweaty|bloody}} barefoot:1.21),{|(spread toes:__mywc/weight/positive__)},(soles:1.1)
+    pose:
+      - standing {|on one leg},{|hand on own hip}
+      - sitting,{|crossed legs},{|head rest}
+      - legs together feet together
+      - knees apart feet together
+  socks:
+    do:
+      - __mywc/nsfw/foot-fetish/socks/foot-state__,(perfect feet:1.5),__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/socks/pose__
+    foot-state:
+      - ({|beige|brown|black|white} {|torn|dirty} pantyhose:1.21),(soles:1.1)
+      - ({|black|white} {|torn|dirty} socks:1.21),(soles:1.1)
+    pose:
+      - standing {|on one leg},{|hand on own hip}
+      - sitting,{|crossed legs},{|head rest}
+  shoes:
+    do:
+      - __mywc/nsfw/foot-fetish/shoes/foot-state__,__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/shoes/pose__
+    foot-state:
+      - ({|black|red|white} thigh latex boots:1.21),{|stiletto heels},(shoe soles:1.1)
+      - ({|black|red|white} stiletto heels:1.21),(shoe soles:1.1)
+    pose:
+      - standing {|on one leg},{|hand on own hip}
+      - sitting,{|crossed legs},{|head rest}
+  core:
+    - (foot focus:__mywc/weight/positive__),(pov:__mywc/weight/positive__),(foreshortening:__mywc/weight/positive__)
   fashion:
     random:
+      - " "
       - "{1-3$$__mywc/fashion/tops/random__|__mywc/fashion/bottoms/random__|__mywc/fashion/accessories/random__}"
       - "{1-2$$__mywc/fashion/unis/random__|__mywc/fashion/accessories/random__}"
       - __mywc/nsfw/foot-fetish/fashion/costumes__

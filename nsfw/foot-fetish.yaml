@@ -7,9 +7,9 @@ foot-fetish:
     - __mywc/nsfw/foot-fetish/shoes/do__
   feet:
     do:
-      - __mywc/nsfw/foot-fetish/feet/foot-state__,(perfect feet:1.5),__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/feet/pose__
+      - __mywc/nsfw/foot-fetish/feet/foot-state__,(perfect feet:1.5),(soles:1.1),__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/feet/pose__
     foot-state:
-      - ({|{dirty|sweaty|bloody}} barefoot:1.21),{|(spread toes:__mywc/weight/positive__)},(soles:1.1)
+      - ({|{dirty|sweaty|bloody}} barefoot:1.21),{|(spread toes:__mywc/weight/positive__)}
     pose:
       - standing {|on one leg},{|hand on own hip}
       - sitting,{|crossed legs},{|head rest}
@@ -17,19 +17,19 @@ foot-fetish:
       - knees apart feet together
   socks:
     do:
-      - __mywc/nsfw/foot-fetish/socks/foot-state__,(perfect feet:1.5),__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/socks/pose__
+      - __mywc/nsfw/foot-fetish/socks/foot-state__,(perfect feet:1.5),(soles:1.1),__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/socks/pose__
     foot-state:
-      - ({|beige|brown|black|white} {|torn|dirty} pantyhose:1.21),(soles:1.1)
-      - ({|black|white} {|torn|dirty} socks:1.21),(soles:1.1)
+      - ({|beige|brown|black|white} {|torn|dirty} pantyhose:1.21)
+      - ({|black|white} {|torn|dirty} socks:1.21)
     pose:
       - standing {|on one leg},{|hand on own hip}
       - sitting,{|crossed legs},{|head rest}
   shoes:
     do:
-      - __mywc/nsfw/foot-fetish/shoes/foot-state__,__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/shoes/pose__
+      - __mywc/nsfw/foot-fetish/shoes/foot-state__,(shoe soles:1.1),__mywc/nsfw/foot-fetish/core__,__mywc/nsfw/foot-fetish/shoes/pose__
     foot-state:
-      - ({|black|red|white} thigh latex boots:1.21),{|stiletto heels},(shoe soles:1.1)
-      - ({|black|red|white} stiletto heels:1.21),(shoe soles:1.1)
+      - ({|black|red|white} thigh latex boots:1.21),{|stiletto heels}
+      - ({|black|red|white} stiletto heels:1.21)
     pose:
       - standing {|on one leg},{|hand on own hip}
       - sitting,{|crossed legs},{|head rest}
